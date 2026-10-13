@@ -2,7 +2,7 @@
    국회 시뮬레이터(national-assembly-simulator)와 같은 방식:
    1) 분야 중요도에 비례해 지역구·비례 의석을 분야별로 나눔
    2) 질문마다 답변 위치와 정당 입장의 거리로 종 모양(가우스) 득표를 냄
-   3) 지역구는 승자독식에 가깝게(득표의 2.5제곱), 비례는 득표 비례로 배분
+   3) 지역구는 승자독식에 가깝게(소선거구 득표의 2.5제곱, 중선거구 1.5제곱), 비례는 득표 비례로 배분
    4) 총리 지명선거: 1차 투표 과반(투표총수 기준) → 없으면 상위 2인 결선 */
 (function (root) {
   'use strict';
@@ -57,9 +57,10 @@
         if (ans[i] == null) { spare += dq[j]; return; }
         const q = a.Q[i], g = P.map((p, f) => Math.exp(-Math.pow(ans[i] - pos(q, p), 2) / (2 * SIG * SIG)) * pr[f]), G = sum(g) || 1;
         g.forEach((x, f) => vs[f] += x / G / ansd.length);
-        const d = lr(g.map(x => Math.pow(x / G, KX)), dq[j]); d.forEach((x, f) => dist[f] += x); per[i] = { seats: dq[j], d };
+        const d = lr(g.map(x => Math.pow(x / G, a.sys === 'mmd' ? 1.5 : KX)), dq[j]); d.forEach((x, f) => dist[f] += x); per[i] = { seats: dq[j], d };
       });
-      const Lc = C2.l + spare;
+      let Lc = C2.l;
+      if (a.L) Lc += spare; else lr(vs, spare).forEach((x, f) => dist[f] += x); // 비례가 없으면 건너뛴 질문 몫은 득표율대로 지역구에
       let lv = vs.map((x, f) => P[f].k === 'ind' ? 0 : x); if (!sum(lv)) lv = pr.slice();
       const list = lr(lv, Lc);
       return { dist, list, tot: dist.map((x, f) => x + list[f]), vs, per, empty: false };

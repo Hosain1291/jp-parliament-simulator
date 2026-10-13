@@ -1,19 +1,19 @@
-/* 총선 데이터 — 1996년 소선거구비례대표병립제 도입 이후 11번의 중의원 총선거.
+/* 총선 데이터 (1996–2026) — 소선거구비례대표병립제 시기 11번. 1928–1993은 js/data-elections-early.js.
    정당: [키, 한국어 이름, 일본어 이름, 정당색, 성향(-1 왼쪽 … +1 오른쪽), 지역구 당선, 비례 당선, 대표(일본어), 대표(한국어), 지도 계열, 설명, 총리 지명 후보(대표와 다를 때 [일본어, 한국어])]
    정당색은 위키백과 정당색 기준이며, 확인하지 못한 일부는 근사값입니다. 고칠 때는 이 파일만 바꾸면 됩니다.
    지도 계열: ldp 자민 · cl 중도·리버럴 야당 · ishin 유신 · kmt 공명 · jcp 공산 · oth 그 밖 (js/data-prefs.js의 지역 성향과 연결)
    gov: 선거 뒤 내각을 구성한 정당(각외 협력 제외) · pmBloc: 총리 지명에서 같은 후보를 찍은 정당(없으면 gov) · mins: 내각 부처 구성 시기(js/app.js의 MINS) */
 (function () {
-  const C = {
+  const C = window.PCOL = Object.assign(window.PCOL || {}, {
     ldp: '#3CA324', kmt: '#F55881', jcp: '#DB001C', sdp: '#1CA9E9', dpj: '#C4161C', cdp: '#184589', dpp: '#F8BC00',
     ishin: '#6FBA2C', nfp: '#E6731A', saki: '#3A9E7A', mk: '#8FBC8F', jiyu: '#2D6FB7', hsh: '#5B8BD0', jr: '#B89B5E',
     mus: '#7FA7B5', pnp: '#8E44AD', nippon: '#E8A33C', daichi: '#3BA4D8', your: '#F2A900', mirai12: '#E97FA0',
     jrp: '#8DBB2E', jip: '#68B22E', plp: '#B07A2A', pfg: '#D98A1C', kibo: '#19A55B', reiwa: '#ED008C',
     sanseito: '#D85D0F', cpj: '#2C8FD0', cra: '#1F4E9C', mirai: '#3CC3BE', genzei: '#9C7A3C', ind: '#A3A3A3'
-  };
+  });
   const IND = n => ['ind', '무소속', '無所属', C.ind, 0, n, 0, '', '', 'oth', '정당에 속하지 않고 당선된 의원'];
 
-  window.DATA = [
+  window.DATA = (window.DATA_EARLY || []).concat([
   { n: 41, y: 1996, date: '1996.10.20', term: '1996–2000', pm: '하시모토 류타로', N: 500, D: 300, L: 200, gov: ['ldp'], pmBloc: ['ldp', 'sdp', 'saki'], mins: 'old', era: '자민당 정권 복귀기',
     desc: '소선거구비례대표병립제가 처음 적용된 총선입니다. 자민당이 제1당을 되찾았고, 신진당은 1년 뒤 해체됩니다. 사민당과 사키가케는 각료를 내지 않는 각외 협력으로 하시모토 내각을 지탱했습니다.',
     pmReal: '하시모토 류타로(자민당)가 1차 투표에서 과반으로 지명',
@@ -174,10 +174,11 @@
       ['cpj', '일본보수당', '日本保守党', C.cpj, 0.95, 0, 0, '百田尚樹', '햐쿠타 나오키', 'ldp', ''],
       ['genzei', '감세일본·우국연합', '減税日本・ゆうこく連合', C.genzei, 0.6, 1, 0, '河村たかし', '가와무라 다카시', 'oth', ''],
       IND(4)] }
-  ];
+  ]);
 
   window.DATA.forEach(a => {
-    a.P = a.P.map(([k, n, ja, c, l, sd, sp, ld, ldk, fam, d, pmc]) => ({ k, n, ja, c, l, sd, sp, s: sd + sp, ld, ldk, fam, d, pmc: pmc || (ld ? [ld, ldk] : null) }));
+    a.sys = a.sys || 'smd'; a.P = a.P.map(([k, n, ja, c, l, sd, sp, ld, ldk, fam, d, pmc]) => ({ k, n, ja, c, l, sd, sp, s: sd + sp, ld, ldk, fam, d, pmc: pmc || (ld ? [ld, ldk] : null) }));
   });
-  window.ERAS = [['자민당 정권 복귀기 · 자민·공명 연립기', [41, 42, 43, 44]], ['민주당 정권기', [45]], ['아베 정권기', [46, 47, 48]], ['기시다·이시바·다카이치', [49, 50, 51]]];
+  window.ERAS = [['전전 정당정치·전시', [16, 17, 18, 19, 20, 21]], ['점령기·보수 재편', [22, 23, 24, 25, 26, 27]], ['55년 체제', [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]],
+    ['정계 재편기', [40, 41, 42, 43, 44]], ['민주당 정권기', [45]], ['아베 정권기', [46, 47, 48]], ['기시다·이시바·다카이치', [49, 50, 51]]];
 })();

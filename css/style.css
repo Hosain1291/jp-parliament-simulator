@@ -359,3 +359,12 @@ html:root[data-skin="win95"] .pills .pill{background:#c0c0c0;color:#000;border:0
 html:root[data-skin="win95"] .pills .pill.strong{background:#000080;color:#fff}
 html:root[data-skin="win95"] .pm tr.win .badge{background:#fff;color:#000080}
 html:root[data-skin="win95"] .qhead .eyebrow,html:root[data-skin="win95"] .qmeta,html:root[data-skin="win95"] .qmeta b,html:root[data-skin="win95"] .qtitle,html:root[data-skin="win95"] section>div>.eyebrow,html:root[data-skin="win95"] .stack>div>h2,html:root[data-skin="win95"] .stack>div>.lead,html:root[data-skin="win95"] .launch span{color:#fff}
+
+/* 언어 전환 */
+.lang{display:inline-flex;border:1px solid var(--line2);border-radius:999px;padding:2px;gap:2px;background:var(--surface)}
+.lang a{padding:3px 10px;border-radius:999px;font-size:12.5px;font-weight:600;color:var(--ink2);text-decoration:none}
+.lang a:hover{color:var(--ink)}
+.lang a[aria-current="page"]{background:var(--ink);color:var(--bg)}
+html:root[data-skin="win95"] .lang{background:#c0c0c0;border:2px solid;border-color:#fff #808080 #808080 #fff;border-radius:0;padding:2px}
+html:root[data-skin="win95"] .lang a{border-radius:0;color:#000;font-weight:400}
+html:root[data-skin="win95"] .lang a[aria-current="page"]{background:#000080;color:#fff}
