@@ -370,3 +370,5 @@ html:root[data-skin="win95"] .lang a[aria-current="page"]{background:#000080;col
 .cardsave .cta{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;font-size:14px}
 .cardsave .cta:disabled{opacity:.6;cursor:progress}
 .cardsave .hint{min-width:0;flex:1 1 220px}
+.acts .cta svg{vertical-align:-3px;margin-right:6px}
+.acts #cardmsg2{align-self:center}

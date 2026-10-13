@@ -309,7 +309,7 @@ function viewResult(keep) {
     '<div class="box" id="cobox"><h3>' + T.coH + '</h3><p class="hint sub">' + esc(T.coHint(Mj)) + '</p><div class="coal" id="coal"></div><span class="hint" style="display:block;margin:14px 0 6px">' + T.coPick + '</span><div class="chips" id="copick"></div><div style="margin-top:10px;display:flex;flex-wrap:wrap;gap:8px" id="cogo"></div><div id="cab"></div></div>' +
     '<div class="box"><h3>' + T.matchH + '</h3><p class="hint sub">' + T.matchHint + '</p><div class="match" id="match"></div></div>' +
     '<div class="box"><h3>' + T.billH + '</h3><p class="hint sub">' + T.billHint + '</p><div id="bills"></div></div>' +
-    '<div class="acts"><button type="button" class="cta" id="again">' + T.again + '</button><button type="button" class="cta ghost" id="other">' + T.other + '</button></div>' +
+    '<div class="acts"><button type="button" class="cta" id="cardgo2">' + ICON_CAM + esc(T.card.btn) + '</button><button type="button" class="cta" id="again">' + T.again + '</button><button type="button" class="cta ghost" id="other">' + T.other + '</button><span class="hint" id="cardmsg2" aria-live="polite"></span></div>' +
     '<details class="box how"><summary>' + T.howH + '</summary>' + T.how(a).map(p => '<p>' + esc(p) + '</p>').join('') + '</details></section>';
 
   // 반원 + 표
@@ -321,7 +321,7 @@ function viewResult(keep) {
   $('#lead').innerHTML = T.lead({ name: esc(a.P[L].n), seats: mine[L], L: a.L, d: R.dist[L], l: R.list[L], two3: mine[L] >= two3(a.N), maj: mine[L] >= Mj, short: Mj - mine[L], gov: esc(gN), govN: govF.length });
 
   // 결과 카드 (PNG) — 그리기는 js/card.js
-  $('#cardgo').addEventListener('click', () => {
+  const doCard = (btn, msg) => {
     const C = T.card, pm = E.pmVote(a, mine, S.plan, S.runoff), w = pm.win >= 0 ? a.P[pm.win] : null;
     const Lay = layout(a.N), K = 290, seq = [];
     leanOrder().forEach(f => { const c = a.P[f].c; for (let k = 0; k < R.dist[f]; k++) seq.push({ c, ring: false }); for (let k = 0; k < R.list[f]; k++) seq.push({ c, ring: true }); });
@@ -342,8 +342,10 @@ function viewResult(keep) {
       eyebrow: a.y + ' · ' + T.sysPill(a), title: T.resultH(a.n), meta: C.meta(answered, asked.length, a.N, Mj),
       seats, seatR: K * Lay.rad, N: a.N, hemiLabel: T.mineLbl, legend, tiles, rows,
       site: document.title, url: 'hosain1291.github.io/jp-parliament-simulator'
-    }, C.file(a.n), $('#cardgo'), $('#cardmsg'), C);
-  });
+    }, C.file(a.n), btn, msg, C);
+  };
+  $('#cardgo').addEventListener('click', () => doCard($('#cardgo'), $('#cardmsg')));
+  $('#cardgo2').addEventListener('click', () => doCard($('#cardgo2'), $('#cardmsg2')));
 
   // 총리 지명선거
   const sub = p => LANG === 'ja' ? '' : p.pmc[1];

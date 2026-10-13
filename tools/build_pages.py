@@ -1,5 +1,6 @@
 """index.html / en.html / ja.html 을 같은 틀로 만든다.
 화면 문구를 바꿀 때는 이 파일의 L 사전을 고치고 `python tools/build_pages.py` 실행."""
+import hashlib
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,6 +33,12 @@ SWATCH = [None, '#f1f2f5', '#181b21', '#7B1C4F', '#d9c49a', '#008080;border-colo
 LANGS = [('ko', '한국어', './'), ('en', 'English', 'en.html'), ('ja', '日本語', 'ja.html')]
 
 
+def ver(path):
+    """파일 내용의 짧은 해시. 파일이 바뀌면 주소(?v=)가 바뀌어 브라우저가 옛 파일을 쓰지 않는다."""
+    with open(os.path.join(ROOT, path), 'rb') as f:
+        return hashlib.sha1(f.read()).hexdigest()[:8]
+
+
 def page(lang):
     c = L[lang]
     skins = []
@@ -42,7 +49,7 @@ def page(lang):
     for k, label, href in LANGS:
         cur = ' aria-current="page"' if k == lang else ''
         nav.append(f'<a href="{href}" hreflang="{k}" lang="{k}"{cur}>{label}</a>')
-    scripts = [f'js/{n}.js' for n in DATA + c['i18n'] + ['i18n-apply', 'engine', 'card', 'app']]
+    scripts = [f'js/{n}.js?v={ver(f"js/{n}.js")}' for n in DATA + c['i18n'] + ['i18n-apply', 'engine', 'card', 'app']]
     alts = '\n'.join(f'<link rel="alternate" hreflang="{k}" href="{href}">' for k, _, href in LANGS)
     return f'''<!doctype html>
 <html lang="{lang}">
@@ -56,7 +63,7 @@ def page(lang):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Shippori+Mincho+B1:wght@600;800&family=Gowun+Batang:wght@400;700&family=DotGothic16&display=swap">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v={ver('css/style.css')}">
 </head>
 <body>
 <!--APP-->
