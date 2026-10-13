@@ -43,8 +43,6 @@ window.I18N = {
     prevAria: '이전 질문', skipAria: '잘 모르겠음, 건너뛰기', skipTitle: '잘 모르겠음',
     nextQ: '다음 질문', fieldRes: n => n + ' 결과',
     kbd: '키보드: ← → 로 이동, Enter 로 다음 · ? 는 “잘 모르겠음”(이 질문의 몫은 분야 득표율대로 나뉩니다)',
-    liveH: '지금까지 예상 의석', liveHint: '답한 분야까지의 의석입니다. 막대를 움직이면 이 질문의 몫이 바로 다시 계산됩니다.',
-    ofSeats: n => '석 중 ' + n + '석',
     boardH: (n, t) => '‘' + n + '’ 분야가 <span class="num">' + t + '</span>석을 나눠 줍니다',
     boardEmpty: '답한 질문이 없어 실제 지지율대로 나눴습니다.',
     boardHint: txt => txt + ' · 오른쪽 숫자는 지금까지 누적 의석입니다.',

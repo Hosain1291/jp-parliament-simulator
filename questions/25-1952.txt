@@ -1,0 +1,154 @@
+# 제25회 중의원 총선 (1952.10.1) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) sashakai=좌파 사회당(-0.75) rono=노동자농민당(-0.8) ushakai=우파 사회당(-0.35) etc=기타 정파(0) ind=무소속(0) kaishin=개진당(0.45) jiyu52=자유당(0.65)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== con s 1951.9 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.3 kaishin=0.5 jiyu52=0.9
+ko 미일안보조약 | 반대한다 | 독립 후 안전을 위해 찬성
+en US–Japan Security Treaty | Against it | For it, to keep us safe after independence
+ja 日米安保条約 | 反対する | 独立後の安全のため賛成
+
+== dip s 1951.9 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=0.4 kaishin=0.8 jiyu52=1
+ko 강화 방식 | 소련·중국을 포함한 전면 강화 | 서방과의 강화로 빨리 독립
+en The peace settlement | A comprehensive peace including the USSR and China | Peace with the West for quick independence
+ja 講和のかたち | ソ連・中国を含む全面講和 | 西側との講和で早く独立
+
+== con s 1952.10 sashakai>kaishin : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 kaishin=0.8 jiyu52=0.3
+ko 재군비 | 재군비에 반대한다 | 개헌해 자위 군대를 보유
+en Rearmament | Against rearmament | Amend the constitution and keep armed forces
+ja 再軍備 | 再軍備に反対する | 改憲して自衛の軍隊を持つ
+
+== soc s 1952.7 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 kaishin=0.4 jiyu52=0.9
+ko 파괴활동방지법 | 반대한다 | 폭력 혁명을 막으려면 필요
+en Subversive Activities Prevention Law | Against it | Needed to stop violent revolution
+ja 破壊活動防止法 | 反対する | 暴力革命を防ぐには必要
+
+== con s . sashakai>kaishin : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 kaishin=0.8 jiyu52=0.3
+ko 헌법 개정 | 평화 헌법을 지켜야 | 자주 헌법을 만들어야
+en Constitutional revision | Defend the peace constitution | Write our own constitution
+ja 憲法改正 | 平和憲法を守るべき | 自主憲法をつくるべき
+
+== soc s . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 ushakai=-0.6 kaishin=0.3 jiyu52=0.8
+ko 경찰 중앙집권화 | 자치체 경찰을 유지 | 국가 경찰로 일원화
+en Centralising the police | Keep municipal police | Unify under a national police
+ja 警察の中央集権化 | 自治体警察を維持 | 国家警察に一元化
+
+== wel e 1952.10 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 kaishin=0.4 jiyu52=0.9
+ko 쟁의 제한 | 쟁의권 제한에 반대 | 공익을 위해 파업을 제한
+en Limits on strikes | Against limiting the right to strike | Limit strikes in the public interest
+ja 争議の制限 | 争議権の制限に反対 | 公益のためストを制限
+
+== eco e . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 ushakai=-0.6 rono=-1 kaishin=-0.2 jiyu52=0.9
+ko 경제 재건 방식 | 계획과 통제를 활용해야 | 자유경제와 수출 진흥
+en Rebuilding the economy | Use planning and controls | Free economy and export promotion
+ja 経済再建の方法 | 計画と統制を活用すべき | 自由経済と輸出振興
+
+== dip s . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 ushakai=-0.4 kaishin=-0.2 jiyu52=0.6
+ko 중국과의 무역 | 중국과 무역을 다시 열어야 | 대중 금수에 협조
+en Trade with China | Reopen trade with China | Go along with the embargo
+ja 中国との貿易 | 中国との貿易を再開すべき | 対中禁輸に協力
+
+== reg . . sashakai>jiyu52 : jcp=-0.6 sashakai=-0.6 ushakai=-0.5 kaishin=-0.5 jiyu52=0.4
+ko 쌀값 | 생산자 쌀값을 올려야 | 소비자 물가 안정이 먼저
+en Rice prices | Raise prices paid to farmers | Keep consumer prices stable first
+ja 米価 | 生産者米価を上げるべき | 消費者物価の安定が先
+
+== pol . 1952.8 ushakai>jiyu52 : jcp=-0.9 sashakai=-0.9 rono=-0.9 ushakai=-0.9 kaishin=-0.8 jiyu52=0.5
+ko 발치기 해산 | 당내 반대파를 노린 기습 해산은 해산권 남용 | 해산은 총리의 권한, 민의를 묻는 것이 옳다
+en The surprise dissolution | A snap dissolution aimed at rivals in his own party abuses the power | Dissolution is the prime minister's prerogative and asking the voters is right
+ja 抜き打ち解散 | 党内反対派を狙った抜き打ち解散は解散権の濫用 | 解散は首相の権限、民意を問うのは正しい
+
+== pol s 1951.8 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.6 kaishin=0.5 jiyu52=0.6
+ko 추방 해제자 복귀 | 전쟁 책임자의 정계 복귀는 민주화의 후퇴 | 추방 해제는 당연, 경험 있는 인재가 필요하다
+en The return of purged politicians | Wartime leaders returning to politics is a step back for democracy | Lifting the purge was right; experienced people are needed
+ja 追放解除者の復帰 | 戦争責任者の政界復帰は民主化の後退 | 追放解除は当然、経験ある人材が必要
+
+== pol s 1951.5 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 kaishin=0.5 jiyu52=0.9
+ko 점령 개혁 재검토 | 민주화 개혁의 성과를 지켜야, '역코스' 반대 | 독립에 맞게 점령 법령을 일본 실정에 맞게 고쳐야
+en Reviewing Occupation reforms | Protect the democratic reforms; oppose the "reverse course" | With independence, revise Occupation laws to suit Japan
+ja 占領改革の見直し | 民主化改革の成果を守るべき、「逆コース」反対 | 独立に合わせ占領法令を日本の実情に合わせ改めるべき
+
+== pol e . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.6 kaishin=0.1 jiyu52=0.8
+ko 공무원 감축 | 공무원 대량 해고에 반대 | 작은 정부로 가려면 공무원을 줄여야
+en Cutting the civil service | Oppose mass dismissals of public employees | Shrink the civil service for smaller government
+ja 公務員削減 | 公務員の大量解雇に反対 | 小さな政府のため公務員を削減すべき
+
+== con s 1952.2 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.6 kaishin=-0.2 jiyu52=0.8
+ko 미일 행정협정 | 미군 범죄 재판권 등 불평등한 행정협정을 고쳐야 | 안전보장을 위해 협정은 불가피하다
+en US–Japan Administrative Agreement | Revise the unequal terms such as jurisdiction over US servicemen's crimes | The agreement is unavoidable for security
+ja 日米行政協定 | 米兵犯罪の裁判権など不平等な行政協定を改めるべき | 安全保障のため協定はやむを得ない
+
+== dip s 1952.4 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.4 kaishin=0.1 jiyu52=0.8
+ko 어느 중국과 강화하나 | 대륙의 중화인민공화국과 국교를 맺어야 | 대만의 국민정부와 강화하는 것이 옳다
+en Which China to make peace with | Establish relations with the People's Republic on the mainland | Making peace with the Nationalist government on Taiwan is right
+ja どの中国と講和するか | 大陸の中華人民共和国と国交を結ぶべき | 台湾の国民政府と講和するのが正しい
+
+== dip s 1952.2 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.5 kaishin=0.4 jiyu52=0.7
+ko 한일 회담 | 식민 지배를 반성하고 청구권 문제에 성의를 보여야 | 한국에 남긴 일본인 재산의 청구권도 주장해야
+en Japan–Korea talks | Reflect on colonial rule and address claims in good faith | Japan should also assert claims to property left in Korea
+ja 日韓会談 | 植民地支配を反省し請求権問題に誠意を示すべき | 韓国に残した日本人財産の請求権も主張すべき
+
+== dip s 1951.9 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 kaishin=-0.5 jiyu52=0.6
+ko 오키나와 시정권 | 오키나와·오가사와라를 하루빨리 돌려받아야 | 안전보장을 위해 당분간 미국 통치를 인정해야
+en Administration of Okinawa | Demand the early return of Okinawa and the Ogasawaras | Accept US administration for now for security's sake
+ja 沖縄の施政権 | 沖縄・小笠原の早期返還を強く求めるべき | 安全保障のため当面米国の施政を認めるべき
+
+== eco e 1949.3 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.7 kaishin=-0.4 jiyu52=0.8
+ko 닷지 라인 | 초긴축이 도산과 실업을 불렀다, 재정을 풀어야 | 인플레를 잡은 균형 예산을 지켜야
+en The Dodge Line | Extreme austerity caused bankruptcies and unemployment; loosen it | Keep the balanced budget that tamed inflation
+ja ドッジ・ライン | 超緊縮が倒産と失業を招いた、財政を緩めるべき | インフレを抑えた均衡予算を守るべき
+
+== eco s 1952.3 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.6 kaishin=0.4 jiyu52=0.7
+ko 병기 생산 재개 | 특수와 무기 생산에 기대는 전쟁 경제는 안 된다 | 특수와 병기 생산으로 산업을 키워야 한다
+en Resuming arms production | No war economy relying on special procurement and weapons | Grow industry through special procurement and arms production
+ja 兵器生産の再開 | 特需と兵器生産に頼る戦争経済はいけない | 特需と兵器生産で産業を育てるべき
+
+== eco e 1950.5 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.4 kaishin=0 jiyu52=0.7
+ko 외자 도입 | 외국 자본의 지배를 경계해 외자 도입은 제한해야 | 외자를 들여와 기술과 자본을 확보해야
+en Foreign investment | Limit foreign capital to avoid foreign domination | Bring in foreign capital to gain technology and funds
+ja 外資導入 | 外国資本の支配を警戒し外資導入は制限すべき | 外資を導入し技術と資本を確保すべき
+
+== wel e 1950.10 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.8 kaishin=-0.3 jiyu52=0.6
+ko 사회보장 제도 | 권고대로 국가 책임의 포괄적 사회보장을 세워야 | 재정 형편에 맞게 단계적으로
+en Social security | Build comprehensive, state-funded social security as recommended | Proceed step by step within fiscal means
+ja 社会保障制度 | 勧告どおり国家責任の包括的な社会保障を | 財政事情に合わせ段階的に
+
+== wel e 1951.3 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.8 kaishin=-0.5 jiyu52=0.4
+ko 결핵 대책 | 결핵 치료비는 국가가 모두 부담해야 | 보험과 본인 부담을 함께 써야
+en Tuberculosis | The state should pay all TB treatment costs | Combine insurance with patient co-payments
+ja 結核対策 | 結核の治療費は国が全額負担すべき | 保険と本人負担を併用すべき
+
+== wel e . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 kaishin=-0.2 jiyu52=0.7
+ko 최저임금제 | 법으로 전국 최저임금을 정해야 | 임금은 업계와 노사 자율로
+en Minimum wage | Set a national minimum wage by law | Leave wages to industries and collective bargaining
+ja 最低賃金制 | 法律で全国最低賃金を定めるべき | 賃金は業界と労使の自主に
+
+== soc s 1950.7 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.4 kaishin=0.5 jiyu52=0.9
+ko 레드 퍼지 | 사상을 이유로 한 해고는 헌법 위반 | 공산주의자 배제는 치안상 필요하다
+en The Red Purge | Firing people for their beliefs is unconstitutional | Removing communists is necessary for security
+ja レッドパージ | 思想を理由にした解雇は憲法違反 | 共産主義者の排除は治安上必要
+
+== soc s 1951.11 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 kaishin=0.5 jiyu52=0.8
+ko 도덕 교육 부활 | 국가가 도덕 기준을 정하는 것은 교육칙어의 부활 | 애국심과 도덕 교육을 되살려야
+en Reviving moral education | A state-set moral code revives the Imperial Rescript on Education | Restore patriotism and moral education
+ja 道徳教育の復活 | 国が道徳の基準を定めるのは教育勅語の復活 | 愛国心と道徳教育を復活させるべき
+
+== reg e 1951.5 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.6 kaishin=0 jiyu52=0.7
+ko 전력 재편 | 전력은 공영으로 하나로 운영해야 | 지역별 9개 민간 전력회사로 나눠야
+en Reorganising electricity | Run electricity as a single public enterprise | Split it into nine private regional utilities
+ja 電力再編 | 電力は公営で一元的に運営すべき | 地域別の9つの民間電力会社に分けるべき
+
+== reg e 1950.5 sashakai>jiyu52 : jcp=-0.5 sashakai=-0.7 rono=-0.6 ushakai=-0.7 kaishin=-0.5 jiyu52=0.4
+ko 국토 종합 개발 | 국가가 다목적 댐 등 대규모 개발을 이끌어야 | 지방과 민간이 주도해 효율적으로 개발해야
+en Comprehensive national development | The state should lead large projects such as multipurpose dams | Development should be led efficiently by localities and the private sector
+ja 国土総合開発 | 国が多目的ダムなど大規模開発を主導すべき | 地方と民間が主導し効率的に開発すべき
+
+== reg e 1952.7 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.7 kaishin=-0.3 jiyu52=0.4
+ko 농지법 | 농지개혁 성과를 지키도록 소유 상한을 유지해야 | 규제를 풀어 경영 규모를 키워야
+en Agricultural Land Law | Keep ownership limits to protect the land reform | Loosen rules to let farms grow larger
+ja 農地法 | 農地改革の成果を守るため所有上限を維持すべき | 規制を緩め経営規模を拡大すべき
+
+== reg . 1950.6 jiyu52>jcp : jcp=0.5 sashakai=0.4 rono=0.4 ushakai=0.2 kaishin=-0.2 jiyu52=-0.6
+ko 홋카이도 개발 | 국가가 개발청을 두고 직접 홋카이도를 개발해야 | 지방자치를 존중해 도청 중심으로 개발해야
+en Developing Hokkaidō | The state should develop Hokkaidō directly through a development agency | Respect local autonomy and let the prefectural government lead
+ja 北海道開発 | 国が開発庁を置き直接北海道を開発すべき | 地方自治を尊重し道庁中心で開発すべき

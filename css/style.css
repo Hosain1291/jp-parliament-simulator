@@ -181,10 +181,6 @@ h3{font-size:19px}
 .play svg{width:16px;height:16px;fill:currentColor}
 .play:disabled{opacity:.4;cursor:default}
 .kbd{font-size:12px;color:var(--ink3);text-align:center;margin-top:10px}
-.live{margin-top:14px;padding:14px}
-.live .lvh{display:flex;flex-direction:column;gap:2px;margin-bottom:6px}
-.live .lvh small{color:var(--ink3);font-size:12px;line-height:1.45}
-.live .hemi{max-width:340px;margin:0 auto}
 .lv{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;font-size:12.5px;color:var(--ink2);margin-top:6px}
 .lv span{display:inline-flex;align-items:center;gap:5px}
 .lv b{font-family:var(--f-mono);color:var(--ink)}
@@ -337,7 +333,7 @@ html:root[data-skin="win95"] .top{color:#fff}
 html:root[data-skin="win95"] .brand small,html:root[data-skin="win95"] .foot,html:root[data-skin="win95"] .stack>.hint{color:#e0ffff}
 html:root[data-skin="win95"] .intro{color:#fff}
 html:root[data-skin="win95"] .intro p{color:#e0ffff}
-html:root[data-skin="win95"] :is(.box,.player,.stakebox,.pole,.asm,.live){border:0;box-shadow:inset -1px -1px 0 #000,inset 1px 1px 0 #dfdfdf,inset -2px -2px 0 #808080,inset 2px 2px 0 #fff;background:#c0c0c0}
+html:root[data-skin="win95"] :is(.box,.player,.stakebox,.pole,.asm){border:0;box-shadow:inset -1px -1px 0 #000,inset 1px 1px 0 #dfdfdf,inset -2px -2px 0 #808080,inset 2px 2px 0 #fff;background:#c0c0c0}
 html:root[data-skin="win95"] .box>h3:first-child,html:root[data-skin="win95"] .box>h2:first-child{background:linear-gradient(90deg,#000080,#1084d0);color:#fff;margin:-15px -15px 12px;padding:3px 6px;font-size:14px;display:flex;justify-content:space-between;align-items:center}
 html:root[data-skin="win95"] .box>h3:first-child::after,html:root[data-skin="win95"] .box>h2:first-child::after{content:"_ □ ×";font-family:var(--f-mono);font-size:11px;background:#c0c0c0;color:#000;padding:0 4px;box-shadow:inset -1px -1px 0 #000,inset 1px 1px 0 #fff}
 html:root[data-skin="win95"] :is(.cta,.play,.ic,.chip,.skin button,.seg button,.seg5 button,.wb-a,.link){background:#c0c0c0;color:#000;border:0;box-shadow:inset -1px -1px 0 #000,inset 1px 1px 0 #fff,inset -2px -2px 0 #808080,inset 2px 2px 0 #dfdfdf;text-shadow:none}

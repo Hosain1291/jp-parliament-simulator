@@ -1,0 +1,154 @@
+# 제38회 중의원 총선 (1986.7.6) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.6) sdf=사회민주연합(-0.3) kmt=공명당(-0.05) dsp=민사당(0.15) nlc=신자유클럽(0.35) ind=무소속(0) ldp=자유민주당(0.75)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco e 1985.7 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.2 kmt=0 dsp=0.7 nlc=0.7 ldp=1
+ko 국철 분할 민영화 | 반대한다 | 추진한다
+en Splitting and privatising JNR | Against it | Carry it out
+ja 国鉄分割民営化 | 反対する | 推進する
+
+== dip s 1985.8 kmt>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.9 dsp=0.3 nlc=-0.2 ldp=0.8
+ko 야스쿠니 공식 참배 | 반대한다 | 지지한다
+en Official visits to Yasukuni | Against them | Support them
+ja 靖国公式参拝 | 反対する | 支持する
+
+== eco . . kmt>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-1 dsp=-0.9 nlc=-0.5 ldp=0.2
+ko 대형 간접세 | 도입에 반대한다 | 세제 개혁에 필요하다
+en A large indirect tax | Against introducing one | Needed for tax reform
+ja 大型間接税 | 導入に反対する | 税制改革に必要
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=0 nlc=-0.3 ldp=0.7
+ko 방위비 1% 틀 | 지켜야 한다 | 재검토해야
+en The 1% defence cap | Keep it | Review it
+ja 防衛費1%枠 | 守るべき | 見直すべき
+
+== soc s 1985.5 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.6 dsp=-0.4 nlc=-0.5 ldp=0.6
+ko 남녀고용기회균등법 | 차별 금지를 의무로 | 노력 의무로 시작
+en Equal Employment Opportunity Law | Make non-discrimination mandatory | Start with a duty to make efforts
+ja 男女雇用機会均等法 | 差別禁止を義務に | 努力義務から始める
+
+== soc s 1985.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.6 dsp=0.4 nlc=-0.4 ldp=0.8
+ko 국가비밀법안 | 알 권리를 해친다, 반대 | 스파이 방지를 위해 제정
+en State Secrets Bill | It harms the right to know; oppose | Enact it against espionage
+ja 国家秘密法案 | 知る権利を損なう、反対 | スパイ防止のため制定
+
+== reg e 1986.4 jsp>ldp : jcp=-0.9 jsp=-1 sdf=-0.9 kmt=-0.5 dsp=0.6 nlc=0.2 ldp=0.9
+ko 체르노빌 이후 원전 | 원전을 줄여야 | 안전을 강화하며 유지
+en Nuclear power after Chernobyl | Reduce nuclear power | Keep it with stronger safety
+ja チェルノブイリ後の原発 | 原発を減らすべき | 安全を強化しつつ維持
+
+== reg e . jsp>nlc : jcp=-1 jsp=-0.9 sdf=-0.5 kmt=-0.7 dsp=-0.2 nlc=0.3 ldp=-0.5
+ko 쌀 시장 개방 | 쌀 자급을 지켜야 | 부분 개방을 검토
+en Opening the rice market | Protect rice self-sufficiency | Consider partial opening
+ja コメ市場の開放 | コメの自給を守るべき | 部分開放を検討
+
+== wel e 1985.4 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.6 kmt=-0.4 dsp=-0.3 nlc=0 ldp=0.8
+ko 연금 개혁 | 급여 억제에 반대 | 기초연금 도입과 급여 조정
+en Pension reform | Against holding down benefits | Introduce a basic pension and adjust benefits
+ja 年金改革 | 給付抑制に反対 | 基礎年金の導入と給付の調整
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.5 dsp=0.1 nlc=0 ldp=0.7
+ko 헌법 개정 | 반대한다 | 검토해야
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== pol . 1986.5 jcp>ldp : jcp=-1 jsp=-0.6 sdf=-0.7 kmt=-0.5 dsp=-0.4 nlc=-0.5 ldp=0.6
+ko 정수 시정 | '8증 7감' 같은 미봉책 말고 1표 격차를 근본적으로 고쳐야 | 위헌 상태를 피하는 현실적 시정으로 충분
+en Reapportionment | Fix vote-weight gaps at the root, not with "8 up, 7 down" patches | A practical fix that avoids unconstitutionality is enough
+ja 定数是正 | 「8増7減」のような弥縫策でなく一票の格差を抜本的に正すべき | 違憲状態を避ける現実的な是正で十分
+
+== pol . 1986.6 jsp>ldp : jcp=-0.9 jsp=-0.9 sdf=-0.8 kmt=-0.9 dsp=-0.7 nlc=-0.5 ldp=0.8
+ko '죽은 척 해산' | 해산하지 않는다고 해 놓고 동일 선거를 노린 해산은 기만 | 국민의 신임을 묻는 해산은 총리의 권한
+en The "playing dead" dissolution | Denying plans to dissolve, then calling a double election, was deceit | Dissolving to seek the public's mandate is the prime minister's right
+ja 「死んだふり解散」 | 解散しないと言いながら同日選を狙った解散は欺瞞 | 国民の信任を問う解散は首相の権限
+
+== pol . . jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.6 kmt=-0.7 dsp=-0.3 nlc=0 ldp=0.8
+ko 자문기관 정치 | 사적 자문기관에서 정책을 정하는 것은 국회 경시 | 전문가 의견을 모아 정치 주도로 정책을 정해야
+en Government by advisory panels | Deciding policy in private advisory panels slights the Diet | Gather expert views and decide policy under political leadership
+ja 審議会政治 | 私的諮問機関で政策を決めるのは国会軽視 | 専門家の意見を集め政治主導で政策を決めるべき
+
+== pol . 1985.6 nlc>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-1 dsp=-0.9 nlc=-0.9 ldp=0.5
+ko 정치 윤리 | 유죄 판결을 받은 의원에게 사직을 권고해야 | 정치 윤리 강령과 심사회로 충분하다
+en Political ethics | Urge convicted members to resign | An ethics code and review council are enough
+ja 政治倫理 | 有罪判決を受けた議員に辞職を勧告すべき | 政治倫理綱領と審査会で十分
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.6 dsp=0.3 nlc=0 ldp=0.8
+ko SDI 연구 참가 | 우주 군비 경쟁에 가담하는 SDI 참가에 반대 | 동맹국으로서 SDI 연구에 참여해야
+en Joining SDI research | Oppose joining a programme that extends the arms race into space | Take part in SDI research as an ally
+ja SDI研究参加 | 宇宙の軍拡競争に加わるSDI参加に反対 | 同盟国としてSDI研究に参加すべき
+
+== dip s 1984.9 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.7 kmt=-0.6 dsp=0 nlc=-0.2 ldp=0.6
+ko 전두환 방일과 과거사 | 식민 지배에 대한 분명한 사죄가 필요하다 | 천황의 '유감' 표명으로 과거는 정리됐다
+en Chun Doo-hwan's visit and the past | A clear apology for colonial rule is needed | The Emperor's expression of regret settled the past
+ja 全斗煥来日と過去 | 植民地支配への明確な謝罪が必要 | 天皇の「遺憾」表明で過去は整理された
+
+== dip s 1986.1 jsp>ldp : jcp=-0.2 jsp=-0.8 sdf=-0.7 kmt=-0.6 dsp=-0.2 nlc=-0.3 ldp=0.5
+ko 일소 대화 재개 | 고르바초프의 등장을 기회로 일소 관계를 넓혀야 | 북방 영토 진전 없이 관계 확대는 안 된다
+en Resuming dialogue with the USSR | Use Gorbachev's arrival to broaden relations | No wider ties without progress on the Northern Territories
+ja 日ソ対話の再開 | ゴルバチョフの登場を機に日ソ関係を広げるべき | 北方領土の進展なしに関係拡大はできない
+
+== dip e . jcp>ldp : jcp=-0.6 jsp=-0.3 sdf=0.2 kmt=0.2 dsp=0.4 nlc=0.5 ldp=0.7
+ko ODA 확대 | 기업 이익과 독재 정권에 쓰이는 원조는 재검토해야 | 경제 대국의 책임으로 원조를 크게 늘려야
+en Expanding ODA | Review aid that benefits companies and dictatorships | As an economic power, greatly increase aid
+ja ODA拡大 | 企業の利益と独裁政権に使われる援助は見直すべき | 経済大国の責任として援助を大幅に増やすべき
+
+== dip s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.8 dsp=-0.4 nlc=-0.5 ldp=0.4
+ko 남아공 제재 | 아파르트헤이트 철폐를 위해 무역 제재를 강화해야 | 무역 관계를 생각해 제재는 다른 나라와 보조를 맞춰야
+en Sanctions on South Africa | Tighten trade sanctions to end apartheid | Coordinate sanctions with others, mindful of trade
+ja 南アフリカ制裁 | アパルトヘイト撤廃のため貿易制裁を強めるべき | 貿易関係を考え制裁は他国と歩調を合わせるべき
+
+== eco e 1985.9 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.5 kmt=-0.7 dsp=-0.4 nlc=-0.1 ldp=0.5
+ko 엔고 불황 대책 | 엔고로 무너지는 중소기업과 산지를 국가가 직접 지원해야 | 금리 인하와 구조 전환으로 대응해야
+en Responding to the strong-yen slump | The state should directly support small firms and industrial towns hit by the yen | Respond with rate cuts and structural change
+ja 円高不況対策 | 円高で苦しむ中小企業と産地を国が直接支援すべき | 金利引き下げと構造転換で対応すべき
+
+== eco e 1986.4 jsp>ldp : jcp=-1 jsp=-0.6 sdf=-0.2 kmt=-0.3 dsp=0.3 nlc=0.5 ldp=0.7
+ko 마에카와 리포트 | 미국을 위한 구조 조정은 노동자와 농민의 희생을 부른다 | 수출 의존에서 내수 주도형 경제로 바꿔야
+en The Maekawa Report | Restructuring for America's sake will sacrifice workers and farmers | Shift from export dependence to a domestic-demand-led economy
+ja 前川リポート | 米国のための構造調整は労働者と農民の犠牲を招く | 輸出依存から内需主導型経済に転換すべき
+
+== eco e 1986.5 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.5 kmt=-0.5 dsp=0.2 nlc=0.4 ldp=0.8
+ko 민간 활력 활용 | 국유지 매각과 민활은 땅값 상승과 대기업 특혜 | 규제를 풀어 민간 자본으로 사회 기반을 만들어야
+en Harnessing private vitality | Selling state land and "private vitality" schemes inflate land prices and favour big firms | Deregulate and build infrastructure with private capital
+ja 民間活力の活用 | 国有地売却と民活は地価上昇と大企業優遇 | 規制を緩め民間資本で社会基盤を整えるべき
+
+== wel e 1985.7 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.6 dsp=-0.2 nlc=0.2 ldp=0.8
+ko 노동자 파견법 | 파견 합법화는 불안정 고용을 늘린다 | 다양한 일하는 방식을 위해 파견을 제도화해야
+en Worker Dispatch Law | Legalising agency work will spread insecure jobs | Institutionalise agency work for more diverse ways of working
+ja 労働者派遣法 | 派遣の合法化は不安定雇用を増やす | 多様な働き方のため派遣を制度化すべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.9 dsp=-0.6 nlc=-0.3 ldp=0.7
+ko 노인 의료 부담 인상 | 노인 진료비 본인 부담 인상에 반대 | 늘어나는 의료비를 위해 부담 인상은 불가피
+en Higher medical charges for the elderly | Oppose raising older patients' co-payments | Higher charges are unavoidable as medical costs rise
+ja 老人医療の負担引き上げ | 高齢者の窓口負担の引き上げに反対 | 増える医療費のため負担引き上げはやむを得ない
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=-0.6 nlc=-0.2 ldp=0.5
+ko 주 40시간 노동 | 법으로 주 40시간제를 서둘러 도입해야 | 중소기업 사정을 생각해 단계적으로
+en The 40-hour week | Introduce a statutory 40-hour week without delay | Phase it in, considering small businesses
+ja 週40時間労働 | 法律で週40時間制を早急に導入すべき | 中小企業の事情を考え段階的に
+
+== soc s 1984.8 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.5 kmt=-0.4 dsp=0.3 nlc=0.4 ldp=0.8
+ko 임시교육심의회 | 총리 직속 기구의 교육 개혁은 교육의 국가 통제 | 획일 교육을 고치는 개혁에 총리가 앞장서야
+en The Ad Hoc Council on Education | Education reform run from the prime minister's office means state control | The prime minister should lead reform of uniform schooling
+ja 臨時教育審議会 | 首相直属機関による教育改革は教育の国家統制 | 画一教育を正す改革に首相が先頭に立つべき
+
+== soc s 1986.2 jsp>ldp : jcp=-0.8 jsp=-0.8 sdf=-0.6 kmt=-0.4 dsp=0 nlc=0 ldp=0.6
+ko 이지메 대책 | 경쟁과 관리 교육을 바꾸는 것이 근본 대책 | 가해 학생에게 엄격한 지도와 출석 정지를
+en Tackling bullying | The real cure is to change competitive, regimented schooling | Strict discipline and suspensions for bullies
+ja いじめ対策 | 競争と管理の教育を変えることが根本対策 | 加害生徒に厳しい指導と出席停止を
+
+== reg e . jsp>ldp : jcp=-0.9 jsp=-0.8 sdf=-0.5 kmt=-0.6 dsp=-0.2 nlc=0 ldp=0.5
+ko 도쿄 일극 집중 | 도쿄 집중을 막고 수도 기능 이전과 지방 분산을 | 국제 금융 도시 도쿄의 기반을 더 키워야
+en Tokyo's dominance | Curb concentration in Tokyo with capital relocation and decentralisation | Strengthen Tokyo's base as an international financial centre
+ja 東京一極集中 | 東京集中を抑え首都機能移転と地方分散を | 国際金融都市東京の基盤をさらに強めるべき
+
+== reg s 1984.11 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.6 dsp=0 nlc=-0.3 ldp=0.7
+ko 이케고 미군 주택 | 녹지를 없애는 미군 주택 건설은 주민 뜻대로 중단해야 | 미군 주택은 동맹에 필요하다
+en US housing at Ikego | Stop building US housing that destroys green space, as residents want | US housing is needed for the alliance
+ja 池子米軍住宅 | 緑地を壊す米軍住宅建設は住民の意思どおり中止すべき | 米軍住宅は同盟に必要
+
+== reg e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.6 kmt=-0.8 dsp=-0.4 nlc=0 ldp=0.6
+ko 적자 로컬선 폐지 | 지역 주민의 발인 로컬선 폐지에 반대 | 적자 로컬선은 버스나 제3섹터로 바꿔야
+en Closing loss-making branch lines | Oppose closing branch lines that local people rely on | Replace loss-making lines with buses or third-sector railways
+ja 赤字ローカル線の廃止 | 地域住民の足であるローカル線の廃止に反対 | 赤字ローカル線はバスや第三セクターに転換すべき

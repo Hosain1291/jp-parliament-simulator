@@ -1,0 +1,154 @@
+# 제26회 중의원 총선 (1953.4.19) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) sashakai=좌파 사회당(-0.75) rono=노동자농민당(-0.8) ushakai=우파 사회당(-0.35) etc=기타 정파(0) ind=무소속(0) kaishin=개진당(0.45) jiyu52=자유당(0.6) bunto=분당파 자유당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1953.3 bunto>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-1 kaishin=-0.9 jiyu52=1 bunto=-0.9
+ko ‘바카야로 해산’과 요시다 정권 | 요시다는 물러나야 한다 | 요시다 정권을 이어가야
+en The “bakayarō” dissolution and Yoshida | Yoshida must go | Keep the Yoshida government
+ja 「バカヤロー解散」と吉田政権 | 吉田は退陣すべき | 吉田政権を続けるべき
+
+== con s 1953.4 sashakai>kaishin : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 kaishin=0.7 jiyu52=0.6 bunto=0.8
+ko MSA 원조와 재군비 | 반대한다 | MSA 원조를 받아 자위력을 키워야
+en MSA aid and rearmament | Against it | Take MSA aid and build self-defence forces
+ja MSA援助と再軍備 | 反対する | MSA援助を受けて自衛力を増強
+
+== con s . sashakai>bunto : jcp=-1 sashakai=-1 ushakai=-0.8 rono=-1 kaishin=0.8 jiyu52=0.2 bunto=0.9
+ko 자주 헌법 | 평화 헌법을 지켜야 | 개헌해야 한다
+en An independent constitution | Defend the peace constitution | Revise the constitution
+ja 自主憲法 | 平和憲法を守るべき | 改憲すべき
+
+== con s 1953.1 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 kaishin=0.2 jiyu52=0.8 bunto=0.4
+ko 미군 기지(우치나다) | 기지 제공에 반대 | 안보조약대로 제공
+en US bases (Uchinada) | Against providing bases | Provide them under the security treaty
+ja 米軍基地（内灘） | 基地提供に反対 | 安保条約どおり提供
+
+== dip s . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.4 kaishin=-0.3 jiyu52=0.8 bunto=-0.6
+ko 소련·중국과 국교 | 국교 정상화를 추진해야 | 서방 협조가 먼저
+en Ties with the USSR and China | Normalise relations | Cooperation with the West first
+ja ソ連・中国との国交 | 国交正常化を進めるべき | 西側との協調が先
+
+== wel e 1953.1 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 kaishin=0.3 jiyu52=0.9 bunto=0.5
+ko 파업 규제 | 반대한다 | 전력·탄광 파업을 규제해야
+en Strike restrictions | Against them | Restrict power and coal strikes
+ja スト規制 | 反対する | 電力・炭鉱のストを規制すべき
+
+== wel e . ushakai>jiyu52 : jcp=-1 sashakai=-0.9 ushakai=-0.8 rono=-1 kaishin=-0.4 jiyu52=0.6 bunto=0.2
+ko 사회보장 | 사회보장을 넓혀야 한다 | 재정 긴축이 먼저
+en Social security | Expand it | Fiscal austerity first
+ja 社会保障 | 社会保障を広げるべき | 財政緊縮が先
+
+== soc s . sashakai>jiyu52 : jcp=-1 sashakai=-1 ushakai=-0.6 kaishin=0.2 jiyu52=0.9 bunto=0.5
+ko 국가 경찰 | 자치체 경찰을 지켜야 | 국가 경찰로 일원화
+en National police | Keep municipal police | Unify under a national police
+ja 国家警察 | 自治体警察を守るべき | 国家警察に一元化
+
+== soc s . sashakai>jiyu52 : jcp=-1 sashakai=-1 ushakai=-0.7 kaishin=0.4 jiyu52=0.9 bunto=0.6
+ko 교원의 정치 활동 | 교원의 정치 활동 자유 | 교육 중립을 위해 제한
+en Teachers and politics | Teachers should be free to engage in politics | Restrict it to keep schools neutral
+ja 教員の政治活動 | 教員の政治活動の自由 | 教育の中立のため制限
+
+== eco e . sashakai>jiyu52 : jcp=-1 sashakai=-0.8 ushakai=-0.6 rono=-0.8 kaishin=-0.3 jiyu52=0.6 bunto=0.4
+ko 재정 운영 | 공공·사회 지출을 늘려야 | 감세와 긴축
+en Fiscal policy | More public and social spending | Tax cuts and austerity
+ja 財政運営 | 公共・社会支出を増やすべき | 減税と緊縮
+
+== pol e 1952.11 ushakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-1 kaishin=-0.8 jiyu52=0.7 bunto=-0.7
+ko 이케다 통산상 불신임 | 중소기업 도산을 어쩔 수 없다는 장관은 물러나야 | 부실 기업 정리는 경제 원칙상 불가피하다
+en No confidence in MITI Minister Ikeda | A minister who calls small-business bankruptcies unavoidable must go | Weeding out weak firms is economically unavoidable
+ja 池田通産相不信任 | 中小企業の倒産をやむを得ないとする大臣は辞めるべき | 不良企業の整理は経済原則上やむを得ない
+
+== pol . . bunto>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.9 kaishin=-0.8 jiyu52=0.9 bunto=-0.9
+ko 원맨 정치 | 측근 위주로 국회를 경시하는 요시다 정치를 끝내야 | 독립 초기에는 강한 지도력이 필요하다
+en "One-man" rule | End Yoshida's government by cronies and contempt for the Diet | Strong leadership is needed in the early years of independence
+ja ワンマン政治 | 側近中心で国会を軽視する吉田政治を終わらせるべき | 独立初期には強い指導力が必要
+
+== pol . . sashakai>jiyu52 : jcp=-0.8 sashakai=-0.9 rono=-0.8 ushakai=-0.7 kaishin=0 jiyu52=0.5 bunto=0.4
+ko 보수 합동 | 보수 정당은 각자 정책으로 경쟁해야 | 보수 세력을 하나로 모아 안정된 정권을
+en Conservative merger | Conservative parties should compete on their own policies | Unite the conservatives for a stable government
+ja 保守合同 | 保守政党はそれぞれの政策で競うべき | 保守勢力を一つにまとめ安定政権を
+
+== con s 1952.10 sashakai>bunto : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.6 kaishin=0.6 jiyu52=0.6 bunto=0.7
+ko 보안대의 합헌성 | 보안대는 사실상 군대, 헌법 9조 위반 | 전력이 아닌 자위 실력이므로 합헌
+en Is the National Safety Force constitutional | It is an army in all but name and violates Article 9 | It is a self-defence capability, not "war potential", so it is constitutional
+ja 保安隊の合憲性 | 保安隊は事実上の軍隊、憲法9条違反 | 戦力ではない自衛の実力なので合憲
+
+== dip s 1952.1 sashakai>bunto : jcp=-0.8 sashakai=-0.7 rono=-0.7 ushakai=-0.2 kaishin=0.5 jiyu52=0.6 bunto=0.7
+ko 이승만 라인과 어선 나포 | 한국과 대화로 어업 문제를 풀어야 | 일방적 선 설정과 나포에 강경하게 대응해야
+en The Syngman Rhee Line | Settle the fishing dispute with Korea through talks | Respond firmly to the unilateral line and seizures of boats
+ja 李承晩ラインと漁船拿捕 | 韓国と対話で漁業問題を解決すべき | 一方的な線引きと拿捕に強く対応すべき
+
+== dip . . sashakai>jiyu52 : jcp=-0.8 sashakai=-0.8 rono=-0.8 ushakai=-0.4 kaishin=0.2 jiyu52=0.6 bunto=0.4
+ko 동남아 배상 | 필리핀·인도네시아 등에 성의 있게 배상해 관계를 회복해야 | 배상액은 낮추고 일본의 경제 진출과 연계해야
+en Reparations to Southeast Asia | Pay the Philippines, Indonesia and others in good faith to restore ties | Keep amounts low and link them to Japanese economic expansion
+ja 東南アジア賠償 | フィリピン・インドネシアなどに誠意をもって賠償し関係を回復すべき | 賠償額は抑え日本の経済進出と結びつけるべき
+
+== dip s 1952.6 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.6 kaishin=-0.3 jiyu52=0.7 bunto=-0.1
+ko 일중 민간 무역 | 민간 무역 협정을 넓혀 중국 무역을 늘려야 | 대공산권 수출 규제 등 서방의 규칙을 지켜야
+en Private trade with China | Expand private trade agreements to grow trade with China | Abide by Western rules such as export controls on the communist bloc
+ja 日中民間貿易 | 民間貿易協定を広げ中国貿易を増やすべき | 対共産圏輸出規制など西側のルールを守るべき
+
+== eco e . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 kaishin=0 jiyu52=0.8 bunto=0.6
+ko 독점금지법 완화 | 독금법 완화는 재벌 부활로 이어진다 | 불황 카르텔을 허용해 기업을 살려야
+en Easing antitrust law | Loosening it will revive the zaibatsu | Allow recession cartels to keep firms alive
+ja 独占禁止法の緩和 | 独禁法緩和は財閥復活につながる | 不況カルテルを認め企業を救うべき
+
+== eco e . sashakai>jiyu52 : jcp=-0.6 sashakai=-0.8 rono=-0.7 ushakai=-0.7 kaishin=-0.2 jiyu52=0.7 bunto=0.5
+ko 소득세 감세 | 감세보다 사회보장과 공공 투자를 늘려야 | 소득세를 깎아 저축과 투자를 늘려야
+en Income tax cuts | Spend on social security and public investment rather than tax cuts | Cut income tax to boost savings and investment
+ja 所得税減税 | 減税より社会保障と公共投資を増やすべき | 所得税を減らして貯蓄と投資を増やすべき
+
+== eco e . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.9 kaishin=-0.6 jiyu52=0.4 bunto=-0.3
+ko 중소기업 금융 | 국가가 중소기업에 싼 자금을 크게 늘려야 | 금융은 시장 원리로, 정책 금융은 최소한으로
+en Finance for small businesses | The state should greatly expand cheap loans to small firms | Leave finance to the market; keep policy lending minimal
+ja 中小企業金融 | 国が中小企業への低利資金を大幅に増やすべき | 金融は市場原理で、政策金融は最小限に
+
+== wel s . sashakai>bunto : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.3 kaishin=0.6 jiyu52=0.7 bunto=0.8
+ko 군인 은급 부활 | 군인 은급 부활보다 일반 사회보장이 먼저 | 옛 군인과 전몰자 유족을 위해 은급을 되살려야
+en Restoring military pensions | General social security should come before military pensions | Restore pensions for former soldiers and families of the war dead
+ja 軍人恩給の復活 | 軍人恩給の復活より一般の社会保障が先 | 旧軍人と戦没者遺族のため恩給を復活すべき
+
+== wel e 1951.6 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.8 kaishin=-0.4 jiyu52=0.6 bunto=0.4
+ko 주택난 대책 | 공영주택을 대량으로 지어 주택난을 풀어야 | 민간 건설과 내 집 마련 융자를 중심으로
+en Housing shortage | Build public housing on a large scale | Focus on private construction and home-loan support
+ja 住宅難対策 | 公営住宅を大量に建てて住宅難を解消すべき | 民間建設と持ち家融資を中心に
+
+== soc s 1952.2 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 kaishin=0.2 jiyu52=0.8 bunto=0.6
+ko 포포로 사건 | 경찰의 대학 내 사찰은 대학 자치의 침해 | 대학도 치안의 예외가 될 수 없다
+en The Popolo incident | Police surveillance on campus violates university autonomy | Universities are no exception when it comes to public order
+ja ポポロ事件 | 警察の学内査察は大学自治の侵害 | 大学も治安の例外ではない
+
+== soc . 1953.2 sashakai>jiyu52 : jcp=-0.6 sashakai=-0.6 rono=-0.6 ushakai=-0.4 kaishin=0 jiyu52=0.5 bunto=0.5
+ko 텔레비전 방송 | 방송은 공영 중심으로 하고 상업주의를 막아야 | 민간 방송을 넓혀 경쟁과 다양성을 키워야
+en Television broadcasting | Broadcasting should centre on the public broadcaster and resist commercialism | Expand commercial stations for competition and diversity
+ja テレビ放送 | 放送は公共放送中心とし商業主義を防ぐべき | 民間放送を広げ競争と多様性を育てるべき
+
+== soc s . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.6 kaishin=0.2 jiyu52=0.7 bunto=0.4
+ko 기지 주변 환경 | 기지 주변의 매춘과 풍기 문란은 기지를 없애야 해결된다 | 기지는 유지하고 단속과 환경 정비로 대응해야
+en Life around the bases | Prostitution and disorder around the bases will end only when the bases go | Keep the bases and deal with it through policing and clean-up
+ja 基地周辺の環境 | 基地周辺の売春と風紀の乱れは基地撤去で解決 | 基地は維持し取締りと環境整備で対応すべき
+
+== reg e 1952.7 sashakai>jiyu52 : jcp=-0.8 sashakai=-0.6 rono=-0.7 ushakai=-0.3 kaishin=0.3 jiyu52=0.8 bunto=0.6
+ko 전원 개발 | 대형 댐은 수몰 주민의 동의와 보상이 먼저 | 전원개발회사로 대형 수력 발전을 서둘러야
+en Power development | Big dams need the consent and compensation of displaced residents first | Hurry large hydro projects through the Electric Power Development Company
+ja 電源開発 | 大型ダムは水没住民の同意と補償が先 | 電源開発会社で大型水力発電を急ぐべき
+
+== reg e 1952.6 sashakai>jiyu52 : jcp=-0.8 sashakai=-0.7 rono=-0.7 ushakai=-0.4 kaishin=0.4 jiyu52=0.7 bunto=0.6
+ko 도로 정비 | 도로 건설보다 생활과 복지가 먼저 | 휘발유세를 도로 재원으로 삼아 도로망을 깔아야
+en Road building | Daily life and welfare come before roads | Earmark the petrol tax for roads and build a network
+ja 道路整備 | 道路建設より生活と福祉が先 | ガソリン税を道路財源にして道路網を整備すべき
+
+== reg e . sashakai>jiyu52 : jcp=-0.9 sashakai=-0.9 rono=-0.9 ushakai=-0.7 kaishin=-0.3 jiyu52=0.6 bunto=0.3
+ko 쌀 통제 철폐 | 식량 관리를 유지해 쌀값과 공급을 안정시켜야 | 쌀 통제를 풀어 자유 시장으로 가야
+en Ending rice controls | Keep food controls to stabilise rice prices and supply | Lift rice controls and move to a free market
+ja 米の統制撤廃 | 食糧管理を維持し米価と供給を安定させるべき | 米の統制を外し自由市場にすべき
+
+== reg . . sashakai>jiyu52 : jcp=-1 sashakai=-0.7 rono=-0.7 ushakai=-0.3 kaishin=0.3 jiyu52=0.7 bunto=0.5
+ko 정촌 합병 | 주민 뜻을 묻지 않는 합병 강요에 반대 | 행정 효율을 위해 정촌 합병을 밀어붙여야
+en Merging towns and villages | Oppose forcing mergers without residents' consent | Push mergers for administrative efficiency
+ja 町村合併 | 住民の意思を問わない合併の強要に反対 | 行政効率のため町村合併を推進すべき
+
+== reg . . sashakai>jiyu52 : jcp=-1 sashakai=-0.8 rono=-0.8 ushakai=-0.5 kaishin=0 jiyu52=0.5 bunto=0.3
+ko 도주제 | 지금의 도도부현 자치를 지켜야 | 도도부현을 묶은 도주제로 광역 행정을
+en Regional blocs | Preserve the current prefectural self-government | Merge prefectures into larger regions for wide-area administration
+ja 道州制 | 現行の都道府県の自治を守るべき | 都道府県をまとめた道州制で広域行政を

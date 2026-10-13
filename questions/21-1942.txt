@@ -1,0 +1,139 @@
+# 제21회 중의원 총선 (1942.4.30) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: hisui=비추천 당선자(0.1) suisen=익찬정치체제협의회 추천(0.9)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1942.2 hisui>suisen : hisui=-0.8 suisen=0.9
+ko 추천 후보 제도 | 정부 추천은 선거 간섭, 자유 입후보를 | 거국일치를 위해 추천 후보를
+en Endorsed candidates | Government endorsement is election meddling; let anyone stand | Endorse candidates for national unity
+ja 推薦候補制度 | 政府推薦は選挙干渉、自由な立候補を | 挙国一致のため推薦候補を
+
+== pol s . hisui>suisen : hisui=-0.6 suisen=0.9
+ko 전쟁 지도와 의회 | 의회가 전쟁 지도를 감시해야 한다 | 정부와 군에 전권을 맡겨야
+en Parliament and the war | Parliament should oversee the conduct of the war | Give the government and military full authority
+ja 戦争指導と議会 | 議会が戦争指導を監視すべき | 政府と軍に全権を委ねるべき
+
+== pol s 1940.10 hisui>suisen : hisui=-0.7 suisen=0.9
+ko 대정익찬회 체제 | 일국일당 체제는 헌법 정신에 어긋난다 | 익찬 체제로 결집해야
+en The Imperial Rule Assistance system | A one-party system violates the spirit of the constitution | Unite under the assistance system
+ja 大政翼賛会体制 | 一国一党体制は憲法の精神に反する | 翼賛体制に結集すべき
+
+== soc s 1941.12 hisui>suisen : hisui=-0.6 suisen=0.8
+ko 언론·출판 통제 | 언론의 자유를 보장해야 | 전시 통제를 강화해야
+en Press controls | Guarantee freedom of the press | Tighten wartime controls
+ja 言論・出版の統制 | 言論の自由を保障すべき | 戦時統制を強めるべき
+
+== eco e . hisui>suisen : hisui=-0.4 suisen=0.9
+ko 국가총동원 | 동원 범위를 제한해야 | 총동원을 강화해야
+en National mobilisation | Limit mobilisation | Mobilise fully
+ja 国家総動員 | 動員の範囲を限るべき | 総動員を強化すべき
+
+== dip s 1941.12 hisui>suisen : hisui=-0.3 suisen=1
+ko 전쟁의 앞날 | 조기 강화를 모색해야 | 전쟁을 끝까지 완수해야
+en The course of the war | Seek an early peace | Fight to the end
+ja 戦争の行方 | 早期講和を探るべき | 戦争を最後まで完遂すべき
+
+== reg e 1942.2 hisui>suisen : hisui=-0.4 suisen=0.8
+ko 식량 관리 | 농민 부담을 덜어야 한다 | 정부가 일원 관리하고 공출해야
+en Food control | Ease the burden on farmers | Central control and compulsory deliveries
+ja 食糧管理 | 農民の負担を軽くすべき | 政府が一元管理し供出させるべき
+
+== wel e . hisui>suisen : hisui=-0.3 suisen=0.8
+ko 전시 증세 | 서민 부담에 신중해야 | 전비를 위해 증세해야
+en Wartime taxes | Spare ordinary people | Raise taxes to pay for the war
+ja 戦時増税 | 庶民の負担に慎重に | 戦費のため増税すべき
+
+== pol . 1942.4 hisui>suisen : hisui=-0.9 suisen=0.5
+ko 비추천 후보 방해 | 경찰과 관이 비추천 후보 선거운동을 막는 것은 선거 간섭 | 익찬 선거를 위해 비추천 후보 활동 제한은 당연
+en Obstructing non-endorsed candidates | Police and officials blocking non-endorsed campaigns is election interference | Restricting non-endorsed candidates is natural in an Imperial Rule Assistance election
+ja 非推薦候補への妨害 | 警察や官が非推薦候補の運動を妨げるのは選挙干渉 | 翼賛選挙のため非推薦候補の活動制限は当然
+
+== pol s 1941.9 hisui>suisen : hisui=-0.7 suisen=0.8
+ko 의회 단체 일원화 | 의원들이 하나의 익찬 단체로 묶이면 의회의 비판 기능이 사라진다 | 전시 의회는 익찬의원동맹으로 하나가 되어야
+en A single Diet caucus | Merging all members into one assistance group ends the Diet's critical role | In wartime the Diet should unite in the Assistance Diet Members League
+ja 議会会派の一元化 | 議員が一つの翼賛団体にまとまれば議会の批判機能が消える | 戦時議会は翼賛議員同盟で一つになるべき
+
+== con s 1941.3 hisui>suisen : hisui=-0.5 suisen=0.9
+ko 국방보안법 | 국가 기밀의 범위가 넓어 알 권리와 의회 질의를 막는다 | 첩보를 막으려면 엄한 국방보안법이 필요하다
+en National Defence Security Law | Its vague definition of state secrets blocks the public's right to know and Diet questioning | A strict law is needed to stop espionage
+ja 国防保安法 | 国家機密の範囲が広く知る権利と議会の質疑を妨げる | 諜報を防ぐため厳しい国防保安法が必要
+
+== con s 1941.10 hisui>suisen : hisui=-0.4 suisen=0.8
+ko 대학 졸업 단축 | 학업을 줄여 학생을 전장에 보내면 나라의 미래를 해친다 | 전력 확충을 위해 졸업을 앞당겨 입대시켜야
+en Early graduation | Cutting studies short to send students to war harms the nation's future | Bring graduation forward and enlist students to strengthen the forces
+ja 繰上げ卒業 | 学業を縮めて学生を戦地に送るのは国の将来を損なう | 戦力拡充のため卒業を繰り上げ入営させるべき
+
+== con s 1941.10 hisui>suisen : hisui=-0.8 suisen=0.7
+ko 수상의 대신 겸임 | 수상이 육군대신·내무대신을 겸하는 권력 집중은 위험 | 전시에는 강력한 지도를 위해 권한을 모아야
+en The prime minister holding several posts | A premier who is also Army and Home Minister concentrates too much power | Wartime leadership needs concentrated authority
+ja 首相の大臣兼任 | 首相が陸軍大臣・内務大臣を兼ねる権力集中は危険 | 戦時は強力な指導のため権限を集めるべき
+
+== dip s 1940.9 hisui>suisen : hisui=-0.5 suisen=0.9
+ko 삼국동맹 | 독일·이탈리아와의 동맹이 영미와의 전쟁을 불렀다 | 추축국과 결속해 세계 신질서를 세워야
+en The Tripartite Pact | The alliance with Germany and Italy led to war with Britain and America | Unity with the Axis will build a new world order
+ja 三国同盟 | 独伊との同盟が英米との戦争を招いた | 枢軸国と結束し世界新秩序を築くべき
+
+== dip s 1941.4 hisui>suisen : hisui=-0.6 suisen=0.3
+ko 일소 중립조약 | 중립조약을 지켜 북방에서 전쟁을 피해야 | 독소전을 기회로 북진도 고려해야
+en Soviet–Japanese Neutrality Pact | Keep the pact and avoid war in the north | Consider striking north while Germany fights the USSR
+ja 日ソ中立条約 | 中立条約を守り北方での戦争を避ける | 独ソ戦を好機に北進も考えるべき
+
+== dip . 1942.1 hisui>suisen : hisui=-0.3 suisen=0.5
+ko 남방 점령지 통치 | 버마·필리핀 등에 독립을 주어 민족의 협력을 얻어야 | 전쟁 중에는 군정으로 자원을 확보해야
+en Governing the southern occupied areas | Grant independence to Burma, the Philippines and others to win their cooperation | In wartime, military administration should secure resources
+ja 南方占領地統治 | ビルマ・フィリピンなどに独立を与え民族の協力を得る | 戦時中は軍政で資源を確保すべき
+
+== eco e 1941.8 hisui>suisen : hisui=-0.6 suisen=0.8
+ko 산업 통제회 | 관료가 통제회로 기업을 지배하면 생산 의욕이 꺾인다 | 중요 산업을 통제회로 묶어 군수 생산을 늘려야
+en Industrial control associations | Bureaucrats running firms through control associations kills enterprise | Group key industries into control associations to raise war output
+ja 産業統制会 | 官僚が統制会で企業を支配すれば生産意欲が損なわれる | 重要産業を統制会で束ね軍需生産を増やすべき
+
+== eco e 1941.9 hisui>suisen : hisui=-0.3 suisen=0.8
+ko 금속 회수 | 가정의 냄비와 사찰 종까지 거두는 것은 지나치다 | 군수를 위해 금속 회수에 모두 협력해야
+en Metal collection | Collecting even household pots and temple bells goes too far | Everyone must cooperate in metal collection for the war effort
+ja 金属回収 | 家庭の鍋や寺の鐘まで集めるのは行き過ぎ | 軍需のため金属回収に皆が協力すべき
+
+== eco e 1939.10 hisui>suisen : hisui=-0.4 suisen=0.8
+ko 공정 가격과 암시장 | 가격 동결만으로는 암거래가 커진다, 통제를 풀어야 | 가격 정지령처럼 물가를 묶어 두어야
+en Fixed prices and the black market | Freezing prices only feeds the black market; loosen controls | Keep prices frozen as under the price stop order
+ja 公定価格と闇取引 | 価格凍結だけでは闇取引が増える、統制を緩めるべき | 価格停止令のように物価を抑えるべき
+
+== wel e 1939.7 hisui>suisen : hisui=-0.5 suisen=0.9
+ko 국민 징용 | 국가의 강제 징용은 국민 생활을 무너뜨린다 | 군수 공장 인력은 징용으로 확보해야
+en National labour draft | Forced conscription of workers wrecks people's livelihoods | War factories must be staffed by labour draft
+ja 国民徴用 | 国家による強制徴用は国民生活を壊す | 軍需工場の人手は徴用で確保すべき
+
+== wel e 1941.3 hisui>suisen : hisui=-0.4 suisen=0.8
+ko 노동자 연금보험 | 연금 적립금을 전쟁 비용으로 돌려선 안 된다 | 연금 적립으로 노동자 생활 보장과 저축 증강을 함께
+en Workers' Pension Insurance | Pension funds must not be diverted to war spending | Pension savings both protect workers and boost national savings
+ja 労働者年金保険 | 年金積立金を戦費に回してはならない | 年金積立で労働者の生活保障と貯蓄増強を両立
+
+== wel s 1941.1 hisui>suisen : hisui=-0.3 suisen=0.9
+ko 인구정책 확립 요강 | 결혼과 출산은 개인의 일, 국가가 강요해선 안 된다 | '낳아라 늘려라'로 인구를 늘려 국력을 키워야
+en Population policy outline | Marriage and childbirth are private; the state should not dictate them | "Bear and multiply" to grow the population and national strength
+ja 人口政策確立要綱 | 結婚と出産は個人のこと、国が強制すべきでない | 「産めよ殖やせよ」で人口を増やし国力を高める
+
+== soc s 1941.3 hisui>suisen : hisui=-0.6 suisen=0.9
+ko 예방 구금 | 형기를 마친 사람을 다시 가두는 것은 인권 침해 | 전향하지 않은 사상범은 예방 구금해야
+en Preventive detention | Re-detaining people who have served their sentences violates human rights | Unrepentant thought criminals should be held in preventive detention
+ja 予防拘禁 | 刑期を終えた者を再び拘禁するのは人権侵害 | 転向しない思想犯は予防拘禁すべき
+
+== soc s 1941.3 hisui>suisen : hisui=-0.3 suisen=0.9
+ko 국민학교와 황국민 교육 | 교육이 전쟁 훈련이 되어선 안 된다 | 국민학교에서 황국민을 단련해야
+en National Schools and imperial education | Education must not become war training | National Schools should train loyal imperial subjects
+ja 国民学校と皇国民教育 | 教育が戦争の訓練になってはならない | 国民学校で皇国民を錬成すべき
+
+== soc s 1939.4 hisui>suisen : hisui=-0.5 suisen=0.8
+ko 종교 통제 | 종교단체법에 의한 통제는 신앙 자유의 침해 | 종교도 국체에 맞게 국가가 감독해야
+en Control of religion | Controlling religion under the Religious Organisations Law violates freedom of belief | The state should supervise religion in line with the kokutai
+ja 宗教統制 | 宗教団体法による統制は信教の自由の侵害 | 宗教も国体に沿って国が監督すべき
+
+== reg s 1940.9 hisui>suisen : hisui=-0.4 suisen=0.9
+ko 도나리구미 | 이웃 조직을 통한 상호 감시와 동원은 지나치다 | 도나리구미로 배급과 방공을 함께 해야
+en Neighbourhood associations | Mutual surveillance and mobilisation through neighbourhood groups go too far | Neighbourhood groups should handle rationing and air defence together
+ja 隣組 | 隣組による相互監視と動員は行き過ぎ | 隣組で配給と防空を共に担うべき
+
+== reg e 1939.12 hisui>suisen : hisui=-0.3 suisen=0.7
+ko 소작료 통제 | 지주의 소유권을 존중해 통제를 줄여야 | 증산을 위해 소작료를 묶고 경작자를 우대해야
+en Tenancy rent controls | Respect landlords' property rights and ease controls | Freeze rents and favour cultivators to raise output
+ja 小作料統制 | 地主の所有権を尊重し統制を緩めるべき | 増産のため小作料を抑え耕作者を優遇すべき

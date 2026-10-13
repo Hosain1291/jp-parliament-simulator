@@ -42,8 +42,6 @@ window.I18N = {
     prevAria: 'Previous question', skipAria: 'Not sure, skip', skipTitle: 'Not sure',
     nextQ: 'Next question', fieldRes: n => n + ': results',
     kbd: 'Keyboard: ← → to move, Enter for next · “?” means not sure (this question’s share is split by the area’s vote)',
-    liveH: 'Projected seats so far', liveHint: 'Seats from the areas you have answered. Moving the slider recalculates this question’s share at once.',
-    ofSeats: n => n + ' allocated',
     boardH: (n, t) => '“' + n + '” hands out <span class="num">' + t + '</span> seats',
     boardEmpty: 'You answered no questions here, so seats follow the parties’ real support.',
     boardHint: txt => txt + ' · the number on the right is the running total.',

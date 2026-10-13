@@ -1,0 +1,154 @@
+# 제35회 중의원 총선 (1979.10.7) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.65) sdf=사회민주연합(-0.3) kmt=공명당(-0.05) dsp=민사당(0.1) nlc=신자유클럽(0.35) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco . 1979.1 jsp>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-1 dsp=-1 nlc=-0.8 ldp=0.6
+ko 일반소비세 도입 | 반대한다 | 재정 재건을 위해 도입
+en General consumption tax | Against it | Introduce it to repair the finances
+ja 一般消費税の導入 | 反対する | 財政再建のため導入
+
+== eco . . nlc>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.6 kmt=-0.7 dsp=-0.8 nlc=-0.9 ldp=0.6
+ko 재정 재건 방법 | 행정 개혁과 불공평 세제 시정이 먼저 | 증세는 피할 수 없다
+en How to repair the finances | Administrative reform and fair taxes first | Tax rises are unavoidable
+ja 財政再建の方法 | 行政改革と不公平税制の是正が先 | 増税は避けられない
+
+== soc s 1979.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.6 kmt=-0.2 dsp=0.6 nlc=0.4 ldp=1
+ko 원호법(연호 법제화) | 반대한다 | 법제화해야
+en Era Name Law | Against it | Put the era name into law
+ja 元号法 | 反対する | 法制化すべき
+
+== con s 1978.7 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.4 dsp=0.5 nlc=0.2 ldp=0.9
+ko 유사법제 연구 | 반대한다 | 연구해야
+en Emergency legislation study | Against it | Study it
+ja 有事法制研究 | 反対する | 研究すべき
+
+== pol . 1979.1 nlc>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-1 dsp=-0.8 nlc=-1 ldp=0.5
+ko 더글러스·그러먼 의혹 | 철저히 밝혀야 | 수사에 맡겨야
+en Douglas–Grumman scandal | Expose it fully | Leave it to investigators
+ja ダグラス・グラマン疑惑 | 徹底的に究明すべき | 捜査に委ねるべき
+
+== reg e 1979.3 jsp>ldp : jcp=-0.8 jsp=-1 sdf=-0.8 kmt=-0.4 dsp=0.6 nlc=0.4 ldp=0.9
+ko 원전 | 스리마일 사고를 보라, 멈춰야 | 안전을 강화하며 추진
+en Nuclear power | Look at Three Mile Island; stop | Proceed with stronger safety
+ja 原発 | スリーマイル事故を見よ、止めるべき | 安全を強化しつつ推進
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=-0.5 nlc=0 ldp=0.8
+ko ‘일본형 복지사회’ | 복지를 계속 넓혀야 | 자조와 가족 중심의 일본형 복지
+en “Japanese-style welfare society” | Keep expanding welfare | Self-help and the family first
+ja 「日本型福祉社会」 | 福祉を広げ続けるべき | 自助と家族中心の日本型福祉
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.6 kmt=-0.2 dsp=0.6 nlc=0.5 ldp=0.9
+ko 자위대 | 위헌, 축소해야 | 합헌, 정비해야
+en The SDF | Unconstitutional; cut it | Constitutional; maintain it
+ja 自衛隊 | 違憲、縮小すべき | 合憲、整備すべき
+
+== pol . 1978.11 jcp>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.5 kmt=-0.6 dsp=-0.4 nlc=-0.6 ldp=0.6
+ko 자민당 총재 예비선거 | 당원 표를 돈으로 모으는 예비선거는 금권 정치의 확대 | 당원이 총재를 고르는 것은 당내 민주주의의 진전
+en LDP presidential primary | A primary where members' votes are bought expands money politics | Letting members choose the leader advances internal democracy
+ja 自民党総裁予備選 | 党員票を金で集める予備選は金権政治の拡大 | 党員が総裁を選ぶのは党内民主主義の前進
+
+== pol . 1979.9 sdf>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-1 dsp=-0.9 nlc=-0.9 ldp=0.5
+ko 공비 부정 | 공단의 관관 접대와 공비 낭비를 철저히 밝히고 감사를 강화해야 | 일부의 문제, 행정 내부 점검으로 충분
+en Misuse of public funds | Expose wining and dining and waste at public corporations and strengthen audits | Isolated cases; internal checks are enough
+ja 公費不正 | 公団の官官接待と公費の浪費を徹底解明し監査を強化すべき | 一部の問題、行政内部の点検で十分
+
+== pol . . jcp>kmt : jcp=-1 jsp=0 sdf=0.6 kmt=0.7 dsp=0.6 nlc=0.4 ldp=-0.6
+ko 중도 연합 정권 구상 | 혁신 세력은 공산당을 포함한 전야당 공투로 | 공산당을 뺀 중도 연합으로 자민당 정권을 대체해야
+en A centrist coalition | The opposition should fight together, Communists included | Replace the LDP with a centrist coalition excluding the Communists
+ja 中道連合政権構想 | 革新勢力は共産党を含む全野党共闘で | 共産党を除く中道連合で自民党政権に代わるべき
+
+== con s 1978.11 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.3 dsp=0.6 nlc=0.4 ldp=0.9
+ko 미일 방위협력 지침 | 가이드라인은 국회 심의 없는 군사 협력 확대 | 유사시 미일 협력의 틀로 필요하다
+en US–Japan defence guidelines | The guidelines expand military cooperation without Diet scrutiny | They are a needed framework for cooperation in an emergency
+ja 日米防衛協力のための指針 | ガイドラインは国会審議なき軍事協力の拡大 | 有事の日米協力の枠組みとして必要
+
+== con s 1978.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.5 dsp=0.3 nlc=0.2 ldp=0.8
+ko 주일미군 경비 분담 | 협정에 없는 '배려 예산'은 부당한 부담 | 동맹 유지를 위한 경비 분담은 필요하다
+en Paying for US forces | "Sympathy budget" spending beyond the agreement is an unfair burden | Sharing costs is needed to keep the alliance
+ja 在日米軍経費負担 | 協定にない「思いやり予算」は不当な負担 | 同盟維持のための経費負担は必要
+
+== dip s 1978.8 jcp>ldp : jcp=-0.4 jsp=-0.9 sdf=-0.8 kmt=-0.9 dsp=-0.5 nlc=-0.6 ldp=0.3
+ko 일중 평화우호조약 | 반패권 조항을 포함한 조약 체결을 환영 | 소련을 자극하는 조약은 신중했어야 했다
+en Japan–China Treaty of Peace and Friendship | Welcome the treaty with its anti-hegemony clause | A treaty that provokes the Soviets called for more caution
+ja 日中平和友好条約 | 反覇権条項を含む条約締結を歓迎 | ソ連を刺激する条約は慎重であるべきだった
+
+== dip s 1978.4 jsp>ldp : jcp=-0.6 jsp=-0.8 sdf=-0.9 kmt=-0.8 dsp=-0.5 nlc=-0.5 ldp=0.5
+ko 베트남 난민 | 인도적 책임으로 난민의 정주를 적극 받아들여야 | 정주는 최소한으로, 자금 지원으로 기여해야
+en Vietnamese refugees | Accept refugees for settlement as a humanitarian duty | Keep resettlement minimal and contribute money instead
+ja ベトナム難民 | 人道的責任として難民の定住を積極的に受け入れるべき | 定住は最小限に、資金援助で貢献すべき
+
+== dip s 1977.9 jsp>ldp : jcp=0.4 jsp=-0.6 sdf=-0.4 kmt=-0.6 dsp=0.2 nlc=0.3 ldp=-0.5
+ko 다카 사건과 '초법규' 조치 | 인명이 무엇보다 우선, 석방 요구 수용은 불가피했다 | 테러에 굴복한 석방은 국제적 신뢰를 잃는다
+en The Dhaka hijacking and "extra-legal" release | Human life comes first; meeting the demands was unavoidable | Freeing prisoners for terrorists costs international trust
+ja ダッカ事件と「超法規的」措置 | 人命が最優先、釈放要求の受け入れはやむを得なかった | テロに屈した釈放は国際的信頼を失う
+
+== dip e 1977.3 jsp>ldp : jcp=-0.6 jsp=-0.5 sdf=-0.4 kmt=-0.3 dsp=0 nlc=0.2 ldp=0.5
+ko 200해리와 북방 어업 | 소련과 유연하게 교섭해 어민의 조업을 지켜야 | 영토 주장을 양보하는 어업 교섭은 안 된다
+en 200-mile zones and northern fisheries | Negotiate flexibly with the Soviets to protect fishermen | No fisheries deal that concedes the territorial claim
+ja 200海里と北洋漁業 | ソ連と柔軟に交渉し漁民の操業を守るべき | 領土主張を譲る漁業交渉はいけない
+
+== dip e 1979.6 jsp>ldp : jcp=-0.8 jsp=-0.7 sdf=-0.4 kmt=-0.4 dsp=0.2 nlc=0.3 ldp=0.7
+ko 도쿄 서밋과 석유 | 선진국 위주의 석유 수입 상한은 일본 경제에 불리 | 선진국 협조로 석유 수입을 억제해야
+en The Tokyo summit and oil | Oil import ceilings set by rich nations hurt Japan | Curb oil imports in cooperation with the advanced economies
+ja 東京サミットと石油 | 先進国本位の石油輸入上限は日本経済に不利 | 先進国の協調で石油輸入を抑えるべき
+
+== eco e 1978.7 jsp>ldp : jcp=-0.6 jsp=-0.5 sdf=-0.3 kmt=-0.5 dsp=-0.3 nlc=0.3 ldp=-0.2
+ko 기관차론과 7% 성장 | 내수 확대는 공공사업이 아닌 감세와 복지로 | 재정 재건이 먼저, 국제 공약 성장률에 매달려선 안 된다
+en The locomotive theory and 7% growth | Boost demand with tax cuts and welfare, not public works | Fiscal repair first; do not chase an internationally pledged growth rate
+ja 機関車論と7％成長 | 内需拡大は公共事業でなく減税と福祉で | 財政再建が先、国際公約の成長率にこだわるべきでない
+
+== eco e 1978.5 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.6 kmt=-0.6 dsp=-0.3 nlc=0 ldp=0.6
+ko 구조 불황 업종 | 조선·섬유 등의 설비 폐기는 고용 보장이 먼저 | 설비 폐기와 업종 전환으로 구조를 바꿔야
+en Structurally depressed industries | Guarantee jobs before scrapping capacity in shipbuilding and textiles | Scrap excess capacity and shift industries to restructure
+ja 構造不況業種 | 造船・繊維などの設備廃棄は雇用保障が先 | 設備廃棄と業種転換で構造を変えるべき
+
+== eco e 1978.10 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.7 kmt=-0.8 dsp=-0.5 nlc=-0.2 ldp=0.5
+ko 엔고와 중소기업 | 엔고 피해 중소기업에 긴급 지원과 세금 감면을 | 엔고를 기회로 산업 고도화를 서둘러야
+en The strong yen and small firms | Emergency aid and tax relief for small firms hurt by the strong yen | Use the strong yen to hasten industrial upgrading
+ja 円高と中小企業 | 円高被害の中小企業に緊急支援と減税を | 円高を機に産業の高度化を急ぐべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.9 dsp=-0.6 nlc=-0.2 ldp=0.6
+ko 연금 지급 65세 | 후생연금 지급 연령을 65세로 늦추는 데 반대 | 고령화에 대비해 지급 연령을 단계적으로 늦춰야
+en Pensions at 65 | Oppose raising the employee pension age to 65 | Raise the pension age gradually to prepare for ageing
+ja 年金支給65歳 | 厚生年金の支給開始を65歳に遅らせることに反対 | 高齢化に備え支給開始年齢を段階的に引き上げるべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-1 dsp=-0.8 nlc=-0.6 ldp=0.4
+ko 의사 우대 세제 | 의사의 사회보험 진료 소득 특례는 불공평, 폐지해야 | 지역 의료를 지키려면 특례가 필요하다
+en Tax breaks for doctors | Special tax treatment of doctors' insurance income is unfair; abolish it | It is needed to keep local medical care going
+ja 医師優遇税制 | 医師の社会保険診療報酬の特例は不公平、廃止すべき | 地域医療を守るため特例は必要
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.8 dsp=-0.6 nlc=-0.3 ldp=0.5
+ko 60세 정년 | 60세 정년을 법으로 의무화해야 | 정년 연장은 기업 실정에 맞춰 자율적으로
+en Retirement at 60 | Make 60 the legal minimum retirement age | Extending retirement should be voluntary, suited to each firm
+ja 60歳定年 | 60歳定年を法律で義務づけるべき | 定年延長は企業の実情に合わせ自主的に
+
+== soc s 1977.7 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.6 kmt=-0.4 dsp=0.4 nlc=0.3 ldp=0.9
+ko 기미가요의 '국가' 명기 | 법적 근거 없는 기미가요를 학습지도요령에 국가로 명시해선 안 된다 | 국가로 가르치는 것은 당연하다
+en Calling Kimigayo the national anthem | Do not name Kimigayo the national anthem in guidelines without a legal basis | Teaching it as the anthem is only natural
+ja 君が代の「国歌」明記 | 法的根拠のない君が代を学習指導要領に国歌と明記すべきでない | 国歌として教えるのは当然
+
+== soc s 1979.4 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=0 nlc=-0.2 ldp=0.8
+ko 야스쿠니 A급 전범 합사 | A급 전범 합사는 전쟁 책임을 흐린다, 총리 참배는 안 된다 | 합사는 신사의 일, 총리의 참배는 추도의 자유
+en Class A war criminals enshrined at Yasukuni | It blurs war responsibility; prime ministers must not visit | Enshrinement is the shrine's affair; visiting is freedom to mourn
+ja 靖国A級戦犯合祀 | 合祀は戦争責任をあいまいにする、首相は参拝すべきでない | 合祀は神社のこと、首相の参拝は追悼の自由
+
+== soc . 1979.1 jcp>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.3 kmt=-0.4 dsp=0 nlc=0.2 ldp=0.6
+ko 공통 1차 시험 | 국가 일괄 시험은 대학 서열화와 입시 경쟁을 부추긴다 | 공통 시험으로 입시를 공정하고 효율적으로
+en The national common entrance exam | A single national exam deepens university ranking and exam competition | A common exam makes entrance fair and efficient
+ja 共通一次試験 | 国による一斉試験は大学の序列化と受験競争をあおる | 共通試験で入試を公正かつ効率的に
+
+== reg e 1978.5 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.5 kmt=-0.4 dsp=0.3 nlc=0.2 ldp=0.9
+ko 나리타 공항 개항 | 농민의 땅을 강제로 빼앗은 개항은 잘못 | 국제 공항 개항은 필요, 과격파 폭력엔 엄정히
+en Opening Narita Airport | Opening it on land seized from farmers was wrong | The airport had to open; deal firmly with extremist violence
+ja 成田空港開港 | 農民の土地を強制的に奪った開港は誤り | 国際空港の開港は必要、過激派の暴力には厳正に
+
+== reg e 1978.1 jsp>nlc : jcp=-0.7 jsp=-0.8 sdf=-0.4 kmt=-0.6 dsp=0 nlc=0.4 ldp=-0.3
+ko 쌀 생산 조정 | 감반 강요보다 식량 자급과 농가 소득을 지켜야 | 남아도는 쌀을 줄이려면 생산 조정은 불가피
+en Rice acreage reduction | Protect food self-sufficiency and farm incomes instead of forcing cutbacks | With surplus rice, production adjustment is unavoidable
+ja 米の生産調整 | 減反の押しつけより食料自給と農家所得を守るべき | 余剰米を減らすため生産調整はやむを得ない
+
+== reg e 1978.12 jsp>nlc : jcp=-1 jsp=-1 sdf=-0.4 kmt=-0.8 dsp=-0.2 nlc=0.5 ldp=-0.2
+ko 소고기·오렌지 자유화 | 수입 확대는 축산·감귤 농가를 무너뜨린다 | 수입을 늘려 소비자 가격을 낮추고 마찰을 줄여야
+en Beef and orange imports | More imports will ruin cattle and citrus farmers | Import more to lower prices and ease friction
+ja 牛肉・オレンジ自由化 | 輸入拡大は畜産・みかん農家を崩壊させる | 輸入を増やし消費者価格を下げ摩擦を減らすべき

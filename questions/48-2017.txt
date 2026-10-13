@@ -1,0 +1,214 @@
+# 제48회 중의원 총선 (2017.10.22) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) sdp=사회민주당(-0.85) cdp=입헌민주당(-0.55) kibo=희망의 당(0.25) kmt=공명당(0.15) ishin=일본유신회(0.45) ldp=자유민주당(0.75) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== con s 2015.9 cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=0.5 kmt=0.7 ishin=0.4 ldp=1 ind=-0.4
+ko 안보법제 | 위헌인 부분을 폐지해야 한다 | 유지하며 운용해야 한다
+en Security legislation | Repeal the unconstitutional parts | Keep and operate it
+ja 安保法制 | 違憲の部分を廃止すべき | 維持して運用すべき
+
+== con s 2017.5 cdp>ldp : jcp=-1 sdp=-1 cdp=-0.8 kibo=0.2 kmt=-0.2 ishin=0.6 ldp=0.9
+ko 9조에 자위대 명기 | 반대한다 | 자위대를 헌법에 명기해야 한다
+en Writing the SDF into Article 9 | Against it | Write the SDF into the constitution
+ja 9条への自衛隊明記 | 反対する | 自衛隊を憲法に明記すべき
+
+== eco e 2017.9 kibo>ldp : jcp=-1 sdp=-1 cdp=-0.5 kibo=-0.9 kmt=0.8 ishin=-0.6 ldp=0.9
+ko 소비세 10%와 교육 무상화 | 인상을 동결해야 한다 | 2019년에 올리고 증세분으로 유아교육 무상화
+en 10% consumption tax and free education | Freeze the rise | Raise it in 2019 and use the revenue for free preschool
+ja 消費税10%と教育無償化 | 引き上げを凍結すべき | 2019年に上げ、増収分で幼児教育を無償化
+
+== reg e . cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.8 kmt=-0.2 ishin=-0.3 ldp=0.8
+ko 원전 제로 | 빠른 시일 안에 원전 제로 | 원전은 중요한 기저 전원
+en Zero nuclear power | Zero nuclear as soon as possible | Nuclear is an important baseload source
+ja 原発ゼロ | 早期に原発ゼロ | 原発は重要なベースロード電源
+
+== pol . 2017.2 cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.8 kmt=0.6 ishin=-0.3 ldp=0.9
+ko 모리토모·가케 학원 의혹 | 총리 책임을 규명하고 증인을 불러야 | 법적 문제는 없다, 정책이 우선
+en The Moritomo and Kake scandals | Establish the PM’s responsibility and summon witnesses | No legal problem; policy first
+ja 森友・加計学園問題 | 首相の責任を究明し証人を呼ぶべき | 法的な問題はない、政策が先
+
+== soc s 2017.6 jcp>ldp : jcp=-1 sdp=-1 cdp=-0.9 kibo=0 kmt=0.7 ishin=0.4 ldp=0.9
+ko 공모죄(테러등준비죄) | 내심을 처벌하는 법, 폐지해야 | 테러 대책에 필요하다
+en Conspiracy law (terrorism preparation) | It punishes thought; repeal it | Needed against terrorism
+ja 共謀罪（テロ等準備罪） | 内心を処罰する法律、廃止すべき | テロ対策に必要
+
+== dip s 2017.9 jcp>ldp : jcp=-0.9 sdp=-0.9 cdp=-0.3 kibo=0.5 kmt=0.4 ishin=0.6 ldp=0.9
+ko 북한 미사일 대응 | 대화를 중시해야 한다 | 최대한의 압력을 가해야 한다
+en North Korean missiles | Emphasise dialogue | Maximum pressure
+ja 北朝鮮のミサイル | 対話を重視すべき | 最大限の圧力をかけるべき
+
+== wel e 2017.3 cdp>ldp : jcp=-1 sdp=-1 cdp=-0.9 kibo=-0.2 kmt=0.4 ishin=0.5 ldp=0.9
+ko 고도 프로페셔널 제도 | ‘잔업수당 제로’ 법안에 반대 | 성과형 근로를 도입해야 한다
+en High-professional system | Against the “zero overtime pay” bill | Introduce performance-based work
+ja 高度プロフェッショナル制度 | 「残業代ゼロ」法案に反対 | 成果型の働き方を導入すべき
+
+== wel . 2017.5 cdp>ishin : jcp=-0.7 sdp=-0.7 cdp=-0.6 kibo=0.3 kmt=-0.2 ishin=1 ldp=0.3
+ko 교육 무상화 헌법 명기 | 법률로 충분하다 | 헌법에 무상화를 명기해야 한다
+en Free education in the constitution | A law is enough | Write free education into the constitution
+ja 教育無償化の憲法明記 | 法律で十分 | 憲法に無償化を明記すべき
+
+== soc s . cdp>ldp : jcp=-0.9 sdp=-1 cdp=-0.9 kibo=-0.4 kmt=-0.2 ishin=-0.3 ldp=0.7
+ko 동성혼 법제화 | 동성혼을 법으로 인정해야 한다 | 신중히 검토해야 한다
+en Same-sex marriage | Recognise it in law | Consider it carefully
+ja 同性婚の法制化 | 同性婚を法律で認めるべき | 慎重に検討すべき
+
+== con s . sdp>ldp : jcp=-1 sdp=-1 cdp=-0.7 kibo=0.2 kmt=0.4 ishin=0.6 ldp=1
+ko 헤노코 이설 | 중지해야 한다 | 계속 추진해야 한다
+en Relocation to Henoko | Stop it | Keep going
+ja 辺野古移設 | 中止すべき | 推進を続けるべき
+
+== pol . 2017.7 cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.6 kmt=0.3 ishin=-0.4 ldp=0.8
+ko 공문서 관리 | 독립 기관을 두고 공문서 관리를 강화 | 현행 규정 정비로 충분하다
+en Managing official documents | Stronger records management with an independent body | Updating the current rules is enough
+ja 公文書管理 | 独立機関を置き公文書管理を強化 | 現行規定の整備で十分
+
+== eco e . cdp>ldp : jcp=-1 sdp=-1 cdp=-0.8 kibo=-0.2 kmt=0.7 ishin=0.2 ldp=1
+ko 아베노믹스 계속 | 분배와 가계 소득부터 끌어올려야 | 성장 정책을 계속해야 한다
+en Continuing Abenomics | Raise household incomes and redistribute first | Keep the growth policies
+ja アベノミクスの継続 | 分配と家計所得の底上げを先に | 成長政策を続けるべき
+
+== pol . 2017.9 cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.8 kmt=0.6 ishin=-0.4 ldp=0.9
+ko '국난 돌파' 해산 | 의혹 추궁을 피하려는 임시국회 첫날 해산 | 북한 위기와 저출산에 대해 신임을 묻는 해산
+en The "national crisis" dissolution | Dissolving on the first day of an extra session to dodge scrutiny of scandals | A dissolution to seek a mandate on North Korea and the birth rate
+ja 「国難突破」解散 | 疑惑追及を避けるための臨時国会冒頭解散 | 北朝鮮危機と少子化について信を問う解散
+
+== pol . 2017.9 cdp>kibo : jcp=-0.6 sdp=-0.6 cdp=-1 kibo=0.9 kmt=0 ishin=0.4 ldp=0.2
+ko 야당 재편과 '배제' | 안보법제 찬성을 조건으로 한 선별은 야당 공투를 깨뜨렸다 | 정책이 맞는 사람끼리 모인 새 당이 정권 대안이 된다
+en Opposition realignment and "exclusion" | Screening candidates on the security laws broke opposition unity | A new party of like-minded people is a real alternative
+ja 野党再編と「排除」 | 安保法制賛成を条件にした選別は野党共闘を壊した | 政策の一致する人で集まる新党こそ政権の受け皿
+
+== pol s 2017.6 jcp>ldp : jcp=-0.6 sdp=-0.4 cdp=-0.4 kibo=0 kmt=0.3 ishin=0.4 ldp=0.6
+ko 천황 퇴위 특례법 | 일대 한정이 아니라 황실전범을 고쳐 퇴위를 제도화해야 | 이번 한 번의 특례법으로 대응하는 것이 맞다
+en The abdication special law | Amend the Imperial House Law to institutionalise abdication, not a one-off | A one-time special law is the right response
+ja 天皇退位特例法 | 一代限りでなく皇室典範を改め退位を制度化すべき | 今回限りの特例法で対応するのが妥当
+
+== pol . 2016.2 cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.5 kmt=0.2 ishin=-0.2 ldp=0.7
+ko 방송국 '전파 정지' 발언 | 정치적 공평을 이유로 한 전파 정지 위협은 언론 압박 | 법에 규정된 권한을 설명했을 뿐이다
+en Threatening broadcasters' licences | Threatening to halt broadcasts over "political fairness" pressures the media | It merely explained powers set out in law
+ja 放送局への「電波停止」発言 | 政治的公平を理由にした電波停止の示唆は報道への圧力 | 法に定められた権限を説明したにすぎない
+
+== con s 2017.2 cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.4 kmt=0.3 ishin=0 ldp=0.8
+ko 남수단 PKO 일보 문제 | 전투를 기록한 일보를 감춘 것은 문민 통제의 붕괴 | 철수로 대응했다, 출동 경호 임무는 필요하다
+en The South Sudan PKO logs | Hiding logs that recorded fighting is a breakdown of civilian control | It was handled by withdrawal; rescue-escort duties are needed
+ja 南スーダンPKO日報問題 | 戦闘を記録した日報を隠したのは文民統制の崩壊 | 撤収で対応した、駆け付け警護の任務は必要
+
+== con s 2017.3 cdp>ldp : jcp=-1 sdp=-1 cdp=-0.9 kibo=0.3 kmt=-0.3 ishin=0.5 ldp=0.8
+ko 적 기지 공격 능력 | 전수방위를 넘어서는 적 기지 공격 능력에 반대 | 북한 미사일에 대비해 반격 능력을 갖춰야
+en Strike capability against enemy bases | Oppose a capability that goes beyond strictly defensive defence | Acquire counterstrike capability against North Korean missiles
+ja 敵基地攻撃能力 | 専守防衛を超える敵基地攻撃能力に反対 | 北朝鮮のミサイルに備え反撃能力を持つべき
+
+== dip s 2015.8 cdp>ldp : jcp=-1 sdp=-1 cdp=-0.6 kibo=0 kmt=-0.2 ishin=0.3 ldp=0.7
+ko 전후 70년 아베 담화 | 무라야마 담화의 '침략'과 '사죄'를 분명히 계승해야 | 다음 세대가 사죄를 계속하지 않도록 미래 지향으로
+en The Abe statement on the 70th anniversary | Clearly uphold Murayama's "aggression" and "apology" | Look to the future so later generations need not keep apologising
+ja 戦後70年安倍談話 | 村山談話の「侵略」と「お詫び」を明確に継承すべき | 次の世代に謝罪を続けさせないよう未来志向で
+
+== dip s 2015.12 jcp>ldp : jcp=-0.8 sdp=-0.9 cdp=-0.3 kibo=0.3 kmt=0.6 ishin=0.3 ldp=0.8
+ko 한일 위안부 합의 | 피해자의 동의 없는 '최종적·불가역적' 합의는 문제 | 합의로 문제를 매듭짓고 한국에 이행을 요구해야
+en The Japan–Korea comfort women agreement | A "final and irreversible" deal without victims' consent is flawed | The deal settles it; Korea must implement it
+ja 日韓慰安婦合意 | 被害者の同意なき「最終的かつ不可逆的」合意は問題 | 合意で問題を決着させ韓国に履行を求めるべき
+
+== dip s 2017.7 cdp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.4 kmt=-0.4 ishin=0.2 ldp=0.8
+ko 핵무기 금지 조약 | 피폭국으로서 핵무기 금지 조약에 참가해야 | 핵 억지력에 의존하는 현실에서 참가는 어렵다
+en The Treaty on the Prohibition of Nuclear Weapons | As an atomic-bombed nation, Japan should join | Joining is hard while relying on nuclear deterrence
+ja 核兵器禁止条約 | 被爆国として核兵器禁止条約に参加すべき | 核抑止力に頼る現実の中で参加は難しい
+
+== dip s 2016.12 jcp>ldp : jcp=-0.5 sdp=-0.3 cdp=-0.4 kibo=-0.2 kmt=0.5 ishin=0.2 ldp=0.8
+ko 일러 공동 경제 활동 | 경제 협력을 앞세우면 영토 주장이 흐려진다 | 북방 영토 공동 경제 활동으로 교섭을 진전시켜야
+en Joint economic activities with Russia | Putting economics first blurs the territorial claim | Advance negotiations through joint activities on the islands
+ja 日露共同経済活動 | 経済協力を先行させれば領土の主張がぼやける | 北方領土での共同経済活動で交渉を進めるべき
+
+== dip e 2017.1 jcp>ldp : jcp=-1 sdp=-1 cdp=-0.6 kibo=0.4 kmt=0.4 ishin=0.7 ldp=0.8
+ko 미국 탈퇴 후 TPP11 | 농업과 주권을 해치는 TPP는 중단해야 | 미국 없이도 TPP11로 자유무역 질서를 이끌어야
+en TPP11 after the US exit | Stop a TPP that harms farming and sovereignty | Lead the free-trade order through TPP11 without the US
+ja 米国離脱後のTPP11 | 農業と主権を損なうTPPはやめるべき | 米国抜きでもTPP11で自由貿易秩序を主導すべき
+
+== eco e 2016.1 jcp>ldp : jcp=-1 sdp=-1 cdp=-0.7 kibo=-0.2 kmt=0.3 ishin=0.2 ldp=0.8
+ko 마이너스 금리 | 은행과 예금자를 압박하는 마이너스 금리는 부작용이 크다 | 디플레 탈출을 위해 금융 완화를 이어가야
+en Negative interest rates | They squeeze banks and savers and do more harm than good | Continue easing to escape deflation
+ja マイナス金利 | 銀行と預金者を圧迫するマイナス金利は副作用が大きい | デフレ脱却のため金融緩和を続けるべき
+
+== eco e 2016.11 cdp>kmt : jcp=0 sdp=-0.4 cdp=-0.6 kibo=-0.4 kmt=1 ishin=-0.4 ldp=0.5
+ko 소비세 경감 세율 | 경감 세율은 부자에게 더 이익, 급부로 지원해야 | 식료품 경감 세율로 생활 부담을 덜어야
+en Reduced consumption tax rates | Reduced rates help the rich more; use cash benefits instead | A lower rate on food eases living costs
+ja 消費税の軽減税率 | 軽減税率は富裕層ほど得をする、給付で支援すべき | 食料品の軽減税率で生活の負担を軽くすべき
+
+== eco e 2017.9 ldp>kibo : jcp=0.7 sdp=0.6 cdp=0.4 kibo=0.9 kmt=-0.3 ishin=0.3 ldp=-0.8
+ko 기업 내부 유보 과세 | 이중 과세가 되는 내부 유보 과세는 투자를 위축시킨다 | 쌓이기만 하는 내부 유보에 과세해 재원으로
+en Taxing retained earnings | Taxing retained earnings is double taxation that chills investment | Tax idle retained earnings to raise revenue
+ja 内部留保課税 | 二重課税となる内部留保課税は投資を萎縮させる | ため込まれた内部留保に課税し財源に
+
+== eco e . cdp>ldp : jcp=-1 sdp=-1 cdp=-0.8 kibo=-0.3 kmt=0.4 ishin=0.3 ldp=0.8
+ko 분배와 성장 | 아베노믹스의 과실이 가계에 돌아가지 않았다, 분배를 우선해야 | 성장의 과실은 고용 확대로 퍼지고 있다
+en Distribution and growth | Abenomics did not reach households; put distribution first | The fruits of growth are spreading through more jobs
+ja 分配と成長 | アベノミクスの果実は家計に届かなかった、分配を優先すべき | 成長の果実は雇用拡大で広がっている
+
+== wel e 2017.3 jcp>ldp : jcp=-1 sdp=-1 cdp=-0.9 kibo=-0.4 kmt=0.4 ishin=0.2 ldp=0.8
+ko 잔업 상한 월 100시간 | 월 100시간 미만 상한은 과로사 기준선, 더 낮춰야 | 벌칙 있는 상한을 처음 정한 것만으로도 큰 진전
+en An overtime cap of under 100 hours a month | A cap at the karōshi threshold is too high; lower it | Setting a cap with penalties for the first time is a big step
+ja 残業上限月100時間 | 月100時間未満の上限は過労死ライン、もっと下げるべき | 罰則付きの上限を初めて定めただけでも大きな前進
+
+== wel e 2017.3 jcp>ldp : jcp=-1 sdp=-1 cdp=-0.8 kibo=-0.4 kmt=0 ishin=0.2 ldp=0.6
+ko 동일노동 동일임금 | 정규·비정규의 차별을 법으로 엄격히 금지해야 | 가이드라인으로 불합리한 격차를 단계적으로 줄여야
+en Equal pay for equal work | Strictly ban discrimination between regular and irregular staff by law | Reduce unreasonable gaps step by step through guidelines
+ja 同一労働同一賃金 | 正規・非正規の差別を法律で厳しく禁止すべき | ガイドラインで不合理な格差を段階的に縮めるべき
+
+== wel e 2016.2 jcp>ldp : jcp=-1 sdp=-1 cdp=-1 kibo=-0.6 kmt=-0.4 ishin=0 ldp=0.4
+ko '보육원 떨어졌다' | 보육사 처우를 크게 개선하고 인가 보육소를 늘려야 | 규제 완화와 기업 주도형 보육으로 대기 아동을 줄여야
+en "I didn't get a nursery place" | Greatly improve nursery workers' pay and build licensed nurseries | Cut waiting lists through deregulation and company-run nurseries
+ja 「保育園落ちた」 | 保育士の処遇を大きく改善し認可保育所を増やすべき | 規制緩和と企業主導型保育で待機児童を減らすべき
+
+== wel e . jcp>ldp : jcp=-1 sdp=-1 cdp=-0.9 kibo=-0.5 kmt=-0.4 ishin=-0.2 ldp=0.4
+ko 간병 인력 처우 | 간병 보수를 크게 올려 인력난을 해소해야 | 외국인 인재와 기술 활용으로 효율화해야
+en Care workers' pay | Sharply raise care fees to end staff shortages | Improve efficiency with foreign workers and technology
+ja 介護人材の処遇 | 介護報酬を大幅に上げ人手不足を解消すべき | 外国人材と技術の活用で効率化すべき
+
+== soc s 2016.5 jcp>ldp : jcp=-0.9 sdp=-1 cdp=-0.9 kibo=-0.5 kmt=-0.6 ishin=-0.3 ldp=0.2
+ko 헤이트 스피치 해소법 | 벌칙 없는 이념법으로는 부족하다, 금지와 처벌을 | 표현의 자유를 생각해 이념법으로 충분
+en The hate speech elimination law | A law without penalties is not enough; ban and punish | Given free expression, a declaratory law is enough
+ja ヘイトスピーチ解消法 | 罰則のない理念法では不十分、禁止と処罰を | 表現の自由を考え理念法で十分
+
+== soc s 2017.6 jcp>ldp : jcp=-1 sdp=-1 cdp=-0.9 kibo=-0.6 kmt=-0.4 ishin=-0.4 ldp=0.3
+ko 성범죄 형법 개정 | 폭행·협박 요건을 없애 동의 없는 성교를 처벌해야 | 엄벌화한 이번 개정으로 우선 충분하다
+en Revising sex-crime law | Drop the violence-or-intimidation requirement and punish non-consensual sex | This revision, with tougher penalties, is enough for now
+ja 性犯罪の刑法改正 | 暴行・脅迫要件をなくし同意のない性交を処罰すべき | 厳罰化した今回の改正でひとまず十分
+
+== soc s 2016.7 jcp>ldp : jcp=-1 sdp=-1 cdp=-0.9 kibo=-0.6 kmt=-0.6 ishin=-0.3 ldp=0.3
+ko 사가미하라 사건과 장애인 | 우생 사상에 맞서 지역 생활 지원과 차별 금지를 강화해야 | 시설 방범과 조치 입원 제도 강화가 우선
+en The Sagamihara attack and disability | Confront eugenic thinking with community living support and anti-discrimination | Facility security and stronger involuntary-admission rules come first
+ja 相模原事件と障害者 | 優生思想に立ち向かい地域生活支援と差別禁止を強めるべき | 施設の防犯と措置入院制度の強化が先
+
+== soc s . jcp>ldp : jcp=-0.8 sdp=-0.9 cdp=-0.8 kibo=-0.3 kmt=-0.3 ishin=0 ldp=0.5
+ko 성소수자 차별 금지 | 성적 지향에 따른 차별을 법으로 금지해야 | 이해 증진이 먼저, 차별 금지법은 신중히
+en Banning discrimination against LGBT people | Outlaw discrimination based on sexual orientation | Promote understanding first; be careful with an anti-discrimination law
+ja 性的少数者への差別禁止 | 性的指向による差別を法律で禁止すべき | 理解増進が先、差別禁止法は慎重に
+
+== soc . . cdp>ishin : jcp=-0.6 sdp=-0.6 cdp=-0.7 kibo=0.4 kmt=-0.2 ishin=0.7 ldp=0.3
+ko 인터넷 투표 | 보안과 매수 위험이 있어 신중해야 | 젊은 층의 참여를 위해 인터넷 투표를 도입해야
+en Online voting | Be cautious given security and vote-buying risks | Introduce online voting to boost youth turnout
+ja ネット投票 | 安全性と買収の危険があり慎重に | 若者の参加のためネット投票を導入すべき
+
+== reg e 2017.6 kibo>ldp : jcp=-0.4 sdp=-0.4 cdp=-0.4 kibo=-0.8 kmt=0.3 ishin=0.2 ldp=0.5
+ko 쓰키지 시장 이전 | 안전성이 확인될 때까지 도요스 이전은 멈추고 쓰키지를 살려야 | 도요스 이전을 서둘러 혼란을 끝내야
+en Moving the Tsukiji market | Halt the Toyosu move until safety is confirmed and preserve Tsukiji | Hurry the move to Toyosu and end the confusion
+ja 築地市場の移転 | 安全性が確認されるまで豊洲移転を止め築地を生かすべき | 豊洲移転を急ぎ混乱を終わらせるべき
+
+== reg e 2016.12 jcp>ishin : jcp=-1 sdp=-1 cdp=-0.9 kibo=-0.2 kmt=-0.3 ishin=0.9 ldp=0.7
+ko 카지노를 포함한 IR | 도박 중독을 늘리는 카지노 해금에 반대 | 통합형 리조트로 관광과 지역 경제를 살려야
+en Casino resorts | Oppose legalising casinos, which will spread gambling addiction | Integrated resorts will boost tourism and local economies
+ja カジノを含むIR | ギャンブル依存を増やすカジノ解禁に反対 | 統合型リゾートで観光と地域経済を生かすべき
+
+== reg e 2017.4 jcp>ldp : jcp=-0.6 sdp=-0.5 cdp=-0.5 kibo=0 kmt=0.2 ishin=0.3 ldp=0.4
+ko 고향 납세 | 답례품 경쟁은 부자 감세이자 도시 세수를 빼앗는다 | 지방을 응원하는 제도, 과열만 손보면 된다
+en Hometown tax donations | The gift race is a tax break for the rich that drains urban revenue | It supports the regions; just curb the excesses
+ja ふるさと納税 | 返礼品競争は富裕層減税で都市の税収を奪う | 地方を応援する制度、過熱だけ正せばよい
+
+== reg e 2017.6 jcp>ishin : jcp=-0.9 sdp=-0.8 cdp=-0.4 kibo=0.4 kmt=0.1 ishin=0.8 ldp=0.5
+ko 민박 해금 | 주거 지역의 민박 확대는 생활 환경을 해친다 | 관광객 증가에 맞춰 민박을 넓혀야
+en Legalising home-sharing | Spreading short-term rentals harms residential areas | Expand home-sharing to meet rising tourist numbers
+ja 民泊解禁 | 住宅地での民泊拡大は生活環境を損なう | 観光客の増加に合わせ民泊を広げるべき
+
+== reg e 2016.8 jcp>ldp : jcp=-0.9 sdp=-0.8 cdp=-0.5 kibo=-0.2 kmt=0.4 ishin=0.4 ldp=0.8
+ko 리니어 신칸센 | 거액의 공적 자금과 환경 파괴를 부르는 리니어는 재검토해야 | 재정 투융자로 리니어 개통을 앞당겨야
+en The maglev Chūō Shinkansen | Review a project needing huge public funds and damaging the environment | Use fiscal loans to bring the maglev forward
+ja リニア中央新幹線 | 巨額の公的資金と環境破壊を招くリニアは見直すべき | 財政投融資でリニア開業を前倒しすべき

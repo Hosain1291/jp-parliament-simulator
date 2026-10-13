@@ -84,7 +84,7 @@ function layout(N) {
 }
 function hemiSvg(N) {
   const L = layout(N), K = 290, r = K * L.rad;
-  return '<svg viewBox="0 0 600 312" role="img" aria-label="' + esc(T.lgSmd) + '" data-rw="' + (r * 0.42).toFixed(2) + '"><g class="seatg">' +
+  return '<svg viewBox="0 0 600 312" role="img" aria-label="' + esc(T.lgSmd) + '" data-rw="' + (r * 0.2).toFixed(2) + '"><g class="seatg">' +
     L.seats.map(s => '<circle class="seat" cx="' + (300 + K * s.r * Math.cos(s.t)).toFixed(1) + '" cy="' + (302 - K * s.r * Math.sin(s.t)).toFixed(1) + '" r="' + r.toFixed(2) + '" fill="var(--line)"/>').join('') + '</g>' +
     '<line class="mj" x1="300" y1="' + (302 - K * 0.33) + '" x2="300" y2="6"/>' +
     '<text class="big" x="300" y="268" text-anchor="middle">' + N + '</text><text class="sm" x="300" y="296" text-anchor="middle">' + esc(T.seatUnit) + '</text></svg>';
@@ -108,7 +108,7 @@ function paint(el, R, label, big) {
   $$('.seat', el).forEach((c, i) => {
     const s = seq[i];
     if (!s) { c.setAttribute('fill', 'var(--line)'); c.setAttribute('stroke', 'none'); return; }
-    if (s.ring) { c.setAttribute('fill', ringFill(s.c)); c.setAttribute('stroke', s.c); c.setAttribute('stroke-width', rw * 2.2); }
+    if (s.ring) { c.setAttribute('fill', ringFill(s.c)); c.setAttribute('stroke', s.c); c.setAttribute('stroke-width', rw * 2.4); }
     else { c.setAttribute('fill', s.c); c.setAttribute('stroke', 'var(--seat-edge)'); c.setAttribute('stroke-width', rw); }
   });
   seatAnim(el, $$('.seat', el).map((c, i) => seq[i] ? seq[i].c + (seq[i].ring ? '|r' : '') : ''));
@@ -205,7 +205,6 @@ function viewQuiz() {
   const fq = S.seq.filter(j => a.Q[j].f === k), n = fq.indexOf(i), C2 = M.chunks(S.order)[k];
   const nxt = S.seq[S.qi + 1], endField = nxt == null || a.Q[nxt].f !== k, fi = S.order.indexOf(k);
   let cur = S.ans[i] == null ? null : S.ans[i], drag = false;
-  const done = S.order.slice(0, fi + 1), base = M.simAll(S.ans.map((v, j) => j === i ? undefined : v), done);
   app.innerHTML = '<section>' +
     '<div class="qhead"><span class="eyebrow">' + esc(T.asmName(a.n)) + ' · ' + T.fieldOf(fi + 1, S.order.length) + '</span><span class="eyebrow num">' + (S.qi + 1) + ' / ' + S.seq.length + '</span></div>' +
     '<div class="prog" aria-hidden="true">' + S.seq.map((j, x) => '<i class="' + (x === S.qi ? 'cur' : S.ans[j] === null ? 'skip' : S.ans[j] !== undefined ? 'done' : '') + '"' + (x && a.Q[S.seq[x - 1]].f !== a.Q[j].f ? ' style="margin-left:6px"' : '') + '></i>').join('') + '</div>' +
@@ -220,11 +219,8 @@ function viewQuiz() {
     '<div class="controls"><button type="button" class="ic" id="prev" aria-label="' + T.prevAria + '"' + (S.qi ? '' : ' disabled') + '>' + ICON.prev + '</button>' +
     '<button type="button" class="play" id="next">' + (endField ? ICON.end + esc(T.fieldRes(F.n)) : ICON.next + T.nextQ) + '</button>' +
     '<button type="button" class="ic" id="skip" aria-label="' + T.skipAria + '" title="' + T.skipTitle + '">?</button></div>' +
-    '<div class="kbd">' + T.kbd + '</div></div>' +
-    '<div class="box live"><div class="lvh"><b>' + T.liveH + '</b><small>' + T.liveHint + '</small></div><div class="hemi" id="lh">' + hemiSvg(a.N) + '</div><div class="lv" id="lv"></div></div></section>';
+    '<div class="kbd">' + T.kbd + '</div></div></section>';
   const tr = $('#track'), th = $('.thumb', tr), fill = $('.fill', tr), bub = $('.bubble', tr), lp = $('.pole.l', app), rp = $('.pole.r', app);
-  let lt = 0;
-  const live = () => { cancelAnimationFrame(lt); lt = requestAnimationFrame(() => { const ans = S.ans.slice(); ans[i] = cur; const R2 = M.simAll(ans, done); paint($('#lh'), R2, T.ofSeats(sum(R2.tot)), a.N); $('#lv').innerHTML = chgHtml(base, R2); }); };
   const draw = anim => {
     const v = cur === null ? 0 : cur, x = (v + 1) / 2 * 100, col = cur === null || Math.abs(v) < 0.08 ? 'var(--ink3)' : (v < 0 ? PA.c : PB.c);
     tr.classList.toggle('anim', !!anim); tr.classList.toggle('set', cur !== null); tr.style.setProperty('--fc', col);
@@ -233,7 +229,7 @@ function viewQuiz() {
     th.setAttribute('aria-valuenow', Math.round(v * 100)); th.setAttribute('aria-valuetext', T.read(cur)); $('#read').textContent = T.read(cur);
     lp.style.setProperty('--o', cur === null || v <= 0.08 ? 1 : Math.max(0.5, 1 - v * 0.55)); rp.style.setProperty('--o', cur === null || v >= -0.08 ? 1 : Math.max(0.5, 1 + v * 0.55));
     lp.classList.toggle('on', cur !== null && v <= -0.08); rp.classList.toggle('on', cur !== null && v >= 0.08);
-    $('#next').disabled = cur === null; live();
+    $('#next').disabled = cur === null;
   };
   const set = (v, anim) => { v = clamp(v, -1, 1); if (Math.abs(v) < 0.04) v = 0; cur = Math.round(v * 100) / 100; draw(anim); };
   const fromX = cx => { const b = tr.getBoundingClientRect(); return (cx - b.left) / b.width * 2 - 1; };

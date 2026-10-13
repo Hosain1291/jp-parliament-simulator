@@ -1,0 +1,154 @@
+# 제16회 중의원 총선 (1928.2.20) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: ronoto=노동농민당(-0.95) nichiro=일본노농당(-0.7) shamin=사회민중당(-0.5) kakushin=혁신당(-0.1) minsei=입헌민정당(0.2) jitsu=실업동지회(0.4) seiyu=입헌정우회(0.6) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== reg . 1927.6 minsei>seiyu : ronoto=0 nichiro=0 shamin=-0.2 kakushin=0.2 minsei=-0.8 jitsu=-0.4 seiyu=0.9
+ko 지조 위양 | 국가 재정이 먼저다, 지조를 지방에 넘기는 데 반대 | 지조(토지세)를 지방에 넘겨 농촌을 살린다
+en Transferring the land tax | National finances come first; oppose handing the land tax to localities | Give the land tax to localities to revive the countryside
+ja 地租委譲 | 国家財政が先、地租の地方移譲に反対 | 地租を地方に移して農村を立て直す
+
+== eco . . minsei>seiyu : ronoto=0.7 nichiro=0.6 shamin=0.4 kakushin=-0.2 minsei=-0.9 jitsu=-0.7 seiyu=0.9
+ko 긴축인가 적극 재정인가 | 긴축 재정으로 금 수출을 해금(금본위 복귀)해야 한다 | 적극 재정으로 산업을 키워야 한다
+en Austerity or active spending | Cut spending and lift the gold embargo (return to gold) | Spend actively to grow industry
+ja 緊縮か積極財政か | 緊縮財政で金解禁（金本位制復帰）を | 積極財政で産業を育てる
+
+== dip s 1927.5 shamin>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.8 kakushin=-0.3 minsei=-0.4 jitsu=0 seiyu=0.9
+ko 산둥 출병 | 중국 내정 간섭이다, 출병에 반대 | 거류민 보호를 위해 출병해야 한다
+en Troops to Shandong | Interference in China’s affairs; oppose the expedition | Send troops to protect Japanese residents
+ja 山東出兵 | 中国への内政干渉、出兵に反対 | 居留民保護のため出兵すべき
+
+== pol s 1928.2 minsei>seiyu : ronoto=-1 nichiro=-1 shamin=-1 kakushin=-1 minsei=-0.9 jitsu=-0.6 seiyu=0.7
+ko ‘의회 중심주의’ 논쟁 | 의회와 정당이 중심인 정치가 헌정의 상도 | 의회 중심주의는 국체에 어긋난다
+en “Parliament-centred” politics | Government led by parliament and parties is the proper constitutional path | Parliament-centred government goes against the kokutai
+ja 「議会中心主義」論争 | 議会と政党が中心の政治こそ憲政の常道 | 議会中心主義は国体に反する
+
+== soc s 1925.4 ronoto>seiyu : ronoto=-1 nichiro=-1 shamin=-0.8 kakushin=-0.5 minsei=0.3 jitsu=0.4 seiyu=0.9
+ko 치안유지법 | 사상을 처벌하는 법, 폐지해야 한다 | 국체를 지키기 위해 유지·강화해야 한다
+en Peace Preservation Law | A law that punishes thought; repeal it | Keep and strengthen it to protect the kokutai
+ja 治安維持法 | 思想を罰する法律、廃止すべき | 国体を守るため維持・強化すべき
+
+== wel e . shamin>jitsu : ronoto=-1 nichiro=-1 shamin=-1 kakushin=-0.5 minsei=-0.3 jitsu=0.9 seiyu=0.7
+ko 노동조합법 | 노동조합을 법으로 인정해야 한다 | 시기상조, 기업 경영을 해친다
+en Trade Union Law | Give unions legal recognition | Premature; it harms business
+ja 労働組合法 | 労働組合を法律で認めるべき | 時期尚早、企業経営を損なう
+
+== reg e . nichiro>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.8 kakushin=-0.4 minsei=-0.2 jitsu=0.3 seiyu=0.6
+ko 소작 쟁의와 소작법 | 소작인의 권리를 법으로 보호해야 한다 | 지주의 소유권을 존중해야 한다
+en Tenancy disputes | Protect tenant farmers by law | Respect landlords’ property rights
+ja 小作争議と小作法 | 小作人の権利を法で守るべき | 地主の所有権を尊重すべき
+
+== eco e 1927.4 ronoto>seiyu : ronoto=-0.8 nichiro=-0.7 shamin=-0.5 kakushin=-0.3 minsei=0.5 jitsu=-0.4 seiyu=0.9
+ko 금융공황 구제 | 부실 은행 책임부터, 특별 융자에 반대 | 일본은행 특별 융자로 신속히 구제
+en Financial panic relief | Hold failed banks responsible; no special loans | Rescue quickly with special Bank of Japan loans
+ja 金融恐慌の救済 | 破綻銀行の責任が先、特別融通に反対 | 日銀特別融通で速やかに救済
+
+== soc s . shamin>seiyu : ronoto=-1 nichiro=-1 shamin=-0.9 kakushin=-0.6 minsei=-0.2 jitsu=0 seiyu=0.6
+ko 여성 참정권 | 여성에게도 선거권을 줘야 한다 | 시기상조다
+en Women’s suffrage | Give women the vote too | Premature
+ja 婦人参政権 | 女性にも選挙権を | 時期尚早
+
+== dip s 1927.6 minsei>seiyu : ronoto=-0.9 nichiro=-0.8 shamin=-0.7 kakushin=-0.4 minsei=-0.8 jitsu=-0.2 seiyu=0.9
+ko 대중국 외교 | 시데하라식 협조외교, 중국 내정 불간섭 | 만몽 권익을 적극적으로 지켜야 한다
+en Policy toward China | Shidehara’s conciliatory diplomacy; no interference | Defend interests in Manchuria and Mongolia firmly
+ja 対中外交 | 幣原式の協調外交、中国への内政不干渉 | 満蒙権益を積極的に守るべき
+
+== con s . shamin>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.8 kakushin=-0.5 minsei=-0.4 jitsu=-0.5 seiyu=0.5
+ko 군비 축소 | 군사비를 줄여 민생으로 돌려야 한다 | 국방력을 유지해야 한다
+en Disarmament | Cut military spending for people’s livelihoods | Maintain national defence
+ja 軍縮 | 軍事費を削って民生へ | 国防力を維持すべき
+
+== pol . . jitsu>ronoto : ronoto=0.6 nichiro=0.4 shamin=0.3 kakushin=-0.4 minsei=-0.5 jitsu=-1 seiyu=0.3
+ko 행정 정리와 감세 | 관청을 줄이고 세금을 내려야 한다 | 행정 서비스와 고용을 지켜야 한다
+en Administrative cuts and lower taxes | Fewer offices, lower taxes | Protect public services and jobs
+ja 行政整理と減税 | 役所を減らし税を下げるべき | 行政サービスと雇用を守るべき
+
+== pol . 1928.2 minsei>seiyu : ronoto=-1 nichiro=-1 shamin=-1 kakushin=-0.9 minsei=-0.9 jitsu=-0.7 seiyu=0.8
+ko 선거 단속과 경찰 | 경찰·지사를 움직여 여당을 돕는 것은 선거 간섭, 중립 관리를 | 연설회 단속은 치안 유지를 위한 정당한 조치
+en Election policing | Using police and governors to help the ruling party is interference; run the election neutrally | Policing campaign rallies is a legitimate way to keep order
+ja 選挙取締りと警察 | 警察や知事を動かして与党を助けるのは選挙干渉、中立な管理を | 演説会の取締りは治安維持のための正当な措置
+
+== pol s 1927.4 minsei>seiyu : ronoto=-1 nichiro=-1 shamin=-0.9 kakushin=-0.7 minsei=-0.9 jitsu=-0.5 seiyu=0.7
+ko 추밀원의 내각 견제 | 긴급칙령을 거부해 내각을 무너뜨린 것은 월권, 권한을 줄여야 | 천황의 자문기관으로 헌법을 지키는 역할, 현행대로
+en Privy Council and the cabinet | Toppling a cabinet by rejecting its emergency decree overstepped its role; curb its powers | As the Emperor's advisory body it guards the constitution; keep it as it is
+ja 枢密院の内閣牽制 | 緊急勅令を否決して内閣を倒したのは越権、権限を縮小すべき | 天皇の諮問機関として憲法を守る役割、現行どおり
+
+== pol s . shamin>seiyu : ronoto=-1 nichiro=-1 shamin=-0.9 kakushin=-0.8 minsei=-0.4 jitsu=-0.3 seiyu=0.5
+ko 귀족원 개혁 | 세습·칙선 의원을 줄이고 민선 중심으로 바꿔야 | 귀족원은 중의원의 지나침을 막는 안정 장치
+en House of Peers reform | Cut hereditary and appointed seats and make it mainly elected | The Peers are a stabiliser that checks the excesses of the lower house
+ja 貴族院改革 | 世襲・勅選議員を減らし民選中心に | 貴族院は衆議院の行き過ぎを抑える安定装置
+
+== con s . minsei>seiyu : ronoto=-1 nichiro=-1 shamin=-0.9 kakushin=-0.9 minsei=-0.6 jitsu=-0.5 seiyu=0.6
+ko 군부대신 문관제 | 육해군 대신에 문관도 앉게 해 군을 내각 아래 두어야 | 군부대신은 무관이 맡아야 통수가 선다
+en Civilian service ministers | Let civilians serve as Army and Navy ministers to put the military under the cabinet | Service ministers must be officers for military command to work
+ja 軍部大臣文官制 | 陸海軍大臣に文官も就けるようにし軍を内閣の下に | 軍部大臣は武官でなければ統帥が立たない
+
+== con s 1925.4 ronoto>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.6 kakushin=-0.3 minsei=0.3 jitsu=0.2 seiyu=0.8
+ko 학교 군사교련 | 학교에 현역 장교를 보내는 군사교련은 교육의 군국화, 폐지해야 | 국민의 체력과 국방 의식을 키우는 데 필요하다
+en Military drill in schools | Posting officers to schools militarises education; abolish drill | It builds the nation's fitness and readiness for defence
+ja 学校教練 | 学校への現役将校配属と教練は教育の軍国化、廃止を | 国民の体力と国防意識を養うのに必要
+
+== con s . ronoto>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.8 kakushin=-0.5 minsei=0.2 jitsu=-0.2 seiyu=0.7
+ko 병역 기간 단축 | 현역 복무를 줄여 청년과 농가의 부담을 덜어야 | 정예 군대를 위해 현행 복무 기간을 지켜야
+en Shorter military service | Cut active service to ease the burden on young men and farm families | Keep the current term for a well-trained army
+ja 兵役期間短縮 | 現役期間を短縮し青年と農家の負担を軽く | 精鋭な軍のため現行の在営期間を維持
+
+== dip s 1925.1 ronoto>seiyu : ronoto=-1 nichiro=-0.8 shamin=-0.4 kakushin=-0.3 minsei=-0.3 jitsu=-0.2 seiyu=0.3
+ko 소련과의 관계 | 일소 국교를 살려 무역·어업 협력을 넓혀야 | 공산주의 침투를 막으려면 교류는 최소로
+en Relations with the USSR | Build on Japan–Soviet ties to expand trade and fisheries cooperation | Keep contact minimal to stop communist infiltration
+ja 対ソ関係 | 日ソ国交を生かし貿易・漁業協力を広げる | 共産主義の浸透を防ぐため交流は最小限に
+
+== dip . 1924.5 minsei>seiyu : ronoto=-0.2 nichiro=-0.3 shamin=-0.5 kakushin=0.3 minsei=-0.8 jitsu=-0.5 seiyu=0.5
+ko 미국 배일이민법 대응 | 감정적 대응보다 대미 협조를 지키며 외교로 풀어야 | 국가의 체면이 걸린 문제, 강경하게 항의해야
+en Response to the US exclusion act | Stay cooperative with America and settle it through diplomacy | National honour is at stake; protest firmly
+ja 米国排日移民法への対応 | 感情的にならず対米協調を守り外交で解決 | 国家の体面にかかわる問題、強く抗議すべき
+
+== dip s . shamin>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.7 kakushin=-0.4 minsei=-0.1 jitsu=0.2 seiyu=0.7
+ko 조선·대만 통치 | 식민지 주민에게 자치와 참정권을 넓혀야 | 총독 통치와 동화 정책을 유지해야
+en Rule over Korea and Taiwan | Extend self-government and political rights to colonial subjects | Keep governor-general rule and assimilation
+ja 朝鮮・台湾統治 | 植民地住民に自治と参政権を広げる | 総督統治と同化政策を維持
+
+== eco e 1926.3 shamin>seiyu : ronoto=-0.9 nichiro=-0.8 shamin=-0.8 kakushin=-0.3 minsei=0.3 jitsu=-0.3 seiyu=0.6
+ko 보호 관세 | 관세를 내려 생활 물가를 낮춰야 | 관세로 국내 산업을 지켜야
+en Protective tariffs | Lower tariffs to bring down the cost of living | Use tariffs to protect domestic industry
+ja 保護関税 | 関税を下げて生活物価を下げる | 関税で国内産業を守る
+
+== eco e 1927.3 ronoto>minsei : ronoto=-1 nichiro=-0.8 shamin=-0.6 kakushin=-0.2 minsei=0.7 jitsu=0.8 seiyu=0.6
+ko 은행 정리 | 은행을 국가가 관리해 금융을 공공의 것으로 | 소은행을 합동시켜 안정시키되 경영은 민간에
+en Banking reform | Bring banks under public control | Consolidate small banks for stability but leave finance private
+ja 銀行整理 | 銀行を国家管理にし金融を公共のものに | 小銀行を合同させて安定させ、経営は民間に
+
+== wel e . shamin>jitsu : ronoto=-1 nichiro=-0.9 shamin=-0.9 kakushin=-0.4 minsei=0.2 jitsu=0.9 seiyu=0.4
+ko 세금 부담의 공평 | 누진 소득세를 강화하고 생필품 간접세를 줄여야 | 기업 활동을 해치는 증세는 피하고 세 부담은 넓게
+en Fair taxation | Make income tax more progressive and cut indirect taxes on necessities | Avoid tax rises that hurt business; spread the burden widely
+ja 税負担の公平 | 累進所得税を強め生活必需品の間接税を減らす | 企業活動を損なう増税は避け、負担は広く薄く
+
+== wel e 1927.1 shamin>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.9 kakushin=-0.4 minsei=0 jitsu=0.8 seiyu=0.5
+ko 건강보험 | 영세 사업장·농민까지 넓히고 사용자 부담을 늘려야 | 기업 부담을 생각해 대공장 노동자 중심으로 천천히
+en Health insurance | Extend it to small workplaces and farmers and raise employer contributions | Go slowly, centred on large factories, mindful of business costs
+ja 健康保険 | 零細事業所・農民にも広げ使用者負担を増やす | 企業負担を考え大工場労働者中心にゆっくりと
+
+== wel e . nichiro>jitsu : ronoto=-1 nichiro=-1 shamin=-0.9 kakushin=-0.5 minsei=0.3 jitsu=0.9 seiyu=0.6
+ko 8시간 노동제 | 법으로 1일 8시간 노동과 최저임금을 정해야 | 노동 시간은 노사 자율에 맡겨야
+en Eight-hour day | Legislate an eight-hour day and a minimum wage | Leave working hours to employers and workers
+ja 8時間労働制 | 法律で1日8時間労働と最低賃金を定める | 労働時間は労使の自主に任せる
+
+== soc s . ronoto>seiyu : ronoto=-1 nichiro=-1 shamin=-0.8 kakushin=-0.6 minsei=-0.1 jitsu=-0.2 seiyu=0.7
+ko 신문·출판 검열 | 발매 금지 처분을 없애 언론 자유를 보장해야 | 풍속과 질서를 해치는 출판물은 단속해야
+en Press censorship | Scrap sales bans and guarantee a free press | Publications that harm morals and order must be controlled
+ja 新聞・出版検閲 | 発売禁止処分をなくし言論の自由を保障 | 風俗と秩序を乱す出版物は取り締まるべき
+
+== soc s 1926.1 ronoto>seiyu : ronoto=-1 nichiro=-0.9 shamin=-0.7 kakushin=-0.5 minsei=0.2 jitsu=0.2 seiyu=0.8
+ko 학생 사상 단속 | 대학의 사회과학 연구는 학문의 자유, 단속해선 안 된다 | 학생의 좌경화는 나라의 근본을 흔든다, 단속해야
+en Policing student ideas | Social-science study at universities is academic freedom; leave it alone | Leftist students threaten the nation's foundations; crack down
+ja 学生の思想取締り | 大学の社会科学研究は学問の自由、取り締まるべきでない | 学生の左傾は国家の根本を揺るがす、取締りを
+
+== reg e . minsei>seiyu : ronoto=0 nichiro=0 shamin=-0.2 kakushin=0 minsei=-0.8 jitsu=-0.8 seiyu=0.9
+ko 지방 철도 건설 | 재정이 어려울 때 선심성 지방 철도는 줄여야 | 지방에 철도를 놓아 산업을 일으켜야
+en Local railway building | Cut back pork-barrel rural lines while finances are tight | Build railways in the regions to grow industry
+ja 地方鉄道建設 | 財政難の時に利益誘導の地方鉄道は減らすべき | 地方に鉄道を敷いて産業を興す
+
+== reg e . shamin>seiyu : ronoto=-0.3 nichiro=-0.4 shamin=-0.7 kakushin=0.3 minsei=-0.4 jitsu=-0.6 seiyu=0.8
+ko 쌀값 정책 | 도시 노동자 생활을 위해 쌀값을 낮게 안정시켜야 | 농가 소득을 위해 정부 매입으로 쌀값을 받쳐야
+en Rice prices | Keep rice cheap and stable for urban workers | Support farm incomes with government purchases
+ja 米価政策 | 都市労働者の生活のため米価を低く安定させる | 農家所得のため政府買上げで米価を支える

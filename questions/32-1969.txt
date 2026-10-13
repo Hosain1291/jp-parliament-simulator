@@ -1,0 +1,154 @@
+# 제32회 중의원 총선 (1969.12.27) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.65) kmt=공명당(0) dsp=민사당(-0.05) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== con s 1969.11 jsp>ldp : jcp=-1 jsp=-1 dsp=0.3 kmt=-0.2 ldp=1
+ko 오키나와 반환 합의 | 기지가 남는다, 합의는 불충분 | ‘핵 없이 본토 수준’으로 1972년 반환
+en The Okinawa reversion deal | The bases stay; the deal falls short | Return in 1972, nuclear-free and on mainland terms
+ja 沖縄返還合意 | 基地が残る、合意は不十分 | 「核抜き本土並み」で1972年に返還
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.2 kmt=-0.5 ldp=1
+ko 안보조약 1970년 연장 | 폐기를 통고해야 | 자동 연장
+en Renewing the security treaty in 1970 | Give notice to end it | Let it renew automatically
+ja 安保条約の1970年延長 | 廃棄を通告すべき | 自動延長
+
+== soc s 1969.8 jsp>ldp : jcp=-1 jsp=-1 dsp=0 kmt=-0.3 ldp=0.9
+ko 대학운영임시조치법 | 대학 자치를 침해한다 | 대학 분쟁 수습에 필요
+en University Management Emergency Law | It violates university autonomy | Needed to end campus turmoil
+ja 大学運営臨時措置法 | 大学の自治を侵す | 大学紛争の収拾に必要
+
+== reg e . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.7 kmt=-0.9 ldp=0.5
+ko 공해 | 기업 책임을 엄격히 | 산업과의 조화
+en Pollution | Strict corporate liability | Harmony with industry
+ja 公害 | 企業責任を厳しく | 産業との調和
+
+== eco e . kmt>ldp : jcp=-1 jsp=-0.9 dsp=-0.7 kmt=-0.8 ldp=0.6
+ko 물가 | 물가 억제가 최우선 | 성장 유지
+en Prices | Curbing prices comes first | Keep growth
+ja 物価 | 物価抑制が最優先 | 成長を維持
+
+== dip s . kmt>ldp : jcp=-0.9 jsp=-1 dsp=-0.4 kmt=-0.9 ldp=0.6
+ko 중국 국교 | 국교 정상화를 | 신중하게
+en Ties with China | Normalise relations | Go carefully
+ja 中国との国交 | 国交正常化を | 慎重に
+
+== wel e . kmt>ldp : jcp=-1 jsp=-1 dsp=-0.7 kmt=-1 ldp=0.2
+ko 노인 의료 무료화 | 노인 의료를 무료로 | 재정을 봐야 한다
+en Free medical care for the elderly | Make it free | Mind the budget
+ja 老人医療の無料化 | 老人医療を無料に | 財政を見るべき
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=0.2 kmt=-0.4 ldp=0.9
+ko 자위대 | 위헌, 축소해야 | 증강해야
+en The SDF | Unconstitutional; cut it | Strengthen it
+ja 自衛隊 | 違憲、縮小すべき | 増強すべき
+
+== pol . . kmt>ldp : jcp=-1 jsp=-0.8 dsp=-0.6 kmt=-0.9 ldp=0.7
+ko 정치자금 규정 | 기업 헌금을 엄격히 규제 | 지금 수준으로
+en Political funds | Strictly regulate corporate donations | Keep current rules
+ja 政治資金規正 | 企業献金を厳しく規制 | 現状の水準で
+
+== pol . 1969.12 jcp>kmt : jcp=-1 jsp=-0.7 dsp=-0.6 kmt=1 ldp=-0.1
+ko 언론출판 방해 사건 | 공명당의 비판서 출판 방해를 추궁해야 | 오해다, 이미 사과했다
+en Obstruction of publishing | Hold Kōmeitō to account for blocking a critical book | A misunderstanding; we have apologised
+ja 言論出版妨害事件 | 公明党の批判本出版妨害を追及すべき | 誤解であり、すでに謝罪した
+
+== pol . 1967.4 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.3 dsp=0 ldp=0.8
+ko 혁신 자치체 | 미노베 도정 같은 혁신 자치체로 복지와 공해 대책을 앞서가야 | 혁신 자치체의 무리한 복지는 재정을 망친다
+en Progressive local governments | Progressive administrations like Minobe's Tokyo should lead on welfare and pollution | Their overreaching welfare will wreck local finances
+ja 革新自治体 | 美濃部都政のような革新自治体で福祉と公害対策を先導すべき | 革新自治体の無理な福祉は財政を破綻させる
+
+== pol . . kmt>ldp : jcp=-1 jsp=-0.9 kmt=-1 dsp=-0.8 ldp=0.4
+ko 1표의 격차 | 도시와 농촌의 1표 격차를 정수 재배분으로 바로잡아야 | 지역 대표성을 생각하면 급한 조정은 무리
+en Unequal vote weight | Reapportion seats to fix the urban–rural vote gap | Given regional representation, rapid change is unrealistic
+ja 一票の格差 | 都市と農村の一票の格差を定数是正で正すべき | 地域代表性を考えると急な調整は無理
+
+== con s 1967.12 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.9 dsp=-0.5 ldp=0.4
+ko 비핵 3원칙 | 핵을 갖지도, 만들지도, 들여오지도 않는 원칙을 법으로 | 정책 원칙으로 충분하다, 법제화는 동맹을 묶는다
+en The three non-nuclear principles | Put not possessing, producing or introducing nuclear weapons into law | A policy principle is enough; legislation would tie the alliance's hands
+ja 非核三原則 | 核を持たず、作らず、持ち込ませずを法律で定めるべき | 政策原則で十分、法制化は同盟を縛る
+
+== con s 1968.6 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.4 ldp=0.7
+ko 규슈대 팬텀기 추락 | 도시 한가운데의 미군 기지는 철거해야 | 기지는 유지하고 안전 대책을 강화해야
+en The Phantom crash at Kyushu University | US bases in the middle of cities must be removed | Keep the bases and tighten safety
+ja 九大ファントム墜落 | 市街地の真ん中の米軍基地は撤去すべき | 基地は維持し安全対策を強化すべき
+
+== dip s 1968.5 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.3 ldp=0.6
+ko 베트남 평화 협상 | 북폭 전면 중지와 미군 철수를 미국에 요구해야 | 미국의 평화 노력을 지지하고 동맹으로서 협조해야
+en Vietnam peace talks | Demand that the US end all bombing and withdraw | Support US peace efforts and cooperate as an ally
+ja ベトナム和平交渉 | 北爆の全面停止と米軍撤退を米国に求めるべき | 米国の和平努力を支持し同盟国として協力すべき
+
+== dip e 1969.11 jsp>ldp : jcp=-0.8 jsp=-0.6 kmt=-0.5 dsp=-0.7 ldp=0.4
+ko 미일 섬유 교섭 | 미국의 섬유 수출 규제 요구에 굴복해선 안 된다 | 오키나와 반환을 위해 섬유 문제에서 양보도 필요
+en US–Japan textile talks | Do not give in to US demands to curb textile exports | Some concessions on textiles are needed to secure Okinawa's return
+ja 日米繊維交渉 | 米国の繊維輸出規制要求に屈するべきでない | 沖縄返還のため繊維問題で譲歩も必要
+
+== dip e . jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.4 dsp=0.2 ldp=0.8
+ko 한국과의 경제 협력 | 군사 정권을 돕는 대한 차관에 반대 | 한국 경제 발전을 도와 지역을 안정시켜야
+en Economic cooperation with South Korea | Oppose loans that prop up the military government | Help Korea develop to stabilise the region
+ja 韓国との経済協力 | 軍事政権を支える対韓借款に反対 | 韓国の経済発展を助け地域を安定させるべき
+
+== dip s 1968.7 jsp>ldp : jcp=0.2 jsp=-0.8 kmt=-0.7 dsp=-0.5 ldp=0.4
+ko 핵확산금지조약 | 조약에 서명해 비핵 국가의 길을 분명히 해야 | 핵보유국에 유리한 불평등 조약, 서명은 신중히
+en The Non-Proliferation Treaty | Sign it and commit clearly to being a non-nuclear state | It is an unequal treaty favouring nuclear powers; sign only with care
+ja 核拡散防止条約 | 条約に署名し非核国家の道を明確にすべき | 核保有国に有利な不平等条約、署名は慎重に
+
+== eco e 1969.10 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.7 dsp=-0.3 ldp=0.8
+ko 야하타·후지 제철 합병 | 거대 합병은 독점 가격을 부른다, 막아야 | 국제 경쟁력을 위해 대형 합병은 필요하다
+en The Yawata–Fuji steel merger | A giant merger brings monopoly pricing; block it | Large mergers are needed for international competitiveness
+ja 八幡・富士製鉄合併 | 巨大合併は独占価格を招く、阻止すべき | 国際競争力のため大型合併は必要
+
+== eco e 1969.5 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.8 dsp=-0.5 ldp=0.7
+ko 국철 운임 인상 | 국철 적자를 승객 부담으로 메우는 운임 인상에 반대 | 국철 재건을 위해 운임 인상은 불가피하다
+en JNR fare rises | Oppose covering JNR's deficit with fare rises | Fare rises are unavoidable to rebuild JNR
+ja 国鉄運賃値上げ | 国鉄の赤字を乗客負担で埋める値上げに反対 | 国鉄再建のため運賃値上げはやむを得ない
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.8 kmt=-0.6 dsp=-0.2 ldp=0.8
+ko 고도성장의 그늘 | 성장보다 분배와 생활의 질을 우선해야 | GNP 세계 2위의 성장을 이어 가야 한다
+en The shadow of high growth | Put distribution and quality of life ahead of growth | Keep up the growth that made Japan the world's number-two economy
+ja 高度成長の影 | 成長より分配と生活の質を優先すべき | GNP世界第2位の成長を続けるべき
+
+== wel e 1969.8 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.9 dsp=-0.7 ldp=0.8
+ko 건강보험 특례법 | 환자 부담을 늘리는 특례법 연장에 반대 | 건강보험 재정을 지키려면 연장이 필요하다
+en Health insurance special measures | Oppose extending a law that raises patient charges | The extension is needed to keep health insurance solvent
+ja 健保特例法 | 患者負担を増やす特例法の延長に反対 | 健保財政を守るため延長が必要
+
+== wel e 1969.11 kmt>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.7 ldp=0.3
+ko 2만 엔 연금 | 연금을 더 올리고 물가에 연동해야 | 2만 엔 연금으로 충분하다, 재정을 지켜야
+en The ¥20,000 pension | Raise pensions further and index them to prices | ¥20,000 is enough; protect the finances
+ja 2万円年金 | 年金をさらに上げ物価にスライドさせるべき | 2万円年金で十分、財政を守るべき
+
+== wel e . kmt>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.8 ldp=0.4
+ko 아동수당 제도 | 모든 아이에게 국가가 아동수당을 지급해야 | 소득 제한을 두고 셋째 아이부터 단계적으로
+en Child allowance | The state should pay an allowance for every child | Phase it in from the third child, with an income limit
+ja 児童手当制度 | すべての子どもに国が児童手当を支給すべき | 所得制限を設け第3子から段階的に
+
+== soc s 1969.6 jsp>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.5 ldp=0.8
+ko 야스쿠니 신사 법안 | 야스쿠니 신사의 국가 관리는 정교분리 위반 | 전몰자를 기리는 신사는 국가가 지켜야
+en Yasukuni Shrine bill | State management of Yasukuni violates separation of religion and state | The state should maintain the shrine honouring the war dead
+ja 靖国神社法案 | 靖国神社の国家管理は政教分離違反 | 戦没者をまつる神社は国が守るべき
+
+== soc s 1968.3 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.6 dsp=-0.2 ldp=0.8
+ko 외국인 학교 법안 | 조선학교 등 민족 교육을 규제하는 법안에 반대 | 외국인 학교도 국가가 감독해야
+en Foreign schools bill | Oppose a bill to regulate ethnic education such as Korean schools | Foreign schools also need state oversight
+ja 外国人学校法案 | 朝鮮学校など民族教育を規制する法案に反対 | 外国人学校も国が監督すべき
+
+== soc e 1968.5 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.9 dsp=-0.5 ldp=0.5
+ko 소비자 보호 | 결함 상품과 담합에 대해 기업 책임과 소비자 권리를 강화해야 | 기업 자율과 소비자 교육으로 충분하다
+en Consumer protection | Strengthen corporate liability and consumer rights against defects and price-fixing | Business self-regulation and consumer education are enough
+ja 消費者保護 | 欠陥商品と談合に対し企業責任と消費者の権利を強化すべき | 企業の自主規制と消費者教育で十分
+
+== reg e 1969.5 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.6 dsp=-0.2 ldp=0.9
+ko 신전국종합개발계획 | 거대 개발이 공해와 땅 투기를 부른다 | 고속 교통망과 대규모 개발로 국토를 균형 있게
+en New Comprehensive National Development Plan | Mega-projects breed pollution and land speculation | Balance the country with fast transport and large-scale development
+ja 新全国総合開発計画 | 巨大開発は公害と土地投機を招く | 高速交通網と大規模開発で国土を均衡ある発展に
+
+== reg e 1967.8 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.9 dsp=-0.6 ldp=0.6
+ko 공해대책기본법의 '조화' 조항 | 생활 환경을 경제와 '조화'시킨다는 조항은 삭제해야 | 경제 발전과의 조화는 현실적으로 필요하다
+en The "harmony" clause in the pollution law | Delete the clause balancing the living environment against the economy | Harmony with economic development is realistically necessary
+ja 公害対策基本法の「調和条項」 | 生活環境を経済と「調和」させる条項は削除すべき | 経済発展との調和は現実的に必要
+
+== reg e 1968.6 jsp>ldp : jcp=-1 jsp=-0.8 kmt=-0.6 dsp=-0.3 ldp=0.6
+ko 도시계획법과 선긋기 | 땅 투기를 막으려면 개발 규제를 강하게 해야 | 시가화 구역을 정해 효율적으로 개발해야
+en City Planning Act zoning | Regulate development tightly to stop land speculation | Designate urbanisation zones and develop efficiently
+ja 都市計画法と線引き | 土地投機を防ぐため開発規制を強くすべき | 市街化区域を定め効率的に開発すべき

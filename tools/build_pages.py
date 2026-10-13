@@ -4,8 +4,7 @@ import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DATA = ['data-elections-early', 'data-elections', 'data-questions', 'data-questions-early',
-        'data-prefs', 'data-map']
+DATA = ['data-elections-early', 'data-elections', 'data-questions', 'data-prefs', 'data-map']
 
 L = {
   'ko': dict(file='index.html', title='중의원 시뮬레이터',
@@ -18,13 +17,13 @@ L = {
     desc="Re-run 36 Japanese general elections (1928–2026) with your own positions: hemicycle seats, the Prime Minister nomination vote and a prefecture map.",
     brand='House of Representatives Simulator', themeAria='Theme', langAria='Language',
     skins=['Auto', 'Light', 'Dark', 'Pink', 'Old paper', 'Windows 95'], home='Pick another election',
-    i18n=['i18n-en', 'i18n-en-data-1', 'i18n-en-data-2'],
+    i18n=['i18n-en', 'i18n-en-data-1', 'i18n-en-data-2', 'i18n-en-q'],
     foot='Questions and party positions simplify the main issues of each election and may differ from actual party lines and votes. 1928–1993 used multi-member districts (1946: limited-vote large districts) with no proportional tier; from 1996 the PR tier is computed nationally instead of in 11 blocks. Independents are counted as one group. Before the war and in 1946 the Emperor appointed the Prime Minister, so the nomination vote shown is hypothetical. Party colours follow Wikipedia; a few unverified ones (prewar and occupation-era parties) are approximations. The prefecture map uses <a href="https://github.com/Hosain1291/jp-parliament-simulator/blob/main/jp.json" target="_blank" rel="noopener">jp.json</a> (simplemaps).'),
   'ja': dict(file='ja.html', title='衆議院シミュレーター',
     desc='1928–2026年の衆議院総選挙36回を自分の立場でやり直すシミュレーター。半円の議席図、内閣総理大臣指名選挙、都道府県地図。',
     brand='衆議院シミュレーター', themeAria='テーマ', langAria='言語',
     skins=['自動', 'ライト', 'ダーク', 'ピンク', '古紙', 'Windows 95'], home='総選挙を選び直す',
-    i18n=['i18n-ja', 'i18n-ja-data-1', 'i18n-ja-data-2'],
+    i18n=['i18n-ja', 'i18n-ja-data-1', 'i18n-ja-data-2', 'i18n-ja-q'],
     foot='質問と政党の立場は各総選挙の主な争点を単純化したもので、実際の党議・採決とは異なる場合があります。1928–1993年は中選挙区制(1946年は大選挙区制限連記制)で比例代表はなく、1996年以降の比例代表は11ブロックではなく全国単位で計算しています。無所属は一つにまとめて計算します。戦前と1946年の首相は議会ではなく天皇が任命したため、指名選挙は仮想です。政党色はウィキペディアの政党色に従い、確認できなかった一部(戦前・占領期の政党など)は近似値です。都道府県地図は<a href="https://github.com/Hosain1291/jp-parliament-simulator/blob/main/jp.json" target="_blank" rel="noopener">jp.json</a>(simplemaps)を使用しています。'),
 }
 

@@ -1,0 +1,144 @@
+# 제19회 중의원 총선 (1936.2.20) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: shataishu=사회대중당(-0.5) minsei=입헌민정당(0.15) etc=기타 정파(0) ind=무소속(0) seiyu=입헌정우회(0.55) showa=쇼와회(0.5) domei=국민동맹(0.75)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== soc s 1935.2 minsei>seiyu : shataishu=-0.3 minsei=-0.5 showa=0.3 seiyu=0.9 domei=0.8 etc=0 ind=0
+ko 천황기관설 배격 | 학문의 자유, 기관설 배격에 반대 | 국체명징, 기관설을 배격해야
+en The Emperor-organ theory | Academic freedom; oppose purging the theory | Clarify the kokutai and reject the theory
+ja 天皇機関説排撃 | 学問の自由、機関説排撃に反対 | 国体明徴、機関説を排撃すべき
+
+== pol . . minsei>seiyu : shataishu=0.2 minsei=-0.9 showa=-0.9 seiyu=0.9 domei=0.3
+ko 오카다 내각 | 오카다 내각을 지지한다 | 내각을 무너뜨려야 한다
+en The Okada cabinet | Support it | Bring it down
+ja 岡田内閣 | 岡田内閣を支持する | 内閣を倒すべき
+
+== con s . minsei>domei : shataishu=0 minsei=-0.4 showa=0.3 seiyu=0.4 domei=0.8
+ko 군사비 증액 | 군사비를 억제하고 민생을 돌봐야 | 국방을 충실히 해야 한다
+en Military spending | Restrain it and look after livelihoods | Strengthen national defence
+ja 軍事費の増額 | 軍事費を抑え民生を顧みるべき | 国防を充実させるべき
+
+== reg e 1934.10 shataishu>minsei : shataishu=-1 minsei=0.3 showa=-0.6 seiyu=-0.3 domei=-0.4
+ko 도호쿠 흉작과 농촌 | 농가 부채 정리와 구제를 대폭 | 재정 범위에서
+en Tōhoku famine and the countryside | Large-scale debt relief for farmers | Within the budget
+ja 東北の凶作と農村 | 農家負債整理と救済を大規模に | 財政の範囲で
+
+== eco . . minsei>domei : shataishu=0.3 minsei=-0.7 showa=-0.2 seiyu=0.2 domei=0.8
+ko 다카하시 재정 | 공채를 줄이고 인플레를 막아야 | 적극 재정으로 군비를 확충해야
+en Takahashi’s finances | Cut bond issues and prevent inflation | Spend actively to expand the military
+ja 高橋財政 | 公債を減らしインフレを防ぐべき | 積極財政で軍備を拡充すべき
+
+== pol s . minsei>domei : shataishu=0.1 minsei=-0.9 showa=0.3 seiyu=-0.4 domei=0.8 etc=0.3
+ko 의회 정치의 장래 | 의회와 정당 정치를 지켜야 한다 | 정당 정치는 한계, 국가를 개조해야
+en The future of parliamentary politics | Defend parliament and party politics | Party politics has failed; reconstruct the state
+ja 議会政治の行方 | 議会と政党政治を守るべき | 政党政治は限界、国家改造を
+
+== dip s 1934.12 minsei>domei : shataishu=0 minsei=-0.3 showa=0.5 seiyu=0.6 domei=0.9
+ko 군축 조약 탈퇴 | 군축 체제를 유지해야 | 탈퇴하고 자주 국방으로
+en Leaving the naval treaties | Keep the arms-limitation system | Leave it and defend ourselves
+ja 軍縮条約脱退 | 軍縮体制を維持すべき | 脱退して自主国防へ
+
+== wel e . shataishu>seiyu : shataishu=-1 minsei=-0.3 showa=0 seiyu=0.4 domei=0.2
+ko 노동자 보호 | 퇴직적립금 등 노동 보호 입법 | 기업 부담이 크다
+en Protecting workers | Labour laws such as retirement reserves | Too heavy a burden on business
+ja 労働者保護 | 退職積立金など労働保護立法を | 企業負担が大きい
+
+== eco e . shataishu>minsei : shataishu=-0.9 minsei=0.6 showa=-0.3 seiyu=0.5 domei=-0.5
+ko 전력 국가관리 | 전력을 국가가 관리해야 | 민간 경영을 유지해야
+en State control of electricity | The state should run electric power | Keep private management
+ja 電力国家管理 | 電力を国家が管理すべき | 民間経営を維持すべき
+
+== dip s 1935.11 minsei>domei : shataishu=-0.2 minsei=-0.5 showa=0.3 seiyu=0.4 domei=0.8
+ko 화북 분리 공작 | 중국과 국교를 조정하고 분리 공작에 반대 | 화북 자치를 지지해야
+en Separating North China | Mend ties with China and oppose the separation scheme | Support North China autonomy
+ja 華北分離工作 | 中国と国交を調整し分離工作に反対 | 華北自治を支持すべき
+
+== pol s 1933.7 minsei>domei : shataishu=-0.4 minsei=-0.7 seiyu=-0.6 showa=0 domei=0.7
+ko 5·15 사건 처리 | 총리를 살해한 테러는 동기와 상관없이 엄벌해야 | 우국의 동기를 참작해 관대하게 처리해야
+en Punishing the May 15 Incident | Terrorists who killed the prime minister must be punished regardless of motive | Show leniency in view of their patriotic motives
+ja 五・一五事件の処分 | 首相を殺害したテロは動機に関係なく厳罰に | 憂国の動機を酌んで寛大な処分を
+
+== pol . 1935.6 seiyu>minsei : shataishu=0.6 minsei=0.6 seiyu=-0.6 showa=0.7 domei=0.3
+ko 선거 숙정 운동 | 관이 이끄는 선거 숙정은 정당을 누르는 수단 | 매수를 뿌리 뽑으려면 선거 숙정을 밀어붙여야
+en The election purification campaign | A government-led "purification" drive is a tool to suppress parties | Push the campaign hard to root out vote buying
+ja 選挙粛正運動 | 官主導の選挙粛正は政党を抑える手段 | 買収を根絶するため選挙粛正を推進すべき
+
+== pol . 1935.5 seiyu>showa : shataishu=0.2 minsei=0 seiyu=-0.8 showa=0.6 domei=0.5
+ko 내각심의회·조사국 | 국책은 선거로 뽑힌 의회와 정당이 정해야 | 관료와 전문가 기관이 국책을 짜야 효율적이다
+en Cabinet Deliberative Council | National policy should be set by the elected Diet and parties | Bureaucrats and expert bodies plan policy more effectively
+ja 内閣審議会・調査局 | 国策は選挙で選ばれた議会と政党が決めるべき | 官僚と専門機関が国策を立てる方が効率的
+
+== con s 1934.10 minsei>domei : shataishu=0.2 minsei=-0.8 seiyu=-0.6 showa=0.2 domei=0.6
+ko 육군 팸플릿 | 군이 정치·경제 체제를 논하는 것은 월권 | 국방 국가 건설을 위한 정당한 제언
+en The Army pamphlet | The Army has no business prescribing political and economic systems | A legitimate proposal for building a defence state
+ja 陸軍パンフレット | 軍が政治・経済体制を論じるのは越権 | 国防国家建設のための正当な提言
+
+== con s 1935.8 minsei>domei : shataishu=-0.3 minsei=-0.9 seiyu=-0.5 showa=-0.4 domei=0.5
+ko 군기 숙정 | 상관 살해 같은 하극상은 엄벌하고 군을 바로잡아야 | 청년 장교들의 우국 주장에도 귀를 기울여야
+en Restoring army discipline | Punish insubordination such as murdering superiors and clean up the army | Listen to the young officers' patriotic grievances too
+ja 軍紀粛正 | 上官殺害のような下剋上は厳罰にし軍を正す | 青年将校の憂国の主張にも耳を傾けるべき
+
+== con s 1936.1 minsei>domei : shataishu=-0.5 minsei=-0.6 seiyu=0.2 showa=0.4 domei=0.8
+ko 무조약 시대 건함 | 건함 경쟁을 피하도록 새 군축 협정을 찾아야 | 조약이 없어진 이상 해군력을 키워야
+en Shipbuilding without treaties | Seek a new arms agreement to avoid a naval race | With no treaty, build up the navy
+ja 無条約時代の建艦 | 建艦競争を避けるため新たな軍縮協定を | 条約がなくなった以上、海軍力を増強すべき
+
+== dip s 1933.3 minsei>domei : shataishu=0 minsei=-0.5 seiyu=0.3 showa=0.4 domei=0.9
+ko 국제연맹 탈퇴 | 탈퇴는 고립을 부른다, 국제 협조 복귀를 모색해야 | 연맹 탈퇴는 당연했다, 자주 외교를
+en Leaving the League of Nations | Withdrawal isolates Japan; look for a way back to cooperation | Leaving was right; pursue an independent foreign policy
+ja 国際連盟脱退 | 脱退は孤立を招く、国際協調への復帰を探るべき | 連盟脱退は当然、自主外交を
+
+== dip s 1935.3 minsei>domei : shataishu=-0.3 minsei=-0.6 seiyu=-0.2 showa=-0.3 domei=0.6
+ko 대소 관계 | 북만철도 매수처럼 소련과 긴장을 풀어야 | 소련에 맞서 북방 군비를 강화해야
+en Relations with the USSR | Ease tension with the Soviets, as with the North Manchuria Railway purchase | Strengthen northern defences against the USSR
+ja 対ソ関係 | 北満鉄道買収のようにソ連との緊張を緩和 | ソ連に備え北方の軍備を強化すべき
+
+== dip s . shataishu>domei : shataishu=-0.2 minsei=-0.4 seiyu=0.3 showa=0.4 domei=0.8
+ko 만주 농업 이민 | 현지 농민의 땅을 빼앗는 이민 정책은 그만둬야 | 농촌의 과잉 인구를 만주로 보내야
+en Farm settlers to Manchuria | Stop a settlement policy that takes local farmers' land | Send surplus rural population to Manchuria
+ja 満州農業移民 | 現地農民の土地を奪う移民政策はやめるべき | 農村の過剰人口を満州へ送るべき
+
+== eco . . minsei>domei : shataishu=-0.2 minsei=-0.6 seiyu=0.2 showa=0 domei=0.7
+ko 면포 무역 마찰 | 수출을 스스로 조절해 영국·인도와 타협해야 | 시장을 지키려면 보복 조치도 불사해야
+en Cotton trade friction | Restrain exports voluntarily and compromise with Britain and India | Defend markets, with retaliation if necessary
+ja 綿布貿易摩擦 | 輸出を自主規制し英国・インドと妥協 | 市場を守るため報復措置も辞さない
+
+== eco e . shataishu>seiyu : shataishu=-0.9 minsei=-0.1 seiyu=0.5 showa=0.2 domei=-0.3
+ko 재원 마련 | 부유층과 기업 이익에 세금을 더 걷어야 | 증세는 경기를 해친다, 공채로 메워야
+en Funding the budget | Raise taxes on the wealthy and corporate profits | Tax rises hurt the economy; cover it with bonds
+ja 財源確保 | 富裕層と企業利益への課税を強化 | 増税は景気を損なう、公債で賄うべき
+
+== wel e . shataishu>seiyu : shataishu=-1 minsei=0 seiyu=0.4 showa=-0.1 domei=-0.2
+ko 퇴직 수당 법제화 | 노동자 퇴직 수당 적립을 법으로 의무화해야 | 퇴직금은 기업 자율에 맡겨야
+en Statutory severance pay | Make employers set aside severance pay by law | Leave severance pay to each company
+ja 退職手当の法制化 | 労働者の退職手当積立を法律で義務化 | 退職金は企業の自主に任せる
+
+== wel e . shataishu>seiyu : shataishu=-1 minsei=-0.3 seiyu=0.3 showa=0 domei=0.2
+ko 모자 보호법 | 가난한 모자 가정을 국가가 부조해야 | 가족과 이웃의 상부상조에 맡겨야
+en Mother and child protection law | The state should support poor single-mother households | Leave it to families and neighbourly help
+ja 母子保護法 | 貧しい母子家庭を国が扶助すべき | 家族と隣人の相互扶助に任せる
+
+== soc s 1933.5 minsei>domei : shataishu=-0.6 minsei=-0.5 seiyu=0.4 showa=0.3 domei=0.8
+ko 다키가와 사건 | 대학 자치와 학문의 자유를 지켜야 | 국체에 반하는 학설은 대학에서 배제해야
+en The Takigawa affair | Defend university autonomy and academic freedom | Theories contrary to the kokutai must be removed from universities
+ja 滝川事件 | 大学の自治と学問の自由を守るべき | 国体に反する学説は大学から排除すべき
+
+== soc s 1935.12 shataishu>domei : shataishu=-0.6 minsei=-0.2 seiyu=0.4 showa=0.4 domei=0.6
+ko 오모토교 탄압 | 신흥 종교 탄압은 신앙 자유의 침해 | 불경한 신흥 종교는 엄하게 단속해야
+en Suppressing Ōmoto | Crushing new religions violates freedom of belief | Disrespectful new religions must be strictly controlled
+ja 大本弾圧 | 新宗教弾圧は信教の自由の侵害 | 不敬な新宗教は厳しく取り締まるべき
+
+== soc s 1934.5 shataishu>domei : shataishu=-0.8 minsei=-0.4 seiyu=0.3 showa=0.4 domei=0.7
+ko 출판법 강화 | 검열 강화는 언론 자유를 죽인다 | 불온 사상을 막으려면 출판 단속을 강화해야
+en Tightening the publication law | Stronger censorship kills free expression | Tighten control of publications to stop subversive ideas
+ja 出版法の強化 | 検閲強化は言論の自由を殺す | 不穏思想を防ぐため出版取締りを強化
+
+== reg e 1933.3 shataishu>minsei : shataishu=-0.8 minsei=0.3 seiyu=-0.3 showa=-0.2 domei=-0.4
+ko 미곡 통제 | 정부가 쌀값의 최저·최고가를 정해 사고팔아야 | 재정 부담이 크다, 통제는 최소로
+en Rice control | The government should set floor and ceiling prices and trade rice | It is too costly; keep controls to a minimum
+ja 米穀統制 | 政府が米価の最低・最高価格を定めて売買すべき | 財政負担が大きい、統制は最小限に
+
+== reg e 1932.8 shataishu>minsei : shataishu=-0.9 minsei=0.4 seiyu=-0.5 showa=0.2 domei=-0.3
+ko 농촌 공공사업 | 시국광구사업을 계속해 농촌에 일자리를 | 재정이 한계, 공공사업은 줄여야
+en Rural public works | Continue the emergency relief works to give villages jobs | Finances are stretched; scale public works back
+ja 農村公共事業 | 時局匡救事業を続け農村に仕事を | 財政は限界、公共事業は縮小すべき

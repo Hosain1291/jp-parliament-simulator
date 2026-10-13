@@ -1,0 +1,154 @@
+# 제34회 중의원 총선 (1976.12.5) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.65) kmt=공명당(-0.05) dsp=민사당(0.05) nlc=신자유클럽(0.35) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1976.2 nlc>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.8 nlc=-1 ldp=0.6
+ko 록히드 사건 | 철저히 밝히고 금권 정치와 결별 | 사법 판단에 맡기고 정치 안정을
+en The Lockheed scandal | Expose it fully and break with money politics | Leave it to the courts; stability first
+ja ロッキード事件 | 徹底究明し金権政治と決別 | 司法判断に委ね政治の安定を
+
+== pol . 1975.7 kmt>ldp : jcp=-1 jsp=-0.9 kmt=-0.9 dsp=-0.7 nlc=-0.9 ldp=0.5
+ko 정치자금 규정법 | 기업 헌금을 더 엄격히 | 개정 수준으로 충분
+en Political Funds Control Law | Stricter limits on corporate donations | The revision is enough
+ja 政治資金規正法 | 企業献金をさらに厳しく | 改正の水準で十分
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.8 kmt=-0.8 dsp=-0.6 nlc=-0.2 ldp=0.6
+ko 불황 대책 | 감세와 사회보장으로 내수를 | 공공사업과 재정 재건
+en Recession | Tax cuts and social security to lift demand | Public works and fiscal repair
+ja 不況対策 | 減税と社会保障で内需を | 公共事業と財政再建
+
+== eco e 1975.6 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.4 nlc=-0.5 ldp=0.6
+ko 독점금지법 강화 | 강화해야 한다 | 기업 활동을 고려해야
+en Stronger antitrust law | Strengthen it | Mind business activity
+ja 独占禁止法の強化 | 強化すべき | 企業活動に配慮すべき
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 kmt=-0.4 dsp=0.3 nlc=0.4 ldp=0.9
+ko 안보와 자위대 | 안보 폐기, 자위대 축소 | 안보 견지, 자위대 정비
+en Security treaty and SDF | Scrap the treaty, shrink the SDF | Keep the treaty, maintain the SDF
+ja 安保と自衛隊 | 安保廃棄、自衛隊縮小 | 安保堅持、自衛隊整備
+
+== reg e . jsp>ldp : jcp=-0.8 jsp=-0.9 kmt=-0.5 dsp=0.4 nlc=0.3 ldp=0.9
+ko 원자력 | 원전 건설을 멈춰야 | 석유 위기에 대비해 원전 추진
+en Nuclear power | Stop building reactors | Build them against another oil shock
+ja 原子力 | 原発建設を止めるべき | 石油危機に備え原発推進
+
+== wel e . jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.9 dsp=-0.6 nlc=-0.3 ldp=0.4
+ko 연금 개혁 | 국고로 최저보장 연금을 | 보험 원칙 유지
+en Pension reform | A tax-funded minimum pension | Keep the insurance principle
+ja 年金改革 | 国庫で最低保障年金を | 保険原理を維持
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 kmt=-0.6 dsp=-0.2 nlc=0 ldp=0.6
+ko 헌법 개정 | 반대한다 | 검토해야
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== dip s 1973.8 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.6 dsp=0 nlc=-0.2 ldp=0.8
+ko 김대중 납치 사건 | 주권 침해, 진상 규명을 | 외교적으로 정치 결착
+en The Kim Dae-jung abduction | A violation of sovereignty; find the truth | Settle it diplomatically
+ja 金大中事件 | 主権侵害、真相究明を | 外交的に政治決着
+
+== pol . 1976.8 nlc>ldp : jcp=-0.8 jsp=-0.8 kmt=-0.8 dsp=-0.6 nlc=-1 ldp=0.6
+ko '미키 끌어내리기' | 록히드 규명을 밀어붙인 미키 총리를 끌어내리는 것은 부당 | 당 운영을 무시한 총리는 교체해야 한다
+en The move to oust Miki | Toppling Prime Minister Miki for pressing the Lockheed probe is wrong | A prime minister who ignores the party should be replaced
+ja 「三木おろし」 | ロッキード解明を進めた三木首相を降ろすのは不当 | 党運営を無視する首相は交代させるべき
+
+== pol . 1974.10 nlc>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.8 nlc=-0.9 ldp=0.5
+ko 다나카 금맥 문제 | 금맥 의혹은 철저히 밝히고 정치적 책임을 물어야 | 사생활 폭로에 가깝다, 퇴진으로 충분하다
+en Tanaka's money network | Fully investigate the money allegations and assign political responsibility | It is close to a smear; his resignation is enough
+ja 田中金脈問題 | 金脈疑惑を徹底解明し政治責任を問うべき | 私生活の暴露に近い、退陣で十分
+
+== pol . 1975.7 jcp>ldp : jcp=-1 jsp=-0.7 kmt=-0.6 dsp=-0.4 nlc=-0.5 ldp=0.6
+ko 공직선거법 개정 | 선거 운동 규제를 풀고 1표 격차를 근본적으로 고쳐야 | 정수를 늘려 격차를 줄이고 선거 운동은 엄격히 관리
+en Revising election law | Free up campaigning and fix vote-weight gaps at the root | Add seats to narrow gaps and keep campaigning tightly regulated
+ja 公職選挙法改正 | 選挙運動規制を緩め一票の格差を抜本的に正すべき | 定数増で格差を縮め選挙運動は厳しく管理
+
+== con s 1976.10 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.5 dsp=0.4 nlc=0.4 ldp=0.9
+ko 방위계획의 대강 | 대강은 자위대 증강을 굳힌다, 군축이 먼저 | 기반적 방위력 구상으로 필요한 수준을 갖춰야
+en National Defence Program Outline | The outline locks in SDF expansion; disarmament comes first | Maintain the necessary level under the basic defence capability concept
+ja 防衛計画の大綱 | 大綱は自衛隊増強を固める、軍縮が先 | 基盤的防衛力構想で必要な水準を整えるべき
+
+== con s 1976.11 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.7 dsp=0.1 nlc=-0.2 ldp=0.5
+ko 방위비 GNP 1% 틀 | 방위비는 1%보다 더 줄여야 한다 | 1% 틀로 억제하되 필요한 방위력은 유지
+en The 1%-of-GNP defence cap | Cut defence spending below 1% | Keep the 1% cap while maintaining the necessary forces
+ja 防衛費GNP1%枠 | 防衛費は1%よりさらに削るべき | 1%枠で抑えつつ必要な防衛力は維持
+
+== dip s 1976.6 jcp>ldp : jcp=-0.4 jsp=-0.9 kmt=-0.8 dsp=-0.5 nlc=-0.6 ldp=0.4
+ko 핵확산금지조약 비준 | 비준해 비핵 국가의 길을 확정해야 | 핵보유국의 군축 의무가 불충분하다, 비준은 신중히
+en Ratifying the NPT | Ratify it and confirm Japan's non-nuclear path | Nuclear powers' disarmament obligations are inadequate; ratify with caution
+ja 核拡散防止条約批准 | 批准し非核国家の道を確定すべき | 核保有国の軍縮義務が不十分、批准は慎重に
+
+== dip s 1973.11 jsp>ldp : jcp=-0.8 jsp=-0.8 kmt=-0.6 dsp=-0.2 nlc=0 ldp=0.4
+ko 중동 외교 | 석유 위기를 계기로 팔레스타인 입장을 지지하는 독자 외교를 | 아랍 배려는 필요하지만 미국과의 협조가 기본
+en Middle East diplomacy | Use the oil crisis to pursue an independent policy supporting the Palestinians | Consider Arab views, but cooperation with the US is fundamental
+ja 中東外交 | 石油危機を機にパレスチナの立場を支持する独自外交を | アラブへの配慮は必要だが米国との協調が基本
+
+== dip s 1975.1 jsp>ldp : jcp=0.2 jsp=-1 kmt=-0.9 dsp=-0.3 nlc=-0.4 ldp=0.5
+ko 일중 평화우호조약의 '반패권' | 반패권 조항을 넣어 조약을 서둘러 맺어야 | 소련을 자극하는 반패권 조항에는 신중해야
+en "Anti-hegemony" in a Japan–China treaty | Include the anti-hegemony clause and conclude the treaty quickly | Be wary of a clause that provokes the Soviet Union
+ja 日中平和友好条約の「反覇権」 | 反覇権条項を入れて条約を急ぐべき | ソ連を刺激する反覇権条項には慎重に
+
+== dip s 1973.9 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.7 dsp=-0.2 nlc=0 ldp=0.5
+ko 북베트남과의 국교 | 베트남 민주공화국과의 관계를 넓히고 전후 복구를 도와야 | 남베트남과의 관계를 고려해 신중히
+en Relations with North Vietnam | Expand ties with the Democratic Republic and help postwar reconstruction | Proceed cautiously, mindful of South Vietnam
+ja 北ベトナムとの国交 | ベトナム民主共和国との関係を広げ戦後復興を支援すべき | 南ベトナムとの関係を考え慎重に
+
+== eco e 1975.12 jsp>ldp : jcp=-0.8 jsp=-0.6 kmt=-0.6 dsp=-0.4 nlc=-0.6 ldp=0.7
+ko 적자 국채 발행 | 특례 공채 의존은 재정 파탄을 부른다 | 불황 속 세수 부족을 메우려면 적자 국채는 불가피
+en Deficit bonds | Reliance on special deficit bonds leads to fiscal collapse | Deficit bonds are unavoidable to cover the revenue shortfall in a recession
+ja 赤字国債発行 | 特例公債への依存は財政破綻を招く | 不況下の税収不足を埋めるため赤字国債はやむを得ない
+
+== eco e 1973.12 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.9 dsp=-0.6 nlc=-0.3 ldp=0.5
+ko 광란 물가와 가격 통제 | 석유 위기 물가는 기업의 매점 탓, 가격 통제와 초과 이윤 환수를 | 총수요 억제와 시장 기능으로 물가를 잡아야
+en Runaway prices and controls | Oil-shock inflation came from corporate hoarding; impose price controls and claw back excess profits | Tame prices by restraining demand and using markets
+ja 狂乱物価と価格統制 | 石油危機の物価は企業の買い占めのせい、価格統制と超過利潤の吸収を | 総需要抑制と市場機能で物価を抑えるべき
+
+== eco e 1976.11 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.9 dsp=-0.5 nlc=-0.3 ldp=0.7
+ko 국철 운임 대폭 인상 | 국철 적자를 승객에게 떠넘기는 50% 인상에 반대 | 국철 재건을 위해 운임 인상은 불가피
+en Big JNR fare increases | Oppose a 50% rise that dumps JNR's deficit on passengers | Fare rises are unavoidable to rebuild JNR
+ja 国鉄運賃の大幅値上げ | 国鉄の赤字を乗客に押しつける5割値上げに反対 | 国鉄再建のため運賃値上げはやむを得ない
+
+== wel e 1975.11 jsp>ldp : jcp=-0.9 jsp=-1 kmt=-0.5 dsp=-0.1 nlc=0.4 ldp=0.9
+ko 스트권 스트 | 공공 부문 노동자에게 파업권을 돌려줘야 | 위법 파업으로 국민 생활을 마비시킨 것은 용납할 수 없다
+en The strike for the right to strike | Give public-sector workers back the right to strike | An illegal strike that paralysed daily life cannot be tolerated
+ja スト権スト | 公共部門の労働者にスト権を回復すべき | 違法ストで国民生活を麻痺させたのは許されない
+
+== wel e 1974.12 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.6 dsp=-0.2 nlc=0.1 ldp=0.6
+ko 실업보험에서 고용보험으로 | 실업 급여를 줄이는 고용보험 전환에 반대 | 고용 안정 사업을 넣은 고용보험으로 바꿔야
+en From unemployment insurance to employment insurance | Oppose a change that cuts jobless benefits | Switch to employment insurance with job-stabilisation programmes
+ja 失業保険から雇用保険へ | 失業給付を減らす雇用保険への転換に反対 | 雇用安定事業を含む雇用保険に改めるべき
+
+== wel e . kmt>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.6 nlc=-0.2 ldp=0.7
+ko 복지 재검토론 | '복지 원년'의 약속을 지켜 복지를 계속 넓혀야 | 저성장 시대에 맞게 복지를 재검토해야
+en Rethinking welfare | Keep the promise of the "first year of welfare" and keep expanding it | Review welfare to fit an era of slower growth
+ja 福祉見直し論 | 「福祉元年」の約束を守り福祉を広げ続けるべき | 低成長時代に合わせ福祉を見直すべき
+
+== soc s 1975.12 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.4 dsp=0.2 nlc=0.2 ldp=0.9
+ko 학교 주임 제도화 | 주임 제도는 교사를 관리하는 중간 관리직 도입 | 학교 운영에 책임 있는 주임 제도가 필요하다
+en Formalising head teachers' deputies | The shunin system brings middle management to control teachers | A responsible deputy system is needed to run schools
+ja 主任制度化 | 主任制は教師を管理する中間管理職の導入 | 学校運営に責任ある主任制が必要
+
+== soc s 1974.5 jsp>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.4 nlc=-0.2 ldp=0.8
+ko 야스쿠니 신사 법안 | 국가 관리는 정교분리 위반, 폐안해야 | 전몰자 위령을 위해 국가가 책임져야
+en Yasukuni Shrine bill | State management violates separation of religion and state; scrap it | The state should take responsibility for honouring the war dead
+ja 靖国神社法案 | 国家管理は政教分離違反、廃案にすべき | 戦没者慰霊のため国が責任を持つべき
+
+== soc s 1975.6 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.5 nlc=-0.4 ldp=0.5
+ko 국제 여성의 해와 남녀평등 | 차별 철폐 조약 수준의 법 정비를 서둘러야 | 일본의 가족 문화를 생각해 점진적으로
+en International Women's Year and equality | Hurry legislation up to international anti-discrimination standards | Proceed gradually, mindful of Japanese family culture
+ja 国際婦人年と男女平等 | 差別撤廃の国際水準の法整備を急ぐべき | 日本の家族文化を考え漸進的に
+
+== soc s 1974.5 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.4 dsp=-0.4 nlc=-0.2 ldp=0.6
+ko 우생보호법 재개정안 | 경제적 이유의 중절을 없애는 개정은 여성 권리 침해 | 태아 생명 보호를 위해 요건을 엄격히 해야
+en Revising the Eugenic Protection Law again | Removing economic grounds for abortion violates women's rights | Tighten the requirements to protect the unborn
+ja 優生保護法の再改正案 | 経済的理由の中絶をなくす改正は女性の権利の侵害 | 胎児の生命保護のため要件を厳しくすべき
+
+== reg e 1974.9 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.7 dsp=0 nlc=0 ldp=0.7
+ko 원자력선 무쓰 | 방사선 누출 사고가 난 무쓰는 폐선해야 | 원인을 고쳐 원자력선 개발을 이어 가야
+en The nuclear ship Mutsu | Scrap the Mutsu after its radiation leak | Fix the problem and continue developing nuclear ships
+ja 原子力船むつ | 放射線漏れ事故を起こしたむつは廃船にすべき | 原因を改め原子力船の開発を続けるべき
+
+== reg e 1974.6 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.8 dsp=-0.4 nlc=-0.2 ldp=0.4
+ko 땅값과 국토이용계획법 | 땅 투기 이익을 환수하고 공유지를 늘려야 | 거래 규제로 투기를 막되 사유재산은 존중
+en Land prices and the Land Use Planning Act | Claw back speculative gains and expand public land | Curb speculation by regulating transactions but respect private property
+ja 地価と国土利用計画法 | 土地投機の利益を吸収し公有地を増やすべき | 取引規制で投機を抑えつつ私有財産は尊重

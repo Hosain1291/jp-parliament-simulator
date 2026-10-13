@@ -1,0 +1,154 @@
+# 제30회 중의원 총선 (1963.11.21) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.65) dsp=민주사회당(-0.1) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== dip s 1962.11 jsp>ldp : jcp=-1 jsp=-1 dsp=0.2 ldp=0.9
+ko 한일 국교 정상화 회담 | 남북 분단을 굳힌다, 반대 | 국교 정상화를 추진
+en Normalisation talks with South Korea | It cements the division of Korea; oppose | Pursue normalisation
+ja 日韓国交正常化交渉 | 南北分断を固定化する、反対 | 国交正常化を進める
+
+== con s 1963.1 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.4 ldp=0.9
+ko 미 원자력잠수함 기항 | 반대한다 | 받아들인다
+en US nuclear submarine visits | Against them | Accept them
+ja 米原子力潜水艦の寄港 | 反対する | 受け入れる
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.5 ldp=0.7
+ko 물가와 공해 | 물가 안정과 공해 규제를 성장보다 먼저 | 성장을 이어가야
+en Prices and pollution | Price stability and pollution controls before growth | Keep growing
+ja 物価と公害 | 物価安定と公害規制を成長より先に | 成長を続けるべき
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 ldp=0.6
+ko 헌법 개정 | 반대한다 | 검토해야 한다
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.2
+ko 연금 인상 | 연금을 크게 올려야 | 재정에 맞춰
+en Higher pensions | Raise pensions substantially | In line with finances
+ja 年金の引き上げ | 年金を大きく引き上げるべき | 財政に合わせて
+
+== dip s 1962.11 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 ldp=0.6
+ko 중국 LT 무역 | 국교 정상화까지 나아가야 | 정경 분리, 무역만
+en LT trade with China | Go on to normal relations | Trade only; keep politics separate
+ja 日中LT貿易 | 国交正常化まで進むべき | 政経分離で貿易のみ
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=0 ldp=0.9
+ko 방위력 정비 | 자위대 증강에 반대 | 2차 방위력 정비 계획 추진
+en Defence build-up | Against expanding the SDF | Carry out the Second Defence Build-up Plan
+ja 防衛力整備 | 自衛隊増強に反対 | 第2次防衛力整備計画を推進
+
+== reg e 1962.5 jsp>ldp : jcp=-0.8 jsp=-0.6 dsp=0 ldp=0.8
+ko 신산업도시 | 주민 생활이 먼저 | 거점 개발로 성장
+en New industrial cities | Residents’ lives come first | Growth through regional hubs
+ja 新産業都市 | 住民の生活が先 | 拠点開発で成長
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.5 ldp=0.7
+ko ILO 87호 조약 | 즉시 비준, 공무원 노동권 보장 | 국내법 정비와 함께
+en ILO Convention 87 | Ratify now and guarantee public workers’ rights | Together with changes to domestic law
+ja ILO87号条約 | 即時批准、公務員の労働権を保障 | 国内法の整備とあわせて
+
+== pol s 1961.5 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.2 ldp=0.8
+ko 정치적 폭력 행위 방지법 | 정치 활동까지 단속할 수 있는 정방법은 위헌적 | 테러와 폭력을 막으려면 필요하다
+en Political Violence Prevention Bill | It could police legitimate political activity and is unconstitutional | It is needed to stop terrorism and violence
+ja 政治的暴力行為防止法 | 政治活動まで取り締まれる政防法は違憲的 | テロと暴力を防ぐため必要
+
+== pol . 1963.10 jsp>ldp : jcp=-0.6 jsp=-0.7 dsp=-0.6 ldp=0.3
+ko 자민당 근대화 | 미키 답신대로 파벌을 해소하고 당을 근대화해야 | 파벌은 현실이다, 형식적 해소는 의미가 없다
+en Modernising the LDP | Dissolve factions and modernise the party as the Miki report urges | Factions are a fact of life; dissolving them on paper means nothing
+ja 自民党の近代化 | 三木答申どおり派閥を解消し党を近代化すべき | 派閥は現実、形式的な解消は無意味
+
+== pol e 1962.7 jcp>dsp : jcp=-1 jsp=-0.3 dsp=0.6 ldp=0.5
+ko 사회당의 구조개혁론 | 계급 투쟁 노선을 지켜야 한다 | 구조개혁으로 현실적인 정권 대안이 되어야
+en The Socialists' structural reform line | Stick to the class-struggle line | Become a realistic alternative through structural reform
+ja 社会党の構造改革論 | 階級闘争路線を守るべき | 構造改革で現実的な政権の受け皿に
+
+== pol e 1961.11 jsp>ldp : jcp=-1 jsp=-0.8 dsp=-0.1 ldp=0.7
+ko 임시행정조사회 | 행정 개혁이 공무원 감축과 노조 약화로 흘러선 안 된다 | 비대해진 행정을 대담하게 줄여야
+en The Provisional Administrative Reform Commission | Reform must not turn into job cuts and weakening unions | Boldly slim down a bloated bureaucracy
+ja 臨時行政調査会 | 行政改革が公務員削減と組合弱体化になってはならない | 肥大化した行政を大胆に縮小すべき
+
+== con . 1961.9 jsp>jcp : jcp=0.7 jsp=-0.8 dsp=-0.9 ldp=-0.6
+ko 소련의 핵실험 재개 | 어느 나라의 핵실험이든 반대해야 | 사회주의 나라의 핵은 방어적 성격이다
+en The Soviet resumption of nuclear tests | Oppose nuclear tests by any country | Socialist countries' weapons are defensive in nature
+ja ソ連の核実験再開 | いかなる国の核実験にも反対すべき | 社会主義国の核は防衛的な性格
+
+== dip s 1962.10 jsp>ldp : jcp=-1 jsp=-0.9 dsp=0.2 ldp=0.9
+ko 쿠바 위기 | 미국의 해상 봉쇄에 동조하지 말고 중립을 지켜야 | 자유 진영의 일원으로 미국을 지지해야
+en The Cuban Missile Crisis | Do not side with the US blockade; stay neutral | Support the US as a member of the free world
+ja キューバ危機 | 米国の海上封鎖に同調せず中立を守るべき | 自由陣営の一員として米国を支持すべき
+
+== dip s 1963.8 jcp>ldp : jcp=-1 jsp=0.3 dsp=0.6 ldp=0.8
+ko 부분적 핵실험 금지 조약 | 미·영·소의 핵 독점을 굳히는 조약에는 반대 | 부분 금지 조약에 서명해 핵 군축을 한 걸음씩
+en The Partial Test Ban Treaty | Oppose a treaty that cements the US–UK–Soviet nuclear monopoly | Sign it and move towards disarmament step by step
+ja 部分的核実験禁止条約 | 米英ソの核独占を固める条約には反対 | 部分禁止条約に署名し核軍縮を一歩ずつ
+
+== dip s 1961.6 jsp>ldp : jcp=-1 jsp=-1 dsp=0.2 ldp=0.9
+ko 미일 '대등한 동반자' | 대미 협력 강화는 군사 동맹 강화로 이어진다 | 미국과 대등한 동반자로 협력을 넓혀야
+en "Equal partnership" with the US | Closer cooperation will deepen the military alliance | Expand cooperation as an equal partner of the US
+ja 日米「イコール・パートナーシップ」 | 対米協力の強化は軍事同盟の強化につながる | 米国と対等なパートナーとして協力を広げるべき
+
+== eco e 1963.7 jsp>ldp : jcp=-1 jsp=-0.8 dsp=0 ldp=0.9
+ko OECD 가입과 자본 자유화 | 자본 자유화는 외국 자본의 지배를 부른다 | OECD에 가입해 선진국 대열에 서야
+en Joining the OECD and capital liberalisation | Capital liberalisation invites foreign domination | Join the OECD and take a place among advanced nations
+ja OECD加盟と資本自由化 | 資本自由化は外国資本の支配を招く | OECDに加盟し先進国の仲間入りを
+
+== eco e 1963.3 jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.2 ldp=0.6
+ko 특정산업진흥법안 | 관료 주도의 산업 재편은 독점을 키운다 | 국제 경쟁에 대비해 합병과 재편을 촉진해야
+en Special Industries Promotion Bill | Bureaucrat-led restructuring strengthens monopolies | Promote mergers and restructuring to face international competition
+ja 特定産業振興臨時措置法案 | 官僚主導の産業再編は独占を強める | 国際競争に備え合併と再編を促進すべき
+
+== eco e 1963.7 jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.5 ldp=0.6
+ko 중소기업 기본법 | 대기업을 규제해 중소기업의 몫을 지켜야 | 근대화와 고도화로 중소기업의 경쟁력을 키워야
+en Small and Medium Enterprise Basic Law | Restrain big business to protect small firms' share | Modernise and upgrade small firms to make them competitive
+ja 中小企業基本法 | 大企業を規制し中小企業の分野を守るべき | 近代化と高度化で中小企業の競争力を高めるべき
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.6 ldp=0.7
+ko 공공요금 인상 | 국철과 전화 요금 인상은 물가를 부채질한다, 동결해야 | 설비 투자를 위해 적정한 인상은 필요하다
+en Public utility charges | Raising rail and phone charges fuels inflation; freeze them | Reasonable rises are needed to fund investment
+ja 公共料金値上げ | 国鉄や電話料金の値上げは物価をあおる、凍結すべき | 設備投資のため適正な値上げは必要
+
+== wel e 1963.7 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.7 ldp=0.4
+ko 노인 복지법 | 노인의 의료와 생활을 국가가 폭넓게 보장해야 | 가족 부양을 기본으로 국가는 보완해야
+en Welfare for the elderly | The state should broadly guarantee older people's health care and livelihoods | Family support first, with the state filling gaps
+ja 老人福祉法 | 高齢者の医療と生活を国が幅広く保障すべき | 家族による扶養を基本に国は補完すべき
+
+== wel e 1963.11 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.7 ldp=0.4
+ko 미이케 탄광 폭발 사고 | 기업 책임을 엄히 묻고 탄광 안전 규제를 강화해야 | 안전은 기업 노력으로, 과도한 규제는 폐광을 앞당긴다
+en The Miike mine explosion | Hold the company strictly liable and tighten mine safety rules | Safety through company effort; excessive rules hasten closures
+ja 三池炭鉱爆発事故 | 企業責任を厳しく問い炭鉱保安規制を強化すべき | 保安は企業努力で、過度な規制は閉山を早める
+
+== soc s 1961.10 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 ldp=0.9
+ko 전국 학력 테스트 | 전국 일제 학력 테스트는 경쟁과 교육 통제를 부른다 | 학력 실태를 파악하려면 필요하다
+en National achievement tests | Nationwide testing breeds competition and state control of schools | They are needed to understand pupils' attainment
+ja 全国学力テスト | 全国一斉学力テストは競争と教育統制を招く | 学力の実態把握のため必要
+
+== soc s 1962.3 jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.2 ldp=0.8
+ko 교과서 무상과 광역 채택 | 무상화는 좋지만 광역 채택은 교사의 선택권 침해 | 무상화와 함께 광역 채택으로 질을 관리해야
+en Free textbooks and district-wide selection | Free books are good, but district-wide selection takes choice from teachers | Pair free books with district-wide selection to manage quality
+ja 教科書無償と広域採択 | 無償化はよいが広域採択は教師の選択権の侵害 | 無償化とともに広域採択で質を管理すべき
+
+== soc s 1962.5 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.4 ldp=0.8
+ko 대학 관리법 | 대학 자치를 해치는 관리법에 반대 | 대학 운영에도 정부의 감독이 필요하다
+en University management bill | Oppose a law that undermines university autonomy | University governance needs government oversight
+ja 大学管理法 | 大学の自治を損なう管理法に反対 | 大学運営にも政府の監督が必要
+
+== soc s 1961.11 jsp>ldp : jcp=-0.7 jsp=-1 dsp=-0.6 ldp=0.4
+ko 동화 대책 | 부락 차별 해소를 국가 책임으로 특별 조치를 | 일반 시책 안에서 점진적으로 개선해야
+en Dōwa policy | Special state measures to end buraku discrimination | Improve conditions gradually through general policies
+ja 同和対策 | 部落差別の解消を国の責任として特別措置を | 一般施策の中で漸進的に改善すべき
+
+== reg e . jsp>ldp : jcp=-0.8 jsp=-0.7 dsp=-0.2 ldp=0.9
+ko 올림픽과 도쿄 집중 | 올림픽 투자가 도쿄에 몰려 지방이 뒤처진다 | 올림픽을 계기로 신칸센과 고속도로를 갖춰야
+en The Olympics and Tokyo's dominance | Olympic spending piles into Tokyo and leaves the regions behind | Use the Olympics to build the Shinkansen and expressways
+ja 五輪と東京集中 | 五輪投資が東京に集中し地方が取り残される | 五輪を機に新幹線と高速道路を整備すべき
+
+== reg e . jsp>ldp : jcp=-1 jsp=-0.8 dsp=-0.3 ldp=0.5
+ko 농업 구조 개선 | 가격 지지로 작은 농가를 지켜야 | 규모를 키우는 구조 개선으로 자립 농가를
+en Restructuring agriculture | Protect small farmers through price supports | Create self-sufficient farms by enlarging holdings
+ja 農業構造改善 | 価格支持で小規模農家を守るべき | 規模拡大の構造改善で自立農家を
+
+== reg e . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.4
+ko 욧카이치 천식 | 콤비나트 매연에 엄격한 배출 규제와 기업 책임을 | 지역 경제를 생각해 단계적으로 대책을
+en Yokkaichi asthma | Strict emission controls and corporate liability for the petrochemical complex | Phase in measures with the local economy in mind
+ja 四日市ぜんそく | コンビナートの排煙に厳しい排出規制と企業責任を | 地域経済を考え段階的に対策を

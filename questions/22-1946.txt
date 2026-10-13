@@ -1,0 +1,154 @@
+# 제22회 중의원 총선 (1946.4.10) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.5) kyodo=일본협동당(0.05) etc=기타 정파(0) ind=무소속(0) jiyu46=일본자유당(0.45) shinpo=일본진보당(0.6)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== con s 1946.3 jcp>shinpo : jcp=-1 jsp=0.1 kyodo=0.6 jiyu46=0.8 shinpo=0.9 etc=0.3 ind=0.4
+ko 천황제 | 천황제를 폐지해야 한다 | 국체를 지키고 천황제를 유지해야
+en The imperial system | Abolish the monarchy | Protect the kokutai and keep the Emperor
+ja 天皇制 | 天皇制を廃止すべき | 国体を守り天皇制を維持すべき
+
+== con s 1946.3 jsp>shinpo : jcp=-0.6 jsp=-0.8 kyodo=-0.2 jiyu46=0.3 shinpo=0.6
+ko 정부 헌법 개정 초안 | 주권재민·전쟁 포기 초안을 지지, 더 민주적으로 | 메이지 헌법의 틀을 최대한 유지
+en The government’s draft constitution | Support popular sovereignty and renouncing war; go further | Keep as much of the Meiji Constitution as possible
+ja 政府の憲法改正草案 | 主権在民・戦争放棄の草案を支持、より民主的に | 明治憲法の枠をできるだけ維持
+
+== reg e 1945.12 jcp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.4 jiyu46=0.6 shinpo=0.7
+ko 농지개혁 | 지주제를 해체하는 철저한 개혁 | 지주의 재산권을 배려한 온건 개혁
+en Land reform | A thorough reform that ends the landlord system | A moderate reform that respects landlords’ property
+ja 農地改革 | 地主制を解体する徹底した改革 | 地主の財産権に配慮した穏健な改革
+
+== wel e 1946.2 jcp>jiyu46 : jcp=-1 jsp=-0.6 kyodo=-0.1 jiyu46=0.6 shinpo=0.6
+ko 식량 위기 | 식량을 인민이 관리하고 은닉 물자를 적발 | 정부 통제와 공출 질서를 지켜야
+en Food crisis | People’s control of food; expose hoarding | Keep government controls and deliveries in order
+ja 食糧危機 | 食糧の人民管理と隠匿物資の摘発 | 政府統制と供出の秩序を守るべき
+
+== eco e 1945.11 jcp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.3 jiyu46=0.5 shinpo=0.6
+ko 재벌 해체 | 철저히 해체해야 한다 | 경제 재건을 위해 신중해야
+en Breaking up the zaibatsu | Break them up completely | Go carefully for the sake of recovery
+ja 財閥解体 | 徹底的に解体すべき | 経済再建のため慎重に
+
+== wel e 1945.12 jsp>shinpo : jcp=-1 jsp=-0.9 kyodo=-0.3 jiyu46=0.5 shinpo=0.6
+ko 노동조합과 쟁의 | 단결권과 쟁의권을 폭넓게 | 생산 회복이 먼저, 쟁의를 자제해야
+en Unions and strikes | Broad rights to organise and strike | Production first; restrain strikes
+ja 労働組合と争議 | 団結権と争議権を広く | 生産回復が先、争議は自制を
+
+== pol s 1946.1 jcp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.2 jiyu46=0.4 shinpo=0.7
+ko 공직 추방과 전쟁 책임 | 전쟁 책임자를 철저히 추방해야 | 지나친 추방은 혼란을 부른다
+en Purges and war responsibility | Purge those responsible thoroughly | Excessive purges cause chaos
+ja 公職追放と戦争責任 | 戦争責任者を徹底的に追放すべき | 行き過ぎた追放は混乱を招く
+
+== soc s 1945.12 jsp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.2 jiyu46=0.4 shinpo=0.6
+ko 가족 제도와 남녀평등 | 이에(家) 제도를 고치고 남녀평등을 | 전통 가족 제도를 존중해야
+en Family system and equality | Reform the ie household system; equality of the sexes | Respect the traditional family
+ja 家族制度と男女平等 | 家制度を改め男女平等を | 伝統的な家族制度を尊重すべき
+
+== eco e . kyodo>jiyu46 : jcp=-0.6 jsp=-0.5 kyodo=-1 jiyu46=0.8 shinpo=0.5
+ko 협동조합 경제 | 협동조합 중심의 경제로 | 자유경제로
+en A cooperative economy | An economy built on cooperatives | A free economy
+ja 協同組合経済 | 協同組合中心の経済へ | 自由経済へ
+
+== soc s . jcp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.1 jiyu46=0.4 shinpo=0.7
+ko 교육칙어 | 교육칙어를 폐지하고 민주 교육을 | 교육칙어 정신을 유지해야
+en The Imperial Rescript on Education | Abolish it for democratic education | Keep its spirit
+ja 教育勅語 | 教育勅語を廃止し民主教育を | 教育勅語の精神を維持すべき
+
+== pol s 1946.3 jcp>shinpo : jcp=-1 jsp=-0.4 kyodo=0.2 jiyu46=0.6 shinpo=0.8
+ko 일원제와 양원제 | 귀족원을 없애고 국민이 뽑는 일원제 국회로 | 신중한 심의를 위해 제2원을 두는 양원제로
+en One chamber or two | Abolish the House of Peers and have a single elected chamber | Keep a second chamber for careful deliberation
+ja 一院制か二院制か | 貴族院を廃止し国民が選ぶ一院制の国会に | 慎重な審議のため第二院を置く二院制に
+
+== pol . 1946.1 jcp>jiyu46 : jcp=-1 jsp=-0.3 kyodo=0.5 jiyu46=0.9 shinpo=0.9
+ko 민주인민전선 | 사회당·공산당이 손잡고 민주인민전선 정부를 | 공산당과 손잡는 인민전선에는 반대
+en A democratic people's front | Socialists and Communists should join to form a people's front government | Oppose any front that includes the Communists
+ja 民主人民戦線 | 社会党・共産党が手を結び民主人民戦線政府を | 共産党と組む人民戦線には反対
+
+== pol . . jsp>shinpo : jcp=-1 jsp=-0.9 kyodo=-0.5 jiyu46=-0.7 shinpo=0.9
+ko 시데하라 내각의 진퇴 | 선거가 끝나면 다수당에 정권을 넘겨야 | 혼란기에는 시데하라 내각이 정국을 맡아야
+en The Shidehara cabinet's future | After the election, power should pass to the largest party | In this turmoil the Shidehara cabinet should stay in charge
+ja 幣原内閣の進退 | 選挙後は多数党に政権を渡すべき | 混乱期には幣原内閣が政局を担うべき
+
+== con s 1945.12 jcp>shinpo : jcp=-1 jsp=-0.7 kyodo=-0.2 jiyu46=0.3 shinpo=0.7
+ko 전범 처벌 | 전쟁 지도자를 철저히 처벌하고 일본 스스로도 책임을 물어야 | 승자의 재판이다, 처벌은 최소로
+en Punishing war criminals | Punish wartime leaders thoroughly, and Japan itself should hold them to account | It is victors' justice; keep punishment to a minimum
+ja 戦犯処罰 | 戦争指導者を徹底的に処罰し日本自らも責任を問うべき | 勝者の裁きだ、処罰は最小限に
+
+== con s 1946.3 jsp>jcp : jcp=0.5 jsp=-0.7 kyodo=-0.3 jiyu46=-0.2 shinpo=-0.3
+ko 전쟁 포기와 군대 | 군대를 완전히 없애고 전쟁을 포기해야 | 자위를 위한 최소한의 무력은 남겨야
+en Renouncing war and arms | Abolish the armed forces completely and renounce war | Keep the minimum force needed for self-defence
+ja 戦争放棄と軍隊 | 軍隊を完全になくし戦争を放棄すべき | 自衛のための最小限の武力は残すべき
+
+== dip s . jcp>shinpo : jcp=-0.8 jsp=-0.6 kyodo=0 jiyu46=0.4 shinpo=0.6
+ko 점령 개혁과 자주성 | 점령군의 민주화 개혁에 적극 협력해야 | 일본 실정에 맞게 개혁 속도를 스스로 조절해야
+en Occupation reforms | Cooperate fully with the Occupation's democratic reforms | Adjust the pace of reform to Japan's own conditions
+ja 占領改革と自主性 | 占領軍の民主化改革に積極的に協力すべき | 日本の実情に合わせ改革の速度を自ら調整すべき
+
+== dip . 1945.12 jcp>shinpo : jcp=-0.6 jsp=-0.3 kyodo=0.2 jiyu46=0.7 shinpo=0.7
+ko 전쟁 배상 | 아시아 피해국에 성실히 배상해야 한다 | 공장을 뜯어 가는 배상은 부흥을 막는다, 최소로
+en War reparations | Pay reparations to the Asian countries that suffered, in good faith | Reparations that dismantle factories block recovery; keep them minimal
+ja 戦争賠償 | アジアの被害国に誠実に賠償すべき | 工場を撤去する賠償は復興を妨げる、最小限に
+
+== dip s 1945.12 jcp>shinpo : jcp=-1 jsp=-0.5 kyodo=0 jiyu46=0.5 shinpo=0.7
+ko 재일 조선인·대만인 | 해방 민족으로서의 권리와 참정권을 보장해야 | 일본의 법질서 아래 외국인으로 관리해야
+en Koreans and Taiwanese in Japan | Guarantee their rights, including the vote, as liberated peoples | Manage them as foreigners under Japanese law
+ja 在日朝鮮人・台湾人 | 解放民族としての権利と参政権を保障すべき | 日本の法秩序の下で外国人として管理すべき
+
+== dip s . jcp>shinpo : jcp=-1 jsp=-0.7 kyodo=0 jiyu46=0.4 shinpo=0.7
+ko 전쟁의 성격 | 침략 전쟁이었음을 인정하고 아시아에 사죄해야 | 자존자위의 전쟁이었다, 사죄는 필요 없다
+en The nature of the war | Admit it was a war of aggression and apologise to Asia | It was a war of self-defence; no apology is needed
+ja 戦争の性格 | 侵略戦争であったと認めアジアに謝罪すべき | 自存自衛の戦争だった、謝罪は不要
+
+== eco e 1946.2 jcp>shinpo : jcp=-0.9 jsp=-0.5 kyodo=-0.2 jiyu46=0.2 shinpo=0.8
+ko 신엔 전환과 예금 봉쇄 | 서민 예금을 묶기보다 대자본과 전쟁 이득에 세금을 | 인플레를 막으려면 예금 봉쇄와 신엔 전환은 불가피
+en New yen and frozen deposits | Tax big capital and war profits instead of freezing ordinary savings | Freezing deposits and switching to the new yen are unavoidable to stop inflation
+ja 新円切替と預金封鎖 | 庶民の預金を封鎖するより大資本と戦時利得に課税を | インフレを止めるため預金封鎖と新円切替はやむを得ない
+
+== eco e 1945.11 jcp>shinpo : jcp=-1 jsp=-0.9 kyodo=-0.4 jiyu46=0.3 shinpo=0.7
+ko 전시 보상 | 군수 기업에 대한 전시 보상금 지급을 끊어야 | 보상을 끊으면 기업과 은행이 무너진다
+en Wartime compensation | Stop paying wartime compensation to munitions firms | Cutting it off will bring down companies and banks
+ja 戦時補償 | 軍需企業への戦時補償の支払いを打ち切るべき | 補償を打ち切れば企業と銀行が倒れる
+
+== eco e . jcp>shinpo : jcp=-1 jsp=-0.9 kyodo=-0.2 jiyu46=0.8 shinpo=0.8
+ko 기간산업 사회화 | 석탄·철강·금융 같은 기간산업을 사회화해야 | 민간 기업이 중심이 되어야 부흥이 빠르다
+en Socialising key industries | Socialise key industries such as coal, steel and finance | Recovery is faster with private enterprise at the centre
+ja 基幹産業の社会化 | 石炭・鉄鋼・金融などの基幹産業を社会化すべき | 民間企業が中心となってこそ復興が早い
+
+== wel e 1946.2 jcp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.3 jiyu46=0.4 shinpo=0.6
+ko 생활 보호 | 국가가 차별 없이 모든 빈곤자의 생활을 책임져야 | 가족과 지역의 부조가 먼저, 국가는 보조 역할
+en Public assistance | The state must support all poor people without discrimination | Families and communities first; the state plays a supporting role
+ja 生活保護 | 国が差別なくすべての困窮者の生活を保障すべき | 家族と地域の扶助が先、国は補助的役割
+
+== wel e . jcp>shinpo : jcp=-1 jsp=-0.7 kyodo=-0.3 jiyu46=0.6 shinpo=0.7
+ko 전재민·귀환자 주택 | 큰 저택과 빈 건물을 개방해 집 없는 사람을 들여야 | 사유재산을 존중하고 자력 재건을 도와야
+en Housing for bomb victims and repatriates | Open up mansions and empty buildings to the homeless | Respect private property and support people rebuilding for themselves
+ja 戦災者・引揚者の住宅 | 大邸宅や空き建物を開放し家のない人を入れるべき | 私有財産を尊重し自力再建を支援すべき
+
+== wel e . jcp>jiyu46 : jcp=-1 jsp=-0.8 kyodo=-0.4 jiyu46=0.5 shinpo=0.5
+ko 실업 대책 | 복원 군인과 실업자에게 국가가 일자리와 수당을 | 산업을 되살려 민간 고용을 늘리는 것이 먼저
+en Unemployment | The state should give jobs and benefits to demobilised soldiers and the jobless | Reviving industry to restore private jobs comes first
+ja 失業対策 | 復員軍人と失業者に国が仕事と手当を | 産業を復興させ民間雇用を増やすのが先
+
+== soc s 1945.12 jcp>shinpo : jcp=-1 jsp=-0.7 kyodo=-0.1 jiyu46=0.4 shinpo=0.7
+ko 국가신도 폐지 | 국가와 신도를 완전히 분리해야 | 신사는 국민의 전통, 국가와의 인연을 지켜야
+en Abolishing State Shinto | Separate state and Shinto completely | Shrines are a national tradition; keep their tie with the state
+ja 国家神道の廃止 | 国家と神道を完全に分離すべき | 神社は国民の伝統、国家とのつながりを守るべき
+
+== soc s 1945.10 jcp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.2 jiyu46=0.4 shinpo=0.7
+ko 사상 단속 폐지 | 치안유지법·특고 폐지는 당연, 사상 단속을 모두 없애야 | 공산주의 확산에 대비한 치안 대책은 남겨야
+en Ending thought control | Scrapping the Peace Preservation Law and the Special Police was right; end all thought control | Keep security measures against the spread of communism
+ja 思想取締りの廃止 | 治安維持法・特高の廃止は当然、思想取締りをすべてなくすべき | 共産主義の拡大に備えた治安対策は残すべき
+
+== reg e 1946.2 kyodo>shinpo : jcp=-0.6 jsp=-0.3 kyodo=-0.7 jiyu46=0.2 shinpo=0.7
+ko 쌀 공출 강제 | 농민에게 강권으로 공출을 시키는 데 반대 | 도시의 식량을 위해 강제 공출은 불가피
+en Compulsory rice deliveries | Oppose forcing farmers to deliver rice | Compulsory deliveries are unavoidable to feed the cities
+ja 供出の強制 | 農民への強権供出に反対 | 都市の食糧のため強制供出はやむを得ない
+
+== reg e 1945.11 jsp>jiyu46 : jcp=-0.7 jsp=-0.8 kyodo=-0.3 jiyu46=0.4 shinpo=0.3
+ko 전재 도시 부흥 | 국가가 계획을 세워 불탄 도시를 다시 지어야 | 재정 여력이 없다, 민간의 자력 재건에 맡겨야
+en Rebuilding bombed cities | The state should plan and rebuild burnt-out cities | There is no money; leave rebuilding to private effort
+ja 戦災都市の復興 | 国が計画を立てて焼けた都市を再建すべき | 財政に余力はない、民間の自力再建に任せる
+
+== reg s . jcp>shinpo : jcp=-1 jsp=-0.8 kyodo=-0.4 jiyu46=0 shinpo=0.6
+ko 지사 공선제 | 도도부현 지사를 주민이 직접 뽑아야 | 혼란기에는 정부가 임명하는 관선 지사가 낫다
+en Elected governors | Prefectural governors should be directly elected | In these turbulent times appointed governors are better
+ja 知事公選制 | 都道府県知事を住民が直接選ぶべき | 混乱期には政府任命の官選知事がよい

@@ -1,0 +1,264 @@
+# 제51회 중의원 총선 (2026.2.8) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) reiwa=레이와 신센구미(-0.85) sdp=사회민주당(-0.85) cra=중도개혁연합(-0.25) mirai=팀 미라이(0) dpp=국민민주당(0.15) ishin=일본유신회(0.5) ldp=자유민주당(0.75) sanseito=참정당(0.8) cpj=일본보수당(0.95) genzei=감세일본·우국연합(0.6) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco . 2026.1 cra>mirai : jcp=-1 reiwa=-1 sdp=-1 cra=-0.9 mirai=0.6 dpp=-0.6 ishin=-0.5 ldp=0.2 sanseito=-1 cpj=-1 genzei=-1
+ko 소비세 인하 | 식료품 등 소비세를 크게 내려야 한다 | 재원이 불확실하다, 신중해야 한다
+en Cutting the consumption tax | Cut the tax sharply, starting with food | Funding is uncertain; be careful
+ja 消費税の減税 | 食料品などの消費税を大きく下げるべき | 財源が不確か、慎重であるべき
+
+== con s 2025.10 cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.4 mirai=0 dpp=0.5 ishin=0.7 ldp=1 sanseito=0.6 cpj=1 genzei=0.5
+ko 방위비 추가 증액 | 방위비 증액에 신중해야 한다 | GDP 2%를 앞당기고 더 늘려야
+en Further defence increases | Be cautious about raising defence spending | Reach 2% of GDP sooner and go further
+ja 防衛費のさらなる増額 | 防衛費の増額には慎重であるべき | GDP比2%を前倒しし、さらに増やすべき
+
+== soc s 2025.11 cra>sanseito : jcp=-1 reiwa=-0.9 sdp=-1 cra=-0.6 mirai=-0.2 dpp=0.4 ishin=0.8 ldp=0.9 sanseito=1 cpj=1 genzei=0.6
+ko 스파이 방지법 | 감시와 인권 침해가 우려된다 | 제정해야 한다
+en Anti-espionage law | Worried about surveillance and rights | Enact one
+ja スパイ防止法 | 監視と人権侵害が心配 | 制定すべき
+
+== soc s 2025.7 cra>sanseito : jcp=-1 reiwa=-0.4 sdp=-1 cra=-0.6 mirai=-0.3 dpp=0.3 ishin=0.5 ldp=0.7 sanseito=1 cpj=1 genzei=0.7
+ko 외국인 정책 | 공생 정책이 먼저다 | 토지 취득·체류 규제를 강화해야
+en Policy on foreigners | Integration policies come first | Tighten rules on land purchases and residence
+ja 外国人政策 | 共生政策が先 | 土地取得・在留の規制を強化すべき
+
+== soc s . cra>ldp : jcp=-1 reiwa=-0.8 sdp=-1 cra=-1 mirai=-0.6 dpp=-0.5 ishin=-0.2 ldp=0.8 sanseito=1 cpj=1 genzei=0.6
+ko 선택적 부부별성 | 도입해야 한다 | 구성(舊姓) 통칭 사용을 법으로 넓히면 된다
+en Optional separate surnames | Introduce them | Expand legal use of maiden names instead
+ja 選択的夫婦別姓 | 導入すべき | 旧姓の通称使用を法律で広げればよい
+
+== pol . 2025.3 cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.9 mirai=-0.7 dpp=-0.2 ishin=-0.9 ldp=0.9 sanseito=-0.4 cpj=-0.6 genzei=-0.5
+ko 기업·단체 헌금 | 기업·단체 헌금을 금지해야 한다 | 공개를 강화하며 허용
+en Corporate and group donations | Ban them | Allow them with stronger disclosure
+ja 企業・団体献金 | 企業・団体献金を禁止すべき | 公開を強化して認める
+
+== pol . 2025.10 cra>ishin : jcp=-1 reiwa=-1 sdp=-1 cra=-0.6 mirai=0 dpp=-0.2 ishin=1 ldp=0.6 sanseito=0 cpj=0.4 genzei=0.6
+ko 의원 정수 삭감 | 소수 의견을 담으려면 반대 | 정수를 10% 줄여야 한다
+en Cutting the number of MPs | Against, to keep minority voices | Cut seats by 10%
+ja 議員定数の削減 | 少数意見を反映するため反対 | 定数を1割削減すべき
+
+== reg e . cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.3 mirai=0.3 dpp=0.8 ishin=0.4 ldp=0.9 sanseito=0.5 cpj=0.9 genzei=0.3
+ko 원전 재가동·신증설 | 원전 의존을 줄여야 한다 | 재가동과 차세대 원전을 추진
+en Restarting and building reactors | Reduce reliance on nuclear | Restarts and next-generation reactors
+ja 原発の再稼働・新増設 | 原発依存を減らすべき | 再稼働と次世代原発を推進
+
+== wel e 2025.10 cra>ishin : jcp=-1 reiwa=-1 sdp=-1 cra=-0.6 mirai=0.8 dpp=0.6 ishin=0.9 ldp=0.3 sanseito=0.2 cpj=0.3 genzei=0.2
+ko 사회보험료와 고령자 부담 | 고령자 의료비 부담 인상에 반대 | 현역 세대 보험료를 낮추려면 고령자 부담 인상
+en Social insurance and the elderly | Against higher medical charges for the elderly | Raise them to lower premiums for working people
+ja 社会保険料と高齢者負担 | 高齢者の医療費負担の引き上げに反対 | 現役世代の保険料を下げるため高齢者負担を引き上げ
+
+== con s . cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.5 mirai=0 dpp=0.5 ishin=0.9 ldp=1 sanseito=0.4 cpj=1 genzei=0.5
+ko 헌법 개정 | 개헌에 반대한다 | 9조 자위대 명기·긴급사태 조항을
+en Constitutional revision | Against it | Add the SDF to Article 9 and an emergency clause
+ja 憲法改正 | 改憲に反対する | 9条への自衛隊明記・緊急事態条項を
+
+== dip s 2025.11 cra>ldp : jcp=-1 reiwa=-0.9 sdp=-1 cra=-0.6 mirai=-0.2 dpp=0.3 ishin=0.6 ldp=0.9 sanseito=0.5 cpj=1 genzei=0.5
+ko 타이완 유사시 답변과 중국 | 긴장을 낮추도록 발언에 신중하고 대화를 | 억지력을 위해 분명한 입장을 지켜야
+en The Taiwan contingency remark and China | Choose words carefully and pursue dialogue to ease tension | Hold a clear position for deterrence
+ja 台湾有事答弁と中国 | 緊張を下げるよう発言に慎重に、対話を | 抑止力のため明確な立場を守るべき
+
+== eco . 2025.10 mirai>ldp : jcp=0.5 reiwa=1 sdp=0.4 cra=-0.3 mirai=-0.5 dpp=0.6 ishin=-0.2 ldp=0.9 sanseito=0.9 cpj=0.5 genzei=0.6
+ko ‘책임 있는 적극 재정’ | 재정 규율을 지키고 국채를 억제 | 성장 분야에 적극적으로 재정 투자
+en “Responsible, proactive public finance” | Fiscal discipline and fewer bonds | Invest actively in growth sectors
+ja 「責任ある積極財政」 | 財政規律を守り国債を抑える | 成長分野に積極的に財政投資
+
+== soc s . cra>cpj : jcp=-0.6 reiwa=-0.3 sdp=-0.8 cra=-0.6 mirai=-0.2 dpp=0.2 ishin=0.5 ldp=0.8 sanseito=0.8 cpj=1 genzei=0.6
+ko 황위 계승 | 여성 궁가를 만들고 여계도 검토 | 남계를 지키고 구 황족에서 양자를
+en Imperial succession | Let princesses keep their status; consider the female line | Keep the male line; adopt from former imperial branches
+ja 皇位継承 | 女性宮家を創設し女系も検討 | 男系を守り旧皇族から養子を
+
+== pol . 2025.7 jcp>mirai : jcp=-0.7 reiwa=-0.6 sdp=-0.7 cra=0 mirai=1 dpp=0.6 ishin=0.7 ldp=0.4 sanseito=-0.6 cpj=-0.2 genzei=0
+ko 정치·행정의 AI 활용 | 개인정보와 책임 소재가 우려된다 | 정치와 행정에 AI를 적극 도입
+en AI in politics and government | Worried about privacy and accountability | Use AI actively in politics and government
+ja 政治・行政のAI活用 | 個人情報と責任の所在が心配 | 政治と行政にAIを積極的に導入
+
+== pol . 2025.10 cra>ldp : jcp=-0.3 reiwa=-0.3 sdp=-0.3 cra=-0.9 mirai=0 dpp=-0.2 ishin=0.3 ldp=0.6 sanseito=0 cpj=0 genzei=0
+ko 자공 연립 해소 | 정치 자금 개혁에 소극적인 자민당과의 결별은 당연 | 26년 연립을 깬 것은 정치 불안을 부른다
+en The end of the LDP–Kōmeitō coalition | Breaking with an LDP reluctant on money reform was only natural | Ending a 26-year coalition breeds political instability
+ja 自公連立の解消 | 政治資金改革に消極的な自民党との決別は当然 | 26年の連立を壊したのは政治の不安定を招く
+
+== pol . 2026.1 cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-1 mirai=-0.4 dpp=-0.6 ishin=0.5 ldp=0.9 sanseito=-0.3 cpj=-0.4 genzei=-0.3
+ko 정기국회 앞 해산 | 예산 심의를 미룬 해산은 지지율을 노린 것 | 새 연립과 정책에 대해 신임을 묻는 것은 정당
+en Dissolving before the ordinary session | Putting off the budget to dissolve was about riding high ratings | Seeking a mandate for the new coalition and policies is legitimate
+ja 通常国会前の解散 | 予算審議を後回しにした解散は支持率狙い | 新たな連立と政策について信を問うのは正当
+
+== pol s 2024.11 cra>sanseito : jcp=-0.2 reiwa=0.2 sdp=-0.3 cra=-0.6 mirai=0.3 dpp=0.2 ishin=0.1 ldp=-0.3 sanseito=0.9 cpj=0.8 genzei=0.6
+ko 선거와 SNS 규제 | 허위 정보와 비방을 막는 SNS 규제가 필요하다 | 표현의 자유를 위해 SNS 규제는 최소로
+en Elections and social media rules | Regulate social media to stop disinformation and smears | Keep social media rules to a minimum for free expression
+ja 選挙とSNS規制 | 偽情報と誹謗中傷を防ぐSNS規制が必要 | 表現の自由のためSNS規制は最小限に
+
+== pol . 2026.1 cra>ldp : jcp=0.2 reiwa=0.4 sdp=0 cra=-1 mirai=0.2 dpp=0.5 ishin=0.6 ldp=0.8 sanseito=0.6 cpj=0.6 genzei=0.5
+ko 중도 세력의 결집 | 중도 세력이 하나로 모여 정권 교체의 축이 되어야 | 정책이 다른 정당의 선거용 합당일 뿐
+en Uniting the centre | Centrist forces should unite to anchor a change of government | It is merely an electoral merger of parties with different policies
+ja 中道勢力の結集 | 中道勢力が一つにまとまり政権交代の軸になるべき | 政策の異なる政党の選挙目当ての合流にすぎない
+
+== pol s 2025.10 cra>cpj : jcp=-0.8 reiwa=-0.6 sdp=-1 cra=-0.8 mirai=-0.3 dpp=-0.3 ishin=0.2 ldp=0.6 sanseito=0.7 cpj=0.8 genzei=0.4
+ko 첫 여성 총리와 할당제 | 할당제로 여성 의원과 각료를 크게 늘려야 | 실력으로 첫 여성 총리가 나왔다, 할당제는 필요 없다
+en The first woman prime minister and quotas | Use quotas to greatly increase women members and ministers | A woman rose to prime minister on merit; quotas are unnecessary
+ja 初の女性首相とクオータ制 | クオータ制で女性議員と閣僚を大きく増やすべき | 実力で初の女性首相が誕生した、クオータ制は不要
+
+== con s 2025.11 cra>ldp : jcp=-1 reiwa=-0.9 sdp=-1 cra=-0.5 mirai=0 dpp=0.5 ishin=0.7 ldp=0.9 sanseito=0.6 cpj=1 genzei=0.6
+ko 국가 정보국 신설 | 정보 기관 강화는 감시 국가로 이어진다 | 정보 수집과 분석 능력을 높이려면 필요하다
+en A national intelligence bureau | Stronger intelligence agencies lead to a surveillance state | It is needed to improve intelligence gathering and analysis
+ja 国家情報局の創設 | 情報機関の強化は監視国家につながる | 情報収集と分析の能力を高めるため必要
+
+== con s 2025.11 cra>cpj : jcp=-1 reiwa=-1 sdp=-1 cra=-1 mirai=-0.5 dpp=-0.2 ishin=0.4 ldp=0.6 sanseito=0.5 cpj=1 genzei=0.4
+ko 비핵 3원칙 재검토 | 피폭국으로서 비핵 3원칙을 굳게 지켜야 | '들여오지 않는다'를 포함해 원칙을 재검토해야
+en Reviewing the three non-nuclear principles | As an atomic-bombed nation, hold firmly to the principles | Review them, including "not allowing introduction"
+ja 非核三原則の見直し | 被爆国として非核三原則を堅持すべき | 「持ち込ませず」を含め原則を見直すべき
+
+== con s . cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.7 mirai=-0.1 dpp=0.4 ishin=0.8 ldp=0.9 sanseito=0.4 cpj=0.9 genzei=0.4
+ko 방위 장비 수출 '5유형' 철폐 | 살상 무기 수출 확대에 반대 | 5유형 제한을 없애 방위 산업을 키워야
+en Scrapping the "five categories" for defence exports | Oppose expanding exports of lethal weapons | Remove the five-category limit to grow the defence industry
+ja 防衛装備輸出「5類型」の撤廃 | 殺傷兵器の輸出拡大に反対 | 5類型の制限をなくし防衛産業を育てるべき
+
+== con s . cra>cpj : jcp=-1 reiwa=-1 sdp=-1 cra=-0.8 mirai=-0.2 dpp=0.3 ishin=0.7 ldp=0.6 sanseito=0.5 cpj=1 genzei=0.3
+ko 원자력 잠수함 보유 | 원자력의 평화 이용 원칙에 어긋난다 | 억지력을 위해 원자력 잠수함 보유를 검토해야
+en Nuclear-powered submarines | They break the principle of peaceful nuclear use | Consider acquiring nuclear-powered submarines for deterrence
+ja 原子力潜水艦の保有 | 原子力の平和利用の原則に反する | 抑止力のため原子力潜水艦の保有を検討すべき
+
+== con s . sdp>sanseito : jcp=-0.6 reiwa=-0.2 sdp=-0.8 cra=-0.4 mirai=-0.2 dpp=0.5 ishin=0.6 ldp=0.7 sanseito=1 cpj=1 genzei=0.7
+ko 외국인 토지 취득 규제 | 국적만으로 토지 거래를 막는 것은 차별이자 투자 위축 | 안보와 수원지를 지키려면 외국인 토지 취득을 규제해야
+en Restricting land purchases by foreigners | Blocking deals on nationality alone is discriminatory and deters investment | Regulate foreign land purchases to protect security and water sources
+ja 外国人の土地取得規制 | 国籍だけで土地取引を阻むのは差別で投資も萎縮する | 安保と水源地を守るため外国人の土地取得を規制すべき
+
+== dip e 2025.7 cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.6 mirai=0 dpp=-0.4 ishin=0.2 ldp=0.8 sanseito=-0.6 cpj=-0.4 genzei=-0.3
+ko 미국 관세 합의와 대미 투자 | 거액 투자 약속은 일방적 양보, 국익을 해친다 | 15% 관세로 자동차 산업을 지킨 현실적 합의
+en The US tariff deal and investment pledge | The huge investment pledge was a one-sided concession | A realistic deal that protected carmakers with a 15% tariff
+ja 米関税合意と対米投資 | 巨額投資の約束は一方的な譲歩、国益を損なう | 15%関税で自動車産業を守った現実的な合意
+
+== dip s 2025.10 cra>cpj : jcp=-1 reiwa=-0.8 sdp=-1 cra=-0.8 mirai=-0.2 dpp=0 ishin=0.4 ldp=0.6 sanseito=0.9 cpj=1 genzei=0.6
+ko 전후 80년 메시지 | 역대 담화의 반성과 사죄를 이어받아야 | 새 담화는 필요 없다, 미래 지향으로
+en The 80th postwar anniversary message | Carry on the remorse and apology of past statements | No new statement is needed; look to the future
+ja 戦後80年のメッセージ | 歴代談話の反省とお詫びを引き継ぐべき | 新たな談話は不要、未来志向で
+
+== dip s 2025.11 cra>cpj : jcp=-0.8 reiwa=-0.7 sdp=-0.9 cra=-0.6 mirai=-0.2 dpp=0.3 ishin=0.6 ldp=0.9 sanseito=0.7 cpj=1 genzei=0.6
+ko 중국의 경제 압박 | 답변을 정리하고 대화로 관계를 회복해야 | 압박에 굴하지 말고 중국 의존을 줄여야
+en China's economic pressure | Clarify the remarks and restore ties through dialogue | Do not yield to pressure; reduce dependence on China
+ja 中国の経済的圧力 | 答弁を整理し対話で関係を回復すべき | 圧力に屈せず中国依存を減らすべき
+
+== dip s 2025.9 cra>cpj : jcp=-1 reiwa=-1 sdp=-1 cra=-0.7 mirai=-0.3 dpp=-0.1 ishin=0.2 ldp=0.6 sanseito=0.2 cpj=0.8 genzei=0.2
+ko 팔레스타인 국가 승인 | 영국·프랑스 등과 함께 팔레스타인을 국가로 승인해야 | 미국과 보조를 맞춰 승인은 시기를 봐야
+en Recognising a Palestinian state | Recognise Palestine along with Britain, France and others | Stay in step with the US and wait on recognition
+ja パレスチナ国家承認 | 英仏などとともにパレスチナを国家承認すべき | 米国と歩調を合わせ承認は時期を見るべき
+
+== dip s . cra>cpj : jcp=-0.6 reiwa=-0.4 sdp=-0.8 cra=-0.7 mirai=-0.4 dpp=-0.2 ishin=0.2 ldp=0.2 sanseito=0.8 cpj=1 genzei=0.5
+ko 한일 셔틀 외교 | 정상 왕래로 협력을 넓히고 역사 문제도 대화로 | 다케시마와 역사 문제의 원칙은 양보하지 말아야
+en Japan–Korea shuttle diplomacy | Widen cooperation through regular summits and address history through dialogue | Do not concede principles on Takeshima and history
+ja 日韓シャトル外交 | 首脳往来で協力を広げ歴史問題も対話で | 竹島と歴史問題の原則は譲るべきでない
+
+== dip s 2022.2 reiwa>ldp : jcp=-0.2 reiwa=-0.7 sdp=-0.4 cra=0.6 mirai=0.4 dpp=0.7 ishin=0.8 ldp=0.9 sanseito=-0.5 cpj=0.3 genzei=0.2
+ko 우크라이나 지원 | 지원보다 정전 중재에 무게를 둬야 | 침략에 맞서는 우크라이나 지원을 계속해야
+en Supporting Ukraine | Put mediation for a ceasefire ahead of aid | Keep supporting Ukraine against aggression
+ja ウクライナ支援 | 支援より停戦の仲介に重きを置くべき | 侵略に立ち向かうウクライナへの支援を続けるべき
+
+== eco e 2025.12 dpp>ldp : jcp=-0.6 reiwa=-1 sdp=-0.6 cra=-0.5 mirai=0.4 dpp=-1 ishin=-0.3 ldp=0.4 sanseito=-0.9 cpj=-0.9 genzei=-1
+ko 휘발유 잠정 세율 폐지 | 대체 재원 없이도 즉시 폐지해 가계를 도와야 | 도로와 재정을 위해 대체 재원을 먼저 마련해야
+en Abolishing the provisional petrol tax | Abolish it now to help households, even without replacement revenue | Secure replacement revenue first for roads and finances
+ja ガソリン暫定税率の廃止 | 代替財源がなくても直ちに廃止し家計を助けるべき | 道路と財政のため代替財源を先に確保すべき
+
+== eco e 2025.3 dpp>ldp : jcp=-0.4 reiwa=-0.8 sdp=-0.5 cra=-0.5 mirai=0 dpp=-1 ishin=0 ldp=0.4 sanseito=-0.7 cpj=-0.7 genzei=-0.9
+ko 소득세 비과세 한도 | 기초 공제를 178만 엔까지 올려 실수령을 늘려야 | 세수 감소가 크다, 단계적 인상에 그쳐야
+en The income tax threshold | Raise the basic deduction to ¥1.78 million to boost take-home pay | The revenue loss is large; raise it only in stages
+ja 所得税の非課税枠 | 基礎控除を178万円まで引き上げ手取りを増やすべき | 税収減が大きい、段階的な引き上げにとどめるべき
+
+== eco e 2025.12 cra>reiwa : jcp=-0.2 reiwa=0.8 sdp=-0.1 cra=-0.5 mirai=-0.4 dpp=0.5 ishin=-0.3 ldp=0.6 sanseito=0.7 cpj=0.3 genzei=0.5
+ko 일본은행 금리 인상 | 엔저와 물가를 잡으려면 금리 정상화를 서둘러야 | 적극 재정과 함께 금융 완화를 유지해야
+en Bank of Japan rate rises | Hurry normalisation to tame the weak yen and prices | Keep easing alongside active fiscal policy
+ja 日銀の利上げ | 円安と物価を抑えるため金利正常化を急ぐべき | 積極財政とともに金融緩和を維持すべき
+
+== eco e 2024.11 jcp>ldp : jcp=-0.8 reiwa=-0.6 sdp=-0.7 cra=-0.3 mirai=0.6 dpp=0.5 ishin=0.3 ldp=0.8 sanseito=0.2 cpj=0.4 genzei=0.2
+ko AI·반도체 10조 엔 투자 | 특정 산업에 거액의 세금을 쏟는 것은 위험 | AI와 반도체는 국가 전략, 대규모 투자로 앞서야
+en ¥10 trillion for AI and chips | Pouring huge sums into specific industries is risky | AI and chips are national strategy; lead through large investment
+ja AI・半導体10兆円投資 | 特定産業に巨額の税金を注ぐのは危険 | AIと半導体は国家戦略、大規模投資で先行すべき
+
+== eco e 2024.12 genzei>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.6 mirai=-0.2 dpp=-0.6 ishin=-0.4 ldp=0.6 sanseito=-0.8 cpj=-0.6 genzei=-0.9
+ko 방위 증세 | 소득세에 얹는 방위 증세에 반대 | 방위력 강화에는 안정된 세원이 필요하다
+en Tax rises for defence | Oppose a defence surtax on income tax | Stronger defence needs a stable revenue source
+ja 防衛増税 | 所得税に上乗せする防衛増税に反対 | 防衛力強化には安定した財源が必要
+
+== eco e . reiwa>mirai : jcp=-0.6 reiwa=-0.9 sdp=-0.6 cra=-0.6 mirai=0.4 dpp=-0.5 ishin=0.3 ldp=-0.3 sanseito=-0.7 cpj=-0.5 genzei=-0.6
+ko 전기·가스 요금 보조 | 물가가 안정될 때까지 보조를 이어가야 | 시장을 왜곡하는 보조는 끝내고 필요한 가계만 지원해야
+en Electricity and gas subsidies | Continue them until prices stabilise | End market-distorting subsidies and help only households in need
+ja 電気・ガス料金の補助 | 物価が落ち着くまで補助を続けるべき | 市場をゆがめる補助はやめ必要な家計だけ支援すべき
+
+== wel e 2025.2 ishin>cpj : jcp=-0.6 reiwa=-0.8 sdp=-0.6 cra=-0.6 mirai=-0.3 dpp=-0.4 ishin=-1 ldp=-0.2 sanseito=0 cpj=0.4 genzei=0
+ko 고교 무상화 확대 | 소득 제한 없이 사립 고교까지 무상으로 | 공립 쇠퇴와 학비 인상을 부를 수 있다, 신중히
+en Wider free high school | Make private high schools free too, without income limits | It could weaken public schools and push fees up; be careful
+ja 高校無償化の拡大 | 所得制限なしに私立高校まで無償に | 公立の衰退と学費値上げを招きかねない、慎重に
+
+== wel e . jcp>cpj : jcp=-1 reiwa=-1 sdp=-1 cra=-0.8 mirai=-0.3 dpp=-0.6 ishin=-0.8 ldp=-0.2 sanseito=-0.6 cpj=0 genzei=-0.3
+ko 학교 급식 무상화 | 국가 부담으로 전국 급식을 무상으로 해야 | 지자체 재량에 맡기고 필요한 가정을 지원해야
+en Free school lunches | Make lunches free nationwide at state expense | Leave it to localities and help families in need
+ja 給食無償化 | 国の負担で全国の給食を無償にすべき | 自治体の裁量に任せ必要な家庭を支援すべき
+
+== wel e 2025.6 cra>cpj : jcp=-0.4 reiwa=-0.3 sdp=-0.6 cra=-0.9 mirai=0 dpp=0.3 ishin=0.4 ldp=-0.3 sanseito=0.5 cpj=0.6 genzei=0.4
+ko 기초연금 끌어올리기 | 후생연금 적립금을 활용해 기초연금 수준을 높여야 | 후생연금 가입자 몫을 돌리는 것은 부당하다
+en Raising the basic pension | Use employee-pension reserves to lift basic pension levels | Diverting employee-pension money is unfair to its members
+ja 基礎年金の底上げ | 厚生年金の積立金を活用し基礎年金の水準を上げるべき | 厚生年金加入者の分を回すのは不当
+
+== wel e 2025.3 cra>ishin : jcp=-1 reiwa=-1 sdp=-1 cra=-1 mirai=-0.2 dpp=-0.6 ishin=0.4 ldp=0.4 sanseito=-0.5 cpj=-0.2 genzei=-0.3
+ko 고액 요양비 상한 인상 | 중증 환자의 부담을 늘리는 상한 인상에 반대 | 의료 보험을 지키려면 일정한 인상은 필요하다
+en Raising the high-cost medical expense cap | Oppose raising the cap, which burdens seriously ill patients | Some increase is needed to sustain health insurance
+ja 高額療養費の上限引き上げ | 重い病気の患者の負担を増やす引き上げに反対 | 医療保険を守るため一定の引き上げは必要
+
+== wel e . cra>ishin : jcp=-1 reiwa=-1 sdp=-1 cra=-0.8 mirai=0.5 dpp=0.2 ishin=0.9 ldp=0.4 sanseito=-0.3 cpj=0 genzei=0
+ko 시판약 유사 약의 보험 제외 | 환자 부담만 늘린다, 보험 적용을 유지해야 | 보험료를 낮추려면 시판약과 비슷한 약은 보험에서 빼야
+en Removing OTC-like drugs from insurance | It only raises patients' costs; keep coverage | Exclude drugs similar to over-the-counter ones to cut premiums
+ja OTC類似薬の保険外し | 患者負担を増やすだけ、保険適用を維持すべき | 保険料を下げるためOTC類似薬は保険から外すべき
+
+== wel e 2025.10 cra>ldp : jcp=-1 reiwa=-1 sdp=-1 cra=-0.9 mirai=0 dpp=0.3 ishin=0.5 ldp=0.7 sanseito=0.3 cpj=0.5 genzei=0.4
+ko 노동 시간 규제 완화 | 과로사를 부르는 규제 완화에 반대 | 더 일하고 싶은 사람을 위해 상한을 유연하게
+en Loosening working-hour rules | Oppose deregulation that leads to death from overwork | Make limits flexible for people who want to work more
+ja 労働時間規制の緩和 | 過労死を招く規制緩和に反対 | もっと働きたい人のため上限を柔軟に
+
+== wel e . jcp>cpj : jcp=-1 reiwa=-1 sdp=-1 cra=-0.8 mirai=-0.2 dpp=-0.6 ishin=0.3 ldp=0.2 sanseito=-0.2 cpj=0.5 genzei=0.3
+ko 최저임금 1500엔 | 2020년대에 전국 평균 1500엔을 반드시 달성해야 | 중소기업 사정을 보면 무리한 목표다
+en A ¥1,500 minimum wage | Reach a ¥1,500 national average within the 2020s | It is an unrealistic target for small businesses
+ja 最低賃金1500円 | 2020年代に全国平均1500円を必ず達成すべき | 中小企業の事情から無理な目標
+
+== soc s 2025.3 cra>sanseito : jcp=-1 reiwa=-0.8 sdp=-1 cra=-0.8 mirai=-0.6 dpp=-0.3 ishin=-0.2 ldp=0.6 sanseito=1 cpj=1 genzei=0.6
+ko 동성혼 법제화 | 위헌 판결이 잇따른다, 동성혼을 법제화해야 | 가족 제도의 근간이다, 신중하게 논의해야
+en Legalising same-sex marriage | With court after court ruling it unconstitutional, legislate now | It is the foundation of the family system; debate carefully
+ja 同性婚の法制化 | 違憲判決が相次ぐ、同性婚を法制化すべき | 家族制度の根幹、慎重に議論すべき
+
+== soc s . cra>cpj : jcp=-1 reiwa=-1 sdp=-1 cra=-0.7 mirai=-0.4 dpp=0 ishin=0.5 ldp=0.8 sanseito=0.9 cpj=1 genzei=0.6
+ko 국기 손괴죄 | 국기를 이유로 한 처벌은 표현의 자유 침해 | 일본 국기를 모독하는 행위도 처벌해야
+en Criminalising desecration of the national flag | Punishment over the flag violates freedom of expression | Insulting Japan's flag should be punishable too
+ja 国旗損壊罪 | 国旗を理由にした処罰は表現の自由の侵害 | 日本の国旗を侮辱する行為も処罰すべき
+
+== soc s 2024.9 jcp>ldp : jcp=-1 reiwa=-0.9 sdp=-1 cra=-0.9 mirai=-0.6 dpp=-0.6 ishin=-0.4 ldp=0.4 sanseito=-0.2 cpj=0.2 genzei=-0.2
+ko 재심 제도 개정 | 하카마다 사건을 교훈으로 증거 공개와 검찰 항고 금지를 법으로 | 법제심의회 논의를 거쳐 신중하게
+en Reforming retrial rules | Learn from the Hakamada case: mandate evidence disclosure and bar prosecutor appeals | Proceed carefully after the Legislative Council's review
+ja 再審制度の改正 | 袴田事件を教訓に証拠開示と検察抗告の禁止を法に | 法制審議会の議論を経て慎重に
+
+== soc . . cra>sanseito : jcp=-0.6 reiwa=0.4 sdp=-0.6 cra=-0.6 mirai=0.2 dpp=0.3 ishin=0.6 ldp=-0.2 sanseito=0.8 cpj=0.6 genzei=0.6
+ko NHK 수신료 | 공영 방송과 수신료 제도를 지켜야 | 수신료를 없애고 원하는 사람만 보는 방식으로
+en The NHK licence fee | Protect public broadcasting and the licence fee | Scrap the fee and let only those who want it pay
+ja NHK受信料 | 公共放送と受信料制度を守るべき | 受信料をなくし見たい人だけが払う方式に
+
+== reg e 2025.10 cra>ldp : jcp=-0.6 reiwa=-0.6 sdp=-0.6 cra=-0.7 mirai=-0.3 dpp=-0.4 ishin=-0.5 ldp=0.6 sanseito=-0.4 cpj=-0.2 genzei=-0.3
+ko 쌀 증산인가 수요 맞춤인가 | 증산으로 쌀값을 안정시키고 농가 소득은 보상해야 | 수요에 맞춘 생산으로 쌀값과 농가를 지켜야
+en Grow more rice or match demand | Grow more to stabilise prices and compensate farmers' incomes | Produce to demand to protect prices and farmers
+ja 米の増産か需要に応じた生産か | 増産で米価を安定させ農家所得は補償すべき | 需要に応じた生産で米価と農家を守るべき
+
+== reg e . cra>sanseito : jcp=-0.2 reiwa=0.2 sdp=-0.4 cra=-0.6 mirai=-0.4 dpp=0.4 ishin=0.2 ldp=0.5 sanseito=1 cpj=1 genzei=0.7
+ko 메가솔라 규제 | 재생 에너지 확대는 유지하고 입지 규칙만 정비해야 | 자연을 해치는 메가솔라를 규제하고 재생 에너지 부과금도 재검토해야
+en Regulating mega-solar farms | Keep expanding renewables and just tighten siting rules | Curb mega-solar that harms nature and review the renewables surcharge
+ja メガソーラー規制 | 再エネ拡大は維持し立地のルールだけ整えるべき | 自然を壊すメガソーラーを規制し再エネ賦課金も見直すべき
+
+== reg e . ishin>jcp : jcp=0.6 reiwa=0.5 sdp=0.5 cra=0.4 mirai=0 dpp=0.3 ishin=-1 ldp=-0.2 sanseito=0.4 cpj=0.4 genzei=0.2
+ko 부수도 구상 | 오사카를 부수도로 해 도쿄 일극 집중과 재해 위험을 줄여야 | 거액의 비용이 드는 오사카 중심 구상일 뿐
+en A secondary capital | Make Osaka a secondary capital to ease Tokyo's dominance and disaster risk | A costly plan that mainly benefits Osaka
+ja 副首都構想 | 大阪を副首都にし東京一極集中と災害リスクを減らすべき | 巨額の費用がかかる大阪中心の構想にすぎない
+
+== reg e . cra>cpj : jcp=-1 reiwa=-1 sdp=-1 cra=-0.7 mirai=-0.2 dpp=-0.3 ishin=0.3 ldp=0.6 sanseito=0.3 cpj=0.7 genzei=0.3
+ko 오키나와 진흥 예산 | 기지 문제와 엮은 진흥 예산 삭감에 반대 | 효과를 따져 진흥 예산을 효율화해야
+en The Okinawa development budget | Oppose cuts linked to the base issue | Make the budget more efficient based on results
+ja 沖縄振興予算 | 基地問題と絡めた振興予算の削減に反対 | 効果を検証し振興予算を効率化すべき
+
+== reg e . cra>ishin : jcp=-0.7 reiwa=-0.8 sdp=-0.8 cra=-0.9 mirai=0.2 dpp=-0.4 ishin=0.5 ldp=0.4 sanseito=-0.5 cpj=0 genzei=-0.2
+ko 농가 직접 지불 | 규모와 관계없이 모든 농가의 소득을 직접 지불로 보장해야 | 규모를 키우는 의욕 있는 농가에 지원을 모아야
+en Direct payments to farmers | Guarantee every farm's income with direct payments, whatever its size | Concentrate support on ambitious farms that scale up
+ja 農家への直接支払い | 規模にかかわらずすべての農家の所得を直接支払いで保障すべき | 規模を拡大する意欲ある農家に支援を集中すべき

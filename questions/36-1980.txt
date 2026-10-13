@@ -1,0 +1,154 @@
+# 제36회 중의원 총선 (1980.6.22) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.6) sdf=사회민주연합(-0.3) kmt=공명당(-0.05) dsp=민사당(0.1) nlc=신자유클럽(0.35) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1980.5 jsp>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-1 dsp=-0.8 nlc=-0.8 ldp=0.9
+ko 불신임 가결과 파벌 항쟁 | 금권·파벌 정치를 끝내야 | 보수 안정 정권으로
+en The no-confidence vote and factional strife | End money and faction politics | A stable conservative government
+ja 不信任可決と派閥抗争 | 金権・派閥政治を終わらせるべき | 保守安定政権へ
+
+== pol . 1980.1 jcp>kmt : jcp=-1 jsp=0.4 sdf=0.5 kmt=0.8 dsp=0.6 nlc=0.3 ldp=0.6
+ko ‘사공 합의’ | 공산당을 포함한 혁신 통일 | 공산당을 뺀 중도 연합
+en The Socialist–Kōmeitō accord | A united progressive front including the Communists | A centrist alliance without the Communists
+ja 「社公合意」 | 共産党を含む革新統一 | 共産党を除く中道連合
+
+== dip s 1980.5 jsp>ldp : jcp=-1 jsp=-0.8 sdf=-0.5 kmt=-0.3 dsp=0.6 nlc=0.4 ldp=0.9
+ko 모스크바 올림픽 보이콧 | 스포츠와 정치는 별개, 참가해야 | 아프가니스탄 침공에 항의해 불참
+en Boycotting the Moscow Olympics | Keep sport and politics apart; take part | Stay away in protest at the invasion of Afghanistan
+ja モスクワ五輪ボイコット | スポーツと政治は別、参加すべき | アフガン侵攻に抗議して不参加
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.4 dsp=0.6 nlc=0.3 ldp=0.9
+ko 방위비 증액 | 반대한다 | 미국 요구에 맞춰 늘려야
+en Higher defence spending | Against it | Raise it as the US asks
+ja 防衛費の増額 | 反対する | 米国の要求に合わせ増やすべき
+
+== eco . . nlc>ldp : jcp=-0.8 jsp=-0.5 sdf=-0.6 kmt=-0.7 dsp=-0.8 nlc=-0.8 ldp=0.4
+ko 재정 재건과 증세 | 증세 없이 불공평부터 시정 | 증세를 포함해 검토
+en Fiscal repair and taxes | Fix unfair taxes first, no new taxes | Consider tax rises
+ja 財政再建と増税 | 増税なしで不公平の是正から | 増税を含めて検討
+
+== reg e . jsp>ldp : jcp=-0.8 jsp=-1 sdf=-0.8 kmt=-0.4 dsp=0.6 nlc=0.4 ldp=0.9
+ko 원전 | 원전을 멈춰야 | 추진해야
+en Nuclear power | Stop nuclear power | Proceed with it
+ja 原発 | 原発を止めるべき | 推進すべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=-0.5 nlc=-0.2 ldp=0.6
+ko 의료·복지 | 본인 부담을 늘리지 말아야 | 부담과 급여를 재검토
+en Health and welfare | No higher co-payments | Review burdens and benefits
+ja 医療・福祉 | 自己負担を増やすべきでない | 負担と給付を見直す
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.5 dsp=0.1 nlc=0 ldp=0.6
+ko 헌법 개정 | 반대한다 | 검토해야
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== eco e 1980.3 jsp>ldp : jcp=-0.8 jsp=-0.8 sdf=-0.6 kmt=-0.6 dsp=-0.3 nlc=-0.4 ldp=0.2
+ko 그린카드 제도 | 도입해 불공평 과세를 바로잡아야 | 저축이 위축된다
+en The green card savings system | Introduce it to end unfair taxation | It will discourage saving
+ja グリーンカード制度 | 導入して不公平な課税を正すべき | 貯蓄が萎縮する
+
+== pol . 1979.11 nlc>ldp : jcp=-0.8 jsp=-0.8 sdf=-0.8 kmt=-0.8 dsp=-0.7 nlc=-0.8 ldp=0.4
+ko 40일 항쟁 | 총선에 지고도 버틴 파벌 다툼은 정치 불신을 키웠다 | 당내 절차에 따른 결론, 정권은 유지해야
+en The 40-day factional war | Clinging on after an election loss deepened distrust of politics | It was settled by party procedure; the government should continue
+ja 四十日抗争 | 総選挙で負けても居座った派閥抗争は政治不信を深めた | 党内手続きによる決着、政権は維持すべき
+
+== pol . 1980.5 jsp>ldp : jcp=-0.8 jsp=-0.9 sdf=-0.7 kmt=-0.8 dsp=-0.6 nlc=-0.5 ldp=0.8
+ko 중참 동일 선거 | 여당에 유리한 동일 선거를 위한 해산은 해산권 남용 | 국민의 신임을 한꺼번에 묻는 것은 정당하다
+en Simultaneous elections for both houses | Dissolving to engineer a double election that favours the ruling party abuses the power | Asking for the public's verdict on both at once is legitimate
+ja 衆参同日選挙 | 与党に有利な同日選のための解散は解散権の濫用 | 国民の信任を一度に問うのは正当
+
+== con s 1980.2 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.4 dsp=0.5 nlc=0.4 ldp=0.9
+ko 림팩 참가 | 다국적 해상 훈련 참가는 집단적 자위권 행사의 길 | 해상자위대의 전술 향상을 위해 참가해야
+en Joining RIMPAC | Joining multinational naval exercises leads towards collective self-defence | Take part to improve the MSDF's skills
+ja リムパック参加 | 多国間海上演習への参加は集団的自衛権行使への道 | 海上自衛隊の戦術向上のため参加すべき
+
+== con s 1980.1 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.5 dsp=0.4 nlc=0.2 ldp=0.8
+ko 스파이 방지법 | 미야나가 사건을 핑계로 한 비밀 보호법은 알 권리를 해친다 | 국가 기밀을 지키는 스파이 방지법이 필요하다
+en An anti-espionage law | A secrecy law using the Miyanaga case as a pretext harms the right to know | A law protecting state secrets against spying is needed
+ja スパイ防止法 | 宮永事件を口実にした秘密保護法は知る権利を損なう | 国家機密を守るスパイ防止法が必要
+
+== dip s 1979.12 jsp>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.2 kmt=-0.1 dsp=0.6 nlc=0.5 ldp=0.8
+ko 아프간 침공과 대소 제재 | 제재보다 대화로 긴장을 풀어야 | 서방과 함께 소련 제재에 나서야
+en Afghanistan and sanctions on the USSR | Ease tension through dialogue rather than sanctions | Join the West in sanctioning the Soviet Union
+ja アフガン侵攻と対ソ制裁 | 制裁より対話で緊張を緩めるべき | 西側とともに対ソ制裁に加わるべき
+
+== dip . 1979.11 jsp>ldp : jcp=-0.5 jsp=-0.5 sdf=-0.3 kmt=-0.3 dsp=0.2 nlc=0.3 ldp=0.6
+ko 이란 인질 사건과 석유 | 석유 확보를 위해 이란과 독자적 관계를 지켜야 | 미국과 보조를 맞춰 이란에 대응해야
+en The Iran hostage crisis and oil | Keep independent ties with Iran to secure oil | Act in step with the US towards Iran
+ja イラン人質事件と石油 | 石油確保のためイランと独自の関係を守るべき | 米国と歩調を合わせイランに対応すべき
+
+== dip e 1979.12 jcp>ldp : jcp=-0.6 jsp=0.5 sdf=0.6 kmt=0.6 dsp=0.6 nlc=0.7 ldp=0.8
+ko 대중국 엔 차관 | 중국의 군사 대국화를 도울 수 있다, 신중해야 | 중국 근대화를 도와 우호와 안정을 넓혀야
+en Yen loans to China | They could help China's military rise; be cautious | Aid China's modernisation to deepen friendship and stability
+ja 対中円借款 | 中国の軍事大国化を助けかねない、慎重に | 中国の近代化を助け友好と安定を広げるべき
+
+== dip s 1980.5 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.8 dsp=-0.4 nlc=-0.4 ldp=0.5
+ko 광주 사건과 김대중 체포 | 한국 군부의 탄압에 항의하고 원조를 재검토해야 | 내정 문제, 한국과의 관계는 유지해야
+en Gwangju and the arrest of Kim Dae-jung | Protest the Korean military's crackdown and review aid | It is an internal matter; keep relations with Korea
+ja 光州事件と金大中逮捕 | 韓国軍部の弾圧に抗議し援助を見直すべき | 内政問題、韓国との関係は維持すべき
+
+== eco e 1980.4 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.9 dsp=-0.5 nlc=-0.3 ldp=0.6
+ko 전기 요금 대폭 인상 | 석유값 상승을 핑계로 한 대폭 인상은 생활을 압박한다 | 원가 상승을 반영한 인상은 불가피하다
+en Large electricity price rises | Steep rises blamed on oil prices squeeze households | Rises reflecting higher costs are unavoidable
+ja 電気料金の大幅値上げ | 石油高を口実にした大幅値上げは生活を圧迫する | 原価上昇を反映した値上げはやむを得ない
+
+== eco e . jsp>ldp : jcp=-0.8 jsp=-0.7 sdf=-0.4 kmt=-0.3 dsp=0 nlc=0.2 ldp=0.6
+ko 미일 자동차 마찰 | 미국의 압력에 밀린 수출 자율 규제에 반대 | 동맹 관계를 위해 수출을 스스로 조절해야
+en US–Japan car friction | Oppose "voluntary" export limits forced by US pressure | Restrain exports ourselves for the sake of the alliance
+ja 日米自動車摩擦 | 米国の圧力による輸出自主規制に反対 | 同盟関係のため輸出を自主的に抑えるべき
+
+== eco e 1979.12 jcp>nlc : jcp=-0.4 jsp=-0.2 sdf=0.3 kmt=0.2 dsp=0.6 nlc=0.8 ldp=0.4
+ko 특수법인 정리 | 공공 서비스를 줄이는 정리보다 낙하산 인사를 막아야 | 비대한 특수법인을 통폐합해 재정을 줄여야
+en Streamlining public corporations | Stop "golden parachutes" rather than cutting public services | Merge and close bloated public corporations to save money
+ja 特殊法人の整理 | 公共サービスを減らす整理より天下りを防ぐべき | 肥大化した特殊法人を統廃合し財政を減らすべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.9 dsp=-0.7 nlc=-0.4 ldp=0.5
+ko 장애인 정책 | 국제 장애인의 해를 앞두고 소득 보장과 시설을 크게 늘려야 | 재정 형편에 맞게 자립 지원 중심으로
+en Disability policy | Ahead of the International Year, greatly expand income support and facilities | Focus on support for independence within fiscal means
+ja 障害者政策 | 国際障害者年を前に所得保障と施設を大幅に増やすべき | 財政事情に合わせ自立支援を中心に
+
+== wel e . jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.8 kmt=-0.9 dsp=-0.6 nlc=-0.4 ldp=0.4
+ko 보육 확충 | 일하는 여성을 위해 공립 보육소를 늘려야 | 가정 보육을 기본으로 보육은 필요한 만큼만
+en Expanding childcare | Build more public day-care centres for working women | Home care is the norm; provide only as much as needed
+ja 保育の拡充 | 働く女性のため公立保育所を増やすべき | 家庭保育を基本に保育は必要な分だけ
+
+== wel e . kmt>ldp : jcp=-0.9 jsp=-0.8 sdf=-0.7 kmt=-1 dsp=-0.8 nlc=-0.5 ldp=0.6
+ko 소득세 감세 | 물가 상승에 맞춰 소득세를 깎아 실질 소득을 지켜야 | 재정 재건 중에는 감세 여력이 없다
+en Income tax cuts | Cut income tax in line with inflation to protect real incomes | There is no room for tax cuts during fiscal repair
+ja 所得税減税 | 物価上昇に合わせ所得税を減らし実質所得を守るべき | 財政再建中は減税の余力はない
+
+== soc s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.5 dsp=0.3 nlc=0 ldp=0.9
+ko 교과서 '편향' 비판 | 여당의 교과서 공격은 교육 내용에 대한 정치 개입 | 편향된 교과서를 바로잡아야 한다
+en Attacks on "biased" textbooks | The ruling party's campaign is political interference in education | Biased textbooks must be corrected
+ja 教科書「偏向」批判 | 与党の教科書攻撃は教育内容への政治介入 | 偏向した教科書を正すべき
+
+== soc s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.8 dsp=-0.5 nlc=-0.5 ldp=0.4
+ko 여성차별철폐조약과 국적법 | 조약에 서명하고 부계주의 국적법을 바로 고쳐야 | 서명은 하되 국내법 정비는 신중히
+en The women's convention and the Nationality Law | Sign the convention and fix the father-only nationality rule at once | Sign, but revise domestic law cautiously
+ja 女子差別撤廃条約と国籍法 | 条約に署名し父系主義の国籍法をすぐ改めるべき | 署名はするが国内法の整備は慎重に
+
+== soc s . jsp>ldp : jcp=-0.8 jsp=-0.8 sdf=-0.5 kmt=-0.3 dsp=0.3 nlc=0.2 ldp=0.8
+ko 교내 폭력과 관리 교육 | 관리와 처벌보다 학교의 여유와 대화가 필요 | 교내 폭력에는 엄격한 지도와 관리가 필요
+en School violence and discipline | Schools need room to breathe and dialogue, not control and punishment | Violence in schools calls for strict guidance and control
+ja 校内暴力と管理教育 | 管理と処罰より学校のゆとりと対話が必要 | 校内暴力には厳しい指導と管理が必要
+
+== soc s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.6 dsp=0 nlc=-0.2 ldp=0.7
+ko 원호와 천황 제도 | 원호 강제는 천황 중심 사관을 되살린다 | 원호는 일본의 전통, 공문서에 써야
+en Era names and the throne | Enforcing era names revives an emperor-centred view of history | Era names are tradition and belong in official documents
+ja 元号と天皇制 | 元号の強制は天皇中心の史観をよみがえらせる | 元号は日本の伝統、公文書に使うべき
+
+== reg e 1980.5 jsp>ldp : jcp=-0.7 jsp=-0.4 sdf=-0.2 kmt=0 dsp=0.4 nlc=0.4 ldp=0.8
+ko 석유 대체 에너지 | 원전이 아닌 태양열 등 재생 에너지에 투자를 | 원자력과 석탄 액화 등 대체 에너지를 국책으로
+en Alternatives to oil | Invest in solar and other renewables, not nuclear power | Make nuclear and coal liquefaction national alternatives
+ja 石油代替エネルギー | 原発でなく太陽熱など再生可能エネルギーに投資を | 原子力や石炭液化など代替エネルギーを国策に
+
+== reg e . jsp>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.3 kmt=-0.4 dsp=0 nlc=0.2 ldp=0.7
+ko 전원도시국가 구상 | 구호보다 지방 재정과 권한을 실제로 넘겨야 | 도시와 농촌이 어울리는 전원도시로 지방을 살려야
+en The "garden city nation" concept | Hand over real money and power to localities instead of slogans | Revive the regions as garden cities blending town and country
+ja 田園都市国家構想 | スローガンより地方に財源と権限を実際に移すべき | 都市と農村が調和する田園都市で地方を生かすべき
+
+== reg e 1979.5 jsp>nlc : jcp=-0.8 jsp=-0.7 sdf=-0.4 kmt=-0.8 dsp=-0.3 nlc=0.5 ldp=-0.2
+ko 대형 점포 규제 | 상점가를 지키려면 대형 점포 출점 규제를 강화해야 | 소비자 편익을 위해 출점 규제를 풀어야
+en Restricting large stores | Tighten limits on big stores to protect local shopping streets | Ease opening rules for consumers' benefit
+ja 大型店規制 | 商店街を守るため大型店の出店規制を強化すべき | 消費者の利便のため出店規制を緩めるべき

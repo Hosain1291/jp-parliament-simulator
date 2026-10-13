@@ -1,0 +1,154 @@
+# 제24회 중의원 총선 (1949.1.23) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) rono=노동자농민당(-0.8) jsp=일본사회당(-0.45) kokkyo=국민협동당(0.05) etc=기타 정파(0) ind=무소속(0) minshu47=민주당(0.25) dlp=민주자유당(0.6)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1948.10 dlp>minshu47 : jcp=-0.3 rono=-0.2 jsp=0.8 kokkyo=0.8 minshu47=0.9 dlp=-1
+ko 쇼와전공 사건과 중도 연립 | 부패한 중도 연립을 끝내고 보수 단독 정권으로 | 중도 연립 노선을 지켜야
+en Shōwa Denkō and the centrist coalition | End the corrupt centrist coalition; a conservative government | Keep the centrist coalition
+ja 昭和電工事件と中道連立 | 腐敗した中道連立を終わらせ保守単独政権に | 中道連立路線を守るべき
+
+== eco e 1948.12 jsp>dlp : jcp=-1 rono=-1 jsp=-0.7 kokkyo=-0.2 minshu47=0.3 dlp=0.9
+ko 경제안정 9원칙 | 긴축은 실업을 늘린다, 반대 | 인플레를 잡으려면 균형 예산
+en Nine principles of economic stabilisation | Austerity will raise unemployment; oppose | A balanced budget to stop inflation
+ja 経済安定九原則 | 緊縮は失業を増やす、反対 | インフレを抑えるには均衡予算
+
+== wel e 1948.7 jcp>dlp : jcp=-1 rono=-1 jsp=-0.8 kokkyo=-0.2 minshu47=0.3 dlp=0.9
+ko 정령 201호 | 공무원의 쟁의권 박탈에 반대 | 공무원 파업 금지는 필요
+en Cabinet Order 201 | Oppose stripping public employees of the right to strike | Banning public-sector strikes is necessary
+ja 政令201号 | 公務員の争議権剥奪に反対 | 公務員のスト禁止は必要
+
+== eco e 1947.12 jsp>dlp : jcp=-1 rono=-1 jsp=-0.9 kokkyo=-0.3 minshu47=0.2 dlp=0.9
+ko 탄광 국가관리법 | 유지해야 한다 | 폐지해야 한다
+en Coal Mine State Control Law | Keep it | Abolish it
+ja 臨時石炭鉱業管理法 | 維持すべき | 廃止すべき
+
+== soc s . jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.4 kokkyo=0.3 minshu47=0.5 dlp=0.9
+ko 공산당 활동 규제 | 사상과 결사의 자유를 지켜야 | 공산당 활동을 규제해야
+en Restricting the Communist Party | Defend freedom of thought and association | Restrict communist activity
+ja 共産党の活動規制 | 思想と結社の自由を守るべき | 共産党の活動を規制すべき
+
+== eco e . jsp>dlp : jcp=-1 rono=-1 jsp=-0.8 kokkyo=-0.2 minshu47=0.2 dlp=0.8
+ko 세제 | 대중 과세를 줄이고 부유층에 과세 | 감세로 기업 활력을
+en Taxes | Lower taxes on ordinary people, tax the rich | Cut taxes to revive business
+ja 税制 | 大衆課税を減らし富裕層に課税 | 減税で企業に活力を
+
+== reg e . rono>dlp : jcp=-0.8 rono=-0.9 jsp=-0.4 kokkyo=-0.6 minshu47=0 dlp=0.4
+ko 식량 공출 | 공출 할당을 줄이고 쌀값을 올려야 | 식량 확보를 위해 공출 유지
+en Compulsory rice deliveries | Reduce quotas and raise rice prices | Keep deliveries to secure food
+ja 食糧供出 | 供出割当を減らし米価を上げるべき | 食糧確保のため供出を維持
+
+== wel e 1948.12 jsp>dlp : jcp=-1 rono=-1 jsp=-0.8 kokkyo=-0.1 minshu47=0.4 dlp=0.9
+ko 노동조합법 개정 | 노동 운동 억압, 반대 | 조합 민주화를 위해 개정
+en Revising the Trade Union Law | It suppresses the labour movement | Revise it to democratise unions
+ja 労働組合法改正 | 労働運動の抑圧、反対 | 組合民主化のため改正
+
+== dip s . jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.3 kokkyo=0 minshu47=0.3 dlp=0.7
+ko 점령 정책과 자주성 | 점령 정책에 자주성을 가져야 | 점령 당국과 적극 협조
+en Occupation policy | Show independence toward occupation policy | Cooperate fully with the occupation
+ja 占領政策と自主性 | 占領政策に自主性を持つべき | 占領当局と積極的に協力
+
+== pol . 1948.12 jsp>dlp : jcp=-0.6 rono=-0.6 jsp=-0.8 kokkyo=-0.5 minshu47=-0.7 dlp=0.9
+ko 중의원 해산권 | 해산은 내각 불신임이 가결됐을 때만 할 수 있다 | 내각은 국민의 뜻을 묻기 위해 언제든 해산할 수 있다
+en The power to dissolve | The House may be dissolved only after a no-confidence vote passes | The cabinet may dissolve at any time to seek the people's verdict
+ja 衆議院の解散権 | 解散は内閣不信任が可決された時に限る | 内閣は民意を問うためいつでも解散できる
+
+== pol . 1948.7 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.7 kokkyo=-0.5 minshu47=-0.2 dlp=0.6
+ko 정치 자금 규제 | 기업 헌금을 금지하고 정치 자금을 모두 공개해야 | 수지 신고 의무 정도면 충분하다
+en Regulating political money | Ban corporate donations and disclose all political funds | A duty to report income and spending is enough
+ja 政治資金規制 | 企業献金を禁止し政治資金をすべて公開すべき | 収支報告の義務で十分
+
+== pol . 1948.12 jcp>dlp : jcp=-0.8 rono=-0.7 jsp=-0.6 kokkyo=-0.4 minshu47=-0.3 dlp=0.6
+ko 인사원과 공무원 제도 | 독립된 인사원이 공무원 인사를 맡아 정치 개입을 막아야 | 공무원 인사는 내각이 책임지고 인사원 권한은 줄여야
+en The National Personnel Authority | An independent authority should run civil service personnel to prevent political meddling | The cabinet should be responsible for personnel; curb the authority's powers
+ja 人事院と公務員制度 | 独立した人事院が公務員人事を担い政治介入を防ぐべき | 公務員人事は内閣が責任を持ち人事院の権限は縮小を
+
+== con s 1948.11 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.6 kokkyo=-0.2 minshu47=0 dlp=0.6
+ko 도쿄 재판 판결 | 판결은 전쟁 책임을 밝힌 정당한 결론 | 승자의 재판이다, 감형과 명예 회복을
+en The Tokyo Trial verdicts | The verdicts rightly establish responsibility for the war | Victors' justice; seek reduced sentences and restored honour
+ja 東京裁判判決 | 判決は戦争責任を明らかにした正当な結論 | 勝者の裁きだ、減刑と名誉回復を
+
+== con s 1947.9 jcp>dlp : jcp=-1 rono=-1 jsp=-0.7 kokkyo=-0.2 minshu47=0.3 dlp=0.7
+ko 독립 후의 안전보장 | 비무장 중립을 지키고 안전은 유엔에 맡겨야 | 독립 뒤에는 미군 주둔 등 미국과의 협정으로 안전을
+en Security after independence | Stay unarmed and neutral and rely on the UN | After independence, secure Japan through an agreement with the US, including US forces
+ja 独立後の安全保障 | 非武装中立を守り安全は国連に委ねる | 独立後は米軍駐留など米国との協定で安全を
+
+== con s 1948.12 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.6 kokkyo=-0.2 minshu47=0.1 dlp=0.6
+ko A급 전범 용의자 석방 | 용의자를 재판 없이 풀어 주는 것은 책임 회피 | 냉전 속 부흥을 위해 석방은 당연하다
+en Releasing Class A suspects | Releasing suspects without trial lets them escape responsibility | Release is natural as the focus turns to recovery in the Cold War
+ja A級戦犯容疑者の釈放 | 容疑者を裁判なしに釈放するのは責任逃れ | 冷戦下の復興のため釈放は当然
+
+== dip s . jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.6 kokkyo=-0.1 minshu47=0.4 dlp=0.8
+ko 냉전 속 일본의 진로 | 미소 어느 쪽에도 서지 않는 중립의 길을 | 자유 진영과 손잡아야 한다
+en Japan's path in the Cold War | Neutrality, siding with neither the US nor the USSR | Japan should join the free world
+ja 冷戦下の日本の進路 | 米ソどちらにもつかない中立の道を | 自由陣営と手を結ぶべき
+
+== dip . 1948.3 jcp>dlp : jcp=-0.6 rono=-0.5 jsp=-0.2 kokkyo=0.3 minshu47=0.6 dlp=0.8
+ko 배상 축소 | 배상 축소는 아시아 피해국에 대한 책임 회피 | 배상을 줄여 공업 부흥을 앞당겨야
+en Scaling back reparations | Cutting reparations dodges responsibility to Asian victims | Reduce reparations to speed industrial recovery
+ja 賠償の縮小 | 賠償縮小はアジアの被害国への責任逃れ | 賠償を減らして工業復興を早めるべき
+
+== dip s . jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.6 kokkyo=-0.3 minshu47=0 dlp=0.6
+ko 중국 내전과 무역 | 누가 이기든 중국과의 무역과 교류를 넓혀야 | 공산 세력과의 교역은 서방과 보조를 맞춰 신중히
+en China's civil war and trade | Expand trade and exchanges with China whoever wins | Trade with the communists only cautiously, in step with the West
+ja 中国内戦と貿易 | どちらが勝っても中国との貿易と交流を広げるべき | 共産勢力との交易は西側と歩調を合わせ慎重に
+
+== eco e 1947.12 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.7 kokkyo=-0.3 minshu47=0.1 dlp=0.8
+ko 대기업 분할 | 집중배제법으로 거대 기업을 철저히 나눠야 | 기업 분할은 부흥을 늦춘다, 대상을 줄여야
+en Breaking up big firms | Use the deconcentration law to split up giant companies thoroughly | Breaking them up slows recovery; narrow the list
+ja 大企業の分割 | 集中排除法で巨大企業を徹底的に分割すべき | 企業分割は復興を遅らせる、対象を絞るべき
+
+== eco e . jsp>dlp : jcp=-0.5 rono=-0.6 jsp=-0.7 kokkyo=-0.5 minshu47=-0.4 dlp=0.8
+ko 부흥금융금고 | 부흥금고 융자로 기간산업 지원을 계속해야 | 부흥금고 융자가 인플레의 원인, 멈춰야
+en Reconstruction Finance Bank | Keep supporting key industries with its loans | Its lending fuels inflation; stop it
+ja 復興金融金庫 | 復金融資で基幹産業への支援を続けるべき | 復金融資がインフレの原因、止めるべき
+
+== wel e 1947.12 jcp>dlp : jcp=-1 rono=-1 jsp=-0.8 kokkyo=-0.3 minshu47=-0.1 dlp=0.6
+ko 실업보험 | 실업보험을 넓혀 해고된 노동자의 생활을 지켜야 | 재정 부담을 생각해 최소한으로
+en Unemployment insurance | Widen unemployment insurance to protect laid-off workers | Keep it minimal given the fiscal burden
+ja 失業保険 | 失業保険を広げ解雇された労働者の生活を守るべき | 財政負担を考え最小限に
+
+== wel e 1947.12 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.8 kokkyo=-0.4 minshu47=-0.3 dlp=0.4
+ko 아동 복지 | 전쟁고아 보호를 국가 책임으로 넓혀야 | 민간 시설과 지역이 중심이 되어야
+en Child welfare | Make care of war orphans a state responsibility | Private institutions and communities should take the lead
+ja 児童福祉 | 戦災孤児の保護を国の責任として広げるべき | 民間施設と地域が中心となるべき
+
+== wel e . jcp>dlp : jcp=-1 rono=-1 jsp=-0.7 kokkyo=-0.2 minshu47=0.2 dlp=0.8
+ko 임금 억제 | 물가에 맞춰 생활할 수 있는 임금으로 올려야 | 인플레를 막으려면 임금 인상을 억제해야
+en Wage restraint | Raise wages to a living level in line with prices | Hold down wages to stop inflation
+ja 賃金抑制 | 物価に合わせ生活できる賃金に引き上げるべき | インフレを抑えるため賃上げを抑制すべき
+
+== soc s 1948.4 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.4 kokkyo=0.2 minshu47=0.5 dlp=0.8
+ko 조선인 학교 폐쇄 | 재일 조선인의 민족 교육 권리를 인정해야 | 일본의 학교 교육 기준을 따라야 한다, 폐쇄는 정당
+en Closing Korean schools | Recognise Korean residents' right to ethnic education | They must follow Japanese school standards; closure is justified
+ja 朝鮮人学校閉鎖 | 在日朝鮮人の民族教育の権利を認めるべき | 日本の学校教育基準に従うべき、閉鎖は正当
+
+== soc s 1948.7 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.8 kokkyo=-0.4 minshu47=-0.2 dlp=0.6
+ko 교육위원 공선제 | 교육위원을 주민이 직접 뽑아 교육 자치를 | 선거는 교육을 정치화한다, 임명제가 낫다
+en Elected school boards | Residents should elect school boards for local control of education | Elections politicise education; appointment is better
+ja 教育委員公選制 | 教育委員を住民が直接選び教育の自治を | 選挙は教育を政治化する、任命制がよい
+
+== soc s 1947.12 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.7 kokkyo=-0.4 minshu47=-0.1 dlp=0.8
+ko 자치체 경찰 | 시정촌 자치체 경찰로 경찰 권력을 나눠야 | 치안이 나빠졌다, 국가 경찰로 일원화해야
+en Municipal police | Divide police power among municipal forces | Crime is rising; unify the police under the state
+ja 自治体警察 | 市町村の自治体警察で警察権力を分散すべき | 治安が悪化した、国家警察に一元化すべき
+
+== soc s . jcp>dlp : jcp=-1 rono=-0.8 jsp=-0.5 kokkyo=-0.2 minshu47=0.2 dlp=0.4
+ko 점령군 검열 | 점령군의 사전 검열도 언론 자유의 침해 | 점령 중 질서를 위해 검열은 불가피
+en Occupation censorship | Pre-publication censorship by the Occupation also violates press freedom | Censorship is unavoidable for order during the Occupation
+ja 占領軍の検閲 | 占領軍の事前検閲も言論の自由の侵害 | 占領中の秩序のため検閲はやむを得ない
+
+== reg e 1947.11 jcp>dlp : jcp=-1 rono=-0.9 jsp=-0.6 kokkyo=-0.6 minshu47=0 dlp=0.6
+ko 농업협동조합 | 농협은 관의 통제 없는 농민의 자주 조직이어야 | 농협을 통해 공출과 배급을 효율적으로 해야
+en Agricultural cooperatives | Co-ops must be farmers' own organisations, free of official control | Use co-ops to run deliveries and rationing efficiently
+ja 農業協同組合 | 農協は官の統制のない農民の自主組織であるべき | 農協を通じて供出と配給を効率的に
+
+== reg e 1948.7 jcp>dlp : jcp=-0.9 rono=-0.8 jsp=-0.7 kokkyo=-0.6 minshu47=-0.3 dlp=0.6
+ko 지방 재정 | 지방에 충분한 재원을 넘겨 자치를 실질화해야 | 국가 재정의 긴축이 먼저다
+en Local finances | Give localities enough revenue to make self-government real | Tightening national finances comes first
+ja 地方財政 | 地方に十分な財源を移し自治を実質化すべき | 国の財政の緊縮が先
+
+== reg e 1947.9 jsp>dlp : jcp=-0.7 rono=-0.7 jsp=-0.8 kokkyo=-0.6 minshu47=-0.5 dlp=0.3
+ko 수해와 치수 | 국가가 대규모 치수와 국토 보전 사업을 해야 | 긴축 아래서 복구는 최소한으로
+en Floods and river control | The state should carry out large-scale flood control and land conservation | Under austerity, keep reconstruction to the minimum
+ja 水害と治水 | 国が大規模な治水と国土保全事業を行うべき | 緊縮の下で復旧は最小限に

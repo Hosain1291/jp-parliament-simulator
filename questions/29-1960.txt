@@ -1,0 +1,154 @@
+# 제29회 중의원 총선 (1960.11.20) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.65) dsp=민주사회당(-0.1) etc=기타 정파(0) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== con s 1960.6 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 ldp=1
+ko 신안보조약 | 폐기해야 한다 | 유지해야 한다
+en The new security treaty | Scrap it | Keep it
+ja 新安保条約 | 廃棄すべき | 維持すべき
+
+== pol . 1960.5 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.9
+ko 안보 강행 처리 | 의회 민주주의를 파괴했다 | 다수결은 정당했다
+en Forcing the treaty through | It destroyed parliamentary democracy | Majority rule was legitimate
+ja 安保の強行採決 | 議会制民主主義を破壊した | 多数決は正当だった
+
+== eco e 1960.9 jsp>ldp : jcp=-1 jsp=-0.8 dsp=0 ldp=1
+ko 소득 배증 계획 | 대기업 중심 성장, 격차를 키운다 | 10년에 소득을 두 배로
+en Income-doubling plan | Growth led by big business widens gaps | Double incomes in ten years
+ja 所得倍増計画 | 大企業中心の成長で格差が広がる | 10年で所得を2倍に
+
+== wel e 1960.1 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.2 ldp=0.8
+ko 미이케 쟁의 | 대량 해고에 반대, 노조를 지지 | 석탄 산업 합리화는 불가피
+en Miike coal dispute | Oppose mass layoffs; back the union | Rationalising coal is unavoidable
+ja 三池争議 | 大量解雇に反対、労組を支持 | 石炭産業の合理化は避けられない
+
+== soc s 1960.10 jsp>ldp : jcp=-1 jsp=-1 dsp=0 ldp=0.6
+ko 정치 테러와 치안 | 우익 폭력을 뿌리 뽑고 경찰이 책임져야 | 데모 규제를 포함해 질서를
+en Political terror and order | Root out right-wing violence; police must answer | Order, including limits on demonstrations
+ja 政治テロと治安 | 右翼の暴力を根絶し警察が責任を | デモ規制も含めて秩序を
+
+== dip s . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 ldp=0.6
+ko 중국 국교 | 국교 정상화를 | 대만 관계 유지
+en Ties with China | Normalise relations | Keep ties with Taiwan
+ja 中国との国交 | 国交正常化を | 台湾との関係を維持
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.3
+ko 사회보장 확충 | 사회보장을 크게 늘려야 | 성장에 맞춰 단계적으로
+en Social security | Expand it greatly | Step by step as the economy grows
+ja 社会保障の拡充 | 社会保障を大きく増やすべき | 成長に合わせ段階的に
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.4 ldp=0.6
+ko 헌법 개정 | 반대한다 | 검토해야 한다
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== eco e . jsp>ldp : jcp=-0.8 jsp=-0.7 dsp=-0.2 ldp=0.6
+ko 감세 방향 | 근로소득 감세 | 성장을 위한 기업 감세
+en Tax cuts | Cut taxes on wages | Business tax cuts for growth
+ja 減税の方向 | 勤労所得の減税 | 成長のための企業減税
+
+== reg e 1960.10 jcp>ldp : jcp=-1 jsp=-0.7 dsp=-0.2 ldp=0.6
+ko 농업기본법 | 소농을 보호해야 | 구조 개선과 규모 확대
+en Basic Agriculture Law | Protect small farmers | Restructure and enlarge farms
+ja 農業基本法 | 小農を守るべき | 構造改善と規模拡大
+
+== pol s 1960.6 jsp>ldp : jcp=-1 jsp=-0.9 dsp=0.2 ldp=0.9
+ko 국회 앞 대중 시위 | 강행 처리에 맞선 시위는 정당한 의사 표시 | 국회를 에워싼 대중 행동은 의회주의를 파괴한다
+en Mass protests at the Diet | Protests against forced votes are a legitimate expression of the public will | Crowds besieging the Diet destroy parliamentary democracy
+ja 国会前の大衆デモ | 強行採決に抗するデモは正当な意思表示 | 国会を取り囲む大衆行動は議会主義を破壊する
+
+== pol e 1960.1 jsp>dsp : jcp=-1 jsp=-0.6 dsp=0.8 ldp=0.5
+ko 혁신 정당의 노선 | 노동자 계급 정당으로 사회주의를 지향해야 | 국민 정당으로 의회를 통한 복지국가를
+en The left's direction | Be a working-class party aiming at socialism | Be a people's party building a welfare state through parliament
+ja 革新政党の路線 | 労働者階級の政党として社会主義を目指すべき | 国民政党として議会を通じた福祉国家を
+
+== pol . . jsp>ldp : jcp=-0.8 jsp=-0.8 dsp=-0.7 ldp=0.5
+ko 파벌 정치 | 파벌을 없애고 정책 중심 정당으로 바꿔야 | 파벌은 당내 경쟁과 인재 육성의 장이다
+en Faction politics | Abolish factions and become a policy-based party | Factions provide internal competition and train leaders
+ja 派閥政治 | 派閥を解消し政策中心の政党に | 派閥は党内競争と人材育成の場
+
+== con s 1959.12 jsp>ldp : jcp=-1 jsp=-1 dsp=0 ldp=0.9
+ko 스나가와 사건 판결 | 미군 주둔은 9조 위반이라는 1심(다테 판결)이 옳다 | 최고재판소 판결대로 주둔은 합헌이다
+en The Sunagawa rulings | The first-instance (Date) ruling that US forces violate Article 9 was right | As the Supreme Court held, the US presence is constitutional
+ja 砂川事件判決 | 米軍駐留は9条違反とした一審（伊達判決）が正しい | 最高裁判決どおり駐留は合憲
+
+== con s 1960.6 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.4
+ko 자위대의 치안 출동 | 시위 진압에 자위대를 쓰는 것은 절대 안 된다 | 치안이 무너지면 출동도 검토해야
+en Deploying the SDF for public order | The SDF must never be used against demonstrators | If order breaks down, deployment should be considered
+ja 自衛隊の治安出動 | デモ鎮圧に自衛隊を使うことは絶対に許されない | 治安が崩れれば出動も検討すべき
+
+== dip s 1960.6 jsp>ldp : jcp=-1 jsp=-0.9 dsp=0.2 ldp=0.9
+ko 아이젠하워 방일 중지 | 안보 강행 직후의 방일 추진 자체가 무리였다 | 국빈 방일을 막은 시위는 국제 신용을 떨어뜨렸다
+en Eisenhower's cancelled visit | Pushing the visit right after the forced treaty vote was a mistake | Protests that stopped a state visit damaged Japan's credibility
+ja アイゼンハワー訪日中止 | 安保強行直後の訪日推進がそもそも無理だった | 国賓訪日を阻んだデモは国際的信用を落とした
+
+== dip s 1959.12 jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.4 ldp=0
+ko 북한 귀국 사업 | 재일 조선인의 북한 귀국을 인도적으로 도와야 | 한국과의 관계를 생각해 신중해야
+en Repatriation to North Korea | Help Korean residents return to North Korea on humanitarian grounds | Be cautious given relations with South Korea
+ja 北朝鮮帰国事業 | 在日朝鮮人の北朝鮮への帰国を人道的に支援すべき | 韓国との関係を考え慎重に
+
+== dip s 1959.5 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.2 ldp=0.8
+ko 남베트남 배상 | 분단국의 한쪽 정부에만 배상하는 것은 부당 | 남베트남 정부와 배상 협정으로 관계를 맺어야
+en Reparations to South Vietnam | Paying only one side of a divided country is unjust | Build ties through a reparations agreement with the South
+ja 南ベトナム賠償 | 分断国の一方の政府だけに賠償するのは不当 | 南ベトナム政府との賠償協定で関係を結ぶべき
+
+== dip s 1960.10 jsp>ldp : jcp=-1 jsp=-1 dsp=0.3 ldp=0.8
+ko 한일 회담 재개 | 분단을 굳히는 한국 정부만과의 회담에 반대 | 한국과 국교 정상화를 서둘러야
+en Resuming talks with South Korea | Oppose talks with Seoul alone that entrench division | Hurry to normalise relations with South Korea
+ja 日韓会談の再開 | 分断を固定化する韓国政府のみとの会談に反対 | 韓国との国交正常化を急ぐべき
+
+== eco e 1960.6 jsp>ldp : jcp=-1 jsp=-0.7 dsp=-0.1 ldp=0.8
+ko 무역·환율 자유화 | 국내 산업과 농업을 지키려면 자유화를 늦춰야 | 무역·환율 자유화로 개방 경제로 가야
+en Liberalising trade and exchange | Slow liberalisation to protect industry and farming | Liberalise trade and currency to open the economy
+ja 貿易・為替自由化 | 国内産業と農業を守るため自由化を遅らせるべき | 貿易・為替自由化で開放経済へ
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.3 ldp=0.7
+ko 석탄에서 석유로 | 국내 석탄을 지켜 고용과 에너지 안보를 | 값싼 석유로 바꿔 산업 경쟁력을 높여야
+en From coal to oil | Protect domestic coal for jobs and energy security | Switch to cheap oil to make industry competitive
+ja 石炭から石油へ | 国内石炭を守り雇用とエネルギー安全保障を | 安い石油に転換し産業競争力を高めるべき
+
+== wel e 1959.4 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.5 ldp=0.7
+ko 국민연금의 방식 | 보험료 없이 세금으로 지급하는 연금으로 | 보험료를 내는 사회보험 방식으로
+en How to fund the national pension | Pay pensions from taxes without contributions | Use a social insurance scheme with contributions
+ja 国民年金の方式 | 保険料なしで税で支給する年金に | 保険料を納める社会保険方式で
+
+== wel e 1959.4 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.7
+ko 최저임금 방식 | 업자 간 협정이 아닌 전국 일률 최저임금을 | 업종과 지역 실정에 맞는 협정 방식이 낫다
+en How to set the minimum wage | A uniform national minimum, not agreements among employers | Agreements suited to each industry and region work better
+ja 最低賃金の方式 | 業者間協定でなく全国一律の最低賃金を | 業種と地域の実情に合った協定方式がよい
+
+== wel e 1960.7 jsp>ldp : jcp=-1 jsp=-0.9 dsp=-0.7 ldp=0.4
+ko 장애인 고용 | 기업에 장애인 고용을 의무로 지워야 | 고용은 기업의 노력 의무로 충분하다
+en Employing people with disabilities | Make it mandatory for companies | A duty to make efforts is enough
+ja 障害者雇用 | 企業に障害者雇用を義務づけるべき | 雇用は企業の努力義務で十分
+
+== soc s 1958.10 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.8
+ko 경찰관직무집행법 개정 | 경찰 권한 확대는 경찰 국가로 가는 길 | 치안 유지를 위한 정당한 권한 강화다
+en Revising the Police Duties Law | Expanding police powers leads to a police state | A legitimate strengthening of powers to keep order
+ja 警職法改正 | 警察権限の拡大は警察国家への道 | 治安維持のための正当な権限強化
+
+== soc s 1958.10 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.2 ldp=0.9
+ko 학습지도요령과 국기·국가 | 지도요령의 법적 구속력과 기미가요 강요는 교육 통제 | 전국 기준과 국기·국가 교육은 당연하다
+en Curriculum guidelines and national symbols | Binding guidelines and enforcing Kimigayo amount to control of education | National standards and teaching the flag and anthem are natural
+ja 学習指導要領と国旗・国歌 | 指導要領の法的拘束力と君が代の強制は教育統制 | 全国基準と国旗・国歌の教育は当然
+
+== soc s 1960.7 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 ldp=0.9
+ko 공안 조례 | 집회와 시위를 허가제로 묶는 공안 조례는 위헌 | 질서를 위해 시위 허가제가 필요하다
+en Public safety ordinances | Requiring permits for rallies and marches is unconstitutional | A permit system is needed to keep order
+ja 公安条例 | 集会とデモを許可制で縛る公安条例は違憲 | 秩序のためデモの許可制は必要
+
+== reg e 1959.9 jsp>ldp : jcp=-1 jsp=-0.8 dsp=-0.5 ldp=0.4
+ko 이세만 태풍과 방재 | 국가 책임으로 종합 방재 체계와 피해 보상을 | 지방과 개인의 복구를 지원하는 데 그쳐야
+en The Isewan Typhoon and disaster prevention | Make the state responsible for comprehensive disaster prevention and compensation | Limit the state to supporting local and individual recovery
+ja 伊勢湾台風と防災 | 国の責任で総合的な防災体制と被害補償を | 地方と個人の復旧を支援するにとどめるべき
+
+== reg e 1959.12 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 ldp=0.5
+ko 탄광 지역 대책 | 폐광 지역에 국가가 일자리와 생활을 보장해야 | 이직 지원으로 다른 지역 취업을 도와야
+en Coal-mining communities | The state must guarantee jobs and livelihoods in closing mining areas | Help miners move to work in other regions
+ja 産炭地対策 | 閉山地域に国が仕事と生活を保障すべき | 離職者の他地域での就職を支援すべき
+
+== reg e . jsp>ldp : jcp=-0.8 jsp=-0.8 dsp=-0.4 ldp=0.5
+ko 지역 격차 | 국가가 공업을 지방으로 분산시켜 격차를 줄여야 | 성장이 큰 지역에 투자를 모으는 것이 효율적
+en Regional disparities | The state should spread industry to the regions to close gaps | It is more efficient to concentrate investment where growth is strongest
+ja 地域格差 | 国が工業を地方に分散させ格差を縮めるべき | 成長の大きい地域に投資を集める方が効率的

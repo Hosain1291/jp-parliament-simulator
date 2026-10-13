@@ -1,0 +1,144 @@
+# 제17회 중의원 총선 (1930.2.20) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: rotai=신노농당(-0.85) taishu=일본대중당(-0.6) shamin=사회민중당(-0.5) kakushin=혁신당(-0.1) minsei=입헌민정당(0.15) doshi=국민동지회(0.4) seiyu=입헌정우회(0.6) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco . 1930.1 seiyu>minsei : rotai=-0.6 taishu=-0.6 shamin=-0.4 kakushin=-0.2 minsei=0.95 doshi=0.4 seiyu=-0.8
+ko 금 수출 해금 | 불황을 부른다, 해금을 재검토해야 | 구평가로 해금하고 긴축으로 체질을 바꾼다
+en Lifting the gold embargo | It brings recession; reconsider | Return to gold at the old parity and reform through austerity
+ja 金解禁 | 不況を招く、金解禁を見直すべき | 旧平価で解禁し緊縮で体質改善
+
+== con s 1929.10 minsei>seiyu : rotai=-1 taishu=-0.9 shamin=-0.8 kakushin=-0.4 minsei=-0.9 doshi=-0.3 seiyu=0.6
+ko 런던 해군군축 | 군축 조약을 맺어 군사비를 줄인다 | 대형 순양함 7할을 확보하지 못하면 반대
+en London Naval Treaty | Sign the treaty and cut military spending | Reject it unless we get 70% in heavy cruisers
+ja ロンドン海軍軍縮 | 軍縮条約を結び軍事費を減らす | 大型巡洋艦7割を確保できなければ反対
+
+== dip s 1928.6 shamin>seiyu : rotai=-1 taishu=-1 shamin=-0.9 kakushin=-0.7 minsei=-0.7 doshi=-0.3 seiyu=0.8
+ko 장쭤린 폭살 사건 처리 | 진상을 공개하고 관계자를 엄벌해야 | 군 내부 처분으로 비공개 처리
+en Zhang Zuolin’s assassination | Make the truth public and punish those responsible | Handle it quietly within the army
+ja 張作霖爆殺事件の処理 | 真相を公表し関係者を厳罰に | 軍内部の処分で非公開に
+
+== wel e . shamin>doshi : rotai=-1 taishu=-1 shamin=-1 kakushin=-0.5 minsei=-0.3 doshi=0.8 seiyu=0.6
+ko 노동조합법안 | 노동조합을 법으로 인정해야 한다 | 기업 경영을 해친다, 반대
+en Trade Union Bill | Give unions legal recognition | It harms business; oppose it
+ja 労働組合法案 | 労働組合を法律で認めるべき | 企業経営を損なう、反対
+
+== soc s 1928.6 rotai>seiyu : rotai=-1 taishu=-1 shamin=-0.8 kakushin=-0.6 minsei=0.2 doshi=0.3 seiyu=0.9
+ko 치안유지법 개정(사형 추가) | 탄압 강화에 반대, 폐지해야 | 국체 수호를 위해 강화해야
+en Peace Preservation Law (death penalty added) | Oppose harsher repression; repeal it | Strengthen it to protect the kokutai
+ja 治安維持法改正（死刑追加） | 弾圧強化に反対、廃止を | 国体護持のため強化を
+
+== reg e . taishu>seiyu : rotai=-1 taishu=-0.9 shamin=-0.7 kakushin=-0.3 minsei=-0.2 doshi=0.3 seiyu=0.5
+ko 농촌과 소작 문제 | 소작료를 낮추고 소작법을 만들어야 | 지주 제도를 지켜야 한다
+en Farming and tenancy | Lower rents and pass a tenancy law | Keep the landlord system
+ja 農村と小作問題 | 小作料を下げ小作法をつくるべき | 地主制度を守るべき
+
+== dip s . minsei>seiyu : rotai=-0.9 taishu=-0.8 shamin=-0.7 kakushin=-0.4 minsei=-0.9 doshi=-0.2 seiyu=0.8
+ko 협조외교 | 시데하라 협조외교를 이어가야 | 중국에 강경한 적극외교로
+en Conciliatory diplomacy | Continue Shidehara’s conciliatory diplomacy | A tougher, active policy toward China
+ja 協調外交 | 幣原協調外交を続けるべき | 中国に強硬な積極外交を
+
+== soc s . shamin>seiyu : rotai=-1 taishu=-1 shamin=-0.9 kakushin=-0.6 minsei=-0.5 doshi=0 seiyu=0.6
+ko 여성 공민권 | 여성에게 지방 참정권(공민권)을 | 반대한다
+en Local civic rights for women | Give women the vote in local elections | Against it
+ja 婦人公民権 | 女性に地方参政権（公民権）を | 反対
+
+== wel e . taishu>minsei : rotai=-1 taishu=-0.9 shamin=-0.8 kakushin=-0.2 minsei=0.6 doshi=0.5 seiyu=-0.3
+ko 실업 대책 | 공공사업과 실업보험으로 고용을 | 긴축 기조를 지키며 산업 합리화
+en Unemployment | Public works and unemployment insurance | Keep austerity and rationalise industry
+ja 失業対策 | 公共事業と失業保険で雇用を | 緊縮を守り産業合理化を
+
+== pol . 1929.8 minsei>seiyu : rotai=-1 taishu=-1 shamin=-1 kakushin=-0.9 minsei=-0.8 doshi=-0.7 seiyu=0.6
+ko 오직 사건과 정치 부패 | 사철 의혹 등 정치 부패를 엄단해야 | 정쟁에 이용하지 말라
+en Corruption scandals | Punish corruption such as the private-railway scandal | Don’t turn it into a partisan weapon
+ja 疑獄と政治腐敗 | 私鉄疑獄など政治腐敗を厳しく罰する | 政争に利用するな
+
+== pol s . shamin>seiyu : rotai=-1 taishu=-1 shamin=-0.9 kakushin=-0.8 minsei=-0.3 doshi=-0.2 seiyu=0.5
+ko 귀족원 개혁 | 귀족원 권한을 줄여야 한다 | 양원 제도를 지금대로
+en House of Peers reform | Curb the House of Peers | Keep the two houses as they are
+ja 貴族院改革 | 貴族院の権限を縮小すべき | 両院制度は現状のまま
+
+== pol . 1929.10 seiyu>minsei : rotai=-0.3 taishu=-0.3 shamin=-0.2 kakushin=-0.2 minsei=0.7 doshi=0.6 seiyu=-0.5
+ko 관리 감봉 | 하급 관리 생활을 위협하는 감봉에 반대 | 긴축의 고통 분담으로 관리 봉급부터 깎아야
+en Civil service pay cut | Oppose pay cuts that threaten low-ranking officials' livelihoods | Share the pain of austerity: cut officials' pay first
+ja 官吏減俸 | 下級官吏の生活を脅かす減俸に反対 | 緊縮の痛み分けとしてまず官吏の俸給を削る
+
+== pol s . taishu>seiyu : rotai=-1 taishu=-1 shamin=-0.9 kakushin=-0.6 minsei=0.3 doshi=0.4 seiyu=0.7
+ko 선거권 20세 | 선거권 연령을 20세로 낮춰야 | 25세 이상인 현행 보통선거로 충분
+en Voting at 20 | Lower the voting age to 20 | The current suffrage from age 25 is enough
+ja 選挙権20歳 | 選挙権年齢を20歳に引き下げる | 25歳以上の現行普通選挙で十分
+
+== con s . shamin>seiyu : rotai=-1 taishu=-0.9 shamin=-0.8 kakushin=-0.6 minsei=-0.4 doshi=-0.5 seiyu=0.6
+ko 육군 정리 | 사단을 더 줄여 군사비 부담을 덜어야 | 국방력을 약화시키는 감축은 안 된다
+en Army cutbacks | Cut more divisions to reduce military spending | No cuts that weaken national defence
+ja 陸軍整理 | 師団をさらに減らし軍事費負担を軽く | 国防力を弱める削減は認められない
+
+== con s 1926.4 rotai>seiyu : rotai=-1 taishu=-0.9 shamin=-0.6 kakushin=-0.3 minsei=0.3 doshi=0.3 seiyu=0.8
+ko 청년훈련소 | 근로 청년에게 군사 훈련을 시키는 청년훈련소는 폐지해야 | 청년의 심신을 단련하고 국방의 기초를 다진다
+en Youth training centres | Abolish centres that put working youths through military training | They train young bodies and minds and lay the base of defence
+ja 青年訓練所 | 勤労青年に軍事訓練を課す青年訓練所は廃止を | 青年の心身を鍛え国防の基礎を固める
+
+== dip s 1929.6 shamin>doshi : rotai=-0.4 taishu=-0.7 shamin=-0.8 kakushin=-0.2 minsei=0.4 doshi=0.6 seiyu=-0.5
+ko 부전조약 비준 | 전쟁 포기 조약은 평화 외교의 기초, 문구 시비는 부차적 | '인민의 이름으로' 문구는 국체에 어긋난다
+en Ratifying the Kellogg–Briand Pact | Renouncing war is the basis of peaceful diplomacy; the wording is secondary | The phrase "in the names of the peoples" conflicts with the kokutai
+ja 不戦条約批准 | 戦争放棄の条約は平和外交の基礎、文言の是非は二次的 | 「人民の名に於いて」の文言は国体に反する
+
+== dip . . minsei>seiyu : rotai=-0.9 taishu=-0.8 shamin=-0.7 kakushin=-0.3 minsei=-0.8 doshi=0.2 seiyu=0.6
+ko 중국 관세 자주권 | 중국의 관세 자주권을 인정해 관계를 개선해야 | 일본 수출 이익을 지키려면 양보는 신중히
+en China's tariff autonomy | Recognise China's tariff autonomy to improve relations | Be cautious with concessions to protect Japanese exports
+ja 中国の関税自主権 | 中国の関税自主権を認めて関係改善を | 日本の輸出利益を守るため譲歩は慎重に
+
+== dip e . shamin>doshi : rotai=-0.9 taishu=-0.9 shamin=-1 kakushin=-0.5 minsei=0 doshi=0.8 seiyu=0.5
+ko ILO 협약 비준 | 노동 시간 등 국제노동기구 협약을 비준해 국제 기준을 따라야 | 일본 산업 실정에 맞지 않아 비준은 보류해야
+en Ratifying ILO conventions | Ratify ILO conventions such as working hours to meet international standards | They do not suit Japanese industry; hold off ratification
+ja ILO条約批准 | 労働時間などの国際労働機関条約を批准し国際基準に | 日本の産業実情に合わず批准は見送るべき
+
+== eco . 1929.11 minsei>doshi : rotai=0.3 taishu=0.3 shamin=0.2 kakushin=0.4 minsei=-0.9 doshi=0.7 seiyu=0.5
+ko 해금 평가 | 구평가로 해금해야 엔의 국제 신용이 선다 | 엔 시세에 맞춘 신평가로 해야 불황을 피한다
+en Gold parity | Return to gold at the old parity to restore the yen's credit | Use a new parity matching the market rate to avoid a slump
+ja 金解禁の平価 | 旧平価で解禁してこそ円の国際的信用が立つ | 実勢に合わせた新平価で解禁し不況を避ける
+
+== eco e . minsei>seiyu : rotai=0.5 taishu=0.5 shamin=0.3 kakushin=0 minsei=-0.9 doshi=-0.6 seiyu=0.8
+ko 공채 발행 | 새 공채를 멈추고 예산을 줄여 재정을 바로잡아야 | 경기를 살리려면 공채로 공공사업을 늘려야
+en Government bonds | Stop new bond issues and cut the budget to restore sound finances | Use bonds to fund public works and revive the economy
+ja 公債発行 | 新規公債を止め予算を削って財政を立て直す | 景気回復のため公債で公共事業を増やす
+
+== eco e . taishu>minsei : rotai=-1 taishu=-0.9 shamin=-0.6 kakushin=-0.3 minsei=0.8 doshi=0.6 seiyu=0.4
+ko 산업 합리화 | 해고와 임금 삭감을 부르는 합리화에 반대 | 경쟁력을 위해 기업 합리화와 국산품 애용을
+en Industrial rationalisation | Oppose rationalisation that brings layoffs and pay cuts | Rationalise firms and buy domestic to stay competitive
+ja 産業合理化 | 解雇と賃下げを招く合理化に反対 | 競争力のため企業合理化と国産品愛用を
+
+== wel e 1929.7 shamin>doshi : rotai=-1 taishu=-1 shamin=-0.9 kakushin=-0.5 minsei=-0.2 doshi=0.8 seiyu=0.4
+ko 여성·소년 심야노동 | 심야노동 금지를 엄격히 지키고 적용을 넓혀야 | 방적업 사정을 생각해 예외와 유예를 두어야
+en Night work for women and minors | Enforce the night-work ban strictly and widen it | Allow exceptions and delays for the spinning industry
+ja 女性・年少者の深夜業 | 深夜業禁止を厳守し適用を広げる | 紡績業の事情を考え例外と猶予を
+
+== wel e 1929.4 taishu>minsei : rotai=-1 taishu=-1 shamin=-0.9 kakushin=-0.6 minsei=0.6 doshi=0.4 seiyu=-0.3
+ko 구호법 시행 | 재원을 마련해 빈민 구호법을 바로 시행해야 | 긴축 재정 아래서 시행은 미뤄야
+en Implementing the Relief Law | Fund and implement the poor-relief law right away | Postpone it under austerity
+ja 救護法の施行 | 財源を確保し救護法を直ちに施行すべき | 緊縮財政の下では施行を延期すべき
+
+== soc s 1928.4 rotai>seiyu : rotai=-1 taishu=-1 shamin=-0.3 kakushin=-0.6 minsei=0.3 doshi=0.4 seiyu=0.9
+ko 무산정당 결사 금지 | 노동농민당 해산 같은 결사 금지는 정치 자유의 침해 | 공산당과 이어진 단체의 해산은 정당한 조치
+en Banning proletarian parties | Dissolving parties like the Labour-Farmer Party violates political freedom | Dissolving groups linked to the Communist Party is justified
+ja 無産政党の結社禁止 | 労働農民党解散のような結社禁止は政治的自由の侵害 | 共産党とつながる団体の解散は正当な措置
+
+== soc s . taishu>seiyu : rotai=-1 taishu=-0.9 shamin=-0.8 kakushin=-0.5 minsei=0.2 doshi=0.3 seiyu=0.6
+ko 부락 차별 철폐 | 국가가 차별 철폐에 직접 나서고 차별 행위를 처벌해야 | 융화 사업으로 점진적으로 풀어야
+en Ending buraku discrimination | The state should act directly and punish discrimination | Resolve it gradually through conciliation programmes
+ja 部落差別撤廃 | 国が差別撤廃に直接取り組み差別行為を罰する | 融和事業で漸進的に解決
+
+== soc s . shamin>seiyu : rotai=-0.9 taishu=-0.8 shamin=-0.9 kakushin=-0.6 minsei=-0.2 doshi=0.2 seiyu=0.5
+ko 공창 폐지 | 공창제는 인신매매, 폐지해야 | 풍기 관리를 위해 유지해야
+en Abolishing licensed prostitution | Licensed prostitution is human trafficking; abolish it | Keep it to regulate public morals
+ja 廃娼 | 公娼制度は人身売買、廃止すべき | 風紀取締りのため維持すべき
+
+== reg e 1929.3 minsei>seiyu : rotai=0 taishu=0 shamin=-0.2 kakushin=0.2 minsei=-0.8 doshi=-0.3 seiyu=0.9
+ko 지조 위양 | 국가 재정이 먼저, 지조의 지방 이양에 반대 | 중의원을 통과한 지조 위양을 실현해 농촌 재정을 살려야
+en Transferring the land tax | National finances come first; oppose handing it to localities | Enact the transfer the lower house passed to fix rural finances
+ja 地租委譲 | 国家財政が先、地租の地方移譲に反対 | 衆議院を通過した地租委譲を実現し農村財政を立て直す
+
+== reg e . shamin>seiyu : rotai=-0.3 taishu=-0.4 shamin=-0.6 kakushin=0.3 minsei=-0.3 doshi=-0.6 seiyu=0.7
+ko 조선·대만 쌀 이입 | 식민지 쌀 이입을 막지 말고 쌀값을 안정시켜야 | 쌀 이입을 제한해 내지 농가를 지켜야
+en Rice from Korea and Taiwan | Keep colonial rice flowing in to hold prices steady | Limit colonial rice to protect farmers at home
+ja 朝鮮・台湾米の移入 | 植民地米の移入を妨げず米価を安定させる | 移入を制限して内地の農家を守る

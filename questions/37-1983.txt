@@ -1,0 +1,154 @@
+# 제37회 중의원 총선 (1983.12.18) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.6) sdf=사회민주연합(-0.3) kmt=공명당(-0.05) dsp=민사당(0.15) nlc=신자유클럽(0.35) ind=무소속(0) ldp=자유민주당(0.75)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1983.10 kmt>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-1 dsp=-1 nlc=-1 ldp=0.7
+ko 다나카 판결과 의원직 | 다나카 전 총리는 의원직을 사퇴해야 | 상고 중, 사법 판단을 존중해야
+en The Tanaka verdict | Former PM Tanaka should resign his seat | He is appealing; respect the courts
+ja 田中判決と議員辞職 | 田中元首相は議員を辞職すべき | 上告中、司法判断を尊重すべき
+
+== eco e 1983.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.3 kmt=0 dsp=0.6 nlc=0.7 ldp=0.9
+ko 국철 분할 민영화 | 노동자와 지방 노선을 지켜야, 반대 | 분할 민영화로 재건
+en Splitting and privatising JNR | Protect workers and rural lines; oppose | Rebuild by splitting and privatising
+ja 国鉄分割民営化 | 労働者と地方路線を守るべき、反対 | 分割民営化で再建
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.7 dsp=0 nlc=-0.4 ldp=0.7
+ko 방위비 GNP 1% 틀 | 1% 틀을 지켜야 | 넘더라도 늘려야
+en The 1% of GNP defence cap | Keep the 1% cap | Raise spending even beyond it
+ja 防衛費GNP1%枠 | 1%枠を守るべき | 超えても増やすべき
+
+== dip s 1983.1 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.4 dsp=0.5 nlc=0.2 ldp=0.9
+ko ‘불침항모’ 발언과 미일 방위 협력 | 군사 협력 강화에 반대 | 미일 방위 협력 강화
+en “Unsinkable aircraft carrier” and defence ties | Against closer military cooperation | Strengthen US–Japan defence cooperation
+ja 「不沈空母」発言と日米防衛協力 | 軍事協力の強化に反対 | 日米防衛協力の強化
+
+== eco . . kmt>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.9 dsp=-0.8 nlc=-0.5 ldp=0.3
+ko 대형 간접세 | 도입에 반대한다 | 장차 검토해야
+en A large indirect tax | Against introducing one | Consider it in future
+ja 大型間接税 | 導入に反対する | 将来検討すべき
+
+== soc s 1983.6 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.4 kmt=-0.3 dsp=0.3 nlc=0.4 ldp=0.8
+ko 교육 개혁 | 국가의 교육 통제를 우려 | 교육 자유화와 개혁
+en Education reform | Worried about state control of education | Liberalise and reform education
+ja 教育改革 | 国家による教育統制を懸念 | 教育の自由化と改革
+
+== reg e . jsp>ldp : jcp=-0.8 jsp=-1 sdf=-0.8 kmt=-0.4 dsp=0.6 nlc=0.3 ldp=0.9
+ko 원전 | 원전을 멈춰야 | 추진해야
+en Nuclear power | Stop nuclear power | Proceed with it
+ja 原発 | 原発を止めるべき | 推進すべき
+
+== wel e 1982.8 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.7 dsp=-0.4 nlc=-0.2 ldp=0.7
+ko 노인보건법 | 노인 의료 본인 부담에 반대 | 제도 유지를 위해 필요
+en Health Care for the Elderly Law | Against co-payments for the elderly | Needed to keep the system going
+ja 老人保健法 | 老人医療の自己負担に反対 | 制度維持のため必要
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.5 dsp=0.1 nlc=0 ldp=0.6
+ko 헌법 개정 | 반대한다 | 검토해야
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== dip s . kmt>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=0.3 nlc=0 ldp=0.8
+ko 야스쿠니 공식 참배 | 정교 분리 위반, 반대 | 총리의 공식 참배를
+en Official visits to Yasukuni | Violates the separation of religion and state; oppose | The PM should visit officially
+ja 靖国公式参拝 | 政教分離に反する、反対 | 首相の公式参拝を
+
+== pol e 1982.7 jcp>ldp : jcp=-1 jsp=-0.7 sdf=-0.2 kmt=-0.1 dsp=0.6 nlc=0.7 ldp=0.8
+ko 증세 없는 재정 재건 | 행정 개혁을 핑계로 복지와 교육을 깎아선 안 된다 | 증세 없이 행정을 줄여 재정을 재건해야
+en Fiscal repair without tax rises | Do not use administrative reform as cover for cutting welfare and education | Rebuild finances by slimming government, without raising taxes
+ja 増税なき財政再建 | 行政改革を口実に福祉と教育を削るべきでない | 増税せず行政を減らして財政を再建すべき
+
+== pol . 1982.8 jsp>ldp : jcp=-0.6 jsp=-0.4 sdf=-0.8 kmt=-0.3 dsp=-0.3 nlc=-0.7 ldp=0.8
+ko 참의원 비례대표제 | 전국구를 정당 명부 비례로 바꾸면 무소속과 소수파가 밀려난다 | 돈이 드는 전국구를 없애고 정당 본위 비례대표로
+en PR for the House of Councillors | Party-list PR will shut out independents and small groups | Replace the costly national constituency with party-based PR
+ja 参議院比例代表制 | 全国区を政党名簿の比例にすれば無所属と少数派が締め出される | 金のかかる全国区をやめ政党本位の比例代表に
+
+== pol . 1982.11 nlc>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-1 dsp=-0.9 nlc=-0.8 ldp=0.5
+ko 다나카 지배 | 유죄 판결을 받은 실력자가 내각을 좌우하는 정치를 끝내야 | 최대 파벌의 영향력은 당내 역학의 결과일 뿐
+en Tanaka's grip on power | End politics in which a convicted kingmaker controls the cabinet | The largest faction's influence just reflects party dynamics
+ja 田中支配 | 有罪判決を受けた実力者が内閣を左右する政治を終わらせるべき | 最大派閥の影響力は党内力学の結果にすぎない
+
+== con s 1983.1 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.6 dsp=0.4 nlc=0.2 ldp=0.9
+ko 대미 무기 기술 공여 | 무기 수출 3원칙의 예외는 원칙을 무너뜨린다 | 동맹국 미국에 대한 기술 공여는 예외로 인정해야
+en Transferring arms technology to the US | Exceptions to the three arms-export principles hollow them out | Technology transfer to the US ally should be allowed as an exception
+ja 対米武器技術供与 | 武器輸出三原則の例外は原則を崩す | 同盟国米国への技術供与は例外として認めるべき
+
+== con s 1981.5 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.4 dsp=0.6 nlc=0.3 ldp=0.8
+ko 1천 해리 해상 교통로 방위 | 1천 해리 방위는 전수방위를 넘어선다 | 해상 교통로를 지키는 것은 자위의 범위다
+en Defending 1,000-mile sea lanes | Defending sea lanes 1,000 miles out goes beyond strictly defensive defence | Protecting sea lanes is within self-defence
+ja 1000海里シーレーン防衛 | 1000海里防衛は専守防衛を超える | 海上交通路を守るのは自衛の範囲
+
+== dip s 1982.11 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.8 dsp=-0.2 nlc=-0.3 ldp=0.5
+ko 교과서 근린 제국 조항 | 아시아 이웃의 비판을 받아들여 침략 기술을 바로잡아야 | 교과서 검정은 내정, 외국의 간섭에 굴복해선 안 된다
+en The "neighbouring countries" textbook clause | Accept Asian neighbours' criticism and correct the account of aggression | Textbook screening is a domestic matter; do not bow to foreign pressure
+ja 教科書の近隣諸国条項 | アジアの近隣諸国の批判を受け止め侵略の記述を正すべき | 教科書検定は内政、外国の干渉に屈するべきでない
+
+== dip e 1983.1 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.4 kmt=-0.2 dsp=0.5 nlc=0.4 ldp=0.8
+ko 대한국 40억 달러 경제 협력 | 군사 정권을 돕는 안보 경협에 반대 | 한국과의 관계 개선과 지역 안정을 위해 필요하다
+en $4 billion in aid to South Korea | Oppose security-linked aid propping up a military regime | It is needed to improve relations and stabilise the region
+ja 対韓40億ドル経済協力 | 軍事政権を支える安保経協に反対 | 韓国との関係改善と地域の安定のため必要
+
+== dip s 1981.5 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.5 dsp=0.4 nlc=0.3 ldp=0.8
+ko 미일 '동맹' | 미일 관계를 군사 동맹으로 규정하는 것에 반대 | 미일은 가치를 함께하는 동맹 관계다
+en The US–Japan "alliance" | Oppose defining ties with the US as a military alliance | Japan and the US are allies sharing common values
+ja 日米「同盟」 | 日米関係を軍事同盟と位置づけることに反対 | 日米は価値を共有する同盟関係
+
+== eco e 1982.7 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.5 kmt=-0.6 dsp=0 nlc=0.3 ldp=0.8
+ko 제로 실링 예산 | 일률 삭감은 복지와 교육의 후퇴 | 예산 증가를 0으로 묶어 재정 규율을 지켜야
+en Zero-ceiling budgets | Across-the-board cuts mean retreat on welfare and education | Hold budget growth to zero to keep fiscal discipline
+ja ゼロ・シーリング予算 | 一律削減は福祉と教育の後退 | 予算の伸びをゼロに抑え財政規律を守るべき
+
+== eco e 1982.7 jcp>ldp : jcp=-1 jsp=-0.9 sdf=-0.2 kmt=-0.2 dsp=0.5 nlc=0.6 ldp=0.8
+ko 전전공사 민영화 | 통신은 공공 서비스, 민영화는 요금 인상과 지역 격차를 부른다 | 민영화와 경쟁으로 통신을 혁신해야
+en Privatising NTT | Telecoms are a public service; privatisation brings higher charges and regional gaps | Privatise and open to competition to modernise telecoms
+ja 電電公社民営化 | 通信は公共サービス、民営化は料金値上げと地域格差を招く | 民営化と競争で通信を革新すべき
+
+== eco e 1983.10 jsp>nlc : jcp=-0.9 jsp=-0.8 sdf=-0.3 kmt=-0.5 dsp=-0.1 nlc=0.6 ldp=0.5
+ko 시장 개방 대책 | 무역 흑자는 내수 부족 탓, 미국 압력에 따른 개방은 반대 | 관세 인하와 규제 완화로 시장을 열어야
+en Market-opening measures | The surplus comes from weak domestic demand; oppose opening under US pressure | Cut tariffs and deregulate to open markets
+ja 市場開放対策 | 貿易黒字は内需不足のせい、米国の圧力による開放に反対 | 関税引き下げと規制緩和で市場を開くべき
+
+== wel e 1983.11 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.9 dsp=-0.6 nlc=-0.3 ldp=0.7
+ko 건강보험 본인 부담 | 직장인 본인 부담 도입에 반대 | 의료비 증가를 막으려면 본인 10% 부담이 필요하다
+en Patient co-payments for employees | Oppose introducing co-payments for insured workers | A 10% co-payment is needed to contain medical costs
+ja 健康保険の本人負担 | 被用者本人の負担導入に反対 | 医療費の伸びを抑えるため本人1割負担が必要
+
+== wel e . jsp>ldp : jcp=-1 jsp=-0.8 sdf=-0.5 kmt=-0.6 dsp=-0.2 nlc=0.2 ldp=0.7
+ko 기초연금 도입 | 급여 삭감을 수반하는 연금 통합에 반대 | 기초연금으로 제도를 하나로 묶어 장래를 지켜야
+en Introducing a basic pension | Oppose integration that cuts benefits | Unify the system around a basic pension to secure the future
+ja 基礎年金の導入 | 給付削減を伴う年金統合に反対 | 基礎年金で制度を一本化し将来を守るべき
+
+== wel e 1981.11 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.8 dsp=-0.5 nlc=-0.2 ldp=0.7
+ko 생활보호 '적정화' 통지 | 엄격한 자산 조사는 필요한 사람을 보호에서 몰아낸다 | 부정 수급을 막으려면 조사를 엄격히 해야
+en Tightening public assistance checks | Strict means testing drives needy people away | Strict checks are needed to stop fraud
+ja 生活保護「適正化」通知 | 厳しい資産調査は必要な人を保護から遠ざける | 不正受給を防ぐため調査を厳しくすべき
+
+== soc s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.7 dsp=-0.2 nlc=-0.3 ldp=0.7
+ko 외국인 지문 날인 | 재일 외국인에게 범죄자처럼 지문을 찍게 하는 제도는 폐지해야 | 외국인 등록의 정확성을 위해 유지해야
+en Fingerprinting foreign residents | Abolish a system that fingerprints foreign residents like criminals | Keep it to ensure accurate alien registration
+ja 外国人の指紋押捺 | 在日外国人に犯罪者のように指紋を押させる制度は廃止すべき | 外国人登録の正確さのため維持すべき
+
+== soc s 1982.3 jsp>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-0.9 dsp=-0.5 nlc=-0.7 ldp=0.5
+ko 정보 공개법 | 지자체에 이어 국가도 정보 공개법을 만들어야 | 행정 비밀과 효율을 생각해 신중히
+en Freedom of information law | After local governments, the state should enact an information disclosure law | Proceed carefully, mindful of confidentiality and efficiency
+ja 情報公開法 | 自治体に続き国も情報公開法を作るべき | 行政の秘密と効率を考え慎重に
+
+== soc s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.8 dsp=-0.5 nlc=-0.6 ldp=0.3
+ko 국적법 부모 양계주의 | 어머니가 일본인이어도 국적을 주는 부모 양계로 바꿔야 | 이중 국적 문제를 고려해 신중하게
+en Nationality through either parent | Grant nationality through the mother too | Proceed cautiously given dual-nationality issues
+ja 国籍法の父母両系主義 | 母が日本人でも国籍を与える父母両系に改めるべき | 二重国籍の問題を考え慎重に
+
+== reg e 1983.4 jsp>nlc : jcp=-1 jsp=-1 sdf=-0.5 kmt=-0.8 dsp=-0.3 nlc=0.5 ldp=-0.2
+ko 농산물 12품목 자유화 | 농산물 수입 확대는 농업을 무너뜨린다 | 미국과 합의한 대로 수입 틀을 넓혀야
+en Opening 12 farm products | Expanding farm imports will destroy agriculture | Widen quotas as agreed with the US
+ja 農産物12品目の自由化 | 農産物の輸入拡大は農業を崩壊させる | 米国との合意どおり輸入枠を広げるべき
+
+== reg e 1983.4 jsp>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.2 kmt=-0.2 dsp=0.3 nlc=0.4 ldp=0.8
+ko 테크노폴리스 | 국가 주도 거점 개발은 대기업 유치 경쟁만 부른다 | 첨단 산업 도시로 지방을 살려야
+en Technopolis | State-led hub development just sets off a race to lure big firms | Revive the regions with high-tech industrial cities
+ja テクノポリス | 国主導の拠点開発は大企業誘致の競争を招くだけ | 先端産業都市で地方を生かすべき
+
+== reg s 1983.11 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.6 dsp=0 nlc=-0.2 ldp=0.7
+ko 미야케지마 야간 이착륙 훈련 | 주민 의사를 무시한 훈련장 계획은 철회해야 | 미군 함재기 훈련장은 어딘가 필요하다
+en Night landing practice on Miyakejima | Withdraw a training-site plan that ignores residents | US carrier aircraft need a training site somewhere
+ja 三宅島夜間離着陸訓練 | 住民の意思を無視した訓練場計画は撤回すべき | 米軍艦載機の訓練場はどこかに必要

@@ -1,0 +1,184 @@
+# 제43회 중의원 총선 (2003.11.9) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) sdp=사회민주당(-0.8) dpj=민주당(-0.3) mus=무소속의 회(-0.1) kmt=공명당(0.1) jr=자유연합(0.5) hss=보수신당(0.6) ldp=자유민주당(0.7) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco e 2003.4 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.2 kmt=0.2 hss=0.2 ldp=0.6
+ko 우정 3사업 민영화 | 우체국망을 지키려면 공사 형태를 유지 | 우편·저금·보험을 민영화해야 한다
+en Privatising the three postal services | Keep the public corporation to protect post offices | Privatise mail, savings and insurance
+ja 郵政3事業の民営化 | 郵便局網を守るため公社形態を維持 | 郵便・貯金・保険を民営化すべき
+
+== reg . 2003.10 dpj>ldp : jcp=-0.2 sdp=-0.3 dpj=-1 kmt=0.6 ldp=0.8
+ko 고속도로 무료화 | 고속도로 통행료를 무료로 | 도로공단을 민영화해 요금으로 부채를 갚는다
+en Toll-free expressways | Make expressways free | Privatise the road corporations and repay debt from tolls
+ja 高速道路無料化 | 高速道路の通行料を無料に | 道路公団を民営化し料金で債務を返す
+
+== con s 2003.7 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.7 kmt=0.5 hss=0.8 ldp=0.9
+ko 이라크 자위대 파견 | 전투 지역에 자위대를 보내선 안 된다 | 이라크 재건을 위해 파견해야 한다
+en SDF to Iraq | Do not send the SDF to a combat zone | Send them to help rebuild Iraq
+ja イラクへの自衛隊派遣 | 戦闘地域に自衛隊を送ってはならない | イラク復興のため派遣すべき
+
+== con s 2003.6 jcp>ldp : jcp=-1 sdp=-1 dpj=0.4 kmt=0.7 ldp=0.9
+ko 유사법제 | 국민의 권리를 제한할 우려, 반대 | 무력 공격에 대비한 법을 정비해야
+en Emergency legislation | May restrict citizens’ rights; oppose | Prepare laws for armed attack
+ja 有事法制 | 国民の権利を制限する恐れ、反対 | 武力攻撃に備えた法整備を
+
+== wel . 2003.11 dpj>ldp : jcp=-0.3 sdp=-0.4 dpj=-0.9 kmt=0.6 ldp=0.7
+ko 연금 일원화 | 연금을 일원화하고 최저보장연금을 세금으로 | 현행 틀에서 보험료를 단계적으로 올린다
+en Unifying pensions | Unify pensions with a tax-funded minimum pension | Raise premiums gradually within the current system
+ja 年金一元化 | 年金を一元化し最低保障年金を税で | 現行の枠組みで保険料を段階的に上げる
+
+== eco e 2002.10 jcp>ldp : jcp=-0.9 sdp=-0.8 dpj=0.3 kmt=0.2 ldp=0.7
+ko 불량채권 처리 가속 | 중소기업 도산이 우려된다, 속도를 늦춰야 | 신속한 처리로 금융을 되살린다
+en Faster bad-loan disposal | Small-business failures; slow down | Dispose quickly to revive finance
+ja 不良債権処理の加速 | 中小企業の倒産が心配、速度を落とすべき | 迅速な処理で金融を再生
+
+== dip s 2002.9 sdp>hss : jcp=-0.6 sdp=-0.8 dpj=0.1 kmt=-0.2 hss=0.7 ldp=0.3
+ko 납치 문제와 북한 | 국교 정상화 교섭을 이어가며 해결 | 경제 제재 등 압력을 강화
+en The abductions and North Korea | Resolve them through normalisation talks | More pressure, including sanctions
+ja 拉致問題と北朝鮮 | 国交正常化交渉を続けながら解決 | 経済制裁など圧力を強化
+
+== dip s 2001.8 kmt>ldp : jcp=-1 sdp=-1 dpj=-0.7 kmt=-0.8 hss=0.6 ldp=0.6
+ko 총리의 야스쿠니 참배 | 이웃 나라와의 관계를 위해 참배를 멈춰야 | 전몰자 추도는 국내 문제, 참배를 지지
+en PM visits to Yasukuni | Stop, for the sake of relations with neighbours | Mourning the war dead is a domestic matter; support visits
+ja 首相の靖国参拝 | 近隣国との関係のため参拝をやめるべき | 戦没者追悼は国内問題、参拝を支持
+
+== pol . . dpj>ldp : jcp=-0.9 sdp=-0.7 dpj=-0.9 kmt=0 ldp=0.6
+ko 관료 낙하산 금지 | 퇴직 관료의 낙하산 재취업을 전면 금지 | 규제하면서 경험 있는 인재를 활용
+en Banning amakudari | Completely ban retired officials’ golden parachutes | Regulate while using their experience
+ja 天下りの禁止 | 退職官僚の天下りを全面禁止 | 規制しつつ経験ある人材を活用
+
+== reg e 2002.6 jcp>ldp : jcp=-0.9 sdp=-0.8 dpj=-0.3 kmt=0.3 ldp=0.6
+ko 지방 재정 ‘삼위일체 개혁’ | 지방교부세를 지키며 지방 재원을 늘려야 | 보조금·교부세 삭감과 세원 이양을 함께
+en “Trinity reform” of local finance | Protect local allocation tax and expand local revenue | Cut subsidies and allocation tax while transferring tax sources
+ja 地方財政の「三位一体改革」 | 地方交付税を守り地方財源を増やすべき | 補助金・交付税の削減と税源移譲をあわせて
+
+== soc s 2003.5 sdp>ldp : jcp=-0.9 sdp=-0.9 dpj=-0.5 kmt=0.6 ldp=0.8
+ko 개인정보보호법 | 언론 취재를 규제할 우려가 있다 | 개인정보 보호를 위해 꼭 필요하다
+en Personal Information Protection Law | It could restrict press reporting | Essential to protect personal data
+ja 個人情報保護法 | 報道の取材を規制する恐れがある | 個人情報保護のため必要
+
+== con s . sdp>ldp : jcp=-1 sdp=-1 dpj=0 kmt=0 hss=0.8 ldp=0.8
+ko 헌법 개정 | 개헌에 반대한다 | 시대에 맞게 헌법 개정을 추진
+en Constitutional revision | Against it | Revise the constitution for the times
+ja 憲法改正 | 改憲に反対する | 時代に合わせて憲法改正を推進
+
+== wel e 2003.4 jcp>ldp : jcp=-1 sdp=-1 dpj=-0.6 kmt=0.4 ldp=0.7
+ko 의료비 본인부담 30% | 본인부담 인상에 반대한다 | 제도 유지를 위해 불가피하다
+en 30% co-payments | Against higher co-payments | Unavoidable to keep the system going
+ja 医療費の自己負担3割 | 自己負担の引き上げに反対 | 制度維持のためやむを得ない
+
+== pol . 2003.10 jcp>dpj : jcp=-0.5 sdp=-0.2 dpj=0.9 mus=0.3 kmt=0.4 hss=0.2 ldp=0.4
+ko 매니페스토 선거 | 수치 공약 경쟁은 정치를 숫자 놀음으로 만든다 | 수치와 기한을 밝힌 정권 공약으로 선택해야
+en Manifesto elections | A contest of numerical pledges turns politics into a numbers game | Voters should choose on manifestos with clear targets and deadlines
+ja マニフェスト選挙 | 数値公約の競争は政治を数字遊びにする | 数値と期限を示した政権公約で選ぶべき
+
+== pol . 2002.8 jcp>ldp : jcp=-1 sdp=-0.9 dpj=-0.2 mus=-0.3 kmt=-0.4 hss=0.3 ldp=0.4
+ko 수상 공선제 | 의원내각제를 흔드는 수상 직선제에 반대 | 국민이 총리를 직접 뽑아 지도력을 강화해야
+en A directly elected prime minister | Oppose direct election, which undermines parliamentary government | Let the people choose the prime minister to strengthen leadership
+ja 首相公選制 | 議院内閣制を揺るがす首相公選制に反対 | 国民が首相を直接選び指導力を強めるべき
+
+== pol . 2003.9 jcp>dpj : jcp=-0.9 sdp=-0.8 dpj=0.9 mus=0 kmt=-0.3 hss=-0.3 ldp=-0.6
+ko 양대 정당 체제 | 거대 두 정당 체제는 다양한 민의를 담지 못한다 | 민주·자유 합당처럼 정권 교체가 가능한 양당제로
+en A two-party system | Two giant parties cannot represent diverse opinion | Build a two-party system that makes alternation possible, like the DPJ–Liberal merger
+ja 二大政党制 | 二大政党制は多様な民意を反映できない | 民主・自由合併のように政権交代可能な二大政党制に
+
+== pol . 2002.3 dpj>ldp : jcp=-1 sdp=-1 dpj=-1 mus=-0.8 kmt=-0.6 hss=-0.2 ldp=0.4
+ko 정치인과 관료의 유착 | 무네오 사건처럼 정치인의 외교·행정 개입을 엄단해야 | 지역 사정을 전하는 정치인의 역할은 필요하다
+en Politicians and bureaucrats | Crack down on politicians meddling in diplomacy and administration, as in the Muneo affair | Politicians conveying local needs have a legitimate role
+ja 政官の癒着 | ムネオ事件のような政治家の外交・行政介入を厳しく断つべき | 地域の事情を伝える政治家の役割は必要
+
+== con s 2001.10 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.3 mus=-0.4 kmt=0.6 hss=0.9 ldp=0.9
+ko 테러 대책 특별조치법 | 전쟁 중인 미군에 대한 급유는 무력행사와 일체화 | 국제 테러와의 싸움에 후방 지원으로 참여해야
+en Anti-Terrorism Special Measures Law | Refuelling US forces at war amounts to joining in the use of force | Join the fight against terrorism through rear support
+ja テロ対策特別措置法 | 戦争中の米軍への給油は武力行使との一体化 | 国際テロとの戦いに後方支援で参加すべき
+
+== con s 2003.6 sdp>ldp : jcp=-1 sdp=-1 dpj=0 mus=-0.3 kmt=0.5 hss=0.9 ldp=0.9
+ko 미사일 방어 도입 | 미사일 방어는 군비 경쟁과 집단적 자위권으로 이어진다 | 북한 미사일에 대비해 미사일 방어를 도입해야
+en Introducing missile defence | It leads to an arms race and collective self-defence | Introduce it to guard against North Korean missiles
+ja ミサイル防衛導入 | ミサイル防衛は軍拡競争と集団的自衛権につながる | 北朝鮮のミサイルに備え導入すべき
+
+== dip s 2003.3 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.7 mus=-0.6 kmt=0.5 hss=0.9 ldp=0.9
+ko 이라크 전쟁 지지 | 유엔 결의 없는 이라크 공격 지지는 잘못이었다 | 동맹국으로서 미국의 이라크 공격을 지지해야 했다
+en Supporting the Iraq War | Backing an attack on Iraq without a UN resolution was wrong | As an ally, Japan had to support the US attack
+ja イラク戦争支持 | 国連決議なきイラク攻撃の支持は誤りだった | 同盟国として米国のイラク攻撃を支持すべきだった
+
+== dip s 2002.9 sdp>hss : jcp=-0.6 sdp=-0.9 dpj=-0.3 mus=-0.4 kmt=-0.6 hss=0.8 ldp=0
+ko 평양 선언과 국교 정상화 | 평양 선언을 바탕으로 국교 정상화 교섭을 진전시켜야 | 납치 문제 해결 없이는 국교 정상화는 없다
+en The Pyongyang Declaration and normalisation | Advance normalisation talks on the basis of the declaration | No normalisation without resolving the abductions
+ja 日朝平壌宣言と国交正常化 | 平壌宣言に基づき国交正常化交渉を進めるべき | 拉致問題の解決なしに国交正常化はない
+
+== dip s 2001.4 sdp>hss : jcp=-1 sdp=-1 dpj=-0.7 mus=-0.6 kmt=-0.6 hss=0.7 ldp=0.4
+ko 새 역사 교과서 | 침략을 미화하는 교과서 검정 합격은 아시아의 신뢰를 잃는다 | 자국의 역사에 자긍심을 갖는 교과서도 있어야 한다
+en The "new history" textbook | Approving a textbook that glorifies aggression costs Asia's trust | There should be textbooks that let pupils take pride in their history
+ja 新しい歴史教科書 | 侵略を美化する教科書の検定合格はアジアの信頼を失う | 自国の歴史に誇りを持てる教科書もあるべき
+
+== dip e . jcp>hss : jcp=-0.6 sdp=-0.6 dpj=0.2 mus=0 kmt=-0.3 hss=0.7 ldp=0.4
+ko 대중국 ODA | 중국에 대한 원조는 우호와 환경 협력을 위해 유지해야 | 군비를 늘리는 중국에 대한 ODA는 대폭 줄여야
+en ODA to China | Maintain aid to China for friendship and environmental cooperation | Sharply cut aid to a China that is expanding its military
+ja 対中ODA | 中国への援助は友好と環境協力のため維持すべき | 軍備を増強する中国へのODAは大幅に減らすべき
+
+== eco e 2001.6 jcp>ldp : jcp=-1 sdp=-1 dpj=0.2 mus=-0.3 kmt=0.3 hss=0.6 ldp=0.8
+ko 성역 없는 구조 개혁 | 고통을 약자에게 떠넘기는 구조 개혁에 반대 | 성역 없는 구조 개혁 없이는 경기 회복도 없다
+en Structural reform with "no sacred cows" | Oppose reforms that shift the pain onto the vulnerable | Without bold structural reform there is no recovery
+ja 聖域なき構造改革 | 痛みを弱者に押しつける構造改革に反対 | 聖域なき構造改革なくして景気回復なし
+
+== eco e 2001.3 jcp>ldp : jcp=-0.8 sdp=-0.6 dpj=-0.2 mus=-0.2 kmt=0.3 hss=0.4 ldp=0.5
+ko 양적 완화 | 초저금리와 양적 완화는 예금자를 희생시킨다 | 디플레 탈출을 위해 일본은행이 돈을 더 풀어야
+en Quantitative easing | Ultra-low rates and QE sacrifice savers | The Bank of Japan should ease more to escape deflation
+ja 量的緩和 | 超低金利と量的緩和は預金者を犠牲にする | デフレ脱却のため日銀がもっと資金を供給すべき
+
+== eco e 2003.5 jcp>ldp : jcp=-1 sdp=-0.9 dpj=-0.6 mus=-0.5 kmt=0.4 hss=0.5 ldp=0.7
+ko 리소나 은행 공적 자금 | 경영 책임을 묻지 않는 세금 투입에 반대 | 금융 위기를 막으려면 공적 자금 투입은 불가피
+en Public money for Resona Bank | Oppose injecting taxes without holding managers accountable | Public money is unavoidable to prevent a financial crisis
+ja りそな銀行への公的資金 | 経営責任を問わない税金投入に反対 | 金融危機を防ぐため公的資金投入はやむを得ない
+
+== eco e 2002.12 jcp>dpj : jcp=-1 sdp=-0.9 dpj=0.6 mus=0.2 kmt=0.2 hss=-0.2 ldp=0.3
+ko 도로 공단 민영화 | 민영화는 지방 도로 건설을 막는다 | 거대한 빚을 진 도로 공단을 민영화하고 건설을 줄여야
+en Privatising the highway corporations | Privatisation will stop roads being built in the regions | Privatise the debt-laden corporations and cut construction
+ja 道路公団民営化 | 民営化は地方の道路建設を止める | 巨額の借金を抱えた道路公団を民営化し建設を減らすべき
+
+== wel e 2003.6 jcp>ldp : jcp=-1 sdp=-1 dpj=-0.5 mus=-0.4 kmt=0.3 hss=0.6 ldp=0.7
+ko 제조업 파견 해금 | 제조 현장의 파견은 고용 불안과 산재를 늘린다 | 제조업도 파견을 허용해 고용을 늘려야
+en Agency work in manufacturing | Temp work on factory floors spreads insecurity and accidents | Allow agency workers in manufacturing to create jobs
+ja 製造業派遣の解禁 | 製造現場への派遣は雇用不安と労災を増やす | 製造業にも派遣を認め雇用を増やすべき
+
+== wel e 2003.6 jcp>ldp : jcp=-1 sdp=-1 dpj=-0.6 mus=-0.5 kmt=0 hss=0.5 ldp=0.6
+ko 해고 규칙 법제화 | 해고 요건을 엄격히 하고 노동자 보호를 강화해야 | 해고 규칙을 분명히 해 노동 시장을 유연하게
+en Codifying dismissal rules | Make dismissals harder and strengthen worker protection | Clarify the rules to make the labour market more flexible
+ja 解雇ルールの法制化 | 解雇要件を厳しくし労働者保護を強めるべき | 解雇ルールを明確にし労働市場を柔軟に
+
+== wel e 2003.7 jcp>ldp : jcp=-0.9 sdp=-0.9 dpj=-0.8 mus=-0.5 kmt=-0.7 hss=0.2 ldp=0.3
+ko 저출산 대책 | 보육과 아동수당 등 육아 비용을 국가가 크게 지원해야 | 가정과 지역의 육아력을 살리는 것이 기본
+en Tackling the low birth rate | The state should heavily support childcare costs, including allowances | Strengthening family and community child-rearing is the basis
+ja 少子化対策 | 保育や児童手当など子育て費用を国が大きく支援すべき | 家庭と地域の子育て力を生かすのが基本
+
+== soc s 2001.5 jcp>hss : jcp=-1 sdp=-1 dpj=-1 mus=-0.8 kmt=-0.9 hss=0 ldp=-0.6
+ko 한센병 국가 배상 판결 | 항소를 포기하고 격리 정책의 잘못을 국가가 사죄해야 | 판결에 법적 문제가 있으니 항소해야
+en The leprosy compensation ruling | Drop the appeal and have the state apologise for the isolation policy | The ruling has legal problems; appeal it
+ja ハンセン病国家賠償判決 | 控訴を断念し隔離政策の誤りを国が謝罪すべき | 判決に法的問題があるため控訴すべき
+
+== soc s 2002.8 jcp>ldp : jcp=-1 sdp=-1 dpj=-0.6 mus=-0.6 kmt=0.3 hss=0.4 ldp=0.7
+ko 주민 기본 대장 네트워크 | 국민 번호로 개인 정보를 한데 모으는 것은 감시 사회 | 행정 효율을 위해 주민 정보 네트워크가 필요하다
+en The residents' registry network | Linking personal data under a national number creates a surveillance society | The network is needed for efficient administration
+ja 住民基本台帳ネットワーク | 国民番号で個人情報を集めるのは監視社会 | 行政効率のため住基ネットは必要
+
+== soc s 2003.3 jcp>hss : jcp=-1 sdp=-1 dpj=-0.3 mus=-0.4 kmt=0 hss=0.9 ldp=0.8
+ko 교육기본법 개정 | 애국심을 법에 넣는 개정은 내심의 자유 침해 | 나라를 사랑하는 마음을 기르도록 교육기본법을 고쳐야
+en Revising the Fundamental Law of Education | Writing patriotism into law violates freedom of conscience | Revise the law to nurture love of country
+ja 教育基本法改正 | 愛国心を法に盛り込む改正は内心の自由の侵害 | 国を愛する心を育てるよう教育基本法を改めるべき
+
+== soc s 2003.7 sdp>hss : jcp=-0.7 sdp=-0.9 dpj=-0.7 mus=-0.6 kmt=-0.5 hss=0.5 ldp=0
+ko 성동일성장애 특례법 | 성별 정정 요건을 더 완화해 당사자를 지원해야 | 가족 질서를 생각해 엄격한 요건을 유지해야
+en The gender identity special law | Relax the conditions for changing legal gender further | Keep strict conditions, mindful of family order
+ja 性同一性障害特例法 | 性別変更の要件をさらに緩め当事者を支援すべき | 家族秩序を考え厳格な要件を維持すべき
+
+== reg e 2003.4 jcp>ldp : jcp=-1 sdp=-0.9 dpj=-0.2 mus=-0.3 kmt=0.3 hss=0.5 ldp=0.6
+ko 헤이세이 대합병 | 교부세를 미끼로 한 합병 강요는 작은 마을을 없앤다 | 행정 효율을 위해 시정촌 합병을 추진해야
+en The great Heisei mergers | Forcing mergers with subsidies as bait wipes out small villages | Promote municipal mergers for efficient administration
+ja 平成の大合併 | 交付税を餌にした合併の押しつけは小さな村をなくす | 行政効率のため市町村合併を推進すべき
+
+== reg e 2002.12 jcp>ldp : jcp=-1 sdp=-0.7 dpj=0.4 mus=0.2 kmt=0.4 hss=0.6 ldp=0.7
+ko 구조 개혁 특구 | 특구는 노동·안전 규제를 무너뜨리는 구멍 | 지역 한정으로 규제를 풀어 개혁을 시험해야
+en Special zones for structural reform | Special zones are loopholes that erode labour and safety rules | Test reforms by deregulating in limited areas
+ja 構造改革特区 | 特区は労働・安全規制を崩す抜け穴 | 地域限定で規制を緩め改革を試すべき

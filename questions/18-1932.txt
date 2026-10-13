@@ -1,0 +1,144 @@
+# 제18회 중의원 총선 (1932.2.20) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: rotai=전국노농대중당(-0.75) shamin=사회민중당(-0.45) kakushin=혁신당(-0.1) minsei=입헌민정당(0.15) seiyu=입헌정우회(0.6) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco . 1931.12 minsei>seiyu : rotai=0.4 shamin=0.3 kakushin=0 minsei=-0.9 seiyu=1
+ko 금 수출 재금지 | 금본위를 지키고 긴축을 이어가야 | 재금지와 적극 재정으로 불황 탈출
+en Renewed gold embargo | Stay on gold and keep austerity | Leave gold and spend our way out of the slump
+ja 金輸出再禁止 | 金本位を守り緊縮を続けるべき | 再禁止と積極財政で不況脱出
+
+== con s 1931.9 rotai>seiyu : rotai=-0.9 shamin=-0.2 kakushin=-0.4 minsei=-0.5 seiyu=0.8
+ko 만주사변 | 불확대 방침, 국제 협조를 지켜야 | 만몽 권익을 위해 군의 행동을 지지
+en Manchurian Incident | No escalation; keep international cooperation | Back the army to secure Manchuria and Mongolia
+ja 満州事変 | 不拡大方針、国際協調を守るべき | 満蒙権益のため軍の行動を支持
+
+== dip s 1932.1 minsei>seiyu : rotai=-0.9 shamin=-0.1 kakushin=-0.4 minsei=-0.4 seiyu=0.8
+ko 만주 ‘신국가’ 승인 | 국제연맹과 협조하며 신중하게 | 신국가를 서둘러 승인해야
+en Recognising a new state in Manchuria | Go carefully, in step with the League of Nations | Recognise the new state quickly
+ja 満州「新国家」承認 | 国際連盟と協調し慎重に | 新国家を早く承認すべき
+
+== reg e . rotai>minsei : rotai=-1 shamin=-0.9 kakushin=-0.6 minsei=0.6 seiyu=-0.5
+ko 농촌 구제 | 농가 부채를 정리하고 구제 사업을 크게 | 재정을 생각해 제한적으로
+en Rural relief | Settle farm debt and fund large relief works | Limited relief within the budget
+ja 農村救済 | 農家負債を整理し救済事業を大規模に | 財政を考え限定的に
+
+== con s . rotai>seiyu : rotai=-1 shamin=-0.4 kakushin=-0.5 minsei=-0.4 seiyu=0.7
+ko 군사비 | 군사비를 억제해야 한다 | 사변에 맞춰 늘려야 한다
+en Military spending | Restrain it | Raise it to meet the incident
+ja 軍事費 | 軍事費を抑えるべき | 事変に合わせて増やすべき
+
+== soc s . rotai>seiyu : rotai=-1 shamin=-0.7 kakushin=-0.6 minsei=0.3 seiyu=0.9
+ko 치안유지법 | 폐지해야 한다 | 유지해야 한다
+en Peace Preservation Law | Repeal it | Keep it
+ja 治安維持法 | 廃止すべき | 維持すべき
+
+== wel e . shamin>seiyu : rotai=-1 shamin=-1 kakushin=-0.5 minsei=-0.2 seiyu=0.7
+ko 노동조합법 | 노동조합을 법으로 인정 | 반대
+en Trade Union Law | Recognise unions by law | Against
+ja 労働組合法 | 労働組合を法律で認める | 反対
+
+== pol s 1931.10 kakushin>seiyu : rotai=-0.7 shamin=-0.3 kakushin=-0.9 minsei=0 seiyu=0.3
+ko 군의 정치 개입 | 쿠데타 음모를 엄단하고 정당정치를 지켜야 | 군과 손잡은 거국일치 내각으로
+en The military in politics | Punish coup plotters and defend party government | A national unity cabinet working with the military
+ja 軍の政治介入 | クーデター計画を厳罰にし政党政治を守る | 軍と手を結ぶ挙国一致内閣を
+
+== dip s 1932.1 rotai>seiyu : rotai=-1 shamin=-0.3 kakushin=-0.4 minsei=0.1 seiyu=0.8
+ko 상하이 사변 | 즉시 정전하고 철병해야 | 거류민 보호를 위해 파병
+en Shanghai Incident | Cease fire and withdraw at once | Send troops to protect residents
+ja 上海事変 | 即時停戦・撤兵を | 居留民保護のため派兵
+
+== wel e . rotai>seiyu : rotai=-1 shamin=-0.9 kakushin=-0.5 minsei=0.2 seiyu=0.4
+ko 사회 입법 | 실업보험 등 사회 입법을 서둘러야 | 재정과 산업 사정을 봐야 한다
+en Social legislation | Hurry social laws such as unemployment insurance | Mind the budget and industry
+ja 社会立法 | 失業保険など社会立法を急ぐべき | 財政と産業の事情を見るべき
+
+== eco e 1931.4 shamin>seiyu : rotai=-0.9 shamin=-0.8 kakushin=-0.2 minsei=-0.4 seiyu=0.4
+ko 중요산업 통제 | 카르텔을 통제하고 국가가 관리해야 | 자유경쟁에 맡겨야
+en Control of key industries | Regulate cartels and put industry under state control | Leave it to free competition
+ja 重要産業統制 | カルテルを統制し国家が管理すべき | 自由競争に任せるべき
+
+== pol . 1931.11 seiyu>kakushin : rotai=-0.5 shamin=0 kakushin=0.4 minsei=0.2 seiyu=-0.7
+ko 협력내각 | 헌정의 상도는 다수당의 단독 내각 | 국난에는 정당이 손잡은 거국일치 내각을
+en A cross-party cabinet | Single-party government by the majority is the constitutional norm | In a national crisis, parties should join a national unity cabinet
+ja 協力内閣 | 憲政の常道は多数党の単独内閣 | 国難には政党が手を結ぶ挙国一致内閣を
+
+== pol e 1931.5 rotai>minsei : rotai=-0.6 shamin=-0.5 kakushin=-0.2 minsei=0.6 seiyu=0.2
+ko 관리 감봉 | 실시된 관리 감봉을 철회하고 생활을 지켜야 | 재정난이 계속되는 한 감봉은 유지해야
+en Civil service pay cut | Reverse the pay cut and protect officials' livelihoods | Keep it while the fiscal crisis lasts
+ja 官吏減俸 | 実施された官吏減俸を撤回し生活を守る | 財政難が続く限り減俸は維持
+
+== pol . . shamin>seiyu : rotai=-0.9 shamin=-1 kakushin=-0.8 minsei=0 seiyu=0.7
+ko 비례대표제 도입 | 비례대표를 도입해 득표만큼 의석을 나눠야 | 지금의 중선거구제가 지역과 인물을 살린다
+en Introducing proportional representation | Introduce PR so seats match votes | The current multi-member districts keep local ties and candidates
+ja 比例代表制導入 | 比例代表を導入し得票に応じて議席を配分 | 現行の中選挙区制が地域と人物を生かす
+
+== con s 1930.4 minsei>seiyu : rotai=-1 shamin=-0.8 kakushin=-0.4 minsei=-0.9 seiyu=0.7
+ko 통수권 간범 논쟁 | 병력량은 예산을 다루는 내각이 정할 수 있다 | 군령부 동의 없이 정한 군축은 통수권 침해
+en The "infringement of supreme command" row | The cabinet, which sets the budget, can decide force levels | Arms limits set without the Navy General Staff violate the supreme command
+ja 統帥権干犯問題 | 兵力量は予算を扱う内閣が決められる | 軍令部の同意なき軍縮は統帥権の干犯
+
+== con s 1931.9 rotai>seiyu : rotai=-1 shamin=-0.3 kakushin=-0.5 minsei=-0.4 seiyu=0.8
+ko 조선군 독단 월경 | 칙명 없이 국경을 넘은 것은 대권 침범, 책임을 물어야 | 현지 사정상 불가피했으니 사후 승인해야
+en The Korea Army crossing the border | Crossing without imperial sanction usurped the throne's prerogative; hold them accountable | It was unavoidable on the ground; approve it after the fact
+ja 朝鮮軍の独断越境 | 勅命なき越境は大権の侵犯、責任を問うべき | 現地の事情でやむを得ず、事後承認を
+
+== dip s 1931.12 minsei>seiyu : rotai=-0.9 shamin=-0.2 kakushin=-0.4 minsei=-0.6 seiyu=0.7
+ko 국제연맹 조사단 | 연맹 조사단에 협조하고 국제 협조를 지켜야 | 만주 문제에 대한 연맹의 간섭은 거부해야
+en League of Nations inquiry | Cooperate with the League commission and stay within international cooperation | Reject League interference over Manchuria
+ja 国際連盟調査団 | 連盟調査団に協力し国際協調を守る | 満州問題への連盟の干渉は拒否すべき
+
+== dip s 1931.12 rotai>seiyu : rotai=-1 shamin=-0.5 kakushin=-0.3 minsei=-0.2 seiyu=0.5
+ko 일소 불가침조약 제의 | 소련의 제의를 받아들여 북방을 안정시켜야 | 공산 소련과의 조약은 위험, 거절해야
+en Soviet non-aggression offer | Accept the Soviet offer to secure the north | A pact with the communist USSR is dangerous; reject it
+ja 日ソ不可侵条約の提議 | ソ連の提議を受け入れ北方を安定させる | 共産ソ連との条約は危険、拒否すべき
+
+== dip s . rotai>seiyu : rotai=-0.9 shamin=-0.3 kakushin=-0.4 minsei=-0.5 seiyu=0.8
+ko 중국의 일화 배척 | 대화와 외교로 일본 상품 배척을 풀어야 | 배일 운동에는 실력으로 대응해야
+en China's boycott of Japanese goods | Resolve the boycott through dialogue and diplomacy | Answer anti-Japanese agitation with force
+ja 中国の日貨排斥 | 対話と外交で日貨排斥を解く | 排日運動には実力で対応すべき
+
+== eco e . minsei>seiyu : rotai=0.4 shamin=0.4 kakushin=0.2 minsei=-0.9 seiyu=0.9
+ko 적자 공채 | 적자 공채는 인플레를 부른다, 균형 재정을 지켜야 | 적자 공채로 돈을 풀어 불황을 벗어나야
+en Deficit bonds | Deficit bonds bring inflation; keep the budget balanced | Issue deficit bonds and pump money in to escape the slump
+ja 赤字公債 | 赤字公債はインフレを招く、均衡財政を守る | 赤字公債で資金を出し不況を脱する
+
+== eco . . minsei>seiyu : rotai=-0.2 shamin=-0.1 kakushin=0.2 minsei=-0.8 seiyu=0.8
+ko 엔 시세 | 엔 가치를 지켜 수입 물가를 안정시켜야 | 엔저를 받아들여 수출을 늘려야
+en The yen | Defend the yen to keep import prices stable | Accept a cheaper yen to boost exports
+ja 円相場 | 円の価値を守り輸入物価を安定させる | 円安を受け入れ輸出を伸ばす
+
+== wel e . shamin>seiyu : rotai=-1 shamin=-0.9 kakushin=-0.4 minsei=0.3 seiyu=0.6
+ko 실업보험 | 실업보험을 법으로 만들어 실업자 생활을 보장해야 | 보험보다 공공사업으로 일자리를 만들어야
+en Unemployment insurance | Legislate unemployment insurance to protect the jobless | Create jobs through public works rather than insurance
+ja 失業保険 | 失業保険を法制化し失業者の生活を保障 | 保険より公共事業で雇用を作る
+
+== wel e 1930.9 rotai>seiyu : rotai=-1 shamin=-0.7 kakushin=-0.4 minsei=0.4 seiyu=0.8
+ko 노동쟁의와 경찰 | 쟁의권을 보장하고 경찰 개입을 멈춰야 | 폭력적 쟁의는 엄하게 단속해야
+en Strikes and the police | Guarantee the right to strike and stop police intervention | Crack down hard on violent disputes
+ja 労働争議と警察 | 争議権を保障し警察の介入をやめる | 暴力的な争議は厳しく取り締まる
+
+== soc s 1931.3 shamin>seiyu : rotai=-1 shamin=-0.9 kakushin=-0.6 minsei=-0.5 seiyu=0.6
+ko 여성 공민권 | 여성에게 시정촌 선거권부터 공민권을 주어야 | 가정의 질서를 생각하면 시기상조
+en Women's civic rights | Give women civic rights, starting with municipal votes | Premature, given the order of the family
+ja 婦人公民権 | 女性に市町村の選挙権から公民権を与える | 家庭の秩序を考えると時期尚早
+
+== soc s . rotai>seiyu : rotai=-1 shamin=-0.4 kakushin=-0.5 minsei=-0.3 seiyu=0.7
+ko 사변 보도 통제 | 군에 불리한 사실도 자유롭게 보도할 수 있어야 | 사변 중에는 국익을 위해 보도를 통제해야
+en Controlling war reporting | Newspapers must be free to report facts unfavourable to the army | In an emergency, reporting should be controlled in the national interest
+ja 事変報道の統制 | 軍に不利な事実も自由に報道できるべき | 事変中は国益のため報道を統制すべき
+
+== reg e 1931.3 rotai>seiyu : rotai=-1 shamin=-0.9 kakushin=-0.5 minsei=-0.3 seiyu=0.6
+ko 소작법 | 소작인의 경작권을 법으로 보장해야 | 지주의 소유권을 존중해야
+en Tenancy law | Guarantee tenant farmers' right to cultivate by law | Respect landlords' property rights
+ja 小作法 | 小作人の耕作権を法律で保障 | 地主の所有権を尊重
+
+== reg e 1930.10 seiyu>minsei : rotai=-0.3 shamin=0.2 kakushin=-0.5 minsei=0.5 seiyu=-0.8
+ko 쌀값 폭락 대책 | 정부가 쌀을 사들여 쌀값을 받쳐야 | 재정 부담이 크다, 시장에 맡겨야
+en Collapse of rice prices | The government should buy rice to prop up prices | Too costly for the treasury; leave it to the market
+ja 米価暴落対策 | 政府が米を買い上げて米価を支える | 財政負担が大きい、市場に任せる
+
+== reg e . rotai>minsei : rotai=-1 shamin=-0.8 kakushin=-0.7 minsei=0.5 seiyu=-0.2
+ko 농가 부채 유예 | 농가 부채 상환을 유예하고 저리 자금을 풀어야 | 채권자 권리를 존중하고 농촌의 자력 갱생을
+en Farm debt moratorium | Suspend farm debt repayments and offer cheap loans | Respect creditors' rights; villages should help themselves
+ja 農家負債の猶予 | 農家負債の返済を猶予し低利資金を出す | 債権者の権利を尊重し農村の自力更生を

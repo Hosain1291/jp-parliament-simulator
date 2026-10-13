@@ -1,0 +1,204 @@
+# 제47회 중의원 총선 (2014.12.14) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) sdp=사회민주당(-0.85) plp=생활의 당(-0.4) dpj=민주당(-0.3) jip=유신당(0.35) kmt=공명당(0.15) ldp=자유민주당(0.75) pfg=차세대당(0.9) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco e 2014.11 jcp>ldp : jcp=-1 sdp=-1 plp=-1 dpj=0.1 jip=-0.4 kmt=0.6 ldp=0.8 pfg=0.2
+ko 소비세 10% 재인상 | 10% 인상 자체를 중지해야 한다 | 2017년 4월에는 반드시 올린다
+en Raising the consumption tax to 10% | Scrap the 10% rise altogether | Raise it without fail in April 2017
+ja 消費税10%への再引き上げ | 10%への引き上げ自体を中止すべき | 2017年4月には必ず上げる
+
+== eco e 2013.4 dpj>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.7 jip=0 kmt=0.8 ldp=1 pfg=0.8
+ko 아베노믹스 | 격차가 커졌다, 궤도를 바꿔야 | ‘이 길밖에 없다’, 계속 추진
+en Abenomics | Gaps have widened; change course | “This is the only way”; keep going
+ja アベノミクス | 格差が広がった、軌道修正を | 「この道しかない」、推進を続ける
+
+== con s 2014.7 jcp>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.6 jip=0 kmt=0.6 ldp=1 pfg=1
+ko 집단적 자위권 각의결정 | 각의결정을 철회해야 한다 | 안보법제로 구체화해야 한다
+en Cabinet decision on collective self-defence | Withdraw it | Turn it into security legislation
+ja 集団的自衛権の閣議決定 | 閣議決定を撤回すべき | 安保法制で具体化すべき
+
+== soc s 2013.12 sdp>ldp : jcp=-1 sdp=-1 plp=-0.9 dpj=-0.6 jip=-0.2 kmt=0.7 ldp=0.9 pfg=0.9
+ko 특정비밀보호법 | 알 권리를 침해한다, 폐지해야 | 안보 정보 보호를 위해 시행
+en Specially Designated Secrets Act | It violates the right to know; repeal it | Implement it to protect security information
+ja 特定秘密保護法 | 知る権利を侵害する、廃止すべき | 安全保障情報の保護のため施行
+
+== reg e 2014.9 plp>ldp : jcp=-1 sdp=-1 plp=-1 dpj=-0.4 jip=-0.3 kmt=0.3 ldp=0.9 pfg=0.9
+ko 원전 재가동 | 재가동에 반대한다 | 규제 기준을 통과한 원전은 재가동
+en Restarting reactors | Against restarts | Restart reactors that pass the new standards
+ja 原発再稼働 | 再稼働に反対する | 規制基準を満たした原発は再稼働
+
+== con s 2014.11 sdp>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=0 jip=0.3 kmt=0.4 ldp=1 pfg=1
+ko 헤노코 이설 | 오키나와 민의에 따라 중지 | 후텐마 위험 제거를 위해 추진
+en Relocation to Henoko | Stop, as Okinawa’s voters want | Proceed to remove the Futenma danger
+ja 辺野古移設 | 沖縄の民意に従い中止 | 普天間の危険除去のため推進
+
+== dip s 2013.12 kmt>pfg : jcp=-1 sdp=-1 plp=-0.5 dpj=-0.6 jip=0 kmt=-0.8 ldp=0.6 pfg=1
+ko 총리의 야스쿠니 참배 | 외교 관계를 해치는 참배는 안 된다 | 총리 참배는 당연하다
+en PM visits to Yasukuni | Visits that harm diplomacy are unacceptable | Of course the PM should visit
+ja 首相の靖国参拝 | 外交関係を損なう参拝はいけない | 首相の参拝は当然
+
+== wel e 2014.3 dpj>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.8 jip=0.2 kmt=0.5 ldp=0.8 pfg=0.5
+ko 노동자 파견법 개정 | 평생 파견을 낳는 개정에 반대 | 파견 기간 규제를 완화
+en Revising the Worker Dispatch Law | Against creating lifelong temps | Ease limits on dispatch periods
+ja 労働者派遣法の改正 | 生涯派遣を生む改正に反対 | 派遣期間の規制を緩和
+
+== eco e . jcp>jip : jcp=-1 sdp=-1 plp=-1 dpj=-0.1 jip=0.8 kmt=0.4 ldp=0.6 pfg=0.4
+ko TPP 타결 | 농업과 주권을 지키려면 반대 | 조기에 타결해야 한다
+en Concluding TPP | Against, to protect farming and sovereignty | Conclude it soon
+ja TPP妥結 | 農業と主権を守るため反対 | 早期に妥結すべき
+
+== reg . . jcp>jip : jcp=-0.9 sdp=-0.7 dpj=-0.1 jip=1 kmt=-0.2 ldp=0.1
+ko 도주제·오사카도 | 지금의 지방 제도를 지켜야 | 도주제와 오사카도 구상을 추진
+en Regional states and Osaka Metropolis | Keep the current local system | Pursue states and the Osaka plan
+ja 道州制・大阪都 | 今の地方制度を守るべき | 道州制と大阪都構想を推進
+
+== pol . . kmt>jip : jcp=-1 sdp=-1 dpj=0.5 jip=1 kmt=-0.5 ldp=0.3 pfg=0.5
+ko 의원 정수 삭감 | 비례 정수는 지켜야 한다 | ‘몸을 자르는 개혁’으로 크게 삭감
+en Cutting the number of MPs | Keep proportional seats | Cut sharply — “reform that cuts our own flesh”
+ja 議員定数の削減 | 比例定数は守るべき | 「身を切る改革」で大幅削減
+
+== soc s . dpj>pfg : jcp=-1 sdp=-1 plp=-0.6 dpj=-0.8 jip=-0.3 kmt=-0.6 ldp=0.7 pfg=1
+ko 선택적 부부별성 | 도입해야 한다 | 반대한다
+en Optional separate surnames | Introduce them | Against
+ja 選択的夫婦別姓 | 導入すべき | 反対する
+
+== reg . 2014.10 jcp>jip : jcp=-1 sdp=-1 plp=-0.3 dpj=-0.4 jip=0.9 kmt=-0.3 ldp=0.7 pfg=0.6
+ko 카지노(IR) 추진법 | 도박 의존증 우려, 반대 | 관광 성장을 위해 추진
+en Casino (IR) Promotion Law | Against, given gambling addiction | Promote it for tourism and growth
+ja カジノ（IR）推進法 | ギャンブル依存症の恐れ、反対 | 観光と成長のため推進
+
+== pol . 2014.11 dpj>ldp : jcp=-1 sdp=-1 plp=-1 dpj=-0.9 jip=-0.8 kmt=0.6 ldp=0.9 pfg=-0.2
+ko 대의 없는 해산 | 소비세 연기를 명분으로 한 해산은 정권 연장용 | 정책 변경에 대해 국민의 신임을 묻는 것은 당연
+en A dissolution without a cause | Dissolving over a tax delay is a ploy to extend power | Seeking a mandate for a policy change is natural
+ja 大義なき解散 | 消費税延期を名目にした解散は政権延命のため | 政策変更について国民の信を問うのは当然
+
+== pol . 2014.5 jcp>jip : jcp=-0.8 sdp=-0.8 plp=-0.5 dpj=0 jip=0.7 kmt=0.3 ldp=0.7 pfg=0.7
+ko 내각 인사국 | 관료 인사를 총리관저가 쥐면 관료가 권력에 휘둘린다 | 정치 주도로 각 부처 간부 인사를 일원화해야
+en The Cabinet Bureau of Personnel Affairs | Putting senior appointments in the PM's hands makes officials bend to power | Unify senior appointments under political leadership
+ja 内閣人事局 | 官僚人事を官邸が握れば官僚が権力に振り回される | 政治主導で各府省の幹部人事を一元化すべき
+
+== pol . 2014.6 pfg>dpj : jcp=0.6 sdp=0.6 plp=0.7 dpj=0.8 jip=0.8 kmt=0.7 ldp=0.5 pfg=-0.2
+ko 18세 선거권 | 선거권 연령을 18세로 낮춰 젊은 세대의 목소리를 | 성인 연령과 함께 신중하게 논의해야
+en Voting at 18 | Lower the voting age to 18 to hear young people | Discuss it carefully together with the age of majority
+ja 18歳選挙権 | 選挙権年齢を18歳に下げ若い世代の声を | 成人年齢とあわせ慎重に議論すべき
+
+== pol . 2014.10 dpj>ldp : jcp=-1 sdp=-1 plp=-0.9 dpj=-1 jip=-0.8 kmt=0.2 ldp=0.5 pfg=0
+ko 각료의 정치 자금 문제 | 의혹 각료는 국회에서 설명하고 정치 자금 규제를 강화해야 | 사임으로 책임을 졌다, 정책 논의에 집중해야
+en Ministers' funding scandals | Ministers under suspicion must explain to the Diet and funding rules should be tightened | Resignation was responsibility enough; focus on policy
+ja 閣僚の政治資金問題 | 疑惑の閣僚は国会で説明し政治資金規制を強化すべき | 辞任で責任を取った、政策論議に集中すべき
+
+== con s 2013.11 sdp>ldp : jcp=-1 sdp=-1 plp=-0.7 dpj=-0.2 jip=0.4 kmt=0.6 ldp=0.9 pfg=1
+ko 국가안전보장회의 | 소수 각료의 안보 결정은 국회와 국민의 감시를 피한다 | 신속한 안보 결정을 위해 NSC가 필요하다
+en The National Security Council | Security decisions by a few ministers evade Diet and public scrutiny | An NSC is needed for swift security decisions
+ja 国家安全保障会議 | 少数閣僚による安保決定は国会と国民の監視を逃れる | 迅速な安保決定のためNSCが必要
+
+== con s 2014.4 sdp>ldp : jcp=-1 sdp=-1 plp=-0.7 dpj=-0.4 jip=0.3 kmt=0.3 ldp=0.9 pfg=1
+ko 방위 장비 이전 3원칙 | 무기 수출 3원칙을 버린 것은 평화 국가의 포기 | 국제 공동 개발과 방위 산업을 위해 이전을 허용해야
+en Three principles on defence equipment transfer | Abandoning the arms-export ban gives up being a peace nation | Allow transfers for international joint development and the defence industry
+ja 防衛装備移転三原則 | 武器輸出三原則を捨てたのは平和国家の放棄 | 国際共同開発と防衛産業のため移転を認めるべき
+
+== con s 2013.12 sdp>pfg : jcp=-1 sdp=-1 plp=-0.7 dpj=-0.4 jip=0.3 kmt=0.2 ldp=0.8 pfg=1
+ko 국가안보전략과 애국심 | 안보 전략에 애국심을 담는 것은 지나치다 | 나라를 사랑하는 마음을 안보의 기반으로 삼아야
+en National Security Strategy and patriotism | Writing patriotism into a security strategy goes too far | Love of country should underpin national security
+ja 国家安全保障戦略と愛国心 | 安保戦略に愛国心を盛り込むのは行き過ぎ | 国を愛する心を安全保障の基盤にすべき
+
+== dip s 2013.11 sdp>pfg : jcp=-0.4 sdp=-0.7 plp=-0.3 dpj=0.3 jip=0.6 kmt=0.3 ldp=0.8 pfg=1
+ko 중국 방공식별구역 | 긴장을 높이지 말고 대화로 위기 관리 체계를 | 일방적 설정에 단호히 항의하고 경계를 강화해야
+en China's air defence identification zone | Avoid escalation and build crisis-management talks | Protest firmly against the unilateral zone and step up vigilance
+ja 中国の防空識別圏 | 緊張を高めず対話で危機管理の仕組みを | 一方的な設定に断固抗議し警戒を強めるべき
+
+== dip s 2014.6 sdp>pfg : jcp=-1 sdp=-1 plp=-0.6 dpj=-0.6 jip=0.4 kmt=-0.5 ldp=0.5 pfg=1
+ko 고노 담화 검증 | 담화를 흔드는 검증은 국제 신뢰를 해친다 | 작성 경위를 검증하는 것은 당연하다
+en Reviewing the Kōno Statement | A review that undermines the statement damages trust abroad | Examining how it was drafted is only natural
+ja 河野談話の検証 | 談話を揺るがす検証は国際的信頼を損なう | 作成経緯を検証するのは当然
+
+== dip s 2014.5 pfg>dpj : jcp=0.4 sdp=0.6 plp=0.3 dpj=0.2 jip=0 kmt=0.4 ldp=0.4 pfg=-0.6
+ko 스톡홀름 합의 | 북한에 대한 독자 제재를 유지하며 압력을 | 재조사를 위해 제재 일부 해제와 대화를
+en The Stockholm agreement | Keep Japan's own sanctions and maintain pressure | Lift some sanctions and talk, for the reinvestigation's sake
+ja ストックホルム合意 | 北朝鮮への独自制裁を維持し圧力を | 再調査のため制裁の一部解除と対話を
+
+== dip s 2014.3 plp>pfg : jcp=-0.2 sdp=-0.3 plp=-0.6 dpj=0.4 jip=0.4 kmt=0.3 ldp=0.5 pfg=0.6
+ko 크림 병합과 대러 제재 | 영토 교섭을 위해 러시아와의 대화를 우선해야 | 주요 7개국과 함께 대러 제재에 나서야
+en Crimea and sanctions on Russia | Prioritise dialogue with Russia for the territorial talks | Join the G7 in sanctioning Russia
+ja クリミア併合と対露制裁 | 領土交渉のためロシアとの対話を優先すべき | G7とともに対露制裁に加わるべき
+
+== dip s 2014.11 jcp>pfg : jcp=-0.8 sdp=-0.8 plp=-0.6 dpj=-0.6 jip=-0.1 kmt=-0.6 ldp=0.2 pfg=0.9
+ko 일중 정상회담과 4개 항목 합의 | 역사와 센카쿠를 둘러싼 대화로 관계를 개선해야 | 원칙을 양보하는 합의는 안 된다
+en The Japan–China summit and four-point consensus | Improve ties through dialogue on history and the Senkakus | No consensus that concedes principles
+ja 日中首脳会談と4項目合意 | 歴史と尖閣をめぐる対話で関係を改善すべき | 原則を譲る合意はいけない
+
+== eco e . jcp>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.3 jip=0.6 kmt=0.3 ldp=0.8 pfg=0.7
+ko 법인세 인하 | 대기업 감세가 아니라 임금 인상과 가계 지원을 | 성장을 위해 법인세 실효 세율을 20%대로
+en Cutting corporate tax | Raise wages and support households rather than cutting big-business tax | Cut the effective rate into the 20s to drive growth
+ja 法人税引き下げ | 大企業減税でなく賃上げと家計支援を | 成長のため法人実効税率を20%台に
+
+== eco e 2014.10 jcp>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.6 jip=0.2 kmt=0.3 ldp=0.8 pfg=0.6
+ko 연금 적립금 주식 투자 확대 | 국민의 노후 자금을 주식 위험에 노출해선 안 된다 | 수익을 높이려면 주식 비중을 늘려야
+en Investing pension reserves in stocks | Do not expose people's retirement money to stock-market risk | Raise equity holdings to improve returns
+ja 年金積立金の株式運用拡大 | 国民の老後資金を株式のリスクにさらすべきでない | 収益を高めるため株式の比率を増やすべき
+
+== eco e 2013.12 jcp>jip : jcp=-1 sdp=-1 plp=-0.6 dpj=0 jip=0.9 kmt=0.3 ldp=0.8 pfg=0.7
+ko 국가 전략 특구 | 특구는 노동 규제를 허무는 통로 | 바위 같은 규제를 특구에서 깨뜨려야
+en National strategic special zones | Special zones are a way to tear down labour protections | Smash "bedrock" regulations in special zones
+ja 国家戦略特区 | 特区は労働規制を崩す抜け道 | 岩盤規制を特区で打ち破るべき
+
+== wel e . jcp>ldp : jcp=-1 sdp=-1 plp=-0.9 dpj=-0.8 jip=0.4 kmt=0 ldp=0.8 pfg=0.6
+ko 잔업 수당 제로 제도 | 시간 규제를 없애면 과로사가 늘어난다 | 성과에 따라 일하는 방식을 위해 시간 규제에서 빼야
+en Exempting professionals from overtime rules | Removing hour limits will raise deaths from overwork | Exempt them to allow pay for results
+ja 残業代ゼロ制度 | 時間規制をなくせば過労死が増える | 成果に応じた働き方のため時間規制から外すべき
+
+== wel e 2013.8 jcp>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.6 jip=0.4 kmt=0.2 ldp=0.8 pfg=0.7
+ko 생활보호 기준 인하 | 생활 부조 기준 인하는 생존권 침해 | 일반 저소득층과의 균형을 위해 인하가 필요하다
+en Cutting public assistance standards | Lowering living-assistance levels violates the right to life | Cuts are needed for balance with other low-income households
+ja 生活保護基準の引き下げ | 生活扶助基準の引き下げは生存権の侵害 | 一般低所得世帯との均衡のため引き下げは必要
+
+== wel e 2014.1 jcp>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.8 jip=-0.3 kmt=-0.6 ldp=0.3 pfg=0.4
+ko 아동 빈곤 대책 | 빈곤율 감소 목표를 정하고 현금 급여를 늘려야 | 교육 지원과 취업 지원 중심으로
+en Child poverty | Set targets to cut poverty and raise cash benefits | Focus on education and job support
+ja 子どもの貧困対策 | 貧困率削減の目標を定め現金給付を増やすべき | 教育支援と就労支援を中心に
+
+== wel e 2014.4 jcp>ldp : jcp=-1 sdp=-1 plp=-0.8 dpj=-0.5 jip=0.3 kmt=0.3 ldp=0.7 pfg=0.5
+ko 70~74세 의료비 2할 | 고령자의 창구 부담 인상에 반대 | 세대 간 공평을 위해 본래의 2할로 돌려야
+en 20% co-payments for ages 70–74 | Oppose raising older people's charges | Restore the statutory 20% for fairness between generations
+ja 70〜74歳の医療費2割 | 高齢者の窓口負担引き上げに反対 | 世代間の公平のため本来の2割に戻すべき
+
+== soc s 2014.10 sdp>pfg : jcp=-1 sdp=-1 plp=-0.6 dpj=-0.4 jip=0.3 kmt=0.2 ldp=0.8 pfg=1
+ko 도덕의 교과화 | 국가가 도덕을 평가하는 것은 내심의 자유 침해 | 규범 의식을 기르기 위해 도덕을 정식 교과로
+en Making morals a formal subject | State grading of morals violates freedom of conscience | Make morals a proper subject to build a sense of norms
+ja 道徳の教科化 | 国が道徳を評価するのは内心の自由の侵害 | 規範意識を育てるため道徳を正式な教科に
+
+== soc s . jcp>pfg : jcp=-0.9 sdp=-0.9 plp=-0.7 dpj=-0.8 jip=-0.3 kmt=-0.7 ldp=0.2 pfg=0.8
+ko 헤이트 스피치 규제 | 차별 선동 시위를 법으로 금지해야 | 표현의 자유를 생각해 법 규제는 신중히
+en Regulating hate speech | Ban demonstrations inciting discrimination by law | Be cautious about legal restrictions on expression
+ja ヘイトスピーチ規制 | 差別をあおるデモを法律で禁止すべき | 表現の自由を考え法規制は慎重に
+
+== soc s 2014.6 pfg>dpj : jcp=0.4 sdp=0.6 plp=0.4 dpj=0.6 jip=0.4 kmt=0.6 ldp=0.4 pfg=-0.6
+ko 여성 관리직 30% | 수치 목표보다 능력에 따른 등용이 원칙 | 2020년까지 여성 관리직 30% 목표로 적극 조치를
+en 30% women managers | Promotion on merit, not numerical targets | Take positive action towards 30% women in management by 2020
+ja 女性管理職30％ | 数値目標より能力による登用が原則 | 2020年までに女性管理職30%を目標に積極的措置を
+
+== soc s 2014.6 jcp>ldp : jcp=-1 sdp=-1 plp=-0.6 dpj=-0.5 jip=0.6 kmt=0 ldp=0.8 pfg=0.8
+ko 교육위원회 제도 개혁 | 단체장의 교육 개입은 교육의 정치적 중립을 해친다 | 단체장이 책임지는 종합교육회의로 바꿔야
+en Reforming school boards | Mayors' involvement in education undermines political neutrality | Switch to comprehensive councils with mayors accountable
+ja 教育委員会制度改革 | 首長の教育介入は教育の政治的中立を損なう | 首長が責任を持つ総合教育会議に改めるべき
+
+== reg e 2014.9 jcp>ldp : jcp=-0.8 sdp=-0.7 plp=-0.6 dpj=-0.4 jip=0.2 kmt=0.5 ldp=0.8 pfg=0.5
+ko 지방 창생 | 교부금 경쟁보다 지방의 재원과 권한을 늘려야 | 종합 전략으로 지방의 인구 감소를 막아야
+en Regional revitalisation | Expand local revenue and powers instead of competitive grants | Stop regional depopulation with a comprehensive strategy
+ja 地方創生 | 交付金競争より地方の財源と権限を増やすべき | 総合戦略で地方の人口減少を食い止めるべき
+
+== reg e 2014.6 jcp>jip : jcp=-1 sdp=-0.9 plp=-0.9 dpj=-0.3 jip=0.8 kmt=0 ldp=0.6 pfg=0.5
+ko 농협 개혁 | 전국 농협 중앙회의 지도권 폐지는 농촌을 약하게 한다 | 중앙회 권한을 줄여 지역 농협의 자율을
+en Reforming the agricultural co-ops | Abolishing the central union's guidance weakens rural areas | Curb the central union so local co-ops can act freely
+ja 農協改革 | 全中の指導権廃止は農村を弱める | 中央会の権限を減らし地域農協の自主性を
+
+== reg e 2013.11 jcp>jip : jcp=-1 sdp=-0.9 plp=-0.9 dpj=-0.6 jip=0.7 kmt=0 ldp=0.5 pfg=0.4
+ko 쌀 감반 폐지 | 감반 폐지는 쌀값 폭락과 농가 파산을 부른다 | 생산 조정을 끝내고 경영 판단에 맡겨야
+en Ending rice acreage reduction | Ending it will crash prices and bankrupt farmers | End production controls and let farmers decide
+ja 減反廃止 | 減反廃止は米価暴落と農家の破綻を招く | 生産調整をやめ経営判断に任せるべき
+
+== reg e 2013.9 jcp>ldp : jcp=-0.8 sdp=-0.6 plp=-0.4 dpj=0.2 jip=0.4 kmt=0.5 ldp=0.8 pfg=0.7
+ko 도쿄 올림픽 | 피해지 부흥이 먼저, 올림픽 투자는 최소로 | 올림픽을 계기로 인프라와 경제를 살려야
+en The Tokyo Olympics | Disaster-zone reconstruction first; minimise Olympic spending | Use the Games to boost infrastructure and the economy
+ja 東京五輪 | 被災地の復興が先、五輪投資は最小限に | 五輪を機にインフラと経済を活性化すべき

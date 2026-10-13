@@ -1,0 +1,164 @@
+# 제40회 중의원 총선 (1993.7.18) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.55) sdf=사회민주연합(-0.3) saki=신당 사키가케(0) jnp=일본신당(0.1) kmt=공명당(-0.05) dsp=민사당(0.15) shinsei=신생당(0.45) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1993.6 shinsei>ldp : jcp=0.8 jsp=-0.6 sdf=-0.8 saki=-0.9 jnp=-1 kmt=-0.6 dsp=-0.7 shinsei=-1 ldp=0.4
+ko 정치 개혁 | 이번에 소선거구 비례대표 병립제와 정치자금 개혁을 | 신중하게 단계적으로
+en Political reform | Pass the mixed electoral system and funding reform now | Proceed carefully, step by step
+ja 政治改革 | 今回こそ小選挙区比例代表並立制と政治資金改革を | 慎重に段階的に
+
+== pol . 1993.6 jnp>ldp : jcp=-0.2 jsp=-1 sdf=-1 saki=-0.6 jnp=-0.9 kmt=-1 dsp=-1 shinsei=-1 ldp=1
+ko 자민당 일당 지배 | 비자민 연립 정권으로 바꿔야 | 자민당 중심의 안정
+en One-party LDP rule | Replace it with a non-LDP coalition | Stability led by the LDP
+ja 自民党一党支配 | 非自民連立政権に替えるべき | 自民党中心の安定
+
+== con s 1992.6 jsp>shinsei : jcp=-1 jsp=-1 sdf=-0.4 saki=0 jnp=0.2 kmt=0.6 dsp=0.8 shinsei=0.9 ldp=0.9
+ko PKO 협력법 | 자위대 해외 파견에 반대 | 국제 공헌을 위해 PKO 참가
+en International Peace Cooperation (PKO) Law | Against sending the SDF abroad | Join UN peacekeeping as an international contribution
+ja PKO協力法 | 自衛隊の海外派遣に反対 | 国際貢献のためPKOに参加
+
+== reg e . jsp>shinsei : jcp=-1 jsp=-1 sdf=-0.5 saki=-0.4 jnp=0.2 kmt=-0.6 dsp=-0.2 shinsei=0.2 ldp=-0.6
+ko 쌀 시장 개방 | 쌀 자급을 지켜야 | 부분 개방을 받아들여야
+en Opening the rice market | Protect rice self-sufficiency | Accept partial opening
+ja コメ市場の開放 | コメの自給を守るべき | 部分開放を受け入れるべき
+
+== pol . 1992.8 jnp>ldp : jcp=-1 jsp=-1 sdf=-1 saki=-0.9 jnp=-1 kmt=-1 dsp=-0.9 shinsei=-0.6 ldp=0.6
+ko 사가와큐빈 사건 | 금권 정치를 청산하고 책임을 | 수사에 맡겨야
+en The Sagawa Express scandal | Clean out money politics and assign responsibility | Leave it to investigators
+ja 佐川急便事件 | 金権政治を清算し責任を | 捜査に委ねるべき
+
+== eco . 1992.8 kmt>ldp : jcp=-0.6 jsp=-0.3 sdf=-0.4 saki=-0.2 jnp=-0.4 kmt=-0.8 dsp=-0.6 shinsei=-0.3 ldp=0.8
+ko 거품 붕괴 경기 대책 | 감세 중심으로 | 공공사업 중심으로
+en Stimulus after the bubble | Mainly tax cuts | Mainly public works
+ja バブル崩壊後の景気対策 | 減税中心で | 公共事業中心で
+
+== reg . . jnp>ldp : jcp=0 jsp=-0.5 sdf=-0.7 saki=-0.9 jnp=-1 kmt=-0.5 dsp=-0.5 shinsei=-0.7 ldp=0.4
+ko 지방분권 | 권한과 재원을 지방으로 대폭 이양 | 중앙 조정을 유지
+en Decentralisation | Hand powers and revenue to the regions on a large scale | Keep central coordination
+ja 地方分権 | 権限と財源を地方へ大幅移譲 | 中央の調整を維持
+
+== con s 1993.5 jsp>shinsei : jcp=-1 jsp=-1 sdf=-0.8 saki=-0.5 jnp=-0.2 kmt=-0.6 dsp=0.3 shinsei=0.7 ldp=0.8
+ko 헌법 9조와 ‘보통 국가’ | 호헌 | 국제 공헌을 위해 헌법을 재검토
+en Article 9 and a “normal country” | Defend the constitution | Review the constitution to contribute internationally
+ja 憲法9条と「普通の国」 | 護憲 | 国際貢献のため憲法を見直す
+
+== reg e . jsp>ldp : jcp=-0.9 jsp=-1 sdf=-0.9 saki=-0.6 jnp=-0.3 kmt=-0.4 dsp=0.6 shinsei=0.6 ldp=0.9
+ko 원전 | 원전을 줄여야 | 추진해야
+en Nuclear power | Reduce nuclear power | Proceed with it
+ja 原発 | 原発を減らすべき | 推進すべき
+
+== pol s . jnp>ldp : jcp=-0.9 jsp=-0.9 sdf=-1 saki=-0.9 jnp=-1 kmt=-0.8 dsp=-0.6 shinsei=-0.7 ldp=0.5
+ko 정보공개법 | 정보공개법을 제정해야 | 신중해야
+en Information disclosure law | Enact a disclosure law | Go carefully
+ja 情報公開法 | 情報公開法を制定すべき | 慎重に
+
+== pol . 1993.5 jsp>shinsei : jcp=-0.8 jsp=-0.7 sdf=-0.3 saki=-0.3 jnp=0.2 kmt=0.1 dsp=0.3 shinsei=0.9 ldp=0
+ko 정치 주도 | 합의와 조정을 중시하는 정치를 지켜야 | 관료 주도를 끊고 강한 리더십의 정치로 바꿔야
+en Political leadership | Preserve politics based on consensus and coordination | End bureaucratic rule and switch to strong political leadership
+ja 政治主導 | 合意と調整を重んじる政治を守るべき | 官僚主導を断ち強いリーダーシップの政治に変えるべき
+
+== con s 1991.4 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.6 saki=-0.4 jnp=-0.1 kmt=0.2 dsp=0.7 shinsei=0.8 ldp=0.9
+ko 걸프전 소해정 파견 | 자위대의 해외 파견은 헌법 위반의 첫걸음 | 전쟁이 끝난 뒤의 소해는 국제 공헌으로 필요하다
+en Minesweepers to the Gulf | Sending the SDF abroad is a first step towards violating the constitution | Post-war minesweeping is a needed international contribution
+ja 湾岸掃海艇派遣 | 自衛隊の海外派遣は憲法違反の第一歩 | 戦後の掃海は国際貢献として必要
+
+== con s 1993.5 jsp>ldp : jcp=-0.8 jsp=-0.8 sdf=-0.5 saki=-0.3 jnp=0 kmt=0.1 dsp=0.6 shinsei=0.7 ldp=0.8
+ko 북한 핵·미사일 | 대화와 외교로 긴장을 풀어야 한다 | 미사일 방어와 유사시 대비를 서둘러야
+en North Korea's nuclear and missile programmes | Ease tension through dialogue and diplomacy | Hurry missile defence and emergency preparedness
+ja 北朝鮮の核・ミサイル | 対話と外交で緊張を緩めるべき | ミサイル防衛と有事への備えを急ぐべき
+
+== dip s 1991.1 jsp>shinsei : jcp=-1 jsp=-0.8 sdf=-0.4 saki=-0.2 jnp=0 kmt=0.4 dsp=0.7 shinsei=0.9 ldp=0.8
+ko 걸프전 90억 달러 | 전쟁 비용 지원은 평화 헌법에 어긋난다 | 국제 질서를 지키는 데 응분의 부담은 당연
+en $9 billion for the Gulf War | Funding a war goes against the peace constitution | Bearing a fair share to defend international order is natural
+ja 湾岸戦争90億ドル | 戦費支援は平和憲法に反する | 国際秩序を守るための応分の負担は当然
+
+== dip s . jsp>shinsei : jcp=-1 jsp=-0.7 sdf=-0.3 saki=-0.2 jnp=0.3 kmt=0 dsp=0.5 shinsei=0.9 ldp=0.7
+ko 안보리 상임이사국 진출 | 군사적 책임을 떠안는 상임이사국 진출은 신중해야 | 경제 대국에 맞게 상임이사국 진출을 추진해야
+en A permanent Security Council seat | Be wary of a seat that brings military obligations | Seek a permanent seat befitting an economic power
+ja 安保理常任理事国入り | 軍事的責任を負う常任理事国入りは慎重に | 経済大国にふさわしく常任理事国入りを目指すべき
+
+== dip s 1992.1 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 saki=-0.7 jnp=-0.6 kmt=-0.8 dsp=-0.3 shinsei=0 ldp=0.4
+ko 위안부 문제 | 국가 책임을 인정하고 피해자에게 사죄와 보상을 | 청구권은 조약으로 해결, 사죄 표명으로 충분하다
+en "Comfort women" | Admit state responsibility and apologise and compensate victims | Claims were settled by treaty; an apology is enough
+ja 慰安婦問題 | 国の責任を認め被害者に謝罪と補償を | 請求権は条約で解決済み、お詫びの表明で十分
+
+== dip s 1992.10 jcp>ldp : jcp=-0.6 jsp=-0.4 sdf=-0.4 saki=-0.2 jnp=0 kmt=-0.3 dsp=0.1 shinsei=0.2 ldp=0.4
+ko 천황의 중국 방문 | 천안문 이후의 중국 방문은 인권 탄압을 묵인하는 것 | 천황 방중으로 일중 관계를 한 단계 높여야
+en The Emperor's visit to China | Visiting after Tiananmen condones repression | The visit lifts Japan–China relations to a new level
+ja 天皇訪中 | 天安門後の訪中は人権弾圧の黙認 | 天皇訪中で日中関係を一段高めるべき
+
+== dip s . jsp>ldp : jcp=-0.8 jsp=-0.9 sdf=-0.6 saki=-0.4 jnp=-0.3 kmt=-0.4 dsp=0 shinsei=0.2 ldp=0.4
+ko 북일 수교 교섭 | 과거 청산을 앞세워 북한과 수교 교섭을 이어가야 | 핵과 납치 의혹이 풀리기 전엔 서두르지 말아야
+en Normalisation talks with North Korea | Pursue normalisation, putting settlement of the past first | Do not hurry until the nuclear and abduction suspicions are resolved
+ja 日朝国交正常化交渉 | 過去の清算を先に北朝鮮との交渉を続けるべき | 核と拉致の疑惑が解けるまで急ぐべきでない
+
+== eco e 1992.8 jcp>ldp : jcp=-1 jsp=-0.6 sdf=-0.3 saki=-0.2 jnp=0 kmt=-0.3 dsp=0.2 shinsei=0.4 ldp=0.6
+ko 불량 채권과 공적 자금 | 은행의 부실을 세금으로 메우는 것은 반대, 경영 책임부터 | 금융 시스템을 지키려면 공적 자금 투입도 검토해야
+en Bad loans and public money | Oppose bailing out banks with taxes; hold managers accountable first | Consider public money to protect the financial system
+ja 不良債権と公的資金 | 銀行の不良債権を税金で埋めるのに反対、経営責任が先 | 金融システムを守るため公的資金の投入も検討すべき
+
+== eco e 1991.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-1 saki=-0.9 jnp=-0.9 kmt=-0.9 dsp=-0.7 shinsei=-0.5 ldp=0.3
+ko 증권사 손실 보전 | 대형 고객 손실을 메워 준 증권사를 엄벌하고 감시를 강화해야 | 업계의 자정과 행정 지도로 바로잡으면 된다
+en Brokers compensating big clients' losses | Punish the brokers severely and tighten oversight | Industry self-correction and guidance are enough
+ja 証券会社の損失補填 | 大口顧客の損失を補填した証券会社を厳罰にし監視を強化すべき | 業界の自浄と行政指導で正せばよい
+
+== eco e . kmt>ldp : jcp=-0.6 jsp=-0.8 sdf=-0.6 saki=0 jnp=-0.4 kmt=-0.9 dsp=-0.8 shinsei=-0.3 ldp=0.6
+ko 소득세 감세 | 불황 탈출을 위해 대규모 소득세 감세를 | 재원 없는 감세는 안 된다, 공공 투자로 대응해야
+en Income tax cuts | A big income-tax cut to escape the slump | No cuts without funding; respond with public investment
+ja 所得税減税 | 不況脱出のため大型の所得税減税を | 財源なき減税はいけない、公共投資で対応すべき
+
+== eco e . jcp>shinsei : jcp=-1 jsp=-0.7 sdf=-0.2 saki=0.3 jnp=0.6 kmt=0 dsp=0.4 shinsei=0.8 ldp=0.2
+ko 규제 완화 | 규제 완화는 대기업 이익과 안전 후퇴를 부른다 | 관료의 규제를 대폭 풀어 경제를 살려야
+en Deregulation | Deregulation serves big business and weakens safety | Sweep away bureaucratic regulation to revive the economy
+ja 規制緩和 | 規制緩和は大企業の利益と安全の後退を招く | 官僚の規制を大幅に緩め経済を生かすべき
+
+== wel e 1991.5 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 saki=-0.5 jnp=-0.5 kmt=-0.8 dsp=-0.5 shinsei=-0.2 ldp=0.4
+ko 육아휴직 | 휴직 중 소득 보장을 넣어 실제로 쓸 수 있게 해야 | 제도 도입이 먼저, 급여는 기업 부담을 보며 천천히
+en Childcare leave | Add income support so leave can actually be used | Introducing the system comes first; pay can follow slowly
+ja 育児休業 | 休業中の所得保障を入れ実際に使えるようにすべき | 制度導入が先、給付は企業負担を見て徐々に
+
+== wel e 1992.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 saki=-0.4 jnp=-0.5 kmt=-0.7 dsp=-0.4 shinsei=-0.2 ldp=0.4
+ko 연 1800시간 노동 | 법으로 노동 시간 상한을 정해 1800시간을 실현해야 | 기업의 자율적 단축을 지원하는 정도로
+en An 1,800-hour working year | Set legal limits to achieve 1,800 hours a year | Support voluntary reductions by companies
+ja 年間1800時間労働 | 法律で労働時間の上限を定め1800時間を実現すべき | 企業の自主的な短縮を支援する程度に
+
+== wel e 1993.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 saki=-0.5 jnp=-0.5 kmt=-0.8 dsp=-0.4 shinsei=-0.1 ldp=0.5
+ko 파트타임 노동법 | 정규직과의 균등 대우를 법으로 보장해야 | 고용 관리 개선의 노력 의무로 충분하다
+en Part-time Work Law | Guarantee equal treatment with regular staff by law | A duty to improve employment management is enough
+ja パートタイム労働法 | 正社員との均等待遇を法律で保障すべき | 雇用管理改善の努力義務で十分
+
+== wel e . jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.7 saki=-0.5 jnp=-0.5 kmt=-0.8 dsp=-0.5 shinsei=-0.2 ldp=0.4
+ko 공적 간병 | 간병을 가족에게 맡기지 말고 공적 제도로 | 가족 간병을 기본으로 서비스를 보완해야
+en Public long-term care | Do not leave care to families; make it a public system | Family care is the base, with services filling gaps
+ja 公的介護 | 介護を家族任せにせず公的制度に | 家族介護を基本にサービスで補完すべき
+
+== wel e 1990.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 saki=-0.4 jnp=-0.4 kmt=-0.7 dsp=-0.5 shinsei=-0.2 ldp=0.4
+ko 65세까지 고용 | 65세 고용을 기업 의무로 해야 | 재고용의 노력 의무로 충분하다
+en Employment to 65 | Make employment until 65 a legal duty | A duty to make efforts at re-employment is enough
+ja 65歳までの雇用 | 65歳までの雇用を企業の義務にすべき | 再雇用の努力義務で十分
+
+== soc s 1991.1 jsp>ldp : jcp=-0.8 jsp=-1 sdf=-1 saki=-0.6 jnp=-0.7 kmt=-0.6 dsp=-0.4 shinsei=-0.2 ldp=0.7
+ko 선택적 부부별성 | 원하는 부부는 각자의 성을 쓸 수 있게 해야 | 가족의 일체감을 위해 부부 동성을 지켜야
+en Optional separate surnames | Let married couples keep their own surnames if they wish | Keep a single family surname for family unity
+ja 選択的夫婦別姓 | 希望する夫婦は別々の姓を名乗れるようにすべき | 家族の一体感のため夫婦同姓を守るべき
+
+== soc s . jcp>ldp : jcp=-0.2 jsp=-0.9 sdf=-0.9 saki=-0.6 jnp=-0.6 kmt=-0.8 dsp=-0.3 shinsei=-0.1 ldp=0.7
+ko 정주 외국인 지방 참정권 | 영주 외국인에게 지방 선거권을 줘야 | 참정권은 국적을 가진 사람에게
+en Local voting rights for permanent residents | Give permanent foreign residents the vote in local elections | Voting rights belong to citizens
+ja 定住外国人の地方参政権 | 永住外国人に地方選挙権を与えるべき | 参政権は国籍を持つ者に
+
+== soc s 1993.3 jsp>ldp : jcp=-0.9 jsp=-0.9 sdf=-0.9 saki=-0.6 jnp=-0.5 kmt=-0.4 dsp=0 shinsei=0.2 ldp=0.7
+ko 사형 집행 재개 | 3년 만의 사형 집행 재개에 반대, 폐지를 논의해야 | 법에 따른 집행은 당연, 사형제는 유지해야
+en Executions resumed | Oppose resuming executions after three years; debate abolition | Executions under the law are natural; keep the death penalty
+ja 死刑執行の再開 | 3年ぶりの死刑執行再開に反対、廃止を議論すべき | 法に基づく執行は当然、死刑制度は維持すべき
+
+== soc . 1992.9 jcp>ldp : jcp=-0.6 jsp=-0.4 sdf=-0.5 saki=-0.3 jnp=-0.4 kmt=-0.3 dsp=0 shinsei=0 ldp=0.4
+ko 학교 주 5일제 | 여유 있는 교육을 위해 완전 주 5일제를 서둘러야 | 학력 저하를 막으려면 천천히 도입해야
+en A five-day school week | Hurry a full five-day week for less pressured schooling | Introduce it slowly to avoid falling standards
+ja 学校週5日制 | ゆとりある教育のため完全週5日制を急ぐべき | 学力低下を防ぐため徐々に導入すべき
+
+== soc s 1992.4 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 saki=-0.6 jnp=-0.7 kmt=-0.8 dsp=-0.5 shinsei=-0.3 ldp=0.4
+ko 직장 내 성희롱 | 성희롱 방지를 사업주 의무로 법에 넣어야 | 기업의 자율적 대책과 계몽으로
+en Sexual harassment at work | Make preventing harassment a legal duty of employers | Leave it to voluntary company measures and awareness
+ja 職場のセクハラ | セクハラ防止を事業主の義務として法に盛り込むべき | 企業の自主的な対策と啓発で

@@ -42,8 +42,6 @@ window.I18N = {
     prevAria: '前の質問', skipAria: 'わからない、飛ばす', skipTitle: 'わからない',
     nextQ: '次の質問', fieldRes: n => n + 'の結果',
     kbd: 'キーボード：← → で移動、Enter で次へ · 「?」は「わからない」（この質問の分は分野の得票率で配分）',
-    liveH: 'ここまでの予想議席', liveHint: '回答した分野までの議席です。バーを動かすとこの質問の分がすぐに再計算されます。',
-    ofSeats: n => '議席中 ' + n,
     boardH: (n, t) => '「' + n + '」分野が <span class="num">' + t + '</span>議席を配分します',
     boardEmpty: '回答がないため、実際の支持率どおりに配分しました。',
     boardHint: txt => txt + ' · 右の数字はここまでの累計です。',

@@ -1,0 +1,144 @@
+# 제20회 중의원 총선 (1937.4.30) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: shataishu=사회대중당(-0.45) minsei=입헌민정당(0.15) etc=기타 정파(0) ind=무소속(0) seiyu=입헌정우회(0.5) showa=쇼와회(0.55) domei=국민동맹(0.75) tohokai=동방회(0.85)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1937.3 minsei>showa : shataishu=-0.7 minsei=-0.9 seiyu=-0.9 showa=0.8 domei=0.2 tohokai=-0.3
+ko 하야시 내각과 ‘먹튀 해산’ | 의회를 무시한 해산, 내각은 물러나야 | 내각을 지지한다
+en Hayashi and the “eat and run” dissolution | A dissolution that ignores parliament; the cabinet must go | Support the cabinet
+ja 林内閣と「食い逃げ解散」 | 議会を無視した解散、内閣は退陣を | 内閣を支持する
+
+== con s 1936.5 minsei>domei : shataishu=-0.2 minsei=-0.6 seiyu=-0.5 showa=0.5 domei=0.6 tohokai=0.4
+ko 군부대신 현역무관제 | 군이 내각을 좌우하게 된다, 반대 | 2·26 뒤 숙군을 위해 필요
+en Active-duty service ministers | It lets the military make or break cabinets; oppose | Needed to purge the army after February 26
+ja 軍部大臣現役武官制 | 軍が内閣を左右することになる、反対 | 二・二六後の粛軍に必要
+
+== eco . 1937.1 minsei>domei : shataishu=0.3 minsei=-0.5 seiyu=-0.3 showa=0.6 domei=0.8 tohokai=0.8
+ko 군사 예산 대폭 증액 | 대규모 증세와 증액에 반대 | 국방을 위해 증액해야
+en Big rise in the military budget | Oppose the large tax rises and increases | Raise it for national defence
+ja 軍事予算の大幅増額 | 大増税と大幅増額に反対 | 国防のため増額すべき
+
+== dip s 1936.11 minsei>tohokai : shataishu=0.1 minsei=-0.5 seiyu=-0.2 showa=0.4 domei=0.9 tohokai=0.9
+ko 일독 방공협정 | 영미와의 협조를 해친다, 신중히 | 공산주의에 맞서 독일과 손잡아야
+en Anti-Comintern Pact with Germany | It damages ties with Britain and the US; be careful | Join Germany against communism
+ja 日独防共協定 | 英米との協調を損なう、慎重に | 共産主義に対抗してドイツと組むべき
+
+== pol s 1937.1 seiyu>domei : shataishu=-0.3 minsei=-0.8 seiyu=-0.9 showa=0.5 domei=0.6 tohokai=0.4
+ko ‘할복 문답’과 군의 정치 간섭 | 군의 정치 간섭을 비판해야 | 군을 모욕해서는 안 된다
+en The “hara-kiri exchange” and military meddling | Criticise the military’s meddling in politics | Do not insult the army
+ja 「腹切り問答」と軍の政治干渉 | 軍の政治干渉を批判すべき | 軍を侮辱してはならない
+
+== wel e . shataishu>tohokai : shataishu=-1 minsei=-0.2 seiyu=0.2 showa=-0.2 domei=-0.4 tohokai=-0.5
+ko 국민건강보험·사회 정책 | 건강보험과 노동 보호를 넓혀야 | 재정 부담, 신중해야
+en Health insurance and social policy | Expand health insurance and labour protection | Costly; go carefully
+ja 国民健康保険・社会政策 | 健康保険と労働保護を広げるべき | 財政負担、慎重に
+
+== reg e . shataishu>minsei : shataishu=-1 minsei=0 seiyu=-0.2 showa=-0.6 domei=-0.5 tohokai=-0.6
+ko 농촌 부채 정리 | 농가 부채를 국가가 정리해야 | 재정 범위에서
+en Farm debt | The state should settle farmers’ debts | Within the budget
+ja 農村負債整理 | 農家負債を国が整理すべき | 財政の範囲で
+
+== eco e 1936.10 shataishu>minsei : shataishu=-1 minsei=0.6 seiyu=0.6 showa=-0.3 domei=-0.6 tohokai=-0.6
+ko 전력 국가관리 | 전력을 국가가 관리해야 | 민간 경영을 유지해야
+en State control of electricity | The state should run electric power | Keep private management
+ja 電力国家管理 | 電力を国家が管理すべき | 民間経営を維持すべき
+
+== pol s . minsei>domei : shataishu=-0.2 minsei=-0.9 seiyu=-0.8 showa=0.5 domei=0.8 tohokai=0.6
+ko 의회 권한 | 의회의 권한을 지켜야 한다 | 의회를 축소하고 국책 중심으로
+en Powers of parliament | Defend parliament’s powers | Shrink parliament and govern by national policy
+ja 議会の権限 | 議会の権限を守るべき | 議会を縮小し国策中心に
+
+== soc s . minsei>domei : shataishu=0 minsei=-0.3 seiyu=0.4 showa=0.5 domei=0.8 tohokai=0.7
+ko 국체명징 교육 | 사상 통제에 신중해야 | 국체명징 교육을 강화해야
+en Kokutai education | Be careful about controlling thought | Strengthen kokutai education
+ja 国体明徴教育 | 思想統制には慎重に | 国体明徴教育を強化すべき
+
+== pol s . seiyu>showa : shataishu=-0.2 minsei=-0.8 seiyu=-0.8 showa=0.5 domei=0.3 tohokai=0.4
+ko 의회 제도 개혁 | 의원 수를 줄이고 의회 권한을 깎는 개혁에 반대 | 정당 폐해를 고치려면 의회 제도를 바꿔야
+en Reforming the Diet | Oppose reforms that cut members and curb the Diet's powers | The Diet must change to cure the ills of party politics
+ja 議会制度改革 | 議員を減らし議会の権限を削る改革に反対 | 政党の弊害を正すため議会制度を改めるべき
+
+== pol s . minsei>tohokai : shataishu=0.2 minsei=-0.8 seiyu=-0.6 showa=0.4 domei=0.6 tohokai=0.8
+ko 정당 해소론 | 기성 정당을 지켜야 의회 정치가 산다 | 기성 정당을 해소하고 거국적 신당을 만들어야
+en Dissolving the parties | Existing parties must be kept for parliamentary politics to survive | Dissolve the old parties and form a new national party
+ja 政党解消論 | 既成政党を守ってこそ議会政治が生きる | 既成政党を解消し挙国的な新党を
+
+== con s 1936.7 minsei>tohokai : shataishu=-0.4 minsei=-0.9 seiyu=-0.7 showa=-0.5 domei=0 tohokai=0.3
+ko 2·26 사건과 숙군 | 반란 장교를 엄벌하고 숙군을 철저히 해야 | 청년 장교의 동기는 참작하고 처벌은 최소로
+en The February 26 Incident and the army purge | Punish the rebel officers severely and purge the army thoroughly | Consider the young officers' motives and keep punishment to a minimum
+ja 二・二六事件と粛軍 | 反乱将校を厳罰にし粛軍を徹底すべき | 青年将校の動機を酌み処罰は最小限に
+
+== con s 1936.8 minsei>domei : shataishu=0 minsei=-0.7 seiyu=-0.2 showa=0.3 domei=0.6 tohokai=0.7
+ko 남방 진출 국책 | 남방 진출은 영미와 충돌을 부른다 | 자원 확보를 위해 남방으로 나아가야
+en Southward expansion | Moving south will bring conflict with Britain and America | Advance south to secure resources
+ja 南方進出の国策 | 南方進出は英米との衝突を招く | 資源確保のため南方へ進出すべき
+
+== con s 1937.4 shataishu>domei : shataishu=0 minsei=0.3 seiyu=0.4 showa=0.6 domei=0.7 tohokai=0.7
+ko 방공법 | 방공을 이유로 국민 생활을 통제하는 것은 지나치다 | 공습에 대비해 등화관제와 방공 훈련을 의무화해야
+en Air Defence Law | Controlling daily life in the name of air defence goes too far | Make blackouts and air-raid drills compulsory to prepare for bombing
+ja 防空法 | 防空を理由に国民生活を統制するのは行き過ぎ | 空襲に備え灯火管制と防空訓練を義務化すべき
+
+== dip s 1937.3 minsei>tohokai : shataishu=-0.3 minsei=-0.8 seiyu=-0.4 showa=0.1 domei=0.6 tohokai=0.8
+ko 사토 외상의 대중 외교 | 중국과 대등한 입장에서 관계를 고쳐야 | 화북 공작을 계속해 권익을 확보해야
+en Foreign Minister Satō's China policy | Repair relations with China on an equal footing | Keep up operations in North China to secure Japan's interests
+ja 佐藤外相の対中外交 | 中国と対等の立場で関係を改善すべき | 華北工作を続け権益を確保すべき
+
+== dip s . minsei>tohokai : shataishu=0 minsei=-0.8 seiyu=-0.5 showa=0 domei=0.6 tohokai=0.8
+ko 영국과의 관계 | 영국과 손잡아 국제 고립을 벗어나야 | 영국보다 독일·이탈리아와 손잡아야
+en Relations with Britain | Work with Britain to escape international isolation | Side with Germany and Italy rather than Britain
+ja 対英関係 | 英国と協調して国際的孤立を脱する | 英国より独伊と提携すべき
+
+== dip s 1936.11 minsei>tohokai : shataishu=-0.2 minsei=-0.7 seiyu=-0.3 showa=0.2 domei=0.6 tohokai=0.7
+ko 내몽골 공작 | 수원 사건 같은 관동군의 독단 공작은 멈춰야 | 방공을 위해 내몽골 공작을 지원해야
+en Operations in Inner Mongolia | The Kwantung Army's independent schemes, like the Suiyuan affair, must stop | Support the Inner Mongolian operations to stop communism
+ja 内蒙工作 | 綏遠事件のような関東軍の独断工作はやめるべき | 防共のため内蒙工作を支援すべき
+
+== eco e 1936.11 minsei>showa : shataishu=-0.6 minsei=-0.7 seiyu=-0.6 showa=0.5 domei=0.3 tohokai=0.1
+ko 바바 재정의 대증세 | 거래세 같은 대중 과세 증세에 반대 | 국방 재원을 위해 대증세는 불가피
+en Finance Minister Baba's tax hikes | Oppose tax hikes on the masses such as a transactions tax | Big tax rises are unavoidable to fund defence
+ja 馬場財政の大増税 | 取引税のような大衆課税の増税に反対 | 国防財源のため大増税はやむを得ない
+
+== eco e 1937.1 minsei>tohokai : shataishu=0.5 minsei=-0.7 seiyu=-0.4 showa=0.4 domei=0.6 tohokai=0.7
+ko 외환·수입 통제 | 수입과 외환 통제는 최소한으로 해야 | 외환·수입 허가제로 국방 물자를 우선해야
+en Exchange and import controls | Keep import and currency controls to a minimum | Use licensing to give priority to defence materials
+ja 為替・輸入統制 | 輸入と為替の統制は最小限に | 為替・輸入許可制で国防物資を優先すべき
+
+== wel e . shataishu>minsei : shataishu=-0.9 minsei=0.5 seiyu=0.3 showa=-0.2 domei=-0.3 tohokai=-0.5
+ko 물가 대책 | 생필품 가격을 통제해 서민 생활을 지켜야 | 가격 통제는 경제를 해친다, 시장에 맡겨야
+en Prices | Control prices of necessities to protect ordinary people | Price controls hurt the economy; leave it to the market
+ja 物価対策 | 生活必需品の価格を統制し庶民の生活を守る | 価格統制は経済を損なう、市場に任せる
+
+== wel e 1937.4 shataishu>seiyu : shataishu=-0.9 minsei=-0.3 seiyu=0.3 showa=-0.2 domei=-0.2 tohokai=-0.3
+ko 보건소 설치 | 보건소를 전국에 세워 결핵 등 공중보건을 국가가 맡아야 | 공중보건은 지방과 민간 의료에 맡겨야
+en Public health centres | Set up health centres nationwide so the state tackles TB and public health | Leave public health to local governments and private doctors
+ja 保健所設置 | 保健所を全国に設け結核など公衆衛生を国が担う | 公衆衛生は地方と民間医療に任せる
+
+== wel e 1936.3 shataishu>domei : shataishu=-1 minsei=-0.2 seiyu=0.3 showa=0.5 domei=0.6 tohokai=0.5
+ko 메이데이 금지 | 노동절 집회 금지는 노동자 권리의 침해 | 비상시국에는 노동 집회를 금지해야
+en Ban on May Day | Banning May Day rallies violates workers' rights | In a national emergency, labour rallies should be banned
+ja メーデー禁止 | メーデー集会の禁止は労働者の権利の侵害 | 非常時局には労働集会を禁止すべき
+
+== soc s 1936.5 shataishu>domei : shataishu=-0.8 minsei=-0.2 seiyu=0.3 showa=0.5 domei=0.7 tohokai=0.6
+ko 사상범 보호관찰 | 형기를 마친 사람까지 감시하는 것은 인권 침해 | 전향을 굳히려면 보호관찰이 필요하다
+en Probation for thought criminals | Monitoring people who have served their sentences violates their rights | Probation is needed to make recantations stick
+ja 思想犯保護観察 | 刑期を終えた者まで監視するのは人権侵害 | 転向を固めるため保護観察が必要
+
+== soc s 1936.6 minsei>domei : shataishu=-0.6 minsei=-0.6 seiyu=-0.2 showa=0.5 domei=0.6 tohokai=0.3
+ko 불온문서 단속 | 괴문서 단속을 핑계로 한 언론 탄압에 반대 | 군과 정부를 흔드는 괴문서는 엄하게 처벌해야
+en Controlling seditious leaflets | Oppose using leaflet controls as an excuse to gag speech | Punish anonymous leaflets that undermine the army and government
+ja 不穏文書取締り | 怪文書取締りを口実にした言論弾圧に反対 | 軍と政府を揺るがす怪文書は厳罰に
+
+== soc . . shataishu>seiyu : shataishu=-0.9 minsei=-0.4 seiyu=0.3 showa=-0.1 domei=-0.2 tohokai=-0.3
+ko 의무교육 연장 | 의무교육을 8년으로 늘려야 | 재정을 생각하면 현행 6년으로 충분
+en Longer compulsory schooling | Extend compulsory education to eight years | Given finances, the current six years is enough
+ja 義務教育延長 | 義務教育を8年に延長すべき | 財政を考えると現行の6年で十分
+
+== reg e 1936.5 shataishu>minsei : shataishu=-0.9 minsei=0.4 seiyu=-0.4 showa=-0.3 domei=-0.4 tohokai=-0.5
+ko 지방 재정 조정 | 교부금을 제도로 만들어 가난한 농촌 재정을 도와야 | 지방은 스스로 꾸려야, 국고 부담은 줄여야
+en Equalising local finances | Make grants permanent to help poor rural municipalities | Localities should stand on their own; limit the burden on the treasury
+ja 地方財政調整 | 交付金を制度化し貧しい農村財政を助ける | 地方は自力で、国庫負担は抑える
+
+== reg e 1936.10 shataishu>minsei : shataishu=-0.8 minsei=0.3 seiyu=-0.3 showa=-0.4 domei=-0.4 tohokai=-0.5
+ko 도호쿠 진흥 | 국책회사를 세워 도호쿠 산업을 일으켜야 | 개발은 민간 투자에 맡겨야
+en Developing Tōhoku | Set up state-backed companies to build industry in Tōhoku | Leave development to private investment
+ja 東北振興 | 国策会社を設けて東北の産業を興す | 開発は民間投資に任せる

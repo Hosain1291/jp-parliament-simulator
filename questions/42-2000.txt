@@ -1,0 +1,174 @@
+# 제42회 중의원 총선 (2000.6.25) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) sdp=사회민주당(-0.8) dpj=민주당(-0.3) mus=무소속의 회(-0.1) kmt=공명당(0.1) jiyu=자유당(0.45) jr=자유연합(0.5) hsh=보수당(0.6) ldp=자유민주당(0.7) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol s 2000.5 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.9 jiyu=-0.6 kmt=0.6 hsh=0.8 ldp=0.9
+ko ‘신의 나라’ 발언과 모리 내각 | 국민주권에 어긋나는 발언, 총리는 물러나야 | 취지는 해명됐고 정권 안정이 우선
+en The “divine nation” remark | It contradicts popular sovereignty; the PM must go | It has been explained; stability first
+ja 「神の国」発言と森内閣 | 国民主権に反する発言、首相は退陣を | 趣旨は説明済み、政権の安定が先
+
+== eco e 1999.11 dpj>ldp : jcp=-0.5 sdp=-0.3 dpj=-0.8 jiyu=-0.2 kmt=0.6 hsh=0.7 ldp=0.9
+ko 경기 대책과 국채 | 국채를 늘리는 공공사업 중심 경기 대책은 멈춰야 | 경기가 살아날 때까지 적극 재정
+en Stimulus and government bonds | Stop debt-financed public works stimulus | Spend actively until the economy recovers
+ja 景気対策と国債 | 国債を増やす公共事業中心の景気対策はやめるべき | 景気回復まで積極財政
+
+== eco e 1998.10 jcp>ldp : jcp=-1 sdp=-0.6 dpj=-0.4 jiyu=0.2 kmt=0.6 ldp=0.8
+ko 금융 재생과 공적자금 | 은행 경영진 책임부터, 세금 투입에 반대 | 금융 시스템 안정을 위해 공적자금 투입을 계속
+en Bank rescue funds | Bank executives first; no taxpayers’ money | Keep injecting public funds to stabilise the system
+ja 金融再生と公的資金 | 銀行経営陣の責任が先、税金投入に反対 | 金融システム安定のため公的資金投入を続ける
+
+== con s 1999.5 sdp>jiyu : jcp=-1 sdp=-1 dpj=-0.2 jiyu=0.8 kmt=0.6 hsh=0.8 ldp=0.9
+ko 주변사태법 | 미군 후방지원은 헌법 위반 우려, 반대 | 한반도 유사시에 대비해 꼭 필요하다
+en Regional Contingency Law | Rear support for US forces may be unconstitutional; oppose | Essential for a Korean peninsula crisis
+ja 周辺事態法 | 米軍への後方支援は憲法違反の恐れ、反対 | 朝鮮半島有事に備え必要
+
+== soc s 1999.8 jcp>ldp : jcp=-1 sdp=-1 dpj=-0.2 jiyu=0.8 kmt=0.4 ldp=0.9
+ko 국기·국가법 | 히노마루·기미가요를 법으로 강제하는 데 반대 | 국기와 국가를 법에 명기해야 한다
+en National Flag and Anthem Law | Against legally imposing the Hinomaru and Kimigayo | Put the flag and anthem into law
+ja 国旗国歌法 | 日の丸・君が代を法律で強制することに反対 | 国旗と国歌を法律に明記すべき
+
+== soc s 1999.8 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.6 jiyu=0.4 kmt=0.7 ldp=0.8
+ko 통신감청법 | 사생활 침해 우려로 반대 | 조직범죄 수사에 필요하다
+en Wiretapping Law | Against it; threatens privacy | Needed to investigate organised crime
+ja 通信傍受法 | プライバシー侵害の恐れから反対 | 組織犯罪の捜査に必要
+
+== wel e 2000.3 jcp>ldp : jcp=-1 sdp=-0.8 dpj=-0.5 jiyu=0.2 kmt=0.2 ldp=0.7
+ko 연금 급여 삭감 | 급여 삭감에 반대하고 국고 부담을 늘려야 | 제도 지속을 위해 급여 수준을 조정
+en Pension cuts | Against cuts; more state funding | Adjust benefits to keep the system going
+ja 年金給付の削減 | 給付削減に反対し国庫負担を増やすべき | 制度存続のため給付水準を調整
+
+== wel . . jiyu>ldp : jcp=0 sdp=-0.2 dpj=-0.6 jiyu=-0.9 kmt=0.5 ldp=0.7
+ko 기초연금 재원 | 기초연금은 전액 세금(소비세)으로 | 보험료 방식을 유지한다
+en Funding the basic pension | Fund the basic pension fully from taxes (consumption tax) | Keep the premium system
+ja 基礎年金の財源 | 基礎年金は全額税（消費税）で | 保険料方式を維持する
+
+== reg e 2000.1 dpj>ldp : jcp=-0.8 sdp=-0.6 dpj=-0.8 jiyu=-0.3 kmt=0.3 hsh=0.8 ldp=0.9
+ko 대형 공공사업 재검토 | 요시노가와 가동보 같은 대형 사업은 중지·재검토 | 지역 요구에 따라 계속
+en Reviewing big public works | Stop or review projects such as the Yoshino River weir | Continue as local communities want
+ja 大型公共事業の見直し | 吉野川可動堰など大型事業は中止・見直し | 地域の要望に応じて継続
+
+== con s 2000.1 sdp>jiyu : jcp=-1 sdp=-1 dpj=0 jiyu=0.9 kmt=0.1 hsh=0.8 ldp=0.8
+ko 헌법조사회 설치 | 개헌을 전제로 한 논의에 반대 | 헌법 개정 논의를 본격적으로 시작
+en Commissions on the Constitution | Against debate premised on revision | Start serious debate on revision
+ja 憲法調査会の設置 | 改憲を前提とした議論に反対 | 憲法改正の議論を本格的に始める
+
+== soc s 1998.10 kmt>ldp : jcp=-0.8 sdp=-0.9 dpj=-0.6 jiyu=0.4 kmt=-0.8 hsh=0.8 ldp=0.6
+ko 영주 외국인 지방참정권 | 지방선거 투표권을 줘야 한다 | 국적 취득이 먼저, 반대한다
+en Local votes for permanent residents | Give them the vote in local elections | Naturalisation first; against
+ja 永住外国人の地方参政権 | 地方選挙の投票権を与えるべき | 国籍取得が先、反対
+
+== soc s 2000.5 sdp>ldp : jcp=-0.9 sdp=-0.9 dpj=0.1 jiyu=0.7 kmt=0.3 ldp=0.8
+ko 소년법 엄벌화 | 처벌보다 교육과 갱생이 먼저 | 형사처분 가능 연령을 16세에서 14세로
+en Tougher juvenile law | Education and rehabilitation before punishment | Lower the age of criminal punishment from 16 to 14
+ja 少年法の厳罰化 | 処罰より教育と更生が先 | 刑事処分可能年齢を16歳から14歳に
+
+== dip s 2000.3 sdp>hsh : jcp=-0.5 sdp=-0.8 dpj=-0.2 jiyu=0.6 kmt=-0.2 hsh=0.6 ldp=-0.1
+ko 북한 쌀 지원 | 대화를 위해 인도적 지원을 해야 한다 | 납치 문제 해결 없는 지원에 반대
+en Rice aid to North Korea | Give humanitarian aid to keep dialogue going | No aid without solving the abductions
+ja 北朝鮮へのコメ支援 | 対話のため人道支援をすべき | 拉致問題の解決なしの支援に反対
+
+== reg e 1999.9 sdp>ldp : jcp=-0.9 sdp=-1 dpj=-0.2 jiyu=0.5 kmt=0.3 ldp=0.9
+ko 도카이무라 사고와 원전 | 원전 증설을 멈추고 탈원전으로 | 안전을 강화하며 원전을 추진
+en Tōkaimura accident and nuclear power | Stop building reactors; phase out nuclear | Proceed with stronger safety
+ja 東海村事故と原発 | 原発増設をやめ脱原発へ | 安全を強化しつつ原発を推進
+
+== pol . 2000.4 dpj>ldp : jcp=-1 sdp=-1 dpj=-1 mus=-0.8 kmt=0.3 jiyu=-0.7 hsh=0.6 ldp=0.8
+ko '5인조' 밀실 총리 선출 | 총리 공백 속 밀실 협의로 후계를 정한 것은 정당성이 없다 | 비상 상황에서 신속한 후계 결정은 불가피했다
+en The "gang of five" succession | Choosing a successor behind closed doors lacks legitimacy | A quick decision was unavoidable in an emergency
+ja 「五人組」密室での首相選出 | 首相不在の中で密室協議で後継を決めたのは正統性がない | 非常時の迅速な後継決定はやむを得なかった
+
+== pol . 2000.2 sdp>jiyu : jcp=-0.9 sdp=-1 dpj=-0.4 mus=-0.6 kmt=0.2 jiyu=0.9 hsh=0.5 ldp=0.6
+ko 비례대표 정수 삭감 | 비례 의석 삭감은 소수 정당을 몰아내는 개악 | 정치가 먼저 몸을 깎는 개혁, 비례 정수를 줄여야
+en Cutting PR seats | Cutting PR seats squeezes out small parties | Politicians should cut their own numbers first; reduce PR seats
+ja 比例定数削減 | 比例議席の削減は少数政党を締め出す改悪 | 政治がまず身を削る改革、比例定数を減らすべき
+
+== pol . 1999.10 dpj>kmt : jcp=-1 sdp=-0.9 dpj=-0.8 mus=-0.6 kmt=1 jiyu=-0.2 hsh=0.4 ldp=0.6
+ko 자공 연립 | 종교 단체를 배경으로 한 정당과의 연립은 정교분리에 어긋난다 | 정책 협의에 따른 연립, 정교분리 문제는 없다
+en The LDP–Kōmeitō coalition | Coalition with a party backed by a religious group conflicts with separation of religion and state | It rests on policy agreement; there is no separation issue
+ja 自公連立 | 宗教団体を背景とする政党との連立は政教分離に反する | 政策協議に基づく連立、政教分離の問題はない
+
+== pol . 1999.8 jcp>ldp : jcp=-1 sdp=-1 dpj=-0.9 mus=-0.8 kmt=-0.2 jiyu=-0.4 hsh=0.2 ldp=0.5
+ko 공무원 윤리법 | 대장성 접대 사건을 계기로 접대와 주식 거래를 엄격히 규제해야 | 내부 규정과 처분으로 충분, 과도한 규제는 행정을 위축시킨다
+en Civil Service Ethics Law | After the Finance Ministry wining-and-dining scandal, strictly regulate gifts and share trading | Internal rules and discipline are enough; overregulation chills administration
+ja 国家公務員倫理法 | 大蔵省接待事件を機に接待と株取引を厳しく規制すべき | 内部規程と処分で十分、過度な規制は行政を萎縮させる
+
+== con s 1998.8 sdp>jiyu : jcp=-1 sdp=-1 dpj=-0.1 mus=-0.4 kmt=0.3 jiyu=0.8 hsh=0.8 ldp=0.8
+ko 대포동 발사와 정찰위성 | 정찰위성과 미사일 방어는 군비 확장, 외교로 풀어야 | 정보 수집 위성과 미사일 방어를 서둘러야
+en The Taepodong launch and spy satellites | Satellites and missile defence mean an arms build-up; use diplomacy | Hurry intelligence satellites and missile defence
+ja テポドン発射と偵察衛星 | 偵察衛星とミサイル防衛は軍拡、外交で解決を | 情報収集衛星とミサイル防衛を急ぐべき
+
+== con s 1999.3 sdp>ldp : jcp=-0.9 sdp=-0.9 dpj=0.2 mus=-0.2 kmt=0.4 jiyu=0.9 hsh=0.8 ldp=0.8
+ko 괴선박과 해상 경비 행동 | 해상 경비 행동 발령은 무력 충돌을 부를 수 있다, 신중히 | 영해 침범 공작선에는 단호하게 대처해야
+en Spy ships and maritime security operations | Ordering maritime security operations risks armed clashes; be careful | Respond firmly to spy ships violating territorial waters
+ja 不審船と海上警備行動 | 海上警備行動の発令は武力衝突を招きかねない、慎重に | 領海侵犯の工作船には断固対処すべき
+
+== dip s 1998.10 jcp>hsh : jcp=-0.7 sdp=-0.9 dpj=-0.7 mus=-0.6 kmt=-0.7 jiyu=0 hsh=0.4 ldp=-0.3
+ko 한일 공동선언 | 반성과 사죄를 문서로 담은 선언으로 일본 문화 개방과 교류를 넓혀야 | 사죄를 되풀이하는 외교는 그만해야
+en The Japan–Korea Joint Declaration | Build on the written apology to widen cultural opening and exchange | Diplomacy of repeated apology should end
+ja 日韓共同宣言 | 反省とお詫びを文書化した宣言で日本文化開放と交流を広げるべき | 謝罪を繰り返す外交はやめるべき
+
+== dip s 1998.11 sdp>jiyu : jcp=-0.8 sdp=-0.9 dpj=-0.5 mus=-0.5 kmt=-0.6 jiyu=0.6 hsh=0.7 ldp=0.4
+ko 대중 사죄의 문서화 | 중국에도 한국처럼 사죄를 문서로 밝혀야 | 거듭된 역사 문제 제기에는 응하지 말아야
+en A written apology to China | Put an apology to China in writing, as with Korea | Do not respond to repeated history demands
+ja 対中謝罪の文書化 | 中国にも韓国と同様に謝罪を文書で明らかにすべき | 繰り返される歴史問題の提起には応じるべきでない
+
+== dip s 1997.12 dpj>hsh : jcp=-0.8 sdp=-0.9 dpj=-1 mus=-0.8 kmt=-0.9 jiyu=0 hsh=0.5 ldp=-0.3
+ko 대인 지뢰 금지 조약 | 국제 NGO와 함께 조약에 서명하고 지뢰를 폐기해야 | 해안 방어에 필요한 지뢰를 포기하는 것은 신중히
+en The landmine ban treaty | Sign with the international NGOs and destroy stockpiles | Be careful about giving up mines needed for coastal defence
+ja 対人地雷禁止条約 | 国際NGOとともに条約に署名し地雷を廃棄すべき | 沿岸防衛に必要な地雷の放棄は慎重に
+
+== dip s 1997.11 jcp>hsh : jcp=0.6 sdp=-0.6 dpj=-0.2 mus=-0.2 kmt=-0.4 jiyu=0.4 hsh=0.7 ldp=-0.4
+ko 일러 평화조약 | 2000년까지 평화조약을 목표로 유연하게 교섭해야 | 네 섬의 귀속이 분명해지기 전엔 조약은 없다
+en A Japan–Russia peace treaty | Negotiate flexibly, aiming for a treaty by 2000 | No treaty until sovereignty over all four islands is clear
+ja 日露平和条約 | 2000年までの平和条約を目指し柔軟に交渉すべき | 4島の帰属が明確になるまで条約はない
+
+== eco e 1998.12 jcp>dpj : jcp=-0.6 sdp=-0.4 dpj=0.6 mus=0.3 kmt=-0.5 jiyu=0.2 hsh=-0.6 ldp=-0.7
+ko 재정구조개혁법 동결 | 경기 회복이 먼저, 재정 목표는 동결해 돈을 풀어야 | 국채가 쌓인다, 재정 건전화 목표를 지켜야
+en Freezing the fiscal reform law | Recovery first: freeze the fiscal targets and spend | Debt is piling up; keep the consolidation targets
+ja 財政構造改革法の凍結 | 景気回復が先、財政目標を凍結して財政出動を | 国債が膨らむ、財政健全化の目標を守るべき
+
+== eco e 1999.4 jcp>kmt : jcp=0 sdp=-0.2 dpj=-0.6 mus=-0.4 kmt=1 jiyu=-0.5 hsh=0.4 ldp=0.5
+ko 지역 진흥권 | 일회성 상품권 배포는 효과 없는 선심 | 상품권으로 소비를 직접 살리고 가계를 도와야
+en Regional promotion coupons | One-off vouchers are ineffective handouts | Vouchers boost spending directly and help households
+ja 地域振興券 | 一回限りの商品券配布は効果のないばらまき | 商品券で消費を直接喚起し家計を助けるべき
+
+== eco e 1998.4 jcp>jiyu : jcp=-1 sdp=-0.7 dpj=0.3 mus=0 kmt=0.2 jiyu=0.8 hsh=0.6 ldp=0.6
+ko 금융 빅뱅 | 금융 자유화는 외국 자본과 대형 금융만 살찌운다 | 자유·공정·국제화로 도쿄 시장을 되살려야
+en The financial Big Bang | Liberalisation fattens foreign capital and big banks | Revive Tokyo's markets with "free, fair and global" reform
+ja 金融ビッグバン | 金融自由化は外資と大手金融だけを太らせる | フリー・フェア・グローバルで東京市場を再生すべき
+
+== wel e 1999.10 dpj>kmt : jcp=-0.4 sdp=-0.6 dpj=-0.9 mus=-0.6 kmt=0.8 jiyu=-0.4 hsh=0.4 ldp=0.4
+ko 개호보험료 징수 동결 | 시행 직전의 보험료 동결은 제도를 흔드는 선심 | 고령자 부담을 덜기 위해 보험료 징수를 미뤄야
+en Freezing long-term care premiums | Freezing premiums just before launch is a handout that undermines the system | Delay collecting premiums to ease the burden on older people
+ja 介護保険料の徴収凍結 | 施行直前の保険料凍結は制度を揺るがすばらまき | 高齢者の負担軽減のため保険料徴収を延期すべき
+
+== wel e 1999.12 jcp>jiyu : jcp=-1 sdp=-1 dpj=-0.4 mus=-0.4 kmt=0.2 jiyu=0.8 hsh=0.6 ldp=0.7
+ko 파견 원칙 자유화 | 파견 대상을 원칙 자유화하면 불안정 고용이 늘어난다 | 노동 시장 유연화로 고용 기회를 넓혀야
+en Opening up agency work | Liberalising temp work in principle will spread insecure jobs | A more flexible labour market widens job opportunities
+ja 派遣の原則自由化 | 派遣対象を原則自由化すれば不安定雇用が増える | 労働市場の柔軟化で雇用機会を広げるべき
+
+== wel e 2000.5 jiyu>kmt : jcp=-0.2 sdp=-0.3 dpj=-0.2 mus=-0.2 kmt=0.9 jiyu=-0.6 hsh=0.2 ldp=0.3
+ko 아동수당 확대 | 아동수당보다 보육 시설과 세제로 지원해야 | 아동수당 대상 연령을 넓혀 저출산에 대응해야
+en Expanding child allowance | Support families through childcare places and tax instead | Extend the allowance to older children to tackle low birth rates
+ja 児童手当の拡大 | 児童手当より保育施設と税制で支援すべき | 児童手当の対象年齢を広げ少子化に対応すべき
+
+== soc s 1999.6 sdp>hsh : jcp=-0.9 sdp=-1 dpj=-0.8 mus=-0.7 kmt=-0.5 jiyu=0.2 hsh=0.6 ldp=0.3
+ko 남녀 공동 참획 | 기본법을 바탕으로 할당제 등 적극적 조치를 | 남녀의 역할 차이를 존중하며 천천히
+en Gender equality | Use the basic law for positive measures such as quotas | Move slowly, respecting differences in men's and women's roles
+ja 男女共同参画 | 基本法をもとにクオータ制など積極的措置を | 男女の役割の違いを尊重しつつゆっくりと
+
+== reg e 2000.1 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.8 mus=-0.7 kmt=0 jiyu=0 hsh=0.7 ldp=0.8
+ko 요시노가와 가동언 주민 투표 | 주민 투표의 반대 의사를 따라 계획을 백지화해야 | 치수는 국가의 책임, 주민 투표로 정할 일이 아니다
+en The Yoshino River weir referendum | Scrap the plan as the referendum demanded | Flood control is the state's responsibility, not a matter for a referendum
+ja 吉野川可動堰の住民投票 | 住民投票の反対の意思に従い計画を白紙に | 治水は国の責任、住民投票で決めることではない
+
+== reg e 1997.4 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.8 mus=-0.7 kmt=-0.2 jiyu=0 hsh=0.6 ldp=0.8
+ko 이사하야만 간척 | 갯벌을 죽인 방조제 수문을 열고 사업을 재검토해야 | 방재와 농지를 위해 간척 사업을 계속해야
+en Isahaya Bay reclamation | Open the gates that killed the tidal flats and review the project | Continue reclamation for flood protection and farmland
+ja 諫早湾干拓 | 干潟を殺した潮受け堤防の水門を開け事業を見直すべき | 防災と農地のため干拓事業を続けるべき
+
+== reg . 1999.7 jcp>dpj : jcp=-0.3 sdp=0 dpj=0.8 mus=0.6 kmt=0.3 jiyu=0.6 hsh=0.4 ldp=0.4
+ko 지방 분권 일괄법 | 재원 이양 없는 분권은 지방 부담만 늘린다 | 기관위임사무를 없앤 분권을 더 밀어붙여야
+en The decentralisation omnibus law | Decentralisation without transferring revenue just adds burdens | Push further now that agency-delegated functions are abolished
+ja 地方分権一括法 | 財源移譲なき分権は地方の負担を増やすだけ | 機関委任事務を廃止した分権をさらに進めるべき

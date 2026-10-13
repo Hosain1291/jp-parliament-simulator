@@ -1,0 +1,154 @@
+# 제33회 중의원 총선 (1972.12.10) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.65) kmt=공명당(-0.05) dsp=민사당(0) etc=기타 정파(0) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== reg e 1972.6 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.4 kmt=-0.6 ldp=1
+ko 일본열도 개조론 | 땅값 폭등과 공해, 반대 | 신칸센과 고속도로로 지방을 개발
+en Remodelling the archipelago | Soaring land prices and pollution; oppose | Develop the regions with bullet trains and expressways
+ja 日本列島改造論 | 地価高騰と公害、反対 | 新幹線と高速道路で地方を開発
+
+== eco e . kmt>ldp : jcp=-1 jsp=-1 dsp=-0.6 kmt=-0.9 ldp=0.4
+ko 인플레와 땅값 | 토지 투기를 규제하고 물가를 잡아야 | 성장을 유지하며 대응
+en Inflation and land prices | Curb land speculation and prices | Respond while keeping growth
+ja インフレと地価 | 土地投機を規制し物価を抑えるべき | 成長を保ちつつ対応
+
+== wel e . kmt>ldp : jcp=-1 jsp=-1 dsp=-0.8 kmt=-1 ldp=-0.2
+ko 복지 확충 | 노인 의료 무료화와 연금 인상 | 재정을 고려해 단계적으로
+en Expanding welfare | Free care for the elderly and higher pensions | Step by step with an eye on finances
+ja 福祉の拡充 | 老人医療の無料化と年金引き上げ | 財政を考え段階的に
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=0.3 kmt=-0.6 ldp=0.9
+ko 4차 방위력 정비 | 반대한다 | 추진한다
+en Fourth Defence Build-up Plan | Against it | Carry it out
+ja 第4次防衛力整備 | 反対する | 推進する
+
+== reg e . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.7 kmt=-0.9 ldp=0.4
+ko 공해 | 기업 책임과 규제를 강화 | 산업과의 조화
+en Pollution | Stronger rules and corporate liability | Harmony with industry
+ja 公害 | 企業責任と規制を強化 | 産業との調和
+
+== con s . jcp>ldp : jcp=-1 jsp=-1 dsp=-0.1 kmt=-0.6 ldp=1
+ko 안보조약 | 폐기해야 | 유지해야
+en The security treaty | Scrap it | Keep it
+ja 安保条約 | 廃棄すべき | 維持すべき
+
+== pol . . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.8 kmt=-1 ldp=0.6
+ko 소선거구제 | 반대한다 | 도입해야
+en Single-member districts | Against them | Introduce them
+ja 小選挙区制 | 反対する | 導入すべき
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 kmt=-0.6 ldp=0.6
+ko 헌법 개정 | 반대한다 | 검토해야
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== dip s 1972.9 kmt>ldp : jcp=-0.6 jsp=-1 dsp=-0.4 kmt=-1 ldp=0.2
+ko 일중 국교와 대만 | 국교 정상화를 환영, 대만과 단교 | 대만과의 관계도 지켜야
+en China ties and Taiwan | Welcome normalisation and the break with Taiwan | Keep ties with Taiwan too
+ja 日中国交と台湾 | 国交正常化を歓迎、台湾と断交 | 台湾との関係も守るべき
+
+== pol . 1972.7 kmt>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.9 ldp=0.6
+ko 총재 선거와 금권 | 돈으로 총재 자리를 산 금권 정치를 바로잡아야 | 당내 경쟁의 결과일 뿐, 실행력을 보고 평가해야
+en Money in the LDP leadership race | Money bought the presidency; clean up money politics | It was internal competition; judge him on what he delivers
+ja 総裁選と金権 | 金で総裁の座を得た金権政治を正すべき | 党内競争の結果にすぎない、実行力で評価すべき
+
+== pol . 1971.11 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.3 ldp=0.9
+ko 오키나와 협정 강행 처리 | 핵 철거 검증 없는 협정의 강행 처리는 국회 무시 | 반환을 위해 협정 비준을 서두를 수밖에 없었다
+en Forcing through the Okinawa agreement | Ramming through an agreement with no check on nuclear removal ignores the Diet | Ratification had to be rushed to secure reversion
+ja 沖縄協定の強行採決 | 核撤去の検証なき協定の強行採決は国会軽視 | 返還のため批准を急ぐほかなかった
+
+== pol . 1971.7 jsp>ldp : jcp=-0.8 jsp=-0.6 kmt=-0.6 dsp=-0.5 ldp=0.3
+ko 참의원 개혁 | 참의원은 정당에서 벗어나 독자적 심의를 해야 | 참의원도 정당 정치 안에서 움직이는 것이 자연스럽다
+en Reforming the House of Councillors | The upper house should break free of parties and deliberate independently | It is natural for it to work within party politics
+ja 参議院改革 | 参議院は政党から距離を置き独自の審議をすべき | 参議院も政党政治の中で動くのが自然
+
+== con s 1972.10 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.2 ldp=0.9
+ko 자위대 오키나와 배치 | 전쟁을 겪은 오키나와에 자위대를 배치해선 안 된다 | 반환 뒤 오키나와 방위는 자위대가 맡아야
+en Deploying the SDF to Okinawa | Do not station the SDF in Okinawa, which suffered the war | After reversion the SDF should defend Okinawa
+ja 自衛隊の沖縄配備 | 戦争を体験した沖縄に自衛隊を配備すべきでない | 返還後の沖縄防衛は自衛隊が担うべき
+
+== dip s 1971.10 jsp>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.4 ldp=0.6
+ko 중국 유엔 대표권 결의 | 중화인민공화국 가입과 대만 추방을 지지해야 | 대만 의석을 지키는 '역중요사항' 결의를 공동 제안해야
+en China's UN seat resolution | Support Beijing's admission and Taiwan's expulsion | Co-sponsor the "reverse important question" to keep Taiwan's seat
+ja 中国国連代表権決議 | 中華人民共和国の加盟と台湾の追放を支持すべき | 台湾の議席を守る「逆重要事項」決議を共同提案すべき
+
+== dip s 1971.7 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.7 dsp=-0.2 ldp=0.7
+ko 닉슨 방중 이후의 외교 | 미국 추종을 끝내고 자주 외교로 바꿔야 | 미일 관계를 축으로 아시아 외교를 넓혀야
+en Diplomacy after Nixon's China trip | End deference to the US and switch to independent diplomacy | Broaden Asian diplomacy with the US relationship as the axis
+ja ニクソン訪中後の外交 | 対米追随をやめ自主外交に転換すべき | 日米関係を軸にアジア外交を広げるべき
+
+== dip e 1971.10 jsp>ldp : jcp=-0.9 jsp=-0.8 kmt=-0.6 dsp=-0.8 ldp=0.5
+ko 미일 섬유 협정 | 미국 압력에 굴복한 수출 규제로 섬유 산업이 희생됐다 | 동맹 관계를 위해 협정 체결은 불가피했다
+en The US–Japan textile agreement | Bowing to US pressure sacrificed the textile industry | Signing was unavoidable for the alliance
+ja 日米繊維協定 | 米国の圧力に屈した輸出規制で繊維産業が犠牲になった | 同盟関係のため協定締結はやむを得なかった
+
+== dip s 1972.10 jsp>ldp : jcp=0.4 jsp=-0.6 kmt=-0.5 dsp=0.2 ldp=0.6
+ko 일소 평화조약 교섭 | 영토 문제를 유연하게 다뤄 평화조약을 맺어야 | 네 섬 반환 없이는 평화조약은 없다
+en Peace treaty talks with the USSR | Handle the territorial issue flexibly and conclude a peace treaty | No peace treaty without the return of all four islands
+ja 日ソ平和条約交渉 | 領土問題を柔軟に扱い平和条約を結ぶべき | 4島返還なしに平和条約はない
+
+== eco e 1971.12 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.7 dsp=-0.5 ldp=0.6
+ko 엔 절상 대응 | 엔고 피해는 수출 대기업이 아닌 중소기업과 노동자 지원으로 | 수출 산업을 지원해 엔고 충격을 흡수해야
+en Responding to the yen revaluation | Help small firms and workers hurt by the strong yen, not big exporters | Support export industries to absorb the shock
+ja 円切り上げへの対応 | 円高の被害は輸出大企業でなく中小企業と労働者への支援で | 輸出産業を支援し円高の衝撃を吸収すべき
+
+== eco e . jsp>ldp : jcp=-0.7 jsp=-0.6 kmt=-0.5 dsp=-0.2 ldp=0.8
+ko 확장 재정과 돈 풀기 | 과잉 유동성이 인플레와 투기를 부른다, 긴축해야 | 엔 재절상을 피하려면 내수 확대가 필요하다
+en Expansionary policy and easy money | Excess liquidity breeds inflation and speculation; tighten | Domestic demand must expand to avoid another revaluation
+ja 積極財政と金融緩和 | 過剰流動性がインフレと投機を招く、引き締めるべき | 円の再切り上げを避けるため内需拡大が必要
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.8 dsp=-0.5 ldp=0.4
+ko 농산물 수입 자유화 | 농산물 자유화는 일본 농업을 무너뜨린다 | 수입 자유화로 소비자 물가를 낮추고 마찰을 줄여야
+en Liberalising farm imports | Opening farm imports will destroy Japanese agriculture | Liberalise imports to cut consumer prices and reduce trade friction
+ja 農産物輸入自由化 | 農産物の自由化は日本農業を崩壊させる | 輸入自由化で消費者物価を下げ摩擦を減らすべき
+
+== eco e . jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.6 ldp=0.7
+ko 대기업 과세 | 대기업 법인세와 특별 조치를 손봐 복지 재원을 | 기업 과세 강화는 투자를 위축시킨다
+en Taxing big business | Raise corporate tax and end special breaks to fund welfare | Higher business taxes will chill investment
+ja 大企業課税 | 法人税と租税特別措置を見直し福祉財源を | 企業課税の強化は投資を冷え込ませる
+
+== wel e 1972.7 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.6 ldp=0.5
+ko 근로 여성 복지 | 남녀 고용 평등을 법으로 의무화해야 | 근로 부인 복지법의 노력 의무로 충분하다
+en Working women | Make equal employment for men and women a legal duty | The duty to make efforts in the working women's welfare law is enough
+ja 勤労婦人福祉 | 男女の雇用平等を法律で義務づけるべき | 勤労婦人福祉法の努力義務で十分
+
+== wel e 1970.9 jsp>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.7 ldp=0.3
+ko 스몬 약해 | 국가와 제약회사가 피해를 전면 보상해야 | 원인 규명이 먼저, 보상은 사안별로
+en SMON drug disaster | The state and drug firms must compensate victims in full | Establish the cause first; compensation case by case
+ja スモン薬害 | 国と製薬会社が被害を全面的に補償すべき | 原因究明が先、補償は個別に
+
+== wel e 1972.1 kmt>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.8 ldp=0.4
+ko 아동수당 확충 | 소득 제한 없이 첫째 아이부터 지급해야 | 셋째 아이부터, 소득 제한을 둔 지금 제도로 충분
+en Expanding child allowance | Pay from the first child without an income limit | The current scheme, from the third child with an income limit, is enough
+ja 児童手当の拡充 | 所得制限なしに第1子から支給すべき | 第3子からで所得制限のある現行制度で十分
+
+== soc s 1972.4 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.4 ldp=0.8
+ko 니시야마 기자 사건 | 밀약을 숨긴 정부의 책임이 먼저, 알 권리를 지켜야 | 국가 기밀 누설은 처벌받아야 한다
+en The Nishiyama reporter case | The government's hiding of a secret pact is the real issue; protect the right to know | Leaking state secrets must be punished
+ja 西山記者事件 | 密約を隠した政府の責任が先、知る権利を守るべき | 国家機密の漏洩は処罰されるべき
+
+== soc s 1972.5 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.4 dsp=-0.5 ldp=0.6
+ko 우생보호법 개정안 | 경제적 이유의 중절 삭제는 여성의 결정권 침해 | 생명 존중을 위해 중절 요건을 엄격히 해야
+en Eugenic Protection Law amendment | Removing economic grounds for abortion violates women's right to decide | Tighten abortion rules out of respect for life
+ja 優生保護法改正案 | 経済的理由による中絶の削除は女性の決定権の侵害 | 生命尊重のため中絶要件を厳しくすべき
+
+== soc s 1972.2 jcp>ldp : jcp=-0.6 jsp=-0.7 kmt=0 dsp=0.4 ldp=0.9
+ko 과격파 단속 | 과격파 단속을 핑계로 시민 운동까지 감시해선 안 된다 | 아사마 산장 같은 폭력에는 파방법 적용 등 엄하게
+en Cracking down on extremists | Do not use extremism as an excuse to watch citizens' movements | Deal sternly with violence like the Asama-Sansō siege, using the anti-subversion law
+ja 過激派の取締り | 過激派取締りを口実に市民運動まで監視すべきでない | あさま山荘のような暴力には破防法適用など厳しく
+
+== soc s 1971.6 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.5 dsp=-0.1 ldp=0.8
+ko 중교심 46 답신 | 능력주의와 관리 강화의 교육 개혁에 반대 | 다양한 능력에 맞춘 학교 제도로 개혁해야
+en The 1971 education council report | Oppose reforms built on meritocracy and tighter control | Reform schools to suit different abilities
+ja 中教審46答申 | 能力主義と管理強化の教育改革に反対 | 多様な能力に応じた学校制度に改革すべき
+
+== reg e 1972.5 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.7 dsp=-0.4 ldp=0.6
+ko 오키나와 진흥 | 기지 철거와 함께 주민 생활 중심의 진흥을 | 고율 보조로 공공사업을 늘려 본토와 격차를 줄여야
+en Developing Okinawa | Remove the bases and focus development on residents' lives | Use generous subsidies for public works to close the gap with the mainland
+ja 沖縄振興 | 基地撤去とともに住民生活中心の振興を | 高率補助で公共事業を増やし本土との格差を縮めるべき
+
+== reg e 1971.7 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.9 dsp=-0.6 ldp=0.5
+ko 환경영향평가 | 대형 개발에 환경영향평가를 법으로 의무화해야 | 개발이 늦어지지 않도록 행정 지도로 충분
+en Environmental impact assessment | Make assessments compulsory by law for big projects | Administrative guidance is enough so development is not delayed
+ja 環境アセスメント | 大型開発に環境影響評価を法律で義務づけるべき | 開発が遅れないよう行政指導で十分

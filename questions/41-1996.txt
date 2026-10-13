@@ -1,0 +1,179 @@
+# 제41회 중의원 총선 (1996.10.20) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) sdp=사회민주당(-0.7) dpj=민주당(-0.35) saki=신당 사키가케(-0.2) mk=민주개혁연합(0) nfp=신진당(0.35) ldp=자유민주당(0.65) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco e 1994.11 nfp>ldp : jcp=-1 sdp=0.3 dpj=-0.2 saki=0.4 nfp=-0.9 ldp=0.9
+ko 소비세 5% 인상 | 인상을 동결하고 행정 낭비부터 줄여야 한다 | 예정대로 1997년 4월 5%로 올려 재정을 지켜야 한다
+en Raising the consumption tax to 5% | Freeze the rise and cut waste first | Raise it to 5% in April 1997 as planned
+ja 消費税5%への引き上げ | 増税を凍結し行政の無駄から削るべき | 予定どおり1997年4月に5%へ上げ財政を守るべき
+
+== eco e 1996.6 nfp>ldp : jcp=-1 sdp=0.6 dpj=-0.3 saki=0.6 nfp=-0.9 ldp=0.9
+ko 주택금융전문회사 공적자금 | 세금 6,850억 엔 투입에 반대, 금융기관 책임부터 | 금융 불안을 막으려면 투입은 불가피하다
+en Public money for the jūsen | No ¥685 billion of taxpayers’ money; banks must answer first | Unavoidable to prevent financial turmoil
+ja 住専への公的資金 | 6850億円の税金投入に反対、金融機関の責任が先 | 金融不安を防ぐには投入はやむを得ない
+
+== pol . 1996.10 dpj>ldp : jcp=0.4 sdp=0.1 dpj=-0.9 saki=-0.7 nfp=-0.7 ldp=-0.2
+ko 중앙 성청 재편 | 대장성 해체 등 성청을 과감히 반으로 통폐합 | 행정 기능의 안정이 우선, 단계적으로
+en Reorganising the ministries | Halve the ministries boldly, including breaking up the Finance Ministry | Stability first; go step by step
+ja 中央省庁再編 | 大蔵省解体など省庁を大胆に半減 | 行政機能の安定が先、段階的に
+
+== con s 1995.9 sdp>ldp : jcp=-1 sdp=-0.9 dpj=-0.5 saki=-0.4 nfp=0.4 ldp=0.8
+ko 오키나와 미군기지 | 기지를 크게 줄이고 해병대 철수를 요구해야 한다 | 미일동맹을 위해 후텐마 이전 등 현행 틀을 유지
+en US bases in Okinawa | Cut the bases sharply and seek a Marine withdrawal | Keep the framework, including relocating Futenma
+ja 沖縄の米軍基地 | 基地を大幅に縮小し海兵隊撤退を求めるべき | 日米同盟のため普天間移設など現行の枠組みを維持
+
+== con s 1996.4 jcp>ldp : jcp=-1 sdp=-0.7 dpj=-0.1 saki=-0.2 nfp=0.7 ldp=0.8
+ko 미일 안보 공동선언 | 동맹의 역할 확대에 반대한다 | 아시아·태평양 안정을 위해 동맹을 강화한다
+en US–Japan Joint Declaration on Security | Against expanding the alliance’s role | Strengthen the alliance for Asia-Pacific stability
+ja 日米安保共同宣言 | 同盟の役割拡大に反対する | アジア太平洋の安定のため同盟を強化する
+
+== con s . sdp>nfp : jcp=-1 sdp=-1 dpj=-0.4 saki=-0.4 nfp=0.6 ldp=0.6
+ko 헌법 9조 | 평화헌법을 지키고 개헌 논의에 반대 | 자위대와 국제공헌을 헌법에 담는 논의를 시작
+en Article 9 | Defend the peace constitution; no revision talk | Start discussing adding the SDF and international roles
+ja 憲法9条 | 平和憲法を守り改憲論議に反対 | 自衛隊と国際貢献を憲法に盛り込む議論を始める
+
+== dip s 1995.8 sdp>ldp : jcp=-0.9 sdp=-1 dpj=-0.6 saki=-0.6 nfp=0.2 ldp=0.4
+ko 전후 50년 무라야마 담화 | 침략과 식민지 지배를 사죄한 담화를 이어가야 한다 | 일방적인 자학 사관은 바로잡아야 한다
+en The Murayama statement | Keep the apology for aggression and colonial rule | Correct the one-sided “masochistic” view of history
+ja 戦後50年の村山談話 | 侵略と植民地支配を謝罪した談話を引き継ぐべき | 一方的な自虐史観は正すべき
+
+== pol . 1994.1 dpj>ldp : jcp=-1 sdp=-0.5 dpj=-0.7 saki=-0.5 nfp=0 ldp=0.8
+ko 기업·단체 헌금 | 기업·단체 헌금은 전면 금지해야 한다 | 정당 교부금과 함께 일정 범위에서 허용
+en Corporate and group donations | Ban them completely | Allow them within limits alongside public subsidies
+ja 企業・団体献金 | 企業・団体献金は全面禁止すべき | 政党交付金とあわせ一定の範囲で認める
+
+== pol s 1996.1 dpj>ldp : jcp=-0.9 sdp=-0.8 dpj=-0.9 saki=-0.8 nfp=-0.4 ldp=0.4
+ko 정보공개법 | 국민의 알 권리를 명기한 강한 정보공개법을 | 행정 효율과 비밀 보호를 고려해 신중히
+en Information disclosure law | A strong law that states the people’s right to know | Go carefully, mindful of efficiency and secrecy
+ja 情報公開法 | 国民の知る権利を明記した強い情報公開法を | 行政の効率と秘密保護を考え慎重に
+
+== reg e . dpj>ldp : jcp=-0.6 sdp=-0.3 dpj=-0.8 saki=-0.7 nfp=-0.2 ldp=0.8
+ko 공공사업 | 댐·도로 등 공공사업을 크게 줄여야 한다 | 지역 경제를 위해 공공사업을 유지해야 한다
+en Public works | Cut dams, roads and other public works sharply | Keep public works for local economies
+ja 公共事業 | ダム・道路など公共事業を大幅に減らすべき | 地域経済のため公共事業を維持すべき
+
+== reg e 1993.12 jcp>nfp : jcp=-1 sdp=-0.6 dpj=0.2 saki=-0.2 nfp=0.3 ldp=-0.2
+ko 쌀 시장 개방 | 농가를 지키고 추가 개방에 반대한다 | 개방에 맞춰 농업 구조개혁을 서두른다
+en Opening the rice market | Protect farmers; no further opening | Speed up farm restructuring to match opening
+ja コメ市場の開放 | 農家を守り追加開放に反対する | 開放に合わせ農業の構造改革を急ぐ
+
+== wel e 1996.6 jcp>ldp : jcp=-0.9 sdp=-0.7 dpj=-0.4 saki=-0.5 nfp=0.3 ldp=0.4
+ko 개호보험 도입 | 공적 개호를 세금 중심으로 넓게 보장 | 보험료 부담과 민간 서비스 중심으로
+en Long-term care insurance | Broad public care funded mainly by taxes | Built on premiums and private services
+ja 介護保険の導入 | 公的介護を税中心で幅広く保障 | 保険料負担と民間サービス中心で
+
+== soc s 1996.2 sdp>ldp : jcp=-0.9 sdp=-1 dpj=-0.7 saki=-0.6 nfp=0.2 ldp=0.7
+ko 선택적 부부별성 | 부부가 원하면 각자의 성을 쓰도록 도입 | 가족의 일체감을 위해 같은 성을 유지
+en Optional separate surnames | Let married couples keep their own surnames | Keep one surname for family unity
+ja 選択的夫婦別姓 | 夫婦が望めばそれぞれの姓を名乗れるように | 家族の一体感のため同姓を維持
+
+== soc s 1995.2 sdp>ldp : jcp=-0.8 sdp=-0.9 dpj=-0.6 saki=-0.4 nfp=-0.1 ldp=0.7
+ko 영주 외국인 지방참정권 | 지방선거 투표권을 줘야 한다 | 국적을 취득하는 것이 먼저다
+en Local votes for permanent residents | Give them the vote in local elections | Naturalisation should come first
+ja 永住外国人の地方参政権 | 地方選挙の投票権を与えるべき | 国籍取得が先
+
+== pol s 1994.7 jcp>ldp : jcp=-1 sdp=0.3 dpj=0.3 saki=0.3 nfp=0.6 ldp=0.8
+ko 사회당의 정책 전환 | 자위대 합헌·안보 견지로의 전환은 호헌 정당의 배신 | 집권 정당으로서 현실 노선 전환은 당연했다
+en The Socialists' policy U-turn | Accepting the SDF and the alliance betrayed the party's pacifist base | Switching to a realistic line was natural for a governing party
+ja 社会党の政策転換 | 自衛隊合憲・安保堅持への転換は護憲政党の裏切り | 政権政党として現実路線への転換は当然
+
+== pol . 1996.2 dpj>ldp : jcp=-0.9 sdp=-0.6 dpj=-1 saki=-0.8 nfp=-0.7 ldp=0.5
+ko 대장성 개혁 | 재정과 금융을 분리하고 대장성의 권한을 해체해야 | 대장성의 전문성을 살려 조직 개편은 신중히
+en Reforming the Finance Ministry | Separate fiscal and financial powers and break up the ministry | Preserve its expertise and reorganise cautiously
+ja 大蔵省改革 | 財政と金融を分離し大蔵省の権限を解体すべき | 大蔵省の専門性を生かし組織改編は慎重に
+
+== con s 1996.4 sdp>ldp : jcp=-1 sdp=-0.8 dpj=-0.5 saki=-0.4 nfp=0.4 ldp=0.8
+ko 후텐마 반환과 이설 | 오키나와 안에 대체 기지를 만드는 이설에 반대 | 현내 이설은 후텐마 반환을 위한 현실적 방안
+en Returning Futenma and relocation | Oppose building a replacement base inside Okinawa | Relocation within the prefecture is a realistic way to get Futenma back
+ja 普天間返還と移設 | 沖縄県内に代替基地を造る移設に反対 | 県内移設は普天間返還のための現実的な方策
+
+== dip s 1995.7 jcp>ldp : jcp=-1 sdp=0.4 dpj=-0.2 saki=0.3 nfp=0.3 ldp=0.6
+ko 아시아 여성 기금 | 민간 모금 방식은 국가 책임 회피, 국가 배상을 | 법적 해결은 끝났다, 기금으로 도의적 책임을
+en The Asian Women's Fund | A private-donation fund dodges state responsibility; pay state compensation | The legal issue is settled; the fund meets moral responsibility
+ja アジア女性基金 | 民間募金方式は国家責任の回避、国家賠償を | 法的解決は済んでいる、基金で道義的責任を
+
+== dip s 1996.3 sdp>nfp : jcp=-0.8 sdp=-0.8 dpj=-0.3 saki=-0.5 nfp=0.6 ldp=0.4
+ko 대만 해협 위기 | 중국을 자극하지 말고 대화를 촉구해야 | 중국의 군사 위협에 분명히 항의하고 미국과 협력해야
+en The Taiwan Strait crisis | Avoid provoking China and urge dialogue | Protest China's military threats clearly and work with the US
+ja 台湾海峡危機 | 中国を刺激せず対話を促すべき | 中国の軍事的威嚇に明確に抗議し米国と協力すべき
+
+== dip s 1995.8 sdp>nfp : jcp=0 sdp=-0.6 dpj=0 saki=-0.2 nfp=0.6 ldp=0.4
+ko 중국 핵실험과 원조 | 원조를 압박 수단으로 쓰지 말고 대화로 | 핵실험에 항의해 무상 원조를 동결해야
+en China's nuclear tests and aid | Do not use aid as leverage; rely on dialogue | Freeze grant aid in protest at the tests
+ja 中国の核実験と援助 | 援助を圧力手段にせず対話で | 核実験に抗議し無償援助を凍結すべき
+
+== dip s 1995.6 sdp>nfp : jcp=-0.4 sdp=-0.8 dpj=-0.3 saki=-0.5 nfp=0.6 ldp=0
+ko 북한 쌀 지원 | 인도적 지원으로 북한과의 대화 창구를 열어야 | 핵 개발과 납치 의혹이 있는 북한에 지원은 안 된다
+en Rice aid to North Korea | Humanitarian aid opens a channel for dialogue | No aid to a North Korea suspected of nuclear work and abductions
+ja 北朝鮮へのコメ支援 | 人道支援で北朝鮮との対話の窓口を開くべき | 核開発と拉致疑惑のある北朝鮮への支援はいけない
+
+== dip s 1996.2 sdp>nfp : jcp=-0.5 sdp=-0.8 dpj=-0.4 saki=-0.5 nfp=0.6 ldp=0.5
+ko 독도와 배타적 경제수역 | 한국과 대화로 어업 협정을 먼저 정리해야 | 다케시마 영유권을 분명히 주장해야
+en Takeshima/Dokdo and the EEZ | Settle a fisheries agreement with Korea through dialogue first | Assert sovereignty over Takeshima clearly
+ja 竹島と排他的経済水域 | 韓国と対話で漁業協定を先に整理すべき | 竹島の領有権を明確に主張すべき
+
+== eco e 1995.4 jcp>ldp : jcp=-1 sdp=-0.6 dpj=-0.3 saki=-0.2 nfp=0.3 ldp=0.6
+ko 초엔고 대책 | 엔고로 무너지는 중소기업과 고용을 직접 지원해야 | 금융 완화와 규제 완화로 엔고를 이겨내야
+en Coping with the super-strong yen | Directly support small firms and jobs hit by the yen | Overcome it with monetary easing and deregulation
+ja 超円高対策 | 円高で苦しむ中小企業と雇用を直接支援すべき | 金融緩和と規制緩和で円高を乗り越えるべき
+
+== eco e 1995.6 jcp>nfp : jcp=-0.6 sdp=-0.2 dpj=0.2 saki=0 nfp=0.6 ldp=0.5
+ko 미일 자동차 협의 | 시장 개방을 더 해 미국과 타협해야 | 수치 목표 요구는 관리 무역, 끝까지 거부해야
+en US–Japan auto talks | Open markets further and compromise with the US | Numerical targets are managed trade; refuse to the end
+ja 日米自動車協議 | 市場開放を進め米国と妥協すべき | 数値目標の要求は管理貿易、最後まで拒否すべき
+
+== eco e 1995.6 jcp>nfp : jcp=-0.6 sdp=0 dpj=0.3 saki=0.2 nfp=0.6 ldp=0
+ko 예금 전액 보호 | 부실 금융기관은 경영 책임을 묻고 예금 보호 범위는 한정해야 | 금융 불안을 막으려면 당분간 예금을 전액 보호해야
+en Full deposit protection | Hold failed lenders' managers responsible and limit protection | Protect all deposits for now to prevent panic
+ja 預金全額保護 | 破綻金融機関の経営責任を問い預金保護の範囲は限定すべき | 金融不安を防ぐため当面預金を全額保護すべき
+
+== wel e 1996.2 dpj>ldp : jcp=-1 sdp=-0.8 dpj=-1 saki=-0.9 nfp=-0.7 ldp=0.4
+ko 약해 에이즈 | 국가와 제약회사의 책임을 밝히고 피해자에게 사죄와 보상을 | 화해 절차로 매듭짓고 재발 방지에 힘써야
+en HIV-tainted blood products | Establish state and drugmaker liability and apologise and compensate victims | Close it through settlement and focus on prevention
+ja 薬害エイズ | 国と製薬会社の責任を明らかにし被害者に謝罪と補償を | 和解手続きで決着させ再発防止に努めるべき
+
+== wel e 1996.6 jcp>nfp : jcp=-1 sdp=-0.8 dpj=-0.2 saki=-0.3 nfp=0.6 ldp=0.5
+ko 파견 대상 확대 | 파견 업무 확대는 정규직을 비정규로 바꾼다 | 다양한 일하는 방식을 위해 파견 대상을 넓혀야
+en Widening agency work | Expanding temp work turns regular jobs into irregular ones | Widen it to allow more diverse ways of working
+ja 派遣対象の拡大 | 派遣業務の拡大は正社員を非正規に置き換える | 多様な働き方のため派遣対象を広げるべき
+
+== wel e . jcp>ldp : jcp=-1 sdp=-0.7 dpj=-0.5 saki=-0.4 nfp=-0.2 ldp=0.4
+ko 실업률 상승 대책 | 공적 고용과 실업 급여 확대로 고용을 지켜야 | 산업 구조 전환과 재취업 지원으로 대응해야
+en Rising unemployment | Protect jobs with public employment and better jobless benefits | Respond with industrial restructuring and re-employment support
+ja 失業率上昇への対策 | 公的雇用と失業給付の拡充で雇用を守るべき | 産業構造の転換と再就職支援で対応すべき
+
+== wel e . jcp>nfp : jcp=-1 sdp=-0.5 dpj=-0.2 saki=-0.2 nfp=0.5 ldp=0.3
+ko 고령자 의료비 | 고령자 부담을 늘리지 말고 대기업과 고소득층 부담을 | 세대 간 공평을 위해 고령자도 일정 부담을
+en Medical costs for the elderly | Do not raise older people's share; ask more of big business and high earners | For fairness between generations, older people should pay a share
+ja 高齢者医療費 | 高齢者の負担を増やさず大企業と高所得層の負担を | 世代間の公平のため高齢者も一定の負担を
+
+== soc s 1996.7 jcp>ldp : jcp=-1 sdp=-0.8 dpj=-0.6 saki=-0.5 nfp=0 ldp=0.6
+ko 옴진리교와 파방법 | 단체 해산에 파방법을 쓰는 것은 결사의 자유를 위협한다 | 무차별 테러 집단에는 파방법 적용이 당연하다
+en Aum Shinrikyo and the anti-subversion law | Using the law to dissolve a group threatens freedom of association | Applying it to a terrorist cult is only natural
+ja オウム真理教と破防法 | 団体解散に破防法を使うのは結社の自由を脅かす | 無差別テロ集団への破防法適用は当然
+
+== soc . 1995.1 jcp>ldp : jcp=-0.3 sdp=-0.8 dpj=-0.9 saki=-0.9 nfp=-0.5 ldp=0.4
+ko NPO 법인 제도 | 시민 활동이 쉽게 법인격을 얻도록 해야 | 관청의 감독 아래 신중하게
+en NPO legal status | Let citizens' groups gain legal status easily | Proceed cautiously under ministry supervision
+ja NPO法人制度 | 市民活動が容易に法人格を得られるようにすべき | 官庁の監督の下で慎重に
+
+== soc s 1996.6 jcp>ldp : jcp=-0.6 sdp=-0.6 dpj=-0.2 saki=-0.3 nfp=0.2 ldp=0.3
+ko 뇌사와 장기 이식 | 뇌사를 사람의 죽음으로 일률적으로 정해선 안 된다 | 장기 이식을 위해 뇌사를 법적 죽음으로 인정해야
+en Brain death and organ transplants | Do not define brain death as death across the board | Recognise brain death legally to allow transplants
+ja 脳死と臓器移植 | 脳死を一律に人の死と定めるべきでない | 臓器移植のため脳死を法的な死と認めるべき
+
+== reg e 1995.1 jcp>ldp : jcp=-1 sdp=-0.8 dpj=-0.7 saki=-0.6 nfp=-0.6 ldp=0.5
+ko 한신 대지진 개인 보상 | 주택을 잃은 이재민에게 공적 개인 보상을 | 사유재산에 대한 개인 보상은 원칙상 어렵다
+en Kobe earthquake compensation | Give public compensation to people who lost their homes | Compensating private property is difficult in principle
+ja 阪神大震災の個人補償 | 住宅を失った被災者に公的な個人補償を | 私有財産への個人補償は原則として難しい
+
+== reg e 1995.12 jcp>ldp : jcp=-1 sdp=-0.8 dpj=-0.5 saki=-0.6 nfp=0.2 ldp=0.7
+ko 몬주 사고 | 고속증식로 계획을 접고 원자력 정책을 재검토해야 | 원인을 밝혀 핵연료 사이클을 이어 가야
+en The Monju accident | Abandon the fast-breeder plan and review nuclear policy | Find the cause and continue the fuel cycle
+ja もんじゅ事故 | 高速増殖炉計画をやめ原子力政策を見直すべき | 原因を究明し核燃料サイクルを続けるべき
+
+== reg e . jcp>nfp : jcp=-0.6 sdp=-0.2 dpj=0.1 saki=0.2 nfp=0.5 ldp=0.3
+ko 수도 기능 이전 | 거대한 비용이 드는 수도 이전보다 지방 분권을 | 도쿄 집중을 끊으려면 국회 등 수도 기능을 옮겨야
+en Moving capital functions | Decentralise instead of a hugely expensive relocation | Move the Diet and other capital functions to break Tokyo's dominance
+ja 首都機能移転 | 巨額の費用がかかる首都移転より地方分権を | 東京集中を断つため国会など首都機能を移転すべき

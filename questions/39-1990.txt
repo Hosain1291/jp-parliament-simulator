@@ -1,0 +1,164 @@
+# 제39회 중의원 총선 (1990.2.18) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.55) sdf=사회민주연합(-0.3) kmt=공명당(-0.05) dsp=민사당(0.15) shinpo90=진보당(0.2) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco . 1989.4 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.9 dsp=-0.7 shinpo90=-0.5 ldp=0.9
+ko 소비세 3% | 폐지해야 한다 | 재검토하며 유지
+en The 3% consumption tax | Abolish it | Keep it with a review
+ja 消費税3% | 廃止すべき | 見直しつつ維持
+
+== pol . 1988.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-1 kmt=-0.8 dsp=-0.8 shinpo90=-1 ldp=0.7
+ko 리크루트 사건 | 연루 정치인을 증인으로 불러 책임을 | 정치 개혁으로 대응
+en The Recruit scandal | Summon the politicians involved and hold them responsible | Respond with political reform
+ja リクルート事件 | 関与した政治家を証人喚問し責任を | 政治改革で対応
+
+== pol . 1989.5 jsp>ldp : jcp=-1 jsp=-0.8 sdf=-0.2 kmt=-0.6 dsp=-0.3 shinpo90=0 ldp=0.7
+ko 선거제도 개혁 | 소선거구는 거대 정당에 유리, 반대 | 정권 교체가 가능한 선거제도로
+en Electoral reform | Single-member districts favour big parties; oppose | A system that allows changes of government
+ja 選挙制度改革 | 小選挙区は大政党に有利、反対 | 政権交代が可能な選挙制度に
+
+== reg e . jsp>shinpo90 : jcp=-1 jsp=-1 sdf=-0.6 kmt=-0.8 dsp=-0.4 shinpo90=0 ldp=-0.6
+ko 쌀 시장 개방 | 쌀 자급을 지켜야 | 개방을 검토
+en Opening the rice market | Protect rice self-sufficiency | Consider opening
+ja コメ市場の開放 | コメの自給を守るべき | 開放を検討
+
+== dip s 1989.9 jsp>ldp : jcp=-1 jsp=-0.6 sdf=-0.2 kmt=-0.3 dsp=0.3 shinpo90=0.3 ldp=0.6
+ko 미일 구조협의 | 미국 압력에 신중해야 | 시장 개방과 구조 개혁 수용
+en US–Japan Structural Impediments Initiative | Be wary of US pressure | Accept market opening and structural reform
+ja 日米構造協議 | 米国の圧力に慎重に | 市場開放と構造改革を受け入れ
+
+== con s 1989.12 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.7 kmt=-0.3 dsp=0.5 shinpo90=0.2 ldp=0.9
+ko 냉전 이후 안보 | 자위대 축소와 비무장 중립 | 안보 체제 유지
+en Security after the Cold War | Shrink the SDF and pursue unarmed neutrality | Keep the security framework
+ja 冷戦後の安全保障 | 自衛隊縮小と非武装中立 | 安保体制を維持
+
+== reg e . jsp>ldp : jcp=-0.9 jsp=-1 sdf=-0.9 kmt=-0.4 dsp=0.6 shinpo90=0 ldp=0.9
+ko 원전 | 원전을 줄여야 | 추진해야
+en Nuclear power | Reduce nuclear power | Proceed with it
+ja 原発 | 原発を減らすべき | 推進すべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=-0.5 shinpo90=-0.4 ldp=0.3
+ko 노인 복지 | 노인 복지를 크게 넓혀야 | 골드플랜으로 단계적으로
+en Care for the elderly | Expand elderly care greatly | Step by step under the Gold Plan
+ja 高齢者福祉 | 高齢者福祉を大きく広げるべき | ゴールドプランで段階的に
+
+== eco e 1989.12 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=-0.4 shinpo90=-0.3 ldp=0.4
+ko 땅값과 토지 정책 | 투기를 규제하고 토지 보유세 강화 | 시장 기능을 존중
+en Land prices | Curb speculation and raise land-holding taxes | Respect the market
+ja 地価と土地政策 | 投機を規制し土地保有税を強化 | 市場機能を尊重
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.5 dsp=0.1 shinpo90=0 ldp=0.7
+ko 헌법 개정 | 반대한다 | 검토해야
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== pol . 1989.7 jsp>ldp : jcp=-0.6 jsp=-1 sdf=-0.8 kmt=-0.6 dsp=-0.4 shinpo90=-0.4 ldp=0.6
+ko 여성 정치인 확대 | '마돈나 선풍'처럼 여성 의원을 크게 늘려야 | 성별보다 능력과 정책으로 뽑아야
+en More women in politics | Greatly increase women members, as in the "Madonna boom" | Choose candidates on ability and policy, not gender
+ja 女性政治家の拡大 | 「マドンナ旋風」のように女性議員を大きく増やすべき | 性別より能力と政策で選ぶべき
+
+== pol . . jcp>ldp : jcp=-1 jsp=-0.2 sdf=0.2 kmt=0 dsp=0.3 shinpo90=0.4 ldp=0.6
+ko 정당 국고 보조 | 세금으로 정당을 지원하는 것은 사상의 자유 침해 | 기업 헌금을 줄이는 대신 정당에 공적 조성을
+en Public funding for parties | Funding parties with taxes violates freedom of thought | Give parties public funding in exchange for limiting corporate money
+ja 政党への公費助成 | 税金で政党を支援するのは思想の自由の侵害 | 企業献金を減らす代わりに政党に公的助成を
+
+== pol . 1989.7 jcp>ldp : jcp=-1 jsp=0.5 sdf=0.6 kmt=0.6 dsp=0.5 shinpo90=0.4 ldp=-0.8
+ko 야당 연합 정권 | 공산당을 뺀 야당 연합은 자민당과 다를 바 없다 | 사회·공명·민사가 손잡아 정권 교체를
+en An opposition coalition government | An opposition alliance without the Communists differs little from the LDP | Socialists, Kōmeitō and Democratic Socialists should join to take power
+ja 野党連合政権 | 共産党を除く野党連合は自民党と変わらない | 社会・公明・民社が手を結び政権交代を
+
+== con s 1987.1 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.7 dsp=0.2 shinpo90=-0.2 ldp=0.8
+ko 방위비 1% 틀 철폐 | 1% 틀을 없애면 방위비 증가에 제동이 사라진다 | 총액 명시 방식으로 필요한 방위비를 확보해야
+en Scrapping the 1% defence cap | Without the cap, nothing restrains defence spending | Secure the necessary budget under a total-amount ceiling
+ja 防衛費1%枠の撤廃 | 1%枠をなくせば防衛費増加の歯止めが消える | 総額明示方式で必要な防衛費を確保すべき
+
+== con e 1989.4 jsp>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.3 kmt=-0.3 dsp=0.2 shinpo90=0.3 ldp=0.4
+ko FSX 공동 개발 | 미국의 압력에 밀린 공동 개발은 기술만 넘겨준다 | 동맹을 위해 미국과의 공동 개발이 현실적
+en FSX joint development | Joint development forced by US pressure just hands over technology | Joint development with the US is realistic for the alliance
+ja FSX共同開発 | 米国の圧力による共同開発は技術を渡すだけ | 同盟のため米国との共同開発が現実的
+
+== dip s 1989.6 jsp>ldp : jcp=-1 jsp=-0.8 sdf=-0.8 kmt=-0.5 dsp=-0.5 shinpo90=-0.6 ldp=0.5
+ko 천안문 사건 대응 | 인권 탄압에 항의해 엔 차관을 동결해야 | 중국을 고립시키지 말고 관계를 유지해야
+en Response to Tiananmen | Freeze yen loans in protest at the crackdown | Do not isolate China; maintain relations
+ja 天安門事件への対応 | 人権弾圧に抗議し円借款を凍結すべき | 中国を孤立させず関係を維持すべき
+
+== dip s 1989.3 jsp>ldp : jcp=0 jsp=-0.9 sdf=-0.6 kmt=-0.5 dsp=0.2 shinpo90=0 ldp=0.5
+ko 북한과의 관계 | 과거를 사죄하고 북한과 국교 정상화를 서둘러야 | 한국과 조율하며 신중히
+en Relations with North Korea | Apologise for the past and hurry to normalise relations | Proceed cautiously, coordinating with South Korea
+ja 北朝鮮との関係 | 過去を謝罪し北朝鮮との国交正常化を急ぐべき | 韓国と調整しつつ慎重に
+
+== dip s 1988.5 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.8 dsp=-0.3 shinpo90=-0.5 ldp=0.5
+ko 각료의 전쟁 관련 발언 | 침략을 부정하는 각료 발언은 아시아의 신뢰를 무너뜨린다 | 개인의 역사 인식까지 문제 삼아선 안 된다
+en Ministers' remarks on the war | Ministers denying aggression destroy Asia's trust | Personal views of history should not be policed
+ja 閣僚の戦争関連発言 | 侵略を否定する閣僚発言はアジアの信頼を損なう | 個人の歴史認識まで問題にすべきでない
+
+== dip e 1988.5 jcp>ldp : jcp=-0.8 jsp=-0.4 sdf=0 kmt=0 dsp=0.4 shinpo90=0.4 ldp=0.7
+ko 국제 공헌 | 경제력에 맞는 공헌은 비군사·민생 원조로 | 경제 대국으로서 국제 협력 구상에 따라 역할을 넓혀야
+en International contribution | Contribute in line with economic power, but through non-military civilian aid | As an economic power, broaden Japan's role under the international cooperation initiative
+ja 国際貢献 | 経済力に見合う貢献は非軍事・民生援助で | 経済大国として国際協力構想に沿い役割を広げるべき
+
+== eco e 1989.5 jsp>ldp : jcp=-1 jsp=-0.8 sdf=-0.6 kmt=-0.7 dsp=-0.4 shinpo90=-0.3 ldp=0.4
+ko 버블과 금융 완화 | 저금리와 투기가 버블을 키웠다, 금융을 죄고 투기를 막아야 | 경기 확대를 꺾지 않도록 금융 정책은 신중히
+en The bubble and easy money | Low rates and speculation inflated the bubble; tighten and curb speculation | Act cautiously so as not to choke the expansion
+ja バブルと金融緩和 | 低金利と投機がバブルを膨らませた、引き締めて投機を抑えるべき | 景気拡大を損なわないよう金融政策は慎重に
+
+== eco e 1987.4 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.4 kmt=-0.2 dsp=0.6 shinpo90=0.5 ldp=0.9
+ko 국철 분할 민영화 이후 | 분할 민영화는 노조 탄압과 지방 노선 축소를 불렀다 | JR 발족으로 서비스가 좋아졌다, 성공한 개혁이다
+en After the JNR breakup | Privatisation brought union-busting and rural line cuts | The JR companies improved service; the reform succeeded
+ja 国鉄分割民営化後 | 分割民営化は組合つぶしと地方路線の縮小を招いた | JR発足でサービスが向上した、成功した改革だ
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.8 sdf=-0.4 kmt=-0.6 dsp=-0.2 shinpo90=0 ldp=0.4
+ko 우루과이 라운드 | 농업과 국내 산업을 지키려면 개방 요구에 맞서야 | 자유 무역 체제를 위해 교섭에 적극 참여해야
+en The Uruguay Round | Stand up to opening demands to protect farming and industry | Engage actively to support the free-trade system
+ja ウルグアイ・ラウンド | 農業と国内産業を守るため開放要求に立ち向かうべき | 自由貿易体制のため交渉に積極的に参加すべき
+
+== wel e 1989.12 jsp>ldp : jcp=-1 jsp=-0.8 sdf=-0.6 kmt=-0.8 dsp=-0.4 shinpo90=-0.3 ldp=0.6
+ko 골드 플랜 | 소비세 명분용 계획이 아니라 간병을 국가 책임으로 크게 늘려야 | 골드 플랜으로 재택·시설 간병을 계획적으로 정비해야
+en The Gold Plan | Expand care as a state responsibility, not as a plan to justify consumption tax | Develop home and residential care systematically under the Gold Plan
+ja ゴールドプラン | 消費税の名目でなく介護を国の責任として大幅に増やすべき | ゴールドプランで在宅・施設介護を計画的に整備すべき
+
+== wel e 1989.12 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.9 dsp=-0.6 shinpo90=-0.4 ldp=0.6
+ko 연금 지급 65세 | 정년이 60세인데 지급을 늦추면 소득 공백이 생긴다 | 고령화에 대비해 지급 연령을 늦춰야
+en Pensions at 65 | With retirement at 60, delaying pensions leaves an income gap | Raise the pension age to prepare for ageing
+ja 年金支給65歳 | 定年が60歳なのに支給を遅らせれば所得の空白が生じる | 高齢化に備え支給開始年齢を引き上げるべき
+
+== wel e 1988.6 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.8 dsp=-0.5 shinpo90=-0.4 ldp=0.4
+ko 과로사 | 노동 시간을 법으로 줄이고 과로사를 산재로 인정해야 | 기업의 노력과 노사 협의로 개선해야
+en Death from overwork | Cut working hours by law and recognise karōshi as an industrial injury | Improve through company effort and labour–management talks
+ja 過労死 | 労働時間を法律で減らし過労死を労災と認めるべき | 企業努力と労使協議で改善すべき
+
+== soc s 1989.12 jsp>ldp : jcp=-0.7 jsp=-0.6 sdf=-0.7 kmt=-0.4 dsp=0 shinpo90=-0.2 ldp=0.5
+ko 외국인 노동자 | 외국인 노동자를 권리를 보장한 채 받아들여야 | 단순 노동은 받지 말고 불법 취업 단속을 강화해야
+en Foreign workers | Accept foreign workers with their rights guaranteed | Do not admit unskilled labour; crack down on illegal work
+ja 外国人労働者 | 外国人労働者を権利を保障して受け入れるべき | 単純労働は受け入れず不法就労の取締りを強化すべき
+
+== soc s 1989.2 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.7 kmt=-0.7 dsp=0 shinpo90=-0.2 ldp=0.8
+ko 대상례와 정교분리 | 신도식 의식에 국비와 공무원을 동원하는 것은 정교분리 위반 | 천황의 장례는 국가적 의식, 전통대로 해야
+en The imperial funeral and religion | Using state funds and officials for Shinto rites violates separation of religion and state | The Emperor's funeral is a national ceremony; follow tradition
+ja 大喪の礼と政教分離 | 神道儀式に国費と公務員を動員するのは政教分離違反 | 天皇の葬儀は国家的儀式、伝統どおりに
+
+== soc s 1989.3 jsp>ldp : jcp=-1 jsp=-1 sdf=-0.8 kmt=-0.5 dsp=0.4 shinpo90=0 ldp=0.9
+ko 히노마루·기미가요 의무화 | 입학식·졸업식 게양과 제창 의무화는 사상의 강요 | 국기와 국가를 존중하는 교육은 당연하다
+en Making the flag and anthem compulsory | Requiring them at school ceremonies forces beliefs on people | Teaching respect for the flag and anthem is natural
+ja 日の丸・君が代の義務化 | 入学式・卒業式での掲揚と斉唱の義務化は思想の強制 | 国旗と国歌を尊重する教育は当然
+
+== soc s . jsp>ldp : jcp=-1 jsp=-1 sdf=-0.9 kmt=-0.8 dsp=-0.5 shinpo90=-0.4 ldp=0.4
+ko 육아휴직 법제화 | 남녀 모두에게 소득 보장이 있는 육아휴직을 법으로 | 기업 사정을 생각해 노력 의무부터
+en Statutory childcare leave | Legislate paid childcare leave for both parents | Start with a duty to make efforts, considering business
+ja 育児休業の法制化 | 男女ともに所得保障のある育児休業を法律で | 企業の事情を考え努力義務から
+
+== soc s 1989.8 jcp>ldp : jcp=-0.8 jsp=-0.6 sdf=-0.4 kmt=0.2 dsp=0.3 shinpo90=0.2 ldp=0.7
+ko 유해 도서 규제 | 사건을 핑계로 한 만화·출판 규제는 표현의 자유 침해 | 청소년 보호를 위해 유해 도서를 규제해야
+en Regulating "harmful" publications | Restricting manga and books after one crime violates free expression | Regulate harmful material to protect young people
+ja 有害図書規制 | 事件を口実にした漫画・出版規制は表現の自由の侵害 | 青少年保護のため有害図書を規制すべき
+
+== reg e 1988.12 jsp>ldp : jcp=-0.9 jsp=-0.7 sdf=-0.5 kmt=-0.6 dsp=-0.3 shinpo90=-0.2 ldp=0.7
+ko 고향 창생 1억 엔 | 일률 1억 엔 배포는 선심성 낭비 | 지역이 자유롭게 쓰는 돈으로 창의를 살려야
+en ¥100 million for every town | Handing every municipality ¥100 million is wasteful pork | Money localities can spend freely sparks local creativity
+ja ふるさと創生1億円 | 一律1億円のばらまきは無駄 | 地域が自由に使う資金で創意を生かすべき
+
+== reg e 1987.6 jsp>ldp : jcp=-1 jsp=-0.9 sdf=-0.6 kmt=-0.6 dsp=-0.2 shinpo90=-0.2 ldp=0.8
+ko 리조트법 | 대형 리조트 개발은 자연 파괴와 땅 투기를 부른다 | 리조트 개발로 지방에 일자리와 관광을
+en The Resort Law | Big resort projects destroy nature and fuel land speculation | Resort development brings jobs and tourism to the regions
+ja リゾート法 | 大型リゾート開発は自然破壊と土地投機を招く | リゾート開発で地方に雇用と観光を

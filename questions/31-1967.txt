@@ -1,0 +1,154 @@
+# 제31회 중의원 총선 (1967.1.29) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.65) kmt=공명당(0) dsp=민사당(-0.05) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== pol . 1966.10 kmt>ldp : jcp=-1 jsp=-1 dsp=-0.8 kmt=-1 ldp=0.8
+ko ‘검은 안개’ 정치 부패 | 정계를 정화하고 금권 정치를 끝내야 | 개별 사건, 정권 안정이 우선
+en “Black mist” corruption | Clean up politics and end money politics | Isolated cases; stability first
+ja 「黒い霧」と政治腐敗 | 政界を浄化し金権政治を終わらせる | 個別の事件、政権の安定が先
+
+== dip s 1965.2 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 kmt=-0.6 ldp=0.8
+ko 베트남 전쟁 | 북폭과 미군 기지 사용에 반대 | 미국 정책을 지지
+en The Vietnam War | Oppose the bombing of the North and use of US bases | Support US policy
+ja ベトナム戦争 | 北爆と米軍基地の使用に反対 | 米国の政策を支持
+
+== dip s 1965.6 jsp>ldp : jcp=-1 jsp=-1 dsp=0.3 kmt=-0.3 ldp=1
+ko 한일기본조약 | 반대한다 | 비준을 지지
+en Treaty on Basic Relations with South Korea | Against it | Support ratification
+ja 日韓基本条約 | 反対する | 批准を支持
+
+== eco e . kmt>ldp : jcp=-1 jsp=-0.9 dsp=-0.7 kmt=-0.8 ldp=0.6
+ko 물가 상승 | 공공요금 동결과 물가 억제 | 성장을 유지하며 대응
+en Rising prices | Freeze public charges and curb prices | Respond while keeping growth
+ja 物価上昇 | 公共料金の凍結と物価抑制 | 成長を保ちつつ対応
+
+== reg e 1967.1 jsp>ldp : jcp=-1 jsp=-1 dsp=-0.6 kmt=-0.8 ldp=0.6
+ko 공해 대책 | 공해 기본법과 기업 책임을 엄격히 | 산업과의 조화
+en Pollution | A basic pollution law and strict corporate liability | Harmony with industry
+ja 公害対策 | 公害基本法と企業責任を厳しく | 産業との調和
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.4 kmt=-0.6 ldp=0.9
+ko 오키나와 반환 | 기지 없이 즉시 반환 | 기지를 유지하며 단계적 반환
+en Return of Okinawa | Immediate return without bases | Gradual return, keeping the bases
+ja 沖縄返還 | 基地のない即時返還 | 基地を維持し段階的に返還
+
+== wel e . kmt>ldp : jcp=-1 jsp=-1 dsp=-0.7 kmt=-1 ldp=0.3
+ko 아동수당·복지 | 아동수당과 복지를 넓혀야 | 단계적으로
+en Child allowance and welfare | Expand child allowance and welfare | Step by step
+ja 児童手当・福祉 | 児童手当と福祉を広げるべき | 段階的に
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 dsp=-0.3 kmt=-0.6 ldp=0.6
+ko 헌법 개정 | 반대한다 | 검토해야 한다
+en Constitutional revision | Against it | Study it
+ja 憲法改正 | 反対する | 検討すべき
+
+== pol . . kmt>ldp : jcp=-1 jsp=-1 dsp=-0.8 kmt=-1 ldp=0.6
+ko 소선거구제 | 반대한다 | 도입해야 한다
+en Single-member districts | Against them | Introduce them
+ja 小選挙区制 | 反対する | 導入すべき
+
+== pol . 1966.8 kmt>ldp : jcp=-1 jsp=-0.6 kmt=-1 dsp=-0.6 ldp=0.8
+ko 기업·단체 헌금 금지 | 기업·단체 헌금을 금지해 금권 정치를 끊어야 | 정당 활동에 필요하다, 한도 규제면 충분
+en Banning corporate and group donations | Ban them to end money politics | Parties need them; caps are enough
+ja 企業・団体献金の禁止 | 企業・団体献金を禁止し金権政治を断つべき | 政党活動に必要、上限規制で十分
+
+== pol . . jcp>kmt : jcp=-0.8 jsp=-0.5 kmt=1 dsp=-0.4 ldp=-0.3
+ko 종교 단체와 정당 | 종교 단체가 정당을 직접 움직이는 것은 정교분리에 어긋난다 | 신앙인도 정당을 만들어 정치에 참여할 자유가 있다
+en Religious groups and parties | A religious organisation running a party conflicts with separation of religion and state | Believers are free to form parties and take part in politics
+ja 宗教団体と政党 | 宗教団体が政党を直接動かすのは政教分離に反する | 信仰者も政党を作り政治に参加する自由がある
+
+== con s 1965.2 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.7 dsp=-0.2 ldp=0.8
+ko 미쓰야 연구 | 자위대의 비밀 유사 작전 연구는 문민 통제 위반 | 유사시에 대비한 연구는 당연하다
+en The Mitsuya Study | Secret SDF contingency planning violates civilian control | Planning for emergencies is only natural
+ja 三矢研究 | 自衛隊の秘密の有事作戦研究は文民統制違反 | 有事に備えた研究は当然
+
+== con s 1964.10 jsp>ldp : jcp=-0.6 jsp=-1 kmt=-0.9 dsp=-0.4 ldp=0.7
+ko 중국 핵실험과 비핵 | 어떤 경우에도 핵을 갖지 않는다는 원칙을 법으로 정해야 | 미국의 핵우산으로 억지하고 핵 논의를 막아선 안 된다
+en China's bomb and non-nuclear policy | Make never possessing nuclear weapons a matter of law | Rely on the US nuclear umbrella and do not ban nuclear debate
+ja 中国の核実験と非核 | いかなる場合も核を持たない原則を法で定めるべき | 米国の核の傘で抑止し核論議を封じるべきでない
+
+== con s . jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.3 ldp=0.8
+ko 기지와 베트남 전쟁 | 일본·오키나와 기지가 베트남 전쟁에 쓰이는 것을 막아야 | 안보조약에 따른 미군의 기지 사용은 인정해야
+en Bases and the Vietnam War | Stop bases in Japan and Okinawa being used for the Vietnam War | US use of bases under the treaty must be accepted
+ja 基地とベトナム戦争 | 日本・沖縄の基地がベトナム戦争に使われるのを止めるべき | 安保条約に基づく米軍の基地使用は認めるべき
+
+== dip s 1965.11 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.9 dsp=-0.3 ldp=0.7
+ko 중국의 유엔 대표권 | 중화인민공화국의 유엔 대표권을 인정해야 | 중요 사항 지정으로 대만의 의석을 지켜야
+en China's UN seat | Recognise the People's Republic's right to the UN seat | Protect Taiwan's seat by making it an "important question"
+ja 中国の国連代表権 | 中華人民共和国の国連代表権を認めるべき | 重要事項指定で台湾の議席を守るべき
+
+== dip e 1966.11 jsp>ldp : jcp=-1 jsp=-0.8 kmt=-0.3 dsp=0.4 ldp=0.9
+ko 아시아 개발 원조 | 원조가 반공 정권 지원과 기업 진출의 수단이 되어선 안 된다 | 아시아개발은행 등으로 아시아 개발을 이끌어야
+en Development aid to Asia | Aid must not become a tool for propping up anti-communist regimes and corporate expansion | Lead Asian development through the Asian Development Bank and more
+ja アジア開発援助 | 援助が反共政権支援と企業進出の手段になってはならない | アジア開発銀行などでアジアの開発を主導すべき
+
+== dip s 1965.6 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.5 dsp=0 ldp=0.8
+ko 재일 한국·조선인의 지위 | 국적과 상관없이 모두에게 같은 영주권과 권리를 | 협정대로 한국 국적자에게 협정 영주를 주면 된다
+en Status of Korean residents | Give the same permanent residency and rights to all, whatever their nationality | Grant treaty-based residency to South Korean nationals as agreed
+ja 在日韓国・朝鮮人の地位 | 国籍に関係なく全員に同じ永住権と権利を | 協定どおり韓国籍者に協定永住を与えればよい
+
+== eco e 1965.11 jsp>ldp : jcp=-0.9 jsp=-0.8 kmt=-0.6 dsp=-0.2 ldp=0.8
+ko 국채 발행 | 전후 처음의 국채 발행은 인플레와 재정 규율의 붕괴를 부른다 | 불황을 넘기 위해 건설 국채를 발행해야
+en Issuing government bonds | The first postwar bond issue invites inflation and fiscal indiscipline | Issue construction bonds to overcome the recession
+ja 国債発行 | 戦後初の国債発行はインフレと財政規律の崩壊を招く | 不況を乗り越えるため建設国債を発行すべき
+
+== eco e 1965.5 jsp>ldp : jcp=-1 jsp=-0.9 kmt=-0.8 dsp=-0.3 ldp=0.8
+ko 야마이치 증권 특별 융자 | 증권사를 일본은행 돈으로 구제하는 것은 특혜 | 금융 공황을 막으려면 특별 융자는 불가피
+en Special loans to Yamaichi Securities | Rescuing a brokerage with Bank of Japan money is favouritism | Special loans are unavoidable to prevent a financial panic
+ja 山一証券への特別融資 | 証券会社を日銀資金で救済するのは特恵 | 金融恐慌を防ぐため特融はやむを得ない
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.8 kmt=-0.4 dsp=0 ldp=0.7
+ko 자본 자유화 | 외국 기업 진출로 국내 산업이 지배될 수 있다, 신중히 | 자본 자유화로 경쟁과 투자를 늘려야
+en Capital liberalisation | Foreign firms could dominate domestic industry; go slowly | Liberalise capital to boost competition and investment
+ja 資本自由化 | 外国企業の進出で国内産業が支配されかねない、慎重に | 資本自由化で競争と投資を増やすべき
+
+== wel e 1965.5 kmt>ldp : jcp=-1 jsp=-1 kmt=-1 dsp=-0.7 ldp=0.3
+ko 1만 엔 연금 | 연금을 더 올리고 국고 부담을 늘려야 | 보험료와 재정의 균형 속에 단계적으로 올려야
+en The ¥10,000 pension | Raise pensions further with more state funding | Raise them step by step, balancing premiums and finances
+ja 1万円年金 | 年金をさらに引き上げ国庫負担を増やすべき | 保険料と財政の均衡の中で段階的に引き上げるべき
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 kmt=-0.9 dsp=-0.6 ldp=0.7
+ko 건강보험 적자 | 적자를 환자 부담 인상으로 메워선 안 된다 | 건강보험 재정을 위해 본인 부담을 올려야
+en Health insurance deficits | Do not cover the deficit by raising patient charges | Raise co-payments to keep health insurance solvent
+ja 健康保険の赤字 | 赤字を患者負担の引き上げで埋めるべきでない | 健保財政のため本人負担を引き上げるべき
+
+== wel e 1965.5 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.4 dsp=-0.3 ldp=0.9
+ko 공무원 파업권 | ILO 87호 비준에 맞춰 공무원 파업권을 회복해야 | 공무원의 파업 금지는 유지해야
+en Strike rights for public employees | Restore public employees' right to strike in line with ILO Convention 87 | Keep the strike ban for public employees
+ja 公務員のスト権 | ILO87号批准に合わせ公務員のスト権を回復すべき | 公務員の争議行為禁止は維持すべき
+
+== soc s 1966.12 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.5 dsp=0.2 ldp=0.9
+ko 건국기념일 | 신화에 기댄 기원절 부활은 전전 회귀 | 나라의 시작을 기념하는 날은 당연히 필요하다
+en National Foundation Day | Reviving Kigensetsu, based on myth, is a return to the prewar era | A day marking the nation's founding is natural
+ja 建国記念の日 | 神話に基づく紀元節の復活は戦前回帰 | 国の始まりを祝う日は当然必要
+
+== soc s 1965.6 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.4 dsp=-0.1 ldp=0.9
+ko 이에나가 교과서 재판 | 교과서 검정은 검열이며 위헌이다 | 교육 수준을 지키기 위한 검정은 합헌이다
+en The Ienaga textbook lawsuit | Textbook screening is censorship and unconstitutional | Screening to maintain educational standards is constitutional
+ja 家永教科書裁判 | 教科書検定は検閲であり違憲 | 教育水準を守るための検定は合憲
+
+== soc s 1966.10 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.4 dsp=0 ldp=0.8
+ko '기대되는 인간상' | 국가가 바람직한 인간상을 정하는 것은 사상 통제 | 애국심을 담은 인간상을 교육의 지침으로 삼아야
+en "The Image of the Ideal Japanese" | The state defining the ideal person is thought control | Use an ideal that includes patriotism as a guide for education
+ja 「期待される人間像」 | 国家が望ましい人間像を定めるのは思想統制 | 愛国心を盛り込んだ人間像を教育の指針に
+
+== soc e . jsp>ldp : jcp=-1 jsp=-1 kmt=-0.8 dsp=-0.5 ldp=0.4
+ko 대학 학비 인상 | 학비 인상에 반대하고 국가가 사립대를 지원해야 | 사학 경영을 위해 학비 인상은 불가피하다
+en University fee rises | Oppose fee rises; the state should support private universities | Fee rises are unavoidable to keep private universities afloat
+ja 大学の学費値上げ | 学費値上げに反対し国が私大を支援すべき | 私学経営のため学費値上げはやむを得ない
+
+== reg e 1966.7 jsp>ldp : jcp=-1 jsp=-1 kmt=-0.6 dsp=-0.1 ldp=0.9
+ko 신도쿄 국제공항(나리타) | 주민 동의 없이 결정한 공항 계획은 철회해야 | 국제 공항은 국가적 사업, 추진해야
+en New Tokyo International Airport (Narita) | Withdraw a plan decided without residents' consent | An international airport is a national project; go ahead
+ja 新東京国際空港（成田） | 住民の同意なく決めた空港計画は撤回すべき | 国際空港は国家的事業、推進すべき
+
+== reg e . jsp>ldp : jcp=-0.8 jsp=-0.8 kmt=-0.6 dsp=-0.2 ldp=0.3
+ko 과소와 과밀 | 대도시 집중을 막고 과소 지역에 국가 투자를 | 사람이 몰리는 대도시의 기반 정비가 먼저
+en Depopulation and congestion | Curb big-city concentration and invest in depopulating areas | Building infrastructure where people are moving comes first
+ja 過疎と過密 | 大都市集中を抑え過疎地域に国が投資すべき | 人が集まる大都市の基盤整備が先
+
+== reg e . jsp>dsp : jcp=-0.7 jsp=-0.8 kmt=-0.4 dsp=0.3 ldp=-0.2
+ko 쌀값과 식관 적자 | 생산자 쌀값을 올려 농가 소득을 지켜야 | 식량관리 적자를 줄이려면 쌀값 인상을 억제해야
+en Rice prices and the food-control deficit | Raise producer rice prices to protect farm incomes | Restrain increases to cut the food-control deficit
+ja 米価と食管赤字 | 生産者米価を上げ農家所得を守るべき | 食管赤字を減らすため米価の引き上げを抑えるべき

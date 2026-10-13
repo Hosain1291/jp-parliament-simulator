@@ -1,0 +1,204 @@
+# 제46회 중의원 총선 (2012.12.16) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) sdp=사회민주당(-0.85) mirai12=일본 미래의 당(-0.5) dpj=민주당(-0.25) daichi=신당 다이치(-0.1) pnp=국민신당(0.3) your=모두의 당(0.4) kmt=공명당(0.15) jrp=일본유신회(0.6) ldp=자유민주당(0.75) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== reg e 2011.3 mirai12>ldp : jcp=-1 sdp=-1 mirai12=-1 dpj=-0.6 daichi=-0.6 pnp=0.5 your=-0.7 kmt=-0.4 jrp=0 ldp=0.8
+ko 원전 정책 | 원전은 단계적으로라도 없애야 한다 | 안전이 확인된 원전은 재가동
+en Nuclear policy | Phase out nuclear power, even gradually | Restart reactors confirmed safe
+ja 原発政策 | 原発は段階的にでもなくすべき | 安全が確認された原発は再稼働
+
+== eco e 2012.8 mirai12>dpj : jcp=-1 sdp=-1 mirai12=-1 dpj=0.8 daichi=-0.8 pnp=-0.5 your=-0.9 kmt=0.8 jrp=-0.2 ldp=0.8
+ko 소비세 8·10% 인상 | 증세에 반대한다 | 사회보장·세 일체개혁 3당 합의대로
+en Raising the consumption tax to 8 and 10% | Against the tax rise | As agreed by the three parties for integrated reform
+ja 消費税8・10%への引き上げ | 増税に反対する | 社会保障と税の一体改革の3党合意どおり
+
+== eco e 2011.11 jcp>your : jcp=-1 sdp=-1 mirai12=-0.9 dpj=0.3 daichi=-1 pnp=-1 your=0.9 kmt=0 jrp=0.6 ldp=-0.2
+ko TPP 교섭 참가 | 농업과 의료를 지키려면 참가하지 않아야 | 자유무역으로 성장, 교섭에 참가
+en Joining TPP talks | Stay out to protect farming and health care | Join for growth through free trade
+ja TPP交渉参加 | 農業と医療を守るため参加すべきでない | 自由貿易で成長、交渉に参加
+
+== eco e 2012.11 jcp>ldp : jcp=-0.9 sdp=-0.7 mirai12=-0.4 dpj=-0.5 your=0.8 kmt=0.3 jrp=0.3 ldp=1
+ko 대담한 금융완화 | 일본은행 독립성과 부작용이 우려된다 | 물가 2% 목표, 무제한 완화로 디플레 탈출
+en Bold monetary easing | Worried about BOJ independence and side effects | A 2% inflation target and unlimited easing to end deflation
+ja 大胆な金融緩和 | 日銀の独立性と副作用が心配 | 物価2%目標と無制限緩和でデフレ脱却
+
+== con s 2012.4 sdp>ldp : jcp=-1 sdp=-1 mirai12=-0.6 dpj=-0.4 your=0.2 kmt=-0.4 jrp=0.8 ldp=0.9
+ko 헌법 9조와 국방군 | 개헌에 반대한다 | 국방군을 헌법에 명기해야 한다
+en Article 9 and a national defence force | Against revision | Write a national defence force into the constitution
+ja 憲法9条と国防軍 | 改憲に反対する | 国防軍を憲法に明記すべき
+
+== con s . kmt>ldp : jcp=-1 sdp=-1 mirai12=-0.6 dpj=-0.3 your=0.4 kmt=-0.6 jrp=0.8 ldp=0.9
+ko 집단적 자위권 | 행사할 수 없다는 해석을 유지 | 행사를 용인해야 한다
+en Collective self-defence | Keep the view that it cannot be exercised | Allow it
+ja 集団的自衛権 | 行使できないという解釈を維持 | 行使を容認すべき
+
+== dip s 2012.9 sdp>jrp : jcp=-0.4 sdp=-0.8 mirai12=-0.5 dpj=-0.2 your=0.4 kmt=-0.5 jrp=0.9 ldp=0.7
+ko 센카쿠 국유화와 중국 | 대화로 긴장을 낮춰야 한다 | 공무원 상주 등 실효 지배를 강화
+en Nationalising the Senkakus and China | Lower tensions through dialogue | Strengthen control, including stationing officials
+ja 尖閣国有化と中国 | 対話で緊張を下げるべき | 公務員常駐など実効支配を強化
+
+== reg . 2012.8 jcp>jrp : jcp=-0.8 sdp=-0.6 dpj=-0.1 your=0.8 kmt=0.1 jrp=1 ldp=0.2
+ko 오사카도 구상·도주제 | 지금의 지방 제도를 유지 | 도주제와 재원 이양으로 지방 분권
+en Osaka Metropolis and regional states | Keep the current local system | Decentralise with states and transferred revenue
+ja 大阪都構想・道州制 | 今の地方制度を維持 | 道州制と財源移譲で地方分権
+
+== reg e 2012.6 your>ldp : jcp=-0.5 sdp=-0.3 mirai12=-0.5 dpj=-0.6 your=-0.9 kmt=0.7 jrp=-0.6 ldp=1
+ko 국토강인화 | 공공사업 확대에 반대 | 10년 동안 방재 인프라에 대규모 투자
+en National resilience | Against expanding public works | Invest heavily in disaster infrastructure for ten years
+ja 国土強靱化 | 公共事業の拡大に反対 | 10年間で防災インフラに大規模投資
+
+== pol . 2012.11 kmt>jrp : jcp=-1 sdp=-1 dpj=0.6 your=0.9 kmt=-0.7 jrp=1 ldp=0.4
+ko 국회의원 정수 삭감 | 소수 의견을 담는 비례 정수는 지켜야 | 의원 수를 크게 줄여야 한다
+en Cutting the number of MPs | Keep proportional seats that represent minorities | Cut the number of members sharply
+ja 国会議員の定数削減 | 少数意見を反映する比例定数は守るべき | 議員数を大幅に減らすべき
+
+== wel e 2012.5 jcp>ldp : jcp=-1 sdp=-1 mirai12=-0.7 dpj=-0.3 your=0.4 kmt=0.2 jrp=0.6 ldp=0.8
+ko 생활보호 기준 인하 | 기준 인하에 반대한다 | 부정수급 대책과 함께 기준을 낮춘다
+en Lower welfare benefits | Against cutting the benefit standard | Lower it along with fraud measures
+ja 生活保護基準の引き下げ | 基準の引き下げに反対 | 不正受給対策とあわせて基準を下げる
+
+== dip s 2012.8 sdp>jrp : jcp=-1 sdp=-1 mirai12=-0.6 dpj=-0.6 your=0.3 kmt=-0.6 jrp=0.9 ldp=0.5
+ko 위안부 고노 담화 | 담화를 이어가야 한다 | 담화를 재검토해야 한다
+en The Kōno statement on comfort women | Keep it | Review it
+ja 慰安婦をめぐる河野談話 | 談話を引き継ぐべき | 談話を見直すべき
+
+== pol . . your>ldp : jcp=-1 sdp=-0.6 mirai12=-0.6 dpj=-0.4 your=-0.8 kmt=0.2 jrp=-0.4 ldp=0.8
+ko 기업·단체 헌금 | 기업·단체 헌금을 금지 | 투명하게 공개하며 허용
+en Corporate and group donations | Ban them | Allow them with full disclosure
+ja 企業・団体献金 | 企業・団体献金を禁止 | 透明に公開しつつ認める
+
+== pol . 2009.11 jcp>your : jcp=-0.6 sdp=-0.3 mirai12=0 dpj=0.6 daichi=0 pnp=-0.3 your=0.8 kmt=0 jrp=0.7 ldp=-0.3
+ko 사업 분류(행정 쇄신) | 공개 사업 분류는 보여주기식, 필요한 사업까지 깎았다 | 예산의 낭비를 공개적으로 따지는 사업 분류를 넓혀야
+en Public budget screenings | The screenings were showmanship that cut needed programmes | Expand public scrutiny of wasteful spending
+ja 事業仕分け | 公開の仕分けはパフォーマンス、必要な事業まで削った | 予算の無駄を公開で問う事業仕分けを広げるべき
+
+== pol . . dpj>ldp : jcp=-0.5 sdp=-0.4 mirai12=-0.9 dpj=-0.6 daichi=-0.5 pnp=0 your=0.5 kmt=0.5 jrp=0.5 ldp=0.9
+ko 매니페스토 파기 | 재원 부족 속 공약 수정은 책임 있는 판단 | 약속을 지키지 못한 정권은 국민의 심판을 받아야
+en Abandoning manifesto pledges | Revising pledges amid funding shortfalls was responsible | A government that broke its promises deserves the voters' verdict
+ja マニフェストの破綻 | 財源不足の中での公約修正は責任ある判断 | 約束を守れなかった政権は国民の審判を受けるべき
+
+== pol . 2012.11 jcp>ldp : jcp=-1 sdp=-0.9 mirai12=-0.6 dpj=0.3 daichi=-0.5 pnp=0 your=-0.3 kmt=-0.3 jrp=-0.2 ldp=0.6
+ko 0증 5감 | 미봉책 말고 1표 격차를 근본적으로 고치는 제도 개혁을 | 위헌 상태 해소를 위해 우선 0증 5감을 해야
+en "Zero up, five down" | Fix vote-weight gaps fundamentally rather than with a stopgap | Cut five seats first to end the unconstitutional state
+ja 0増5減 | 弥縫策でなく一票の格差を抜本的に正す制度改革を | 違憲状態の解消のためまず0増5減を
+
+== con s 2010.5 sdp>ldp : jcp=-1 sdp=-1 mirai12=-0.8 dpj=-0.2 daichi=-0.6 pnp=-0.2 your=0.3 kmt=-0.2 jrp=0.6 ldp=0.8
+ko 후텐마 '최소 현외' | 오키나와 밖 이설 약속을 지켜야 했다 | 헤노코 이설이 현실적인 유일한 방안이다
+en Futenma "at least outside Okinawa" | The promise to move it out of Okinawa should have been kept | Relocation to Henoko is the only realistic option
+ja 普天間「最低でも県外」 | 県外移設の約束を守るべきだった | 辺野古移設が現実的な唯一の方策
+
+== con s 2012.10 sdp>ldp : jcp=-1 sdp=-1 mirai12=-0.8 dpj=0.2 daichi=-0.4 pnp=0 your=0.3 kmt=0 jrp=0.6 ldp=0.8
+ko 오스프리 배치 | 사고가 잇따르는 오스프리의 오키나와 배치에 반대 | 억지력 강화를 위해 배치를 받아들여야
+en Deploying the Osprey | Oppose deploying the accident-prone Osprey to Okinawa | Accept deployment to strengthen deterrence
+ja オスプレイ配備 | 事故が相次ぐオスプレイの沖縄配備に反対 | 抑止力強化のため配備を受け入れるべき
+
+== con s 2011.12 sdp>ldp : jcp=-1 sdp=-1 mirai12=-0.6 dpj=0.4 daichi=-0.2 pnp=0.2 your=0.5 kmt=-0.2 jrp=0.7 ldp=0.8
+ko 무기 수출 3원칙 완화 | 국제 공동 개발 허용은 평화 국가의 원칙을 무너뜨린다 | 국제 공동 개발·생산을 위해 원칙을 완화해야
+en Loosening the arms-export principles | Allowing joint development abroad undermines a peace-nation principle | Loosen the rules to allow international joint development and production
+ja 武器輸出三原則の緩和 | 国際共同開発の容認は平和国家の原則を崩す | 国際共同開発・生産のため原則を緩和すべき
+
+== dip s 2012.8 sdp>jrp : jcp=-0.2 sdp=-0.7 mirai12=-0.3 dpj=0.3 daichi=0 pnp=0.5 your=0.5 kmt=0 jrp=0.9 ldp=0.7
+ko 한국 대통령 다케시마 방문 | 대화로 냉정하게 대응해야 | 국제사법재판소 제소 등 강하게 대응해야
+en The Korean president's visit to Takeshima | Respond calmly through dialogue | Respond firmly, including taking it to the ICJ
+ja 韓国大統領の竹島上陸 | 対話で冷静に対応すべき | 国際司法裁判所への提訴など強く対応すべき
+
+== dip s 2010.11 sdp>jrp : jcp=0.3 sdp=-0.6 mirai12=-0.3 dpj=0.2 daichi=-0.5 pnp=0.4 your=0.4 kmt=0.2 jrp=0.8 ldp=0.6
+ko 러시아 정상의 북방 영토 방문 | 경제 협력을 넓혀 대화로 영토 교섭을 이어가야 | 실효 지배 강화에 강하게 항의해야
+en The Russian president's visit to the Northern Territories | Broaden economic ties and keep negotiating through dialogue | Protest strongly against tightening Russian control
+ja ロシア大統領の北方領土訪問 | 経済協力を広げ対話で領土交渉を続けるべき | 実効支配の強化に強く抗議すべき
+
+== dip s 2010.9 dpj>jrp : jcp=0.5 sdp=-0.3 mirai12=0 dpj=-0.6 daichi=-0.2 pnp=0.5 your=0.6 kmt=0.3 jrp=0.9 ldp=0.8
+ko 센카쿠 어선 충돌과 선장 석방 | 관계 악화를 막기 위한 석방은 불가피했다 | 중국의 압력에 굴복한 석방은 잘못이었다
+en The Senkaku trawler collision and the captain's release | Releasing him was unavoidable to stop relations collapsing | Freeing him under Chinese pressure was a mistake
+ja 尖閣漁船衝突と船長釈放 | 関係悪化を防ぐための釈放はやむを得なかった | 中国の圧力に屈した釈放は誤りだった
+
+== dip e . sdp>jrp : jcp=-0.4 sdp=-0.7 mirai12=-0.4 dpj=-0.2 daichi=-0.3 pnp=0 your=0.3 kmt=-0.3 jrp=0.8 ldp=0.5
+ko 대중국 경제 관계 | 경제 상호 의존을 살려 관계를 안정시켜야 | 중국 의존을 줄이고 공급망을 분산해야
+en Economic ties with China | Build on interdependence to stabilise relations | Reduce dependence on China and diversify supply chains
+ja 対中経済関係 | 経済の相互依存を生かし関係を安定させるべき | 中国依存を減らしサプライチェーンを分散すべき
+
+== eco e 2011.10 jcp>ldp : jcp=-0.6 sdp=-0.5 mirai12=-0.3 dpj=-0.2 daichi=-0.3 pnp=0.4 your=0.6 kmt=0.2 jrp=0.3 ldp=0.7
+ko 초엔고 대응 | 엔고 이익을 가계에 돌리고 중소기업을 지원해야 | 과감한 개입과 금융 완화로 엔고를 바로잡아야
+en Responding to the super-strong yen | Pass the strong yen's benefits to households and support small firms | Correct it with bold intervention and monetary easing
+ja 超円高への対応 | 円高の恩恵を家計に回し中小企業を支援すべき | 大胆な介入と金融緩和で円高を是正すべき
+
+== eco e 2011.8 jcp>your : jcp=-1 sdp=-0.9 mirai12=-0.8 dpj=0 daichi=-0.5 pnp=0.2 your=0.7 kmt=0 jrp=0.5 ldp=0.4
+ko 도쿄전력 처리 | 도쿄전력의 법적 정리로 주주와 금융기관에도 책임을 | 배상과 전력 안정을 위해 국가 지원으로 존속시켜야
+en Dealing with TEPCO | Wind TEPCO up legally so shareholders and lenders bear responsibility | Keep it alive with state support for compensation and stable power
+ja 東京電力の処理 | 法的整理で株主や金融機関にも責任を | 賠償と電力安定のため国の支援で存続させるべき
+
+== eco e 2012.4 your>pnp : jcp=0 sdp=0.3 mirai12=0.3 dpj=0.4 daichi=0.2 pnp=0.9 your=-0.9 kmt=0.3 jrp=-0.7 ldp=0.3
+ko 우정 민영화 수정 | 민영화를 후퇴시키는 개정은 개혁 역행 | 전국 서비스를 지키도록 민영화를 손봐야
+en Revising postal privatisation | Rolling back privatisation reverses reform | Adjust privatisation to protect nationwide service
+ja 郵政民営化の見直し | 民営化を後退させる改正は改革の逆行 | 全国サービスを守るため民営化を見直すべき
+
+== wel e 2010.4 dpj>ldp : jcp=-0.2 sdp=-0.5 mirai12=-0.8 dpj=-0.9 daichi=-0.4 pnp=-0.2 your=0.6 kmt=0 jrp=0.6 ldp=0.7
+ko 어린이 수당 | 소득과 관계없이 모든 아이에게 수당을 | 소득 제한을 되살리고 보육 서비스에 돈을 써야
+en Child allowance | Pay an allowance for every child regardless of income | Restore income limits and spend on childcare services
+ja 子ども手当 | 所得に関係なくすべての子どもに手当を | 所得制限を復活し保育サービスにお金を使うべき
+
+== wel e . dpj>ldp : jcp=-0.6 sdp=-0.8 mirai12=-0.9 dpj=-0.8 daichi=-0.5 pnp=-0.2 your=0.3 kmt=0.2 jrp=0.3 ldp=0.8
+ko 최저 보장 연금 | 세금으로 월 7만 엔 최저 보장 연금을 | 현행 제도를 손보는 것이 현실적, 재원 없는 공약은 무책임
+en A guaranteed minimum pension | A tax-funded ¥70,000 monthly minimum pension | Fixing the current system is realistic; unfunded pledges are irresponsible
+ja 最低保障年金 | 税で月7万円の最低保障年金を | 現行制度の手直しが現実的、財源なき公約は無責任
+
+== wel e 2012.3 jcp>your : jcp=-1 sdp=-1 mirai12=-0.8 dpj=-0.5 daichi=-0.5 pnp=-0.2 your=0.7 kmt=0 jrp=0.7 ldp=0.6
+ko 파견법 개정 | 제조업 파견과 등록형 파견까지 금지해야 | 일용 파견 금지 정도에 그쳐야, 과도한 규제는 고용을 줄인다
+en Revising the dispatch law | Ban manufacturing and registered-type agency work too | Stop at banning day-labour dispatch; overregulation cuts jobs
+ja 派遣法改正 | 製造業派遣と登録型派遣まで禁止すべき | 日雇い派遣の禁止程度にとどめるべき、過剰規制は雇用を減らす
+
+== wel e . jcp>ldp : jcp=-1 sdp=-1 mirai12=-0.8 dpj=-0.7 daichi=-0.6 pnp=-0.4 your=0 kmt=-0.6 jrp=0.2 ldp=0.3
+ko 보육 대기 아동 | 인가 보육소를 국가 책임으로 크게 늘려야 | 규제 완화로 민간 보육 진입을 늘려야
+en Children waiting for day care | The state should greatly expand licensed nurseries | Deregulate to bring in more private providers
+ja 保育待機児童 | 認可保育所を国の責任で大幅に増やすべき | 規制緩和で民間保育の参入を増やすべき
+
+== wel e 2012.8 jcp>your : jcp=-1 sdp=-1 mirai12=-0.8 dpj=-0.6 daichi=-0.5 pnp=-0.3 your=0.6 kmt=-0.3 jrp=0.6 ldp=0.5
+ko 유기 고용의 무기 전환 | 5년 무기 전환에 더해 정규 고용을 원칙으로 해야 | 지나친 규제는 고용 축소를 부른다
+en Converting fixed-term jobs to permanent | Beyond five-year conversion, make regular employment the norm | Excessive rules will shrink hiring
+ja 有期雇用の無期転換 | 5年での無期転換に加え正規雇用を原則にすべき | 過度な規制は雇用縮小を招く
+
+== soc s 2010.4 sdp>jrp : jcp=-0.9 sdp=-1 mirai12=-0.6 dpj=-0.3 daichi=-0.3 pnp=0.5 your=0.4 kmt=-0.4 jrp=0.9 ldp=0.8
+ko 조선학교 무상화 제외 | 아이들의 배울 권리를 생각해 조선학교도 대상에 넣어야 | 북한과의 관계를 볼 때 대상에서 빼야
+en Excluding Korean schools from free tuition | Include Korean schools, respecting children's right to learn | Exclude them, given their ties to North Korea
+ja 朝鮮学校の無償化除外 | 子どもの学ぶ権利を考え朝鮮学校も対象にすべき | 北朝鮮との関係から対象外にすべき
+
+== soc s 2012.11 sdp>jrp : jcp=-0.6 sdp=-1 mirai12=-0.6 dpj=-0.8 daichi=-0.4 pnp=0.7 your=0.2 kmt=-0.6 jrp=0.8 ldp=0.8
+ko 인권 위원회 설치 | 독립된 인권 구제 기관을 만들어야 | 표현의 자유를 위협할 수 있다, 신중해야
+en An independent human rights commission | Create an independent body to remedy rights violations | It could threaten free expression; be cautious
+ja 人権委員会設置 | 独立した人権救済機関をつくるべき | 表現の自由を脅かしかねない、慎重に
+
+== soc s 2012.10 sdp>jrp : jcp=-0.3 sdp=-0.6 mirai12=-0.3 dpj=-0.6 daichi=-0.2 pnp=0.6 your=0 kmt=-0.3 jrp=0.8 ldp=0.6
+ko 여성 궁가 창설 | 황족 감소에 대비해 여성 궁가를 만들어야 | 남계 계승의 전통을 지키는 방안을 찾아야
+en Creating female branches of the imperial family | Allow female branches to counter the shrinking imperial family | Find ways to preserve male-line succession
+ja 女性宮家の創設 | 皇族の減少に備え女性宮家を創設すべき | 男系継承の伝統を守る方策を探るべき
+
+== soc s . jcp>jrp : jcp=-1 sdp=-1 mirai12=-0.7 dpj=0 daichi=-0.5 pnp=0.3 your=-0.2 kmt=-0.2 jrp=0.7 ldp=0.8
+ko 비밀 보전 법제 | 국가 비밀 확대는 알 권리와 보도의 자유를 위협한다 | 안보 정보를 지키는 비밀 보전법이 필요하다
+en A state secrets law | Expanding state secrecy threatens the right to know and press freedom | A law protecting security information is needed
+ja 秘密保全法制 | 国家秘密の拡大は知る権利と報道の自由を脅かす | 安保情報を守る秘密保全法が必要
+
+== soc s 2012.7 jcp>jrp : jcp=-0.8 sdp=-0.7 mirai12=-0.4 dpj=-0.3 daichi=-0.2 pnp=0.2 your=0.5 kmt=-0.1 jrp=0.9 ldp=0.6
+ko 오쓰 이지메 사건과 교육위원회 | 교육위원회의 독립성을 지키며 학교의 대응력을 높여야 | 교육위원회를 개혁해 단체장이 교육에 책임지게
+en The Ōtsu bullying case and school boards | Keep boards independent and strengthen schools' response | Reform the boards so elected heads take responsibility for education
+ja 大津いじめ事件と教育委員会 | 教育委員会の独立性を守りつつ学校の対応力を高めるべき | 教育委員会を改革し首長が教育に責任を持つように
+
+== soc s . sdp>jrp : jcp=-0.8 sdp=-0.9 mirai12=-0.6 dpj=-0.6 daichi=-0.4 pnp=0.4 your=0.2 kmt=-0.6 jrp=0.5 ldp=0.4
+ko 헤이트 스피치 | 민족 차별 선동 시위를 법으로 규제해야 | 표현의 자유를 생각해 법 규제는 신중히
+en Hate speech | Regulate demonstrations inciting ethnic hatred by law | Be cautious about legal limits on free expression
+ja ヘイトスピーチ | 民族差別をあおるデモを法律で規制すべき | 表現の自由を考え法規制は慎重に
+
+== reg e 2012.6 mirai12>ldp : jcp=-1 sdp=-1 mirai12=-1 dpj=0.3 daichi=-0.5 pnp=0.5 your=-0.5 kmt=-0.2 jrp=0 ldp=0.8
+ko 오이 원전 재가동 | 안전이 확인되지 않은 재가동에 반대 | 전력 공급을 위해 재가동은 불가피하다
+en Restarting the Ōi nuclear plant | Oppose restarts before safety is confirmed | Restarts are unavoidable to keep power supplies
+ja 大飯原発再稼働 | 安全が確認されない再稼働に反対 | 電力供給のため再稼働はやむを得ない
+
+== reg e 2012.9 your>ldp : jcp=-1 sdp=-1 mirai12=-0.9 dpj=-0.3 daichi=-0.6 pnp=-0.3 your=-0.9 kmt=0.2 jrp=-0.6 ldp=0.4
+ko 부흥 예산 유용 | 피해지와 관계없는 곳에 쓴 부흥 예산은 돌려받아야 | 전국의 방재도 부흥의 일부다
+en Misused reconstruction money | Claw back reconstruction funds spent on unrelated projects | Disaster prevention nationwide is part of reconstruction too
+ja 復興予算の流用 | 被災地と無関係の事業に使った復興予算は返還させるべき | 全国の防災も復興の一部
+
+== reg e 2011.8 jcp>ldp : jcp=-1 sdp=-1 mirai12=-1 dpj=-0.4 daichi=-0.8 pnp=-0.2 your=-0.4 kmt=-0.6 jrp=-0.2 ldp=0.4
+ko 원전 사고 피난자 지원 | 국가가 책임지고 피난자의 생활과 배상을 끝까지 | 귀환과 지역 재건을 서둘러 지원을 단계적으로 정리해야
+en Supporting nuclear evacuees | The state must take responsibility for evacuees' lives and compensation to the end | Hurry returns and rebuilding and wind support down step by step
+ja 原発事故の避難者支援 | 国が責任を持って避難者の生活と賠償を最後まで | 帰還と地域再建を急ぎ支援を段階的に整理すべき

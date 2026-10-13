@@ -1,0 +1,154 @@
+# 제28회 중의원 총선 (1958.5.22) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.6) etc=기타 정파(0) ind=무소속(0) ldp=자유민주당(0.7)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== con s 1957.6 jsp>ldp : jcp=-1 jsp=-1 ldp=0.9
+ko 안보조약 개정 | 안보를 폐기하고 비무장 중립으로 | 대등한 조약으로 개정
+en Revising the security treaty | Scrap it for unarmed neutrality | Revise it into a more equal treaty
+ja 安保条約の改定 | 安保を廃棄して非武装中立へ | 対等な条約に改定
+
+== soc s 1957.12 jsp>ldp : jcp=-1 jsp=-1 ldp=0.9
+ko 교원 근무평정 | 교원을 통제하려는 것, 반대 | 교육 질서를 위해 실시
+en Teacher evaluations | A way to control teachers; oppose | Introduce them for order in schools
+ja 教員の勤務評定 | 教員を統制するもの、反対 | 教育の秩序のため実施
+
+== con s 1957.8 jsp>ldp : jcp=-1 jsp=-1 ldp=0.8
+ko 헌법 개정 | 반대한다 | 헌법조사회에서 개정을 검토
+en Constitutional revision | Against it | Study revision in the Commission on the Constitution
+ja 憲法改正 | 反対する | 憲法調査会で改正を検討
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 ldp=0.4
+ko 국민개보험·국민연금 | 국고 부담을 크게 늘려 서둘러 실현 | 단계적으로
+en Universal health insurance and pensions | Much more state funding, as soon as possible | Step by step
+ja 国民皆保険・国民年金 | 国庫負担を大きく増やして早期実現 | 段階的に
+
+== wel e . jsp>ldp : jcp=-1 jsp=-1 ldp=0.6
+ko 최저임금 | 전국 일률 최저임금을 | 업종별 협정 방식으로
+en Minimum wage | A uniform national minimum wage | Industry-by-industry agreements
+ja 最低賃金 | 全国一律の最低賃金を | 業者間協定方式で
+
+== dip s 1958.5 jsp>ldp : jcp=-1 jsp=-0.9 ldp=0.7
+ko 중국 국교 | 중화인민공화국과 국교를 | 대만(중화민국)과의 관계를 유지
+en Ties with China | Recognise the People’s Republic | Keep ties with Taiwan (Republic of China)
+ja 中国との国交 | 中華人民共和国と国交を | 台湾（中華民国）との関係を維持
+
+== con s 1957.5 jsp>ldp : jcp=-1 jsp=-1 ldp=0.4
+ko 핵무기 | 핵 보유를 금지하고 핵실험에 반대 | 자위 범위 핵 보유는 위헌이 아니다
+en Nuclear weapons | Ban nuclear arms and oppose testing | Nuclear arms for self-defence are not unconstitutional
+ja 核兵器 | 核保有を禁じ核実験に反対 | 自衛の範囲の核保有は違憲ではない
+
+== eco e . jsp>ldp : jcp=-1 jsp=-0.9 ldp=0.8
+ko 성장과 분배 | 분배와 사회보장이 먼저 | 감세와 성장이 먼저
+en Growth or redistribution | Redistribution and social security first | Tax cuts and growth first
+ja 成長と分配 | 分配と社会保障が先 | 減税と成長が先
+
+== pol . 1956.3 jsp>ldp : jcp=-1 jsp=-1 ldp=0.7
+ko 소선거구제 | 거대 여당에 유리, 반대 | 양당제를 위해 도입
+en Single-member districts | They favour the ruling giant; oppose | Introduce them for a two-party system
+ja 小選挙区制 | 巨大与党に有利、反対 | 二大政党制のため導入
+
+== reg . . jsp>ldp : jcp=-0.8 jsp=-0.8 ldp=-0.2
+ko 쌀값과 농가 소득 | 생산자 쌀값을 올려 농가 소득 보장 | 재정 부담을 고려해 억제
+en Rice prices and farm incomes | Raise producer prices to guarantee farm incomes | Restrain them to ease the budget
+ja 米価と農家所得 | 生産者米価を上げ農家所得を保障 | 財政負担を考え抑制
+
+== pol . 1955.11 jsp>ldp : jcp=-0.8 jsp=-0.9 ldp=0.9
+ko 55년 체제 | 보수 일당 우위를 끝내고 정권 교체가 가능해야 | 보수 합동으로 정치가 안정되었다
+en The 1955 system | End conservative one-party dominance and make alternation possible | The conservative merger has brought political stability
+ja 55年体制 | 保守一党優位を終わらせ政権交代を可能にすべき | 保守合同で政治が安定した
+
+== pol s 1957.2 jsp>ldp : jcp=-1 jsp=-1 ldp=0.8
+ko 기시 총리의 과거 | A급 전범 용의자였던 인물이 총리가 된 것은 문제다 | 기소되지 않았다, 지금의 능력으로 평가해야
+en Prime Minister Kishi's past | A former Class A war crimes suspect should not be prime minister | He was never indicted; judge him on his ability now
+ja 岸首相の過去 | A級戦犯容疑者だった人物が首相になったのは問題 | 起訴されていない、今の能力で評価すべき
+
+== pol . . jsp>ldp : jcp=-1 jsp=-0.9 ldp=0.8
+ko 재계의 정치 헌금 | 재계 헌금이 정치를 좌우한다, 엄하게 규제해야 | 정당 운영에 필요한 정당한 헌금이다
+en Business donations | Business money dominates politics; regulate it strictly | They are legitimate donations parties need to function
+ja 財界の政治献金 | 財界の献金が政治を左右する、厳しく規制すべき | 政党運営に必要な正当な献金
+
+== con s 1957.6 jsp>ldp : jcp=-1 jsp=-1 ldp=0.9
+ko 1차 방위력 정비계획 | 방위력 증강은 9조 위반, 자위대는 줄여야 | 계획적으로 방위력을 키워야
+en First Defence Build-up Plan | Building up forces violates Article 9; shrink the SDF | Build up defence capability systematically
+ja 第1次防衛力整備計画 | 防衛力増強は9条違反、自衛隊は縮小すべき | 計画的に防衛力を整備すべき
+
+== dip s 1956.10 jsp>ldp : jcp=-1 jsp=-0.8 ldp=0.4
+ko 일소 국교 회복 이후 | 일소 공동선언을 발판으로 평화조약을 서둘러야 | 영토 문제 해결 없이 관계를 서둘러선 안 된다
+en After restoring ties with the USSR | Build on the joint declaration and hurry to a peace treaty | Do not rush ties before the territorial issue is solved
+ja 日ソ国交回復後 | 日ソ共同宣言を足場に平和条約を急ぐべき | 領土問題の解決なしに関係を急ぐべきでない
+
+== dip s 1956.10 jsp>ldp : jcp=0.6 jsp=0 ldp=0.8
+ko 북방 영토 | 하보마이·시코탄 두 섬 반환으로 매듭짓자 | 네 섬 일괄 반환을 고수해야
+en Northern Territories | Settle for the return of Habomai and Shikotan | Insist on the return of all four islands together
+ja 北方領土 | 歯舞・色丹の2島返還で決着を | 4島一括返還を堅持すべき
+
+== dip s 1957.1 jsp>ldp : jcp=-1 jsp=-1 ldp=0.6
+ko 지라드 사건 | 미군 범죄는 일본이 엄정히 재판하고 협정을 고쳐야 | 미국과의 신뢰를 위해 원만하게 처리해야
+en The Girard case | Japan must try US servicemen's crimes strictly and revise the agreement | Handle it smoothly to keep trust with the US
+ja ジラード事件 | 米兵犯罪は日本が厳正に裁き協定を改めるべき | 米国との信頼のため円満に処理すべき
+
+== dip e 1958.1 jsp>ldp : jcp=-1 jsp=-0.7 ldp=0.8
+ko 인도네시아 배상 | 배상이 정권 이권과 일본 기업의 이익에 쓰인다 | 배상으로 동남아와 관계를 회복하고 시장을 넓혀야
+en Reparations to Indonesia | Reparations are feeding regime cronies and Japanese firms | Use reparations to restore ties and open markets in Southeast Asia
+ja インドネシア賠償 | 賠償が政権の利権と日本企業の利益に使われる | 賠償で東南アジアとの関係を回復し市場を広げるべき
+
+== eco e 1957.3 jsp>ldp : jcp=-0.7 jsp=-0.8 ldp=0.8
+ko 1천억 엔 감세 | 감세보다 사회보장과 공공 서비스에 써야 | 대규모 감세로 경제에 활력을
+en The ¥100 billion tax cut | Spend on social security and public services instead | A large tax cut will energise the economy
+ja 千億円減税 | 減税より社会保障と公共サービスに使うべき | 大型減税で経済に活力を
+
+== eco e 1957.5 jsp>ldp : jcp=-0.9 jsp=-0.8 ldp=0.7
+ko 금융 긴축 | 긴축이 중소기업을 쓰러뜨린다, 완화해야 | 국제수지 위기를 막으려면 긴축이 필요하다
+en Monetary tightening | Tight money is sinking small businesses; ease it | Tightening is needed to avert a balance-of-payments crisis
+ja 金融引き締め | 引き締めが中小企業を倒す、緩和すべき | 国際収支の危機を防ぐため引き締めが必要
+
+== eco e 1957.11 jsp>ldp : jcp=-1 jsp=-0.9 ldp=0.3
+ko 중소기업 보호 | 대기업과 백화점 진출을 막아 중소 상공인을 지켜야 | 경쟁을 통해 효율을 높여야
+en Protecting small business | Restrict big firms and department stores to protect small traders | Raise efficiency through competition
+ja 中小企業保護 | 大企業と百貨店の進出を抑え中小商工業者を守るべき | 競争を通じて効率を高めるべき
+
+== wel e 1957.4 jsp>ldp : jcp=-1 jsp=-1 ldp=0.4
+ko 원폭 피폭자 원호 | 피폭자에게 국가 보상과 생활 지원까지 해야 | 의료 지원 중심으로 하는 것이 맞다
+en Support for atomic bomb survivors | Give survivors state compensation and living support | Medical support is the right focus
+ja 被爆者援護 | 被爆者に国家補償と生活支援まで行うべき | 医療支援を中心にするのが妥当
+
+== wel e 1957.8 jsp>ldp : jcp=-1 jsp=-1 ldp=0.7
+ko 아사히 소송과 생존권 | 생활보호 기준을 헌법이 보장하는 생존권 수준으로 올려야 | 보호 기준은 재정과 생활 수준을 보고 정부가 정한다
+en The Asahi lawsuit and the right to life | Raise assistance to the level the constitution's right to a decent life requires | The government sets standards with regard to finances and living standards
+ja 朝日訴訟と生存権 | 生活保護基準を憲法の生存権の水準に引き上げるべき | 保護基準は財政と生活水準を見て政府が定める
+
+== soc s 1956.6 jsp>ldp : jcp=-1 jsp=-1 ldp=0.9
+ko 교육위원 임명제 | 주민이 뽑는 교육위원 공선제를 지켜야 | 임명제로 교육 행정을 안정시켜야
+en Appointed school boards | Keep elected school boards | Appointment will stabilise education administration
+ja 教育委員任命制 | 住民が選ぶ教育委員公選制を守るべき | 任命制で教育行政を安定させるべき
+
+== soc s 1958.3 jsp>ldp : jcp=-1 jsp=-1 ldp=0.9
+ko 도덕 시간 특설 | 국가가 주도하는 도덕 교육은 수신 과목의 부활 | 도덕 시간을 따로 두어 규범 의식을 길러야
+en A dedicated moral education class | State-led moral education revives prewar shūshin | Set aside time for morals to build a sense of norms
+ja 道徳の時間特設 | 国家主導の道徳教育は修身の復活 | 道徳の時間を設け規範意識を育てるべき
+
+== soc s . jsp>ldp : jcp=-1 jsp=-1 ldp=0.9
+ko 교과서 검정 강화 | 검정 강화는 교육 내용에 대한 국가 통제 | 편향된 교과서를 바로잡아야 한다
+en Stricter textbook screening | Tighter screening means state control of what is taught | Biased textbooks must be corrected
+ja 教科書検定の強化 | 検定強化は教育内容の国家統制 | 偏向した教科書を正すべき
+
+== soc s 1958.4 jsp>ldp : jcp=-0.9 jsp=-0.9 ldp=0.1
+ko 매춘방지법 시행 | 예외 없이 시행하고 여성의 자립 지원을 늘려야 | 업자 사정을 고려해 단계적으로
+en Enforcing the anti-prostitution law | Enforce it without exceptions and expand support for women's independence | Phase it in, considering the businesses affected
+ja 売春防止法の施行 | 例外なく施行し女性の自立支援を増やすべき | 業者の事情を考え段階的に
+
+== reg e 1955.12 jcp>ldp : jcp=-0.9 jsp=-0.3 ldp=0.9
+ko 원자력 발전 도입 | 원자력은 위험하다, 평화 이용도 신중해야 | 원자력 발전으로 에너지 자립을
+en Introducing nuclear power | Nuclear power is dangerous; be cautious even with peaceful use | Achieve energy independence through nuclear power
+ja 原子力発電の導入 | 原子力は危険、平和利用も慎重に | 原子力発電でエネルギー自立を
+
+== reg e 1957.4 jsp>ldp : jcp=-0.8 jsp=-0.5 ldp=0.9
+ko 고속도로 건설 | 고속도로보다 생활 도로와 지방 교통이 먼저 | 고속도로망으로 국토를 개발해야
+en Building expressways | Local roads and transport come before expressways | Develop the country with an expressway network
+ja 高速道路建設 | 高速道路より生活道路と地方交通が先 | 高速道路網で国土を開発すべき
+
+== reg e 1956.5 jsp>ldp : jcp=-1 jsp=-0.9 ldp=0.5
+ko 미나마타병 | 원인 기업의 책임을 밝히고 배출을 즉시 멈춰야 | 원인 규명이 먼저, 섣부른 규제는 산업을 해친다
+en Minamata disease | Hold the responsible company to account and stop the discharges now | Establish the cause first; hasty regulation hurts industry
+ja 水俣病 | 原因企業の責任を明らかにし排出を直ちに止めるべき | 原因究明が先、性急な規制は産業を損なう

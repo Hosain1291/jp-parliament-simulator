@@ -1,0 +1,154 @@
+# 제23회 중의원 총선 (1947.4.25) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) jsp=일본사회당(-0.45) nomin=일본농민당(0) kokkyo=국민협동당(0.05) etc=기타 정파(0) ind=무소속(0) minshu47=민주당(0.25) jiyu46=일본자유당(0.55)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== eco e 1947.1 jsp>jiyu46 : jcp=-1 jsp=-0.9 nomin=-0.2 kokkyo=-0.4 minshu47=-0.1 jiyu46=0.9
+ko 탄광 국가관리 | 탄광을 국가가 관리해 증산해야 | 민영을 유지해야
+en State control of coal mines | Put the mines under the state to raise output | Keep them private
+ja 炭鉱国家管理 | 炭鉱を国家管理して増産を | 民営を維持すべき
+
+== eco e . jsp>jiyu46 : jcp=-1 jsp=-0.8 nomin=0 kokkyo=-0.4 minshu47=0 jiyu46=0.9
+ko 통제경제와 자유경제 | 물가·배급 통제를 강화해야 | 통제를 풀고 자유경제로
+en Controlled or free economy | Tighten price and ration controls | Lift controls for a free economy
+ja 統制経済と自由経済 | 物価・配給の統制を強めるべき | 統制を外し自由経済へ
+
+== wel e 1947.1 jcp>jiyu46 : jcp=-1 jsp=-0.4 nomin=0.2 kokkyo=0.4 minshu47=0.7 jiyu46=0.9
+ko 2·1 총파업 | 노동자 생활을 위한 정당한 투쟁 | 경제를 마비시키는 정치 파업
+en The February 1 general strike | A legitimate fight for workers’ livelihoods | A political strike that would paralyse the economy
+ja 二・一ゼネスト | 労働者の生活を守る正当な闘い | 経済をまひさせる政治スト
+
+== con . 1946.11 jsp>jcp : jcp=0.6 jsp=-0.9 nomin=-0.3 kokkyo=-0.6 minshu47=-0.5 jiyu46=-0.4
+ko 헌법 제9조 | 전쟁과 군대 보유 포기를 지지 | 자위권까지 포기해서는 안 된다
+en Article 9 | Support renouncing war and armed forces | We must not give up the right of self-defence
+ja 憲法第9条 | 戦争と戦力の放棄を支持 | 自衛権まで放棄してはならない
+
+== reg e 1946.10 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.6 kokkyo=-0.4 minshu47=0 jiyu46=0.5
+ko 2차 농지개혁 | 철저히 실시해야 | 지주 보상을 고려해야
+en Second land reform | Carry it out thoroughly | Consider compensation for landlords
+ja 第二次農地改革 | 徹底して実施すべき | 地主への補償を考慮すべき
+
+== wel e 1947.4 jsp>jiyu46 : jcp=-1 jsp=-1 nomin=-0.4 kokkyo=-0.5 minshu47=-0.2 jiyu46=0.4
+ko 노동기준법 | 8시간 노동 등 노동 보호를 확실히 | 산업 부흥을 위해 유연하게
+en Labour Standards Law | Firm labour protection such as the 8-hour day | Flexibility for industrial recovery
+ja 労働基準法 | 8時間労働など労働保護を確実に | 産業復興のため柔軟に
+
+== soc s . jcp>jiyu46 : jcp=-1 jsp=0.1 nomin=0.6 kokkyo=0.6 minshu47=0.7 jiyu46=0.9
+ko 천황의 전쟁 책임 | 천황의 전쟁 책임을 물어야 | 상징 천황으로 존속
+en The Emperor’s war responsibility | Hold the Emperor responsible | Keep him as a symbol
+ja 天皇の戦争責任 | 天皇の戦争責任を問うべき | 象徴天皇として存続
+
+== soc s . jsp>jiyu46 : jcp=-0.9 jsp=-0.7 kokkyo=-0.4 minshu47=-0.2 jiyu46=0.6
+ko 경찰 개혁 | 자치체 경찰로 분권해야 | 국가 경찰을 유지해야
+en Police reform | Decentralise into municipal police | Keep a national police
+ja 警察改革 | 自治体警察に分権すべき | 国家警察を維持すべき
+
+== wel e 1947.3 jsp>jiyu46 : jcp=-0.9 jsp=-0.9 kokkyo=-0.5 minshu47=-0.4 jiyu46=0.3
+ko 6·3제 의무교육 | 6·3제 의무교육을 바로 시행 | 재정 사정을 보며 단계적으로
+en The 6-3 school system | Start compulsory 6-3 schooling now | Phase it in as finances allow
+ja 六・三制義務教育 | 六・三制をすぐに実施 | 財政事情を見て段階的に
+
+== pol . . jsp>jiyu46 : jcp=-0.6 jsp=-1 nomin=0 kokkyo=-0.3 minshu47=0.1 jiyu46=1
+ko 정권의 모습 | 사회당 중심의 혁신 정권 | 보수 중심의 안정 정권
+en What kind of government | A progressive government led by the Socialists | A stable conservative government
+ja 政権のかたち | 社会党中心の革新政権 | 保守中心の安定政権
+
+== pol . 1947.3 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.2 kokkyo=-0.4 minshu47=0.3 jiyu46=0.8
+ko 선거제도 개정 | 소수 정당에 불리한 중선거구 복귀에 반대 | 정국 안정을 위해 중선거구 단기투표제로 돌아가야
+en Changing the electoral system | Oppose returning to medium-sized districts, which hurt small parties | Return to medium-sized districts with a single vote for stability
+ja 選挙制度改正 | 少数政党に不利な中選挙区への復帰に反対 | 政局安定のため中選挙区単記制に戻すべき
+
+== pol s 1947.1 jcp>jiyu46 : jcp=-1 jsp=-0.7 nomin=-0.2 kokkyo=-0.3 minshu47=0.2 jiyu46=0.7
+ko 공직 추방 확대 | 지방·경제계·언론으로 추방을 넓혀 군국주의를 뿌리 뽑아야 | 추방 확대는 인재를 잃게 하고 행정을 마비시킨다
+en Widening the purge | Extend the purge to local government, business and the press to root out militarism | Widening it loses talent and paralyses administration
+ja 公職追放の拡大 | 地方・経済界・言論界へ追放を広げ軍国主義を根絶すべき | 追放拡大は人材を失わせ行政を麻痺させる
+
+== pol . . jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.4 kokkyo=-0.5 minshu47=-0.2 jiyu46=0.6
+ko 관료 기구 개혁 | 내무성을 해체하고 관료 기구를 민주화해야 | 행정 능력을 지키려면 개편은 신중하게
+en Reforming the bureaucracy | Break up the Home Ministry and democratise the bureaucracy | Reorganise cautiously to preserve administrative capacity
+ja 官僚機構改革 | 内務省を解体し官僚機構を民主化すべき | 行政能力を守るため改編は慎重に
+
+== con s 1946.11 jcp>jiyu46 : jcp=-1 jsp=0.3 nomin=0.6 kokkyo=0.6 minshu47=0.7 jiyu46=0.9
+ko 상징 천황제 | 천황제를 폐지하고 공화제로 가야 | 상징 천황으로 국민 통합을 지켜야
+en The symbolic emperor | Abolish the monarchy and become a republic | Keep the Emperor as a symbol of national unity
+ja 象徴天皇制 | 天皇制を廃止し共和制にすべき | 象徴天皇として国民統合を守るべき
+
+== con s 1946.5 jcp>jiyu46 : jcp=-1 jsp=-0.6 nomin=-0.1 kokkyo=-0.2 minshu47=0 jiyu46=0.6
+ko 도쿄 재판 | 전쟁 책임을 밝히는 정당한 재판 | 사후법에 따른 승자의 재판
+en The Tokyo Trial | A legitimate trial that establishes responsibility for the war | Victors' justice based on retroactive law
+ja 東京裁判 | 戦争責任を明らかにする正当な裁判 | 事後法による勝者の裁き
+
+== dip s 1947.3 jcp>jiyu46 : jcp=-1 jsp=-0.6 nomin=-0.2 kokkyo=-0.3 minshu47=0.3 jiyu46=0.8
+ko 강화 방식 | 소련을 포함한 모든 연합국과 전면 강화를 | 가능한 나라와 먼저 강화해 독립을 앞당겨야
+en How to make peace | Make peace with all the Allies, including the USSR | Make peace first with those willing, to regain independence sooner
+ja 講和の方式 | ソ連を含む全連合国との全面講和を | 可能な国と先に講和し独立を早めるべき
+
+== dip . 1946.11 jcp>jiyu46 : jcp=-0.7 jsp=-0.4 nomin=0.2 kokkyo=0.1 minshu47=0.4 jiyu46=0.7
+ko 배상 철거 | 피해국에 대한 배상 의무는 성실히 이행해야 | 배상 철거를 줄여 달라고 연합국에 요구해야
+en Reparations removals | Fulfil reparations obligations to the victims faithfully | Press the Allies to reduce plant removals
+ja 賠償撤去 | 被害国への賠償義務は誠実に履行すべき | 賠償撤去の縮小を連合国に求めるべき
+
+== dip s 1946.12 jcp>jiyu46 : jcp=-1 jsp=-0.2 nomin=0.3 kokkyo=0.2 minshu47=0.5 jiyu46=0.8
+ko 시베리아 억류 | 소련과 대화해 억류자 귀환을 서둘러야 | 소련의 억류는 국제법 위반, 강하게 규탄해야
+en Detainees in Siberia | Talk with the Soviets to speed the return of detainees | Soviet detention violates international law; condemn it firmly
+ja シベリア抑留 | ソ連と対話し抑留者の帰還を急ぐべき | ソ連の抑留は国際法違反、強く非難すべき
+
+== dip s . jsp>jiyu46 : jcp=0.5 jsp=-0.3 nomin=0.3 kokkyo=0.3 minshu47=0.6 jiyu46=0.7
+ko 영토 문제 | 침략으로 얻은 땅은 포기하고 강화 회의 결과를 따른다 | 오키나와·지시마는 일본 영토, 반환을 요구해야
+en Territory | Give up land gained by aggression and accept the peace conference | Okinawa and the Kurils are Japanese; demand their return
+ja 領土問題 | 侵略で得た土地は放棄し講和会議の結果に従う | 沖縄・千島は日本の領土、返還を求めるべき
+
+== eco e 1946.12 jcp>jiyu46 : jcp=-0.6 jsp=0.2 nomin=-0.3 kokkyo=0.1 minshu47=0.3 jiyu46=0.8
+ko 경사 생산 방식 | 석탄·철강 편중보다 생활 물자 생산이 먼저 | 석탄·철강에 자원을 집중해 부흥의 돌파구를
+en Priority production | Consumer goods should come before a coal-and-steel focus | Concentrate resources on coal and steel to kick-start recovery
+ja 傾斜生産方式 | 石炭・鉄鋼偏重より生活物資の生産が先 | 石炭・鉄鋼に資源を集中し復興の突破口を
+
+== eco e 1947.4 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.4 kokkyo=-0.5 minshu47=-0.1 jiyu46=0.6
+ko 독점금지법 | 독점금지법으로 재벌의 부활을 막아야 | 지나친 규제는 기업 성장을 가로막는다
+en Antimonopoly Act | Use antitrust law to stop the zaibatsu returning | Excessive regulation will stunt business growth
+ja 独占禁止法 | 独占禁止法で財閥の復活を防ぐべき | 行き過ぎた規制は企業の成長を妨げる
+
+== eco e 1946.11 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.3 kokkyo=-0.4 minshu47=0.2 jiyu46=0.7
+ko 재산세 | 큰 재산에 높은 재산세를 매겨 부를 재분배해야 | 무거운 재산세는 중산층까지 무너뜨린다
+en Capital levy | Impose a steep levy on large fortunes to redistribute wealth | A heavy levy will ruin the middle class too
+ja 財産税 | 大きな財産に高い財産税を課し富を再分配すべき | 重い財産税は中産層まで崩す
+
+== wel e . jcp>jiyu46 : jcp=-1 jsp=-0.5 nomin=0 kokkyo=0.2 minshu47=0.5 jiyu46=0.9
+ko 생산관리 투쟁 | 노동자가 공장을 직접 운영하는 생산관리는 정당한 쟁의 | 경영권을 빼앗는 생산관리는 불법
+en Workers' production control | Workers running factories themselves is a legitimate form of dispute | Seizing management is illegal
+ja 生産管理闘争 | 労働者が工場を直接運営する生産管理は正当な争議 | 経営権を奪う生産管理は違法
+
+== wel e 1946.9 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.2 kokkyo=0 minshu47=0.4 jiyu46=0.8
+ko 공익사업 쟁의 제한 | 공무원과 공익사업 노동자의 쟁의권을 제한해선 안 된다 | 공익을 지키려면 냉각 기간과 쟁의 제한이 필요하다
+en Limits on strikes in public services | Do not restrict strikes by civil servants and public utility workers | Cooling-off periods and limits are needed to protect the public
+ja 公益事業の争議制限 | 公務員と公益事業労働者の争議権を制限すべきでない | 公益を守るため冷却期間と争議制限が必要
+
+== soc s 1947.3 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.2 kokkyo=-0.3 minshu47=-0.1 jiyu46=0.5
+ko 교육기본법 | 개인의 존엄과 평화를 교육의 기본으로 삼아야 | 전통 도덕과 애국심 교육도 담아야
+en Fundamental Law of Education | Make individual dignity and peace the basis of education | It should also teach traditional morals and patriotism
+ja 教育基本法 | 個人の尊厳と平和を教育の基本とすべき | 伝統的な道徳と愛国心の教育も盛り込むべき
+
+== soc s . jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=0.2 kokkyo=-0.2 minshu47=-0.1 jiyu46=0.6
+ko '이에' 제도 폐지 | 호주제와 가독 상속을 없애고 남녀평등 민법으로 | 이에 제도는 일본 사회의 기초, 남겨야
+en Abolishing the ie household system | Scrap the household head and single-heir inheritance for an equal civil code | The ie is the foundation of Japanese society; keep it
+ja 「家」制度の廃止 | 戸主制度と家督相続を廃し男女平等の民法に | 家制度は日本社会の基礎、残すべき
+
+== soc s 1947.3 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=0 kokkyo=-0.2 minshu47=0 jiyu46=0.6
+ko 남녀 공학 | 남녀 공학으로 교육 기회를 평등하게 | 남녀 별학이 일본 실정에 맞는다
+en Co-education | Co-education gives equal educational opportunity | Separate schooling suits Japanese conditions
+ja 男女共学 | 男女共学で教育の機会を平等に | 男女別学が日本の実情に合う
+
+== reg s 1947.4 jcp>jiyu46 : jcp=-1 jsp=-0.8 nomin=-0.5 kokkyo=-0.5 minshu47=-0.3 jiyu46=0.4
+ko 지방자치법 | 단체장 직선과 주민 소환으로 지방자치를 넓혀야 | 행정의 통일을 위해 중앙의 감독을 남겨야
+en Local Autonomy Law | Expand local self-government with elected heads and recall rights | Keep central supervision for uniform administration
+ja 地方自治法 | 首長公選と住民のリコールで地方自治を広げるべき | 行政の統一のため中央の監督を残すべき
+
+== reg e 1946.5 jcp>jiyu46 : jcp=-1 jsp=-0.6 nomin=0 kokkyo=-0.1 minshu47=0.3 jiyu46=0.8
+ko 식량 배급 지연 | 은닉 물자를 적발하고 배급을 늘려야 | 수입 식량과 공출로 대응해야, 시위는 자제를
+en Delayed food rations | Expose hoarded goods and increase rations | Rely on imported food and deliveries; refrain from protests
+ja 食糧遅配 | 隠匿物資を摘発し配給を増やすべき | 輸入食糧と供出で対応すべき、デモは自重を
+
+== reg e . nomin>jiyu46 : jcp=-0.8 jsp=-0.6 nomin=-0.8 kokkyo=-0.5 minshu47=-0.2 jiyu46=0.3
+ko 긴급 개척 | 국유림과 옛 군용지를 개방해 귀환자와 농민에게 나눠야 | 산림과 국토 보전을 생각해 개척은 신중히
+en Emergency land reclamation | Open state forests and former military land to repatriates and farmers | Reclaim land cautiously to protect forests and the land
+ja 緊急開拓 | 国有林や旧軍用地を開放し引揚者と農民に分けるべき | 森林と国土保全を考え開拓は慎重に

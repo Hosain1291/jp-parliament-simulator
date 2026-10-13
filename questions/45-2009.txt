@@ -1,0 +1,194 @@
+# 제45회 중의원 총선 (2009.8.30) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-0.95) sdp=사회민주당(-0.8) dpj=민주당(-0.3) nippon=신당 일본(-0.1) daichi=신당 다이치(0) pnp=국민신당(0.3) your=모두의 당(0.4) kmt=공명당(0.1) ldp=자유민주당(0.7) ind=무소속(0)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== wel e 2009.7 dpj>ldp : jcp=-0.6 sdp=-0.8 dpj=-1 pnp=-0.6 your=0.3 kmt=0.2 ldp=0.8
+ko 아동수당 월 2만 6천 엔 | 소득 제한 없이 모든 아이에게 지급 | 재원 없는 선심, 유아교육 무상화 등으로
+en ¥26,000 monthly child allowance | Pay every child, no income limit | An unfunded handout; free preschool instead
+ja 子ども手当月2万6千円 | 所得制限なしですべての子どもに支給 | 財源なきばらまき、幼児教育無償化などで
+
+== reg . 2009.7 dpj>ldp : jcp=-0.2 sdp=0.1 dpj=-1 pnp=-0.3 your=0 kmt=0.6 ldp=0.8
+ko 고속도로 무료화 | 고속도로를 원칙적으로 무료로 | 할인 확대로 충분, 무료화는 낭비
+en Toll-free expressways | Make expressways free in principle | Bigger discounts are enough; free is wasteful
+ja 高速道路無料化 | 高速道路を原則無料に | 割引拡大で十分、無料化は無駄
+
+== eco e 2008.12 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.8 pnp=-0.8 your=-0.6 kmt=0.3 ldp=0.8
+ko 소비세 인상 | 4년 동안 올리지 않는다 | 경기가 회복되면 올려야 한다
+en Consumption tax rise | No rise for four years | Raise it once the economy recovers
+ja 消費税の引き上げ | 4年間は上げない | 景気が回復したら上げるべき
+
+== pol . . your>ldp : jcp=-0.3 sdp=-0.5 dpj=-1 pnp=-0.3 your=-1 kmt=0.3 ldp=0.7
+ko 탈관료·정치 주도 | 국가전략국을 만들고 정치가 예산을 주도 | 관료 조직을 활용하며 단계적으로 개혁
+en Politicians over bureaucrats | A National Strategy Bureau with politicians running the budget | Use the bureaucracy and reform step by step
+ja 脱官僚・政治主導 | 国家戦略局をつくり政治が予算を主導 | 官僚組織を活用し段階的に改革
+
+== con s 2009.7 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.7 pnp=-0.5 your=0.4 kmt=0.2 ldp=0.9
+ko 후텐마 기지 이전 | 최소한 오키나와 밖으로 옮겨야 한다 | 미일 합의대로 헤노코로
+en Relocating Futenma | At least move it out of Okinawa | To Henoko as agreed with the US
+ja 普天間基地の移設 | 最低でも県外へ移すべき | 日米合意どおり辺野古へ
+
+== con s 2008.12 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.8 pnp=-0.3 your=0.2 kmt=0.7 ldp=0.9
+ko 인도양 급유 활동 | 연장하지 않는다 | 테러와의 전쟁에 협력해 연장
+en Indian Ocean refuelling | Do not extend it | Extend it to support the war on terror
+ja インド洋給油活動 | 延長しない | テロとの戦いに協力して延長
+
+== eco e . pnp>your : jcp=-0.8 sdp=-0.8 dpj=-0.6 pnp=-1 your=0.8 kmt=0.4 ldp=0.5
+ko 우정 민영화 재검토 | 주식 매각을 동결하고 재검토 | 민영화를 계속 추진
+en Reviewing postal privatisation | Freeze share sales and review | Keep privatising
+ja 郵政民営化の見直し | 株式売却を凍結し見直す | 民営化を推進し続ける
+
+== wel e 2008.12 sdp>your : jcp=-1 sdp=-1 dpj=-0.7 pnp=-0.5 your=0.7 kmt=0 ldp=0.6
+ko 파견 노동 규제 | 제조업 파견을 원칙적으로 금지 | 고용의 유연성을 지켜야 한다
+en Regulating temp work | Ban temp workers in manufacturing in principle | Keep employment flexible
+ja 派遣労働の規制 | 製造業派遣を原則禁止 | 雇用の柔軟性を守るべき
+
+== wel e 2008.4 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.9 pnp=-0.8 your=0.3 kmt=0.5 ldp=0.8
+ko 후기고령자 의료제도 | 75세 이상을 따로 묶는 제도를 폐지 | 개선하면서 유지
+en Health care for those 75 and over | Abolish the separate system for the over-75s | Keep it with improvements
+ja 後期高齢者医療制度 | 75歳以上を別枠にする制度を廃止 | 改善しながら維持
+
+== eco . 2009.3 dpj>kmt : jcp=-0.8 sdp=-0.6 dpj=-0.8 your=-0.3 kmt=1 ldp=0.8
+ko 정액급부금 | 선거용 선심 정책이다 | 경기 대책으로 필요하다
+en Flat cash handout | An election bribe | Needed as stimulus
+ja 定額給付金 | 選挙目当てのばらまき | 景気対策として必要
+
+== reg . . your>jcp : jcp=0.6 sdp=0.4 dpj=-0.7 pnp=0.3 your=-1 kmt=0.2 ldp=0.3
+ko 지역주권과 도주제 | 도주제와 일괄교부금으로 지방에 권한을 | 현행 도도부현 틀에서 개선
+en Regional sovereignty and states | States and block grants to empower the regions | Improve within the prefectures
+ja 地域主権と道州制 | 道州制と一括交付金で地方に権限を | 現行の都道府県の枠で改善
+
+== soc s . sdp>ldp : jcp=-1 sdp=-1 dpj=-0.8 pnp=0.8 your=0 kmt=-0.6 ldp=0.7
+ko 선택적 부부별성 | 도입해야 한다 | 가족 제도를 위해 반대
+en Optional separate surnames | Introduce them | Against, for the family system
+ja 選択的夫婦別姓 | 導入すべき | 家族制度のため反対
+
+== soc s . kmt>pnp : jcp=-0.8 sdp=-0.9 dpj=-0.5 pnp=0.9 your=0.3 kmt=-0.8 ldp=0.8
+ko 영주 외국인 지방참정권 | 지방선거 투표권을 줘야 한다 | 반대한다
+en Local votes for permanent residents | Give them the vote in local elections | Against
+ja 永住外国人の地方参政権 | 地方選挙の投票権を与えるべき | 反対する
+
+== reg e . sdp>ldp : jcp=-1 sdp=-1 dpj=0.2 your=0.3 kmt=0.4 ldp=0.9
+ko 원자력과 온난화 대책 | 원전 의존을 낮추고 재생에너지로 | 온난화 대책을 위해 원전을 추진
+en Nuclear power and climate | Rely less on nuclear; renewables | Promote nuclear to fight global warming
+ja 原子力と温暖化対策 | 原発依存を減らし再生可能エネルギーへ | 温暖化対策のため原発を推進
+
+== pol . 2007.11 jcp>ldp : jcp=-1 sdp=-0.9 dpj=-0.6 pnp=-0.3 your=-0.6 kmt=0.3 ldp=0.6
+ko 대연립 구상 | 자민·민주 대연립은 정권 선택을 없애는 밀실 정치 | 뒤틀림 국회를 풀려면 대연립도 선택지다
+en A grand coalition | An LDP–DPJ grand coalition would deny voters a choice of government | A grand coalition is an option to break the divided Diet's deadlock
+ja 大連立構想 | 自民・民主の大連立は政権選択をなくす密室政治 | ねじれ国会を解くため大連立も選択肢
+
+== pol . 2009.5 jcp>ldp : jcp=-0.6 sdp=-0.6 dpj=-0.9 pnp=-0.2 your=-0.9 kmt=-0.5 ldp=0.6
+ko 세습 의원 제한 | 같은 선거구에서의 세습 출마를 제한해야 | 입후보의 자유, 공천은 유권자와 정당에 맡겨야
+en Limiting hereditary politicians | Restrict relatives inheriting the same constituency | Candidacy is free; leave nominations to voters and parties
+ja 世襲議員の制限 | 同一選挙区からの世襲立候補を制限すべき | 立候補の自由、公認は有権者と政党に任せるべき
+
+== pol . 2009.3 your>ldp : jcp=-1 sdp=-0.9 dpj=-0.4 pnp=-0.2 your=-0.9 kmt=-0.3 ldp=0.6
+ko 기업·단체 헌금 전면 금지 | 니시마쓰 사건을 계기로 기업·단체 헌금을 전면 금지해야 | 헌금은 투명하게 공개하면 된다
+en Banning all corporate and group donations | After the Nishimatsu affair, ban corporate and group donations entirely | Transparent disclosure of donations is enough
+ja 企業・団体献金の全面禁止 | 西松事件を機に企業・団体献金を全面禁止すべき | 献金は透明に公開すればよい
+
+== con s 2009.3 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.3 pnp=0.2 your=0.5 kmt=0.5 ldp=0.9
+ko 소말리아 해적 대처 | 해상자위대 대신 해상보안청이 맡아야 | 해적으로부터 선박을 지키려면 해상자위대 파견이 필요하다
+en Tackling Somali pirates | The coast guard, not the MSDF, should handle it | Sending the MSDF is needed to protect shipping
+ja ソマリア海賊対処 | 海上自衛隊でなく海上保安庁が担うべき | 船舶を守るため海上自衛隊の派遣が必要
+
+== con s 2006.12 sdp>ldp : jcp=-1 sdp=-1 dpj=0 pnp=0.4 your=0.4 kmt=0.4 ldp=0.9
+ko 방위성 승격 | 방위청의 성 승격은 군사 대국화의 상징 | 국방을 책임지는 부처로 위상을 높이는 것이 당연
+en Upgrading the Defence Agency to a ministry | It symbolises a drift towards military power | Raising the status of the body responsible for defence is natural
+ja 防衛省昇格 | 防衛庁の省昇格は軍事大国化の象徴 | 国防を担う官庁として地位を高めるのは当然
+
+== dip s 2009.7 jcp>ldp : jcp=0 sdp=-0.5 dpj=-0.8 pnp=-0.2 your=0.2 kmt=-0.2 ldp=0.6
+ko 동아시아 공동체 | 미국 일변도에서 벗어나 동아시아 공동체를 지향해야 | 미일 동맹을 축으로, 공동체 구상은 비현실적
+en An East Asian community | Move beyond reliance on the US towards an East Asian community | Keep the US alliance as the axis; the community idea is unrealistic
+ja 東アジア共同体 | 米国一辺倒を脱し東アジア共同体を目指すべき | 日米同盟を軸に、共同体構想は非現実的
+
+== dip s 2009.7 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.6 pnp=-0.3 your=0.3 kmt=0.2 ldp=0.8
+ko 대등한 미일 관계 | 지위 협정 개정 등 미국에 할 말은 해야 | 동맹의 신뢰를 해치는 요구는 신중해야
+en A more equal US–Japan relationship | Speak up to the US, including revising the status-of-forces agreement | Be careful with demands that erode alliance trust
+ja 対等な日米関係 | 地位協定改定など米国に言うべきことは言うべき | 同盟の信頼を損なう要求は慎重に
+
+== dip s 2007.3 sdp>ldp : jcp=-1 sdp=-1 dpj=-0.6 pnp=0.4 your=0.2 kmt=-0.5 ldp=0.6
+ko 위안부 '강제성' 논란 | 고노 담화를 계승하고 국제 사회의 비판에 성실히 답해야 | 좁은 의미의 강제성은 없었다는 입장을 밝혀야
+en The "coercion" debate on comfort women | Uphold the Kōno Statement and respond sincerely to international criticism | Make clear there was no coercion in the narrow sense
+ja 慰安婦「強制性」論争 | 河野談話を継承し国際社会の批判に誠実に応えるべき | 狭義の強制性はなかったとの立場を示すべき
+
+== dip s 2009.5 sdp>ldp : jcp=-0.4 sdp=-0.6 dpj=0.5 pnp=0.6 your=0.6 kmt=0.5 ldp=0.8
+ko 북한 핵실험과 제재 | 제재와 함께 6자 회담 등 대화의 길을 열어 둬야 | 화물 검사 등 독자 제재를 더 강화해야
+en North Korea's nuclear test and sanctions | Keep talks such as the Six-Party Talks open alongside sanctions | Tighten Japan's own sanctions, including cargo inspections
+ja 北朝鮮の核実験と制裁 | 制裁とともに6者協議など対話の道を開いておくべき | 貨物検査など独自制裁をさらに強めるべき
+
+== dip e 2009.7 pnp>your : jcp=-1 sdp=-0.9 dpj=0.3 pnp=-1 your=0.8 kmt=-0.2 ldp=-0.4
+ko 미일 FTA | 농업을 무너뜨리는 미일 FTA에 반대 | 미일 FTA로 무역과 투자를 넓혀야
+en A US–Japan free trade agreement | Oppose an FTA that would destroy farming | Expand trade and investment through a US–Japan FTA
+ja 日米FTA | 農業を崩壊させる日米FTAに反対 | 日米FTAで貿易と投資を広げるべき
+
+== eco e 2009.7 dpj>ldp : jcp=0.2 sdp=0 dpj=-1 pnp=-0.4 your=-0.5 kmt=0.6 ldp=0.8
+ko 공약 재원 | 낭비를 없애고 예산을 재편하면 공약 재원은 나온다 | 증세 없이는 대규모 공약의 재원을 마련할 수 없다
+en Funding the pledges | Cutting waste and reallocating the budget will fund the pledges | Big pledges cannot be funded without tax rises
+ja 公約の財源 | 無駄をなくし予算を組み替えれば財源は出る | 増税なしに大規模な公約の財源は確保できない
+
+== eco e 2009.4 dpj>ldp : jcp=-0.5 sdp=-0.4 dpj=-0.6 pnp=0.2 your=-0.5 kmt=0.8 ldp=0.9
+ko 리먼 쇼크 경기 대책 | 15조 엔 보정 예산은 선거용 선심 | 세계 금융 위기에 대규모 재정 출동은 불가피
+en Stimulus after the Lehman shock | The ¥15 trillion extra budget is pre-election pork | Large fiscal stimulus is unavoidable in a global financial crisis
+ja リーマン・ショック後の経済対策 | 15兆円の補正予算は選挙向けのばらまき | 世界金融危機に大規模な財政出動はやむを得ない
+
+== eco e 2009.5 jcp>ldp : jcp=-0.8 sdp=-0.6 dpj=-0.3 pnp=0 your=-0.2 kmt=0.7 ldp=0.8
+ko 에코 포인트와 친환경차 감세 | 가전·자동차 대기업만 이익을 보는 지원 | 소비를 살리고 환경 산업을 키우는 정책
+en Eco-points and green car tax breaks | Support that only benefits big appliance and car makers | Policies that boost spending and grow green industries
+ja エコポイントとエコカー減税 | 家電・自動車大手だけが得をする支援 | 消費を喚起し環境産業を育てる政策
+
+== eco e . jcp>your : jcp=-1 sdp=-1 dpj=-0.2 pnp=0 your=0.8 kmt=0.2 ldp=0.6
+ko 법인세 인하 | 대기업 감세보다 중소기업과 가계 지원을 | 국제 경쟁력을 위해 법인세를 내려야
+en Cutting corporate tax | Support small firms and households rather than cutting big-business tax | Cut corporate tax to stay internationally competitive
+ja 法人税引き下げ | 大企業減税より中小企業と家計の支援を | 国際競争力のため法人税を下げるべき
+
+== wel e 2007.5 dpj>ldp : jcp=-1 sdp=-1 dpj=-1 pnp=-0.7 your=-0.6 kmt=0.3 ldp=0.5
+ko 사라진 연금 기록 | 사회보험청을 해체하고 국가가 모든 기록을 책임지고 바로잡아야 | 대조 작업을 서둘러 진행하면 된다, 제도 불신을 키울 필요는 없다
+en The lost pension records | Dismantle the Social Insurance Agency and make the state fix every record | Speed up the matching work; no need to fuel distrust
+ja 消えた年金記録 | 社会保険庁を解体し国がすべての記録を責任をもって正すべき | 照合作業を急げばよい、制度不信をあおる必要はない
+
+== wel e 2009.7 dpj>ldp : jcp=-1 sdp=-1 dpj=-0.8 pnp=-0.5 your=0.4 kmt=-0.2 ldp=0.6
+ko 최저임금 1000엔 | 전국 최저임금을 1000엔으로 올려야 | 급격한 인상은 중소기업과 고용을 해친다
+en A ¥1,000 minimum wage | Raise the national minimum wage to ¥1,000 | A sharp rise would hurt small firms and jobs
+ja 最低賃金1000円 | 全国の最低賃金を1000円に引き上げるべき | 急激な引き上げは中小企業と雇用を損なう
+
+== wel e . dpj>ldp : jcp=-1 sdp=-1 dpj=-0.9 pnp=-0.7 your=-0.2 kmt=-0.4 ldp=0.4
+ko 의료 붕괴와 의사 부족 | 의료비 억제 정책을 바꿔 진료 보수와 의사를 늘려야 | 의사 배치와 효율화로 대응, 의료비 증가는 억제해야
+en Collapsing health care and doctor shortages | Reverse cost-cutting and raise fees and doctor numbers | Respond by redeploying doctors and efficiency; restrain costs
+ja 医療崩壊と医師不足 | 医療費抑制策を改め診療報酬と医師を増やすべき | 医師の配置と効率化で対応し医療費の伸びは抑えるべき
+
+== soc . 2009.7 dpj>ldp : jcp=-0.6 sdp=-0.8 dpj=-1 pnp=-0.4 your=0.4 kmt=-0.3 ldp=0.5
+ko 고교 무상화 | 공립 고교 수업료를 무상으로 해야 | 소득 제한 없는 무상화는 선심, 필요한 가정만 지원
+en Free high school | Make public high school tuition free | Free tuition without income limits is a handout; help only those in need
+ja 高校無償化 | 公立高校の授業料を無償にすべき | 所得制限なしの無償化はばらまき、必要な家庭だけ支援
+
+== soc s . jcp>ldp : jcp=-0.8 sdp=-0.8 dpj=-0.3 pnp=0.4 your=0 kmt=0.6 ldp=0.7
+ko 아동 포르노 단순 소지 | 단순 소지 처벌은 수사 남용과 표현 위축을 부른다 | 아동 보호를 위해 단순 소지도 처벌해야
+en Possession of child abuse images | Punishing mere possession invites abuse of investigation and chills expression | Punish simple possession to protect children
+ja 児童ポルノの単純所持 | 単純所持の処罰は捜査の濫用と表現の萎縮を招く | 子どもを守るため単純所持も処罰すべき
+
+== soc s . dpj>ldp : jcp=-1 sdp=-1 dpj=-0.9 pnp=0.3 your=-0.4 kmt=-0.3 ldp=0.6
+ko 취조 가시화 | 원죄를 막으려면 취조 전 과정을 녹화해야 | 전면 녹화는 수사를 어렵게 한다, 일부로 충분
+en Recording interrogations | Record entire interrogations to prevent false convictions | Full recording hampers investigations; partial is enough
+ja 取り調べの可視化 | 冤罪を防ぐため取り調べの全過程を録画すべき | 全面録画は捜査を困難にする、一部で十分
+
+== soc . 2007.6 dpj>ldp : jcp=-0.9 sdp=-0.9 dpj=-0.8 pnp=-0.3 your=0 kmt=0.3 ldp=0.7
+ko 교원 면허 갱신제 | 교사 부담만 늘리는 면허 갱신제는 폐지해야 | 교사의 자질 향상을 위해 갱신제는 필요하다
+en Teaching licence renewal | Abolish a renewal system that only adds to teachers' burdens | Renewal is needed to improve teacher quality
+ja 教員免許更新制 | 教員の負担を増やすだけの免許更新制は廃止すべき | 教員の資質向上のため更新制は必要
+
+== reg e 2009.7 dpj>your : jcp=-0.6 sdp=-0.7 dpj=-1 pnp=-0.6 your=0.6 kmt=0.2 ldp=0.5
+ko 농가 호별 소득 보상 | 모든 판매 농가에 소득 보상으로 농업을 지켜야 | 선심성 지원보다 규모 확대와 경쟁력 강화를
+en Income support for every farm household | Protect farming with income support for all commercial farmers | Pursue scale and competitiveness rather than handouts
+ja 農家戸別所得補償 | すべての販売農家への所得補償で農業を守るべき | ばらまきより規模拡大と競争力強化を
+
+== reg e 2009.7 dpj>ldp : jcp=-0.8 sdp=-1 dpj=-1 pnp=-0.3 your=-0.4 kmt=0.5 ldp=0.9
+ko 얀바 댐 | 쓸모없는 대형 댐 공사는 중지해야 | 공사가 많이 진행됐다, 치수를 위해 완성해야
+en The Yamba Dam | Stop a pointless mega-dam | Construction is well under way; finish it for flood control
+ja 八ッ場ダム | 無駄な大型ダム工事は中止すべき | 工事は進んでいる、治水のため完成させるべき
+
+== reg e 2008.4 dpj>ldp : jcp=0 sdp=-0.4 dpj=-1 pnp=-0.6 your=-0.6 kmt=0.6 ldp=0.8
+ko 휘발유 잠정 세율 | 휘발유 잠정 세율을 폐지해 가계 부담을 덜어야 | 도로와 환경을 위해 세율은 유지해야
+en The provisional petrol tax rate | Abolish it to ease household burdens | Keep it for roads and the environment
+ja ガソリン暫定税率 | 暫定税率を廃止し家計の負担を軽くすべき | 道路と環境のため税率は維持すべき

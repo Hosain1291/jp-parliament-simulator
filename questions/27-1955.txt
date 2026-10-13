@@ -1,0 +1,154 @@
+# 제27회 중의원 총선 (1955.2.27) 질문 원본 — 고친 뒤 node tools/build_questions.js
+# 정당: jcp=일본공산당(-1) sashakai=좌파 사회당(-0.75) rono=노동자농민당(-0.8) ushakai=우파 사회당(-0.35) etc=기타 정파(0) ind=무소속(0) minshu55=일본민주당(0.65) jiyu52=자유당(0.6)
+# 형식: == 분야 축(e/s/.) 시점(연.월/.) A정당>B정당 : 정당=위치(-1 A안 … 1 B안, 빠진 정당은 성향값) …
+#       ko 제목 | A안 | B안   (en, ja 같은 순서)
+
+== dip s 1955.1 minshu55>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=-0.7 jiyu52=0.7
+ko 일소 국교 정상화 | 서둘러 국교를 정상화해야 | 대미 관계가 먼저, 신중히
+en Normalising ties with the USSR | Normalise relations quickly | US ties first; go carefully
+ja 日ソ国交正常化 | 早く国交を正常化すべき | 対米関係が先、慎重に
+
+== con s . sashakai>minshu55 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.9 minshu55=0.9 jiyu52=0.6
+ko 자주 헌법 제정 | 호헌, 개정에 반대 | 자주 헌법을 만들어야
+en An independent constitution | Defend the constitution; no revision | Write our own constitution
+ja 自主憲法制定 | 護憲、改正に反対 | 自主憲法をつくるべき
+
+== con s 1954.7 sashakai>minshu55 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=0.8 jiyu52=0.8
+ko 자위대 증강 | 자위대는 위헌, 증강 반대 | 자위력을 키워야
+en Building up the SDF | The SDF is unconstitutional; no build-up | Strengthen self-defence
+ja 自衛隊の増強 | 自衛隊は違憲、増強反対 | 自衛力を高めるべき
+
+== pol . 1954.4 ushakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-1 minshu55=-0.8 jiyu52=0.8
+ko 조선 의혹과 지휘권 발동 | 의혹을 철저히 밝혀야 | 지휘권 발동은 정당했다
+en Shipbuilding scandal and the justice minister’s order | Get to the bottom of the scandal | The order was justified
+ja 造船疑獄と指揮権発動 | 疑惑を徹底的に究明すべき | 指揮権発動は正当だった
+
+== pol . . sashakai>minshu55 : jcp=-0.8 sashakai=-0.9 ushakai=-0.8 minshu55=0.6 jiyu52=0.6
+ko 보수 합동 | 반대한다 | 보수 합동으로 정국 안정을
+en Conservative merger | Against it | Merge for political stability
+ja 保守合同 | 反対する | 保守合同で政局を安定させる
+
+== wel e . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.9 minshu55=-0.3 jiyu52=0.4
+ko 국민개보험 | 국민개보험과 연금을 서둘러야 | 재정이 허락하는 범위에서
+en Universal health insurance | Hurry universal health insurance and pensions | As far as finances allow
+ja 国民皆保険 | 国民皆保険と年金を急ぐべき | 財政が許す範囲で
+
+== con s . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=0.3 jiyu52=0.8
+ko 미군 기지 확장 | 기지 확장에 반대 | 안보 협력을 위해 수용
+en Expanding US bases | Against expansion | Accept it for security cooperation
+ja 米軍基地拡張 | 基地拡張に反対 | 安保協力のため受け入れ
+
+== soc s . sashakai>minshu55 : jcp=-1 sashakai=-1 ushakai=-0.8 minshu55=0.7 jiyu52=0.8
+ko 교육위원 임명제 | 공선제를 지켜야 | 임명제로 바꿔야
+en Appointed school boards | Keep elected boards | Switch to appointment
+ja 教育委員の任命制 | 公選制を守るべき | 任命制に変えるべき
+
+== dip s . sashakai>jiyu52 : jcp=-1 sashakai=-1 ushakai=-0.6 minshu55=-0.3 jiyu52=0.4
+ko 중국 무역 확대 | 확대해야 한다 | 서방과 보조를 맞춰야
+en Trade with China | Expand it | Stay in step with the West
+ja 中国貿易の拡大 | 拡大すべき | 西側と歩調を合わせるべき
+
+== eco e . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 ushakai=-0.7 rono=-1 minshu55=0.2 jiyu52=0.6
+ko 감세 방향 | 대중 감세와 사회 지출 | 기업 감세와 자본 축적
+en Tax cuts | Cuts for ordinary people and more social spending | Business tax cuts and capital formation
+ja 減税の方向 | 大衆減税と社会支出 | 企業減税と資本蓄積
+
+== pol . 1954.6 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.9 minshu55=-0.3 jiyu52=0.8
+ko 국회 강행 처리 | 회기 연장과 강행 처리는 의회 민주주의의 파괴 | 소수파의 실력 저지가 더 문제다, 다수결을 존중해야
+en Forcing bills through the Diet | Extending sessions and forcing votes destroys parliamentary democracy | Obstruction by the minority is the bigger problem; respect majority rule
+ja 国会の強行採決 | 会期延長と強行採決は議会制民主主義の破壊 | 少数派の実力阻止こそ問題、多数決を尊重すべき
+
+== pol . . sashakai>minshu55 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=0.7 jiyu52=0.5
+ko 소선거구제 도입 | 소선거구제는 거대 여당의 독주를 낳는다 | 양당제와 안정 정권을 위해 소선거구제를
+en Single-member districts | Single-member districts would let a giant ruling party run unchecked | Introduce them for a two-party system and stable government
+ja 小選挙区制導入 | 小選挙区制は巨大与党の独走を生む | 二大政党制と安定政権のため小選挙区制を
+
+== con s 1954.3 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=-0.2 jiyu52=0.5
+ko 원수폭 금지 | 비키니 피폭을 계기로 원수폭 금지를 호소하고 미국에 항의해야 | 동맹을 생각해 미국에 대한 항의는 신중히
+en Banning atomic and hydrogen bombs | After the Bikini fallout, campaign for a ban and protest to the US | Be careful about protesting to the US, given the alliance
+ja 原水爆禁止 | ビキニ被災を機に原水爆禁止を訴え米国に抗議すべき | 同盟を考え米国への抗議は慎重に
+
+== dip s 1953.10 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.5 minshu55=0.4 jiyu52=0.7
+ko 구보타 발언 | 식민 지배를 정당화한 발언을 철회하고 한일 회담을 다시 열어야 | 일본 측의 정당한 주장, 철회할 필요는 없다
+en The Kubota remarks | Retract remarks justifying colonial rule and reopen talks with Korea | It was a legitimate Japanese position; no need to retract
+ja 久保田発言 | 植民地支配を正当化した発言を撤回し日韓会談を再開すべき | 日本側の正当な主張、撤回の必要はない
+
+== dip s . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.6 minshu55=-0.2 jiyu52=0.9
+ko 대미 외교 | 미국 일변도를 벗어나 자주 외교를 펴야 | 미국과의 협조가 외교의 기축이다
+en Policy towards the US | Move beyond reliance on America to an independent diplomacy | Cooperation with the US is the axis of diplomacy
+ja 対米外交 | 米国一辺倒を脱し自主外交を展開すべき | 米国との協調が外交の基軸
+
+== dip e 1954.10 sashakai>jiyu52 : jcp=-0.9 sashakai=-0.8 rono=-0.8 ushakai=-0.2 minshu55=0.6 jiyu52=0.7
+ko 아시아 경제 협력 | 아시아 협력은 반성과 평화가 먼저, 경제 진출 우선은 경계해야 | 콜롬보 플랜 등 경제 협력으로 아시아 시장을 넓혀야
+en Economic cooperation with Asia | Reconciliation and peace first; beware of putting economic expansion first | Expand Asian markets through cooperation such as the Colombo Plan
+ja アジア経済協力 | アジア協力は反省と平和が先、経済進出優先は警戒すべき | コロンボ・プランなど経済協力でアジア市場を広げるべき
+
+== eco e . sashakai>jiyu52 : jcp=-0.9 sashakai=-0.9 rono=-0.9 ushakai=-0.7 minshu55=-0.3 jiyu52=0.8
+ko 1조 엔 긴축 예산 | 긴축이 불황을 부른다, 재정을 풀어야 | 1조 엔 예산의 틀을 지켜 국제수지를 바로잡아야
+en The ¥1 trillion austerity budget | Austerity is causing a recession; loosen fiscal policy | Keep the ¥1 trillion ceiling to fix the balance of payments
+ja 一兆円緊縮予算 | 緊縮が不況を招く、財政を緩めるべき | 一兆円予算の枠を守り国際収支を立て直すべき
+
+== eco e . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 minshu55=0.4 jiyu52=0.7
+ko 석탄 산업 합리화 | 폐광과 해고를 부르는 합리화 대신 석탄을 국영으로 | 비능률 탄광을 정리해 경쟁력을 키워야
+en Rationalising coal | Nationalise coal instead of rationalisation that closes mines and cuts jobs | Close inefficient mines to make the industry competitive
+ja 石炭産業の合理化 | 閉山と解雇を招く合理化でなく石炭を国営に | 非能率な炭鉱を整理し競争力を高めるべき
+
+== eco e . sashakai>jiyu52 : jcp=-0.8 sashakai=-0.7 rono=-0.7 ushakai=-0.3 minshu55=0.4 jiyu52=0.8
+ko 무역 자유화 | 국내 산업 보호가 먼저, 자유화는 신중히 | GATT 가입과 무역 자유화로 수출을 늘려야
+en Trade liberalisation | Protect domestic industry first; liberalise cautiously | Join GATT and liberalise trade to boost exports
+ja 貿易自由化 | 国内産業の保護が先、自由化は慎重に | GATT加盟と貿易自由化で輸出を伸ばすべき
+
+== wel e 1954.5 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.8 minshu55=-0.2 jiyu52=0.6
+ko 후생연금 재건 | 국고 부담을 늘려 연금 급여를 높여야 | 보험료와 급여의 균형이 우선, 국고 부담은 최소로
+en Rebuilding employee pensions | Raise benefits with more money from the treasury | Balance premiums and benefits first; minimal treasury support
+ja 厚生年金の再建 | 国庫負担を増やし年金給付を高めるべき | 保険料と給付の均衡が先、国庫負担は最小限に
+
+== wel e . sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=0 jiyu52=0.7
+ko 생활보호 '적정화' | 생활보호 삭감에 반대하고 기준을 올려야 | 부정 수급을 막고 보호를 적정화해야
+en Tightening public assistance | Oppose cuts and raise the benefit standard | Prevent abuse and make assistance appropriate
+ja 生活保護の「適正化」 | 生活保護の削減に反対し基準を引き上げるべき | 不正受給を防ぎ保護を適正化すべき
+
+== wel e 1953.8 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=0.5 jiyu52=0.9
+ko 스트 규제법 | 전력·탄광 노동자의 파업권을 묶는 스트 규제법을 폐지해야 | 전력·탄광 파업은 국민 생활을 위협한다, 규제를 유지해야
+en The strike-control law | Repeal the law restricting strikes by power and coal workers | Power and coal strikes threaten daily life; keep the rules
+ja スト規制法 | 電力・炭鉱労働者の争議権を縛るスト規制法を廃止すべき | 電力・炭鉱のストは国民生活を脅かす、規制を維持すべき
+
+== soc s 1954.6 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=0.4 jiyu52=0.9
+ko 신경찰법 | 자치체 경찰 폐지는 경찰 중앙집권의 부활 | 도도부현 경찰로 치안을 효율적으로
+en The new Police Law | Abolishing municipal police revives centralised policing | Prefectural police make law enforcement efficient
+ja 新警察法 | 自治体警察の廃止は警察の中央集権の復活 | 都道府県警察で治安を効率的に
+
+== soc s 1954.6 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.7 minshu55=0.6 jiyu52=0.9
+ko 교육 2법 | 교원의 정치 활동 제한은 표현의 자유 침해 | 교육의 정치적 중립을 위해 필요하다
+en The two education laws | Restricting teachers' political activity violates free expression | Needed to keep education politically neutral
+ja 教育二法 | 教員の政治活動制限は表現の自由の侵害 | 教育の政治的中立のため必要
+
+== soc s . ushakai>jiyu52 : jcp=-0.9 sashakai=-0.9 rono=-0.9 ushakai=-0.9 minshu55=-0.1 jiyu52=0.4
+ko 매춘 금지법 | 매춘을 법으로 금지하고 여성의 보호와 자립을 도와야 | 금지보다 현실에 맞는 관리가 낫다
+en Anti-prostitution law | Outlaw prostitution and help women with protection and rehabilitation | Realistic regulation works better than a ban
+ja 売春防止法 | 売春を法律で禁止し女性の保護と自立を支援すべき | 禁止より実情に合った管理がよい
+
+== reg e . sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-0.9 ushakai=-0.8 minshu55=-0.2 jiyu52=0.6
+ko 지방 재정 위기 | 국가가 지방 적자를 메우고 교부세를 늘려야 | 지방도 경비를 줄여 스스로 재정을 재건해야
+en Local fiscal crisis | The state should cover local deficits and raise grants | Localities must cut costs and rebuild their own finances
+ja 地方財政危機 | 国が地方の赤字を埋め交付税を増やすべき | 地方も経費を削り自ら財政を再建すべき
+
+== reg e . rono>jiyu52 : jcp=-0.6 sashakai=-0.7 rono=-0.8 ushakai=-0.6 minshu55=-0.4 jiyu52=0.5
+ko 생산자 쌀값 | 정부 매입가를 올려 농가 소득을 지켜야 | 소비자 물가와 재정을 생각해 억제해야
+en Producer rice price | Raise the government purchase price to protect farm incomes | Hold it down for consumers and the budget
+ja 生産者米価 | 政府買入価格を上げ農家所得を守るべき | 消費者物価と財政を考え抑制すべき
+
+== reg e 1953.12 sashakai>jiyu52 : jcp=-0.9 sashakai=-0.8 rono=-0.8 ushakai=-0.7 minshu55=-0.3 jiyu52=0.4
+ko 아마미 복귀와 진흥 | 반환된 아마미에 대규모 진흥 예산을 | 재정 형편에 맞게 단계적으로 지원해야
+en Amami's return and development | Give the returned Amami Islands a large development budget | Support them step by step within fiscal means
+ja 奄美復帰と振興 | 返還された奄美に大規模な振興予算を | 財政事情に合わせ段階的に支援すべき
+
+== reg e 1953.10 sashakai>jiyu52 : jcp=-1 sashakai=-0.9 rono=-1 ushakai=-0.7 minshu55=-0.3 jiyu52=0.5
+ko 냉해 대책 | 냉해 피해 농가에 국가 보상과 부채 유예를 | 농업 공제 보험으로 대응해야
+en Cold-weather crop failure | State compensation and debt relief for affected farmers | Rely on agricultural mutual insurance
+ja 冷害対策 | 冷害農家に国家補償と負債猶予を | 農業共済保険で対応すべき
+
+== reg s 1955.1 sashakai>jiyu52 : jcp=-1 sashakai=-1 rono=-1 ushakai=-0.8 minshu55=-0.2 jiyu52=0.6
+ko 비키니 피해 어민 | 미국의 법적 배상과 어민 피해의 전액 보상을 | 미국의 위로금으로 정치적으로 매듭지어야
+en Fishermen hit by the Bikini test | Demand legal compensation from the US and full redress for fishermen | Settle it politically with the US goodwill payment
+ja ビキニ被災漁民 | 米国の法的賠償と漁民被害の全額補償を | 米国の見舞金で政治的に決着すべき
