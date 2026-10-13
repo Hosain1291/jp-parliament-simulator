@@ -1,0 +1,625 @@
+{
+ "_note": "지역구(소선거구) 정원 289석 — 도도부현별 정원과 비례 블록, 정당별 지역 성향 배수(lean). lean 값은 전국 득표율에 곱해지는 배수로, 1보다 크면 그 지역에서 강세.",
+ "prefectures": [
+  {
+   "code": "JP01",
+   "map_name": "Hokkaidō",
+   "name_ja": "北海道",
+   "name_ko": "홋카이도",
+   "seats": 12,
+   "block": "hokkaido",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "cra": 1.4
+   }
+  },
+  {
+   "code": "JP02",
+   "map_name": "Aomori",
+   "name_ja": "青森県",
+   "name_ko": "아오모리현",
+   "seats": 3,
+   "block": "tohoku",
+   "lean": {
+    "ldp": 1.05,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP03",
+   "map_name": "Iwate",
+   "name_ja": "岩手県",
+   "name_ko": "이와테현",
+   "seats": 3,
+   "block": "tohoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "cra": 1.6
+   }
+  },
+  {
+   "code": "JP04",
+   "map_name": "Miyagi",
+   "name_ja": "宮城県",
+   "name_ko": "미야기현",
+   "seats": 5,
+   "block": "tohoku",
+   "lean": {}
+  },
+  {
+   "code": "JP05",
+   "map_name": "Akita",
+   "name_ja": "秋田県",
+   "name_ko": "아키타현",
+   "seats": 3,
+   "block": "tohoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP06",
+   "map_name": "Yamagata",
+   "name_ja": "山形県",
+   "name_ko": "야마가타현",
+   "seats": 3,
+   "block": "tohoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP07",
+   "map_name": "Fukushima",
+   "name_ja": "福島県",
+   "name_ko": "후쿠시마현",
+   "seats": 4,
+   "block": "tohoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP08",
+   "map_name": "Ibaraki",
+   "name_ja": "茨城県",
+   "name_ko": "이바라키현",
+   "seats": 7,
+   "block": "kitakanto",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "ind": 1.6
+   }
+  },
+  {
+   "code": "JP09",
+   "map_name": "Tochigi",
+   "name_ja": "栃木県",
+   "name_ko": "도치기현",
+   "seats": 5,
+   "block": "kitakanto",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "ind": 1.6
+   }
+  },
+  {
+   "code": "JP10",
+   "map_name": "Gunma",
+   "name_ja": "群馬県",
+   "name_ko": "군마현",
+   "seats": 5,
+   "block": "kitakanto",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP11",
+   "map_name": "Saitama",
+   "name_ja": "埼玉県",
+   "name_ko": "사이타마현",
+   "seats": 16,
+   "block": "kitakanto",
+   "lean": {
+    "dpp": 1.3,
+    "cra": 1.15
+   }
+  },
+  {
+   "code": "JP12",
+   "map_name": "Chiba",
+   "name_ja": "千葉県",
+   "name_ko": "지바현",
+   "seats": 14,
+   "block": "minamikanto",
+   "lean": {
+    "dpp": 1.1
+   }
+  },
+  {
+   "code": "JP13",
+   "map_name": "Tokyo",
+   "name_ja": "東京都",
+   "name_ko": "도쿄도",
+   "seats": 30,
+   "block": "tokyo",
+   "lean": {
+    "ldp": 0.92,
+    "mirai": 1.8,
+    "reiwa": 1.3,
+    "cpj": 1.3,
+    "sanseito": 1.1
+   }
+  },
+  {
+   "code": "JP14",
+   "map_name": "Kanagawa",
+   "name_ja": "神奈川県",
+   "name_ko": "가나가와현",
+   "seats": 20,
+   "block": "minamikanto",
+   "lean": {
+    "ldp": 0.92,
+    "mirai": 1.4,
+    "dpp": 1.2
+   }
+  },
+  {
+   "code": "JP15",
+   "map_name": "Niigata",
+   "name_ja": "新潟県",
+   "name_ko": "니가타현",
+   "seats": 5,
+   "block": "hokurikushinetsu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "cra": 1.35
+   }
+  },
+  {
+   "code": "JP16",
+   "map_name": "Toyama",
+   "name_ja": "富山県",
+   "name_ko": "도야마현",
+   "seats": 3,
+   "block": "hokurikushinetsu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP17",
+   "map_name": "Ishikawa",
+   "name_ja": "石川県",
+   "name_ko": "이시카와현",
+   "seats": 3,
+   "block": "hokurikushinetsu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP18",
+   "map_name": "Fukui",
+   "name_ja": "福井県",
+   "name_ko": "후쿠이현",
+   "seats": 2,
+   "block": "hokurikushinetsu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP19",
+   "map_name": "Yamanashi",
+   "name_ja": "山梨県",
+   "name_ko": "야마나시현",
+   "seats": 2,
+   "block": "minamikanto",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP20",
+   "map_name": "Nagano",
+   "name_ja": "長野県",
+   "name_ko": "나가노현",
+   "seats": 5,
+   "block": "hokurikushinetsu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "cra": 1.25
+   }
+  },
+  {
+   "code": "JP21",
+   "map_name": "Gifu",
+   "name_ja": "岐阜県",
+   "name_ko": "기후현",
+   "seats": 5,
+   "block": "tokai",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "dpp": 2.0
+   }
+  },
+  {
+   "code": "JP22",
+   "map_name": "Shizuoka",
+   "name_ja": "静岡県",
+   "name_ko": "시즈오카현",
+   "seats": 8,
+   "block": "tokai",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "dpp": 2.2
+   }
+  },
+  {
+   "code": "JP23",
+   "map_name": "Aichi",
+   "name_ja": "愛知県",
+   "name_ko": "아이치현",
+   "seats": 16,
+   "block": "tokai",
+   "lean": {
+    "dpp": 3.4,
+    "cra": 1.1
+   }
+  },
+  {
+   "code": "JP24",
+   "map_name": "Mie",
+   "name_ja": "三重県",
+   "name_ko": "미에현",
+   "seats": 4,
+   "block": "tokai",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "dpp": 2.0,
+    "cra": 1.4
+   }
+  },
+  {
+   "code": "JP25",
+   "map_name": "Shiga",
+   "name_ja": "滋賀県",
+   "name_ko": "시가현",
+   "seats": 3,
+   "block": "kinki",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 1.3
+   }
+  },
+  {
+   "code": "JP26",
+   "map_name": "Kyōto",
+   "name_ja": "京都府",
+   "name_ko": "교토부",
+   "seats": 6,
+   "block": "kinki",
+   "lean": {
+    "ishin": 1.6,
+    "jcp": 2.2,
+    "cra": 1.2
+   }
+  },
+  {
+   "code": "JP27",
+   "map_name": "Ōsaka",
+   "name_ja": "大阪府",
+   "name_ko": "오사카부",
+   "seats": 19,
+   "block": "kinki",
+   "lean": {
+    "ldp": 0.5,
+    "mirai": 1.3,
+    "ishin": 7.0,
+    "cra": 0.6
+   }
+  },
+  {
+   "code": "JP28",
+   "map_name": "Hyōgo",
+   "name_ja": "兵庫県",
+   "name_ko": "효고현",
+   "seats": 12,
+   "block": "kinki",
+   "lean": {
+    "ishin": 2.4,
+    "ldp": 0.9
+   }
+  },
+  {
+   "code": "JP29",
+   "map_name": "Nara",
+   "name_ja": "奈良県",
+   "name_ko": "나라현",
+   "seats": 3,
+   "block": "kinki",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 1.8
+   }
+  },
+  {
+   "code": "JP30",
+   "map_name": "Wakayama",
+   "name_ja": "和歌山県",
+   "name_ko": "와카야마현",
+   "seats": 2,
+   "block": "kinki",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 1.5
+   }
+  },
+  {
+   "code": "JP31",
+   "map_name": "Tottori",
+   "name_ja": "鳥取県",
+   "name_ko": "돗토리현",
+   "seats": 2,
+   "block": "chugoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP32",
+   "map_name": "Shimane",
+   "name_ja": "島根県",
+   "name_ko": "시마네현",
+   "seats": 2,
+   "block": "chugoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP33",
+   "map_name": "Okayama",
+   "name_ja": "岡山県",
+   "name_ko": "오카야마현",
+   "seats": 4,
+   "block": "chugoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "cra": 1.1
+   }
+  },
+  {
+   "code": "JP34",
+   "map_name": "Hiroshima",
+   "name_ja": "広島県",
+   "name_ko": "히로시마현",
+   "seats": 6,
+   "block": "chugoku",
+   "lean": {}
+  },
+  {
+   "code": "JP35",
+   "map_name": "Yamaguchi",
+   "name_ja": "山口県",
+   "name_ko": "야마구치현",
+   "seats": 3,
+   "block": "chugoku",
+   "lean": {
+    "ldp": 1.15,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP36",
+   "map_name": "Tokushima",
+   "name_ja": "徳島県",
+   "name_ko": "도쿠시마현",
+   "seats": 2,
+   "block": "shikoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP37",
+   "map_name": "Kagawa",
+   "name_ja": "香川県",
+   "name_ko": "가가와현",
+   "seats": 3,
+   "block": "shikoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "dpp": 4.0
+   }
+  },
+  {
+   "code": "JP38",
+   "map_name": "Ehime",
+   "name_ja": "愛媛県",
+   "name_ko": "에히메현",
+   "seats": 3,
+   "block": "shikoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP39",
+   "map_name": "Kōchi",
+   "name_ja": "高知県",
+   "name_ko": "고치현",
+   "seats": 2,
+   "block": "shikoku",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP40",
+   "map_name": "Fukuoka",
+   "name_ja": "福岡県",
+   "name_ko": "후쿠오카현",
+   "seats": 11,
+   "block": "kyushu",
+   "lean": {
+    "cra": 1.1
+   }
+  },
+  {
+   "code": "JP41",
+   "map_name": "Saga",
+   "name_ja": "佐賀県",
+   "name_ko": "사가현",
+   "seats": 2,
+   "block": "kyushu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP42",
+   "map_name": "Nagasaki",
+   "name_ja": "長崎県",
+   "name_ko": "나가사키현",
+   "seats": 3,
+   "block": "kyushu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "ind": 1.5
+   }
+  },
+  {
+   "code": "JP43",
+   "map_name": "Kumamoto",
+   "name_ja": "熊本県",
+   "name_ko": "구마모토현",
+   "seats": 4,
+   "block": "kyushu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP44",
+   "map_name": "Ōita",
+   "name_ja": "大分県",
+   "name_ko": "오이타현",
+   "seats": 3,
+   "block": "kyushu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "cra": 1.3,
+    "sdp": 1.5
+   }
+  },
+  {
+   "code": "JP45",
+   "map_name": "Miyazaki",
+   "name_ja": "宮崎県",
+   "name_ko": "미야자키현",
+   "seats": 3,
+   "block": "kyushu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "ind": 2.2
+   }
+  },
+  {
+   "code": "JP46",
+   "map_name": "Kagoshima",
+   "name_ja": "鹿児島県",
+   "name_ko": "가고시마현",
+   "seats": 4,
+   "block": "kyushu",
+   "lean": {
+    "ldp": 1.1,
+    "mirai": 0.6,
+    "ishin": 0.75
+   }
+  },
+  {
+   "code": "JP47",
+   "map_name": "Okinawa",
+   "name_ja": "沖縄県",
+   "name_ko": "오키나와현",
+   "seats": 4,
+   "block": "kyushu",
+   "lean": {
+    "ldp": 0.75,
+    "mirai": 0.6,
+    "ishin": 0.75,
+    "cra": 1.5,
+    "jcp": 2.0,
+    "sdp": 4.0,
+    "reiwa": 1.5,
+    "ind": 2.0
+   }
+  }
+ ]
+}

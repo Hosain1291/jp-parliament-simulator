@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>衆議院 시뮬레이터</title>
+<meta name="description" content="일본 중의원 총선거(465석) 시뮬레이터 — 득표율을 조정해 반원 의석 차트, 내각총리대신 지명선거, 도도부현 지도를 확인합니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Shippori+Mincho+B1:wght@600;800&family=Gowun+Batang:wght@400;700&family=DotGothic16&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--APP-->
+<div class="wrap" id="app">
+  <header class="top">
+    <div class="brand">
+      <h1>衆議院</h1>
+      <p>일본 중의원 총선거 시뮬레이터 · 지역구 289 + 비례 176 = 465석</p>
+    </div>
+    <div class="skins" id="skins" role="group" aria-label="테마"></div>
+  </header>
+
+  <div class="grid">
+    <aside class="col">
+      <section class="panel sticky">
+        <div class="panel-h"><h2>득표율 설정 <small>得票率</small></h2></div>
+        <div class="panel-b">
+          <div class="field">
+            <label for="preset">시나리오</label>
+            <select id="preset"></select>
+          </div>
+          <div class="tabs" id="voteTabs" role="tablist">
+            <button type="button" role="tab" data-tab="smd">지역구 (小選挙区)</button>
+            <button type="button" role="tab" data-tab="pr">비례 (比例代表)</button>
+          </div>
+          <div class="sliders" id="sliders"></div>
+          <div class="sum" id="sum"></div>
+          <div class="field" style="margin-top:14px">
+            <label for="vol">선거구별 변동 폭 · <span id="volOut"></span></label>
+            <input type="range" id="vol" min="0.05" max="0.7" step="0.01">
+          </div>
+          <div class="row-btns">
+            <button class="btn primary" type="button" id="reroll">다시 추첨</button>
+            <button class="btn" type="button" id="copyPr">지역구 값을 비례에 복사</button>
+            <button class="btn" type="button" id="reset">초기화</button>
+          </div>
+          <p class="hint">득표율은 전국 기준입니다. 도도부현마다 정해진 성향 배수가 곱해지고, 지도에서 지역을 눌러 직접 보정할 수 있습니다.</p>
+        </div>
+      </section>
+    </aside>
+
+    <main class="col">
+      <section class="panel">
+        <div class="panel-h"><h2>의석 배분 <small>議席配分</small></h2></div>
+        <div class="panel-b">
+          <div class="arch-wrap"><svg class="arch-svg" id="arch" role="img" aria-label="반원 의석 차트"></svg></div>
+          <div class="legend" id="legend"></div>
+          <div class="pills" id="pills"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-h"><h2>내각총리대신 지명선거 <small>首班指名 · 衆議院</small></h2></div>
+        <div class="panel-b">
+          <div class="table-scroll">
+            <table class="pm-table">
+              <thead id="pmHead"></thead>
+              <tbody id="pmBody"></tbody>
+            </table>
+          </div>
+          <p class="pm-result" id="pmResult"></p>
+          <p class="hint">일본국 헌법 제67조: 참의원과 의결이 다를 경우 중의원의 지명이 국회의 의결이 됩니다. 이후 천황이 임명합니다.</p>
+          <details class="plan" open>
+            <summary>정당별 투표 방침</summary>
+            <div class="plan-grid" id="planGrid"></div>
+            <div id="runoffWrap" hidden>
+              <div class="lbl" style="margin-top:14px">결선투표 — 지지 후보가 탈락한 정당의 선택</div>
+              <div class="plan-grid" id="runoffGrid"></div>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-h"><h2>정당별 의석 <small>党派別</small></h2></div>
+        <div class="panel-b table-scroll">
+          <table class="seat-table">
+            <thead><tr><th>정당</th><th>지역구</th><th>비례</th><th>합계</th><th>점유율</th><th>2026 실제 대비</th></tr></thead>
+            <tbody id="seatBody"></tbody>
+            <tfoot id="seatFoot"></tfoot>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-h">
+          <h2>도도부현 지도 <small>都道府県</small></h2>
+          <div class="tabs" id="mapMode" role="tablist" style="margin:0;min-width:180px">
+            <button type="button" role="tab" data-mode="smd">지역구</button>
+            <button type="button" role="tab" data-mode="pr">비례 블록</button>
+          </div>
+        </div>
+        <div class="panel-b map-layout">
+          <svg class="map-svg" id="map" role="img" aria-label="도도부현별 1위 정당 지도"></svg>
+          <div class="pref-detail" id="prefDetail"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="foot">
+    <span>기준 데이터: 2026년 2월 8일 제51회 중의원 총선거 · 정당색은 위키백과 기준</span>
+    <span>지도: jp.json (simplemaps)</span>
+    <a href="https://github.com/Hosain1291/jp-parliament-simulator" target="_blank" rel="noopener">GitHub 저장소</a>
+  </footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+<script src="js/sim.js"></script>
+<script src="js/arch.js"></script>
+<script src="js/map.js"></script>
+<script src="js/app.js"></script>
+<!--/APP-->
+</body>
+</html>

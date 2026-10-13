@@ -1,0 +1,121 @@
+{
+ "_note": "비례대표 11개 블록 176석. 동트식(돈트식, D'Hondt)으로 배분. lean은 전국 비례 득표율에 곱해지는 블록별 배수.",
+ "blocks": [
+  {
+   "id": "hokkaido",
+   "name_ja": "北海道",
+   "name_ko": "홋카이도",
+   "seats": 8,
+   "lean": {
+    "cra": 1.25
+   }
+  },
+  {
+   "id": "tohoku",
+   "name_ja": "東北",
+   "name_ko": "도호쿠",
+   "seats": 12,
+   "lean": {
+    "cra": 1.1,
+    "ishin": 0.6
+   }
+  },
+  {
+   "id": "kitakanto",
+   "name_ja": "北関東",
+   "name_ko": "기타칸토",
+   "seats": 19,
+   "lean": {
+    "ishin": 0.7,
+    "dpp": 1.1
+   }
+  },
+  {
+   "id": "minamikanto",
+   "name_ja": "南関東",
+   "name_ko": "미나미칸토",
+   "seats": 23,
+   "lean": {
+    "ishin": 0.8,
+    "mirai": 1.2,
+    "dpp": 1.1
+   }
+  },
+  {
+   "id": "tokyo",
+   "name_ja": "東京",
+   "name_ko": "도쿄",
+   "seats": 19,
+   "lean": {
+    "ishin": 0.7,
+    "mirai": 1.6,
+    "reiwa": 1.2,
+    "cpj": 1.3,
+    "ldp": 0.92
+   }
+  },
+  {
+   "id": "hokurikushinetsu",
+   "name_ja": "北陸信越",
+   "name_ko": "호쿠리쿠신에쓰",
+   "seats": 10,
+   "lean": {
+    "ishin": 0.6,
+    "ldp": 1.08
+   }
+  },
+  {
+   "id": "tokai",
+   "name_ja": "東海",
+   "name_ko": "도카이",
+   "seats": 21,
+   "lean": {
+    "dpp": 1.5,
+    "ishin": 0.75
+   }
+  },
+  {
+   "id": "kinki",
+   "name_ja": "近畿",
+   "name_ko": "긴키",
+   "seats": 28,
+   "lean": {
+    "ishin": 2.4,
+    "ldp": 0.82,
+    "cra": 0.85
+   }
+  },
+  {
+   "id": "chugoku",
+   "name_ja": "中国",
+   "name_ko": "주고쿠",
+   "seats": 10,
+   "lean": {
+    "ldp": 1.15,
+    "ishin": 0.7
+   }
+  },
+  {
+   "id": "shikoku",
+   "name_ja": "四国",
+   "name_ko": "시코쿠",
+   "seats": 6,
+   "lean": {
+    "ldp": 1.1,
+    "ishin": 0.8,
+    "dpp": 1.2
+   }
+  },
+  {
+   "id": "kyushu",
+   "name_ja": "九州",
+   "name_ko": "규슈",
+   "seats": 20,
+   "lean": {
+    "ldp": 1.05,
+    "ishin": 0.6,
+    "sdp": 1.5
+   }
+  }
+ ]
+}
