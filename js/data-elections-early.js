@@ -7,7 +7,7 @@
   const C = window.PCOL = Object.assign(window.PCOL || {}, {
     seiyu: '#A63A2E', minsei: '#2B6CB0', jitsu: '#A67C52', shamin: '#E57399', kakushin: '#8F9AA6', ronoto: '#8B1A1A', nichiro: '#C2185B',
     taishu: '#C94F7C', rotai: '#B03060', showa: '#6D8B3B', shataishu: '#D7385E', domei: '#7B5EA7', tohokai: '#4E4E4E', etc: '#B8B0A2',
-    suisen: '#8B6B3D', hisui: '#9AA0A6', jiyu46: '#2E7D32', shinpo: '#0B6E99', jsp: '#E0457B', kyodo: '#8E7CC3', minshu47: '#1F7A8C',
+    suisen: '#8B6B3D', hisui: '#9AA0A6', jiyu46: '#2E7D32', shinpo: '#0B6E99', jsp: '#1D2088', kyodo: '#8E7CC3', minshu47: '#1F7A8C',
     kokkyo: '#7E57C2', nomin: '#9C8B3C', dlp: '#2E7D32', rono: '#B5651D', jiyu52: '#2E7D32', kaishin: '#0B6E99', ushakai: '#EF8FAF',
     sashakai: '#C2185B', bunto: '#5C9E3C', minshu55: '#1F7A8C', dsp: '#3D7CC9', nlc: '#F0A202', sdf: '#7DBB42', shinpo90: '#A0A060',
     shinsei: '#E46C0A', jnp: '#F2B705', saki: '#3A9E7A', ldp: '#3CA324', kmt: '#F55881', jcp: '#DB001C', ind: '#A3A3A3'
