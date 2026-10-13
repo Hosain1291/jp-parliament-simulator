@@ -1,10 +1,9 @@
-# jp-parliament-simulator
-일본 중의원의원 선거에 대한 자신의 성향으로 만드는겁니다
+# 중의원 시뮬레이터 衆議院 · 1928 — 2026
 
-**중의원 시뮬레이터 衆議院 · 1928 — 2026**
+**https://hosain1291.github.io/jp-parliament-simulator/**
+[한국어](https://hosain1291.github.io/jp-parliament-simulator/) · [English](https://hosain1291.github.io/jp-parliament-simulator/en.html) · [日本語](https://hosain1291.github.io/jp-parliament-simulator/ja.html)
 
-▶ **사이트: https://hosain1291.github.io/jp-parliament-simulator/**
-　[한국어](https://hosain1291.github.io/jp-parliament-simulator/) · [English](https://hosain1291.github.io/jp-parliament-simulator/en.html) · [日本語](https://hosain1291.github.io/jp-parliament-simulator/ja.html)
+내 입장으로 일본 중의원 총선을 다시 치러 보는 웹사이트입니다. 총선을 하나 고르고 쟁점 질문에 답하면, 그 답대로 중의원 의석이 다시 나뉘고 내각총리대신 지명선거와 연립 정권까지 이어집니다. 설치 없이 브라우저에서 바로 쓸 수 있습니다.
 
 [국회 시뮬레이터](https://github.com/Hosain1291/national-assembly-simulator)와 같은 방식의 일본판입니다.
 첫 남자 보통선거인 1928년 제16회부터 2026년 제51회까지 **중의원 총선 36회**(총선마다 질문 27–52개, 모두 1,185개) 가운데 하나를 고르고,
@@ -74,9 +73,8 @@ CLAUDE.md                        커넥터(Claude)로 고칠 때의 규칙
 - 머리글·바닥글·테마 버튼 이름 → `tools/build_pages.py` 수정 후 `python tools/build_pages.py`
 - 지도 경계를 바꿨다면 → `python tools/build_map.py`
 
-## GitHub Pages 켜기
-저장소 **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**.
-1–2분 뒤 https://hosain1291.github.io/jp-parliament-simulator/ 에서 열립니다. 로컬에서는 `index.html`을 브라우저로 열면 됩니다.
+## 실행
+사이트 주소로 접속하면 됩니다. 내려받아 쓸 때는 `index.html`을 브라우저로 열면 됩니다(서버 불필요).
 
 ## 출처와 한계
 - 의석·득표·총리 지명: 위키백과 각 총선 문서. 결선 사례 1953년(요시다), 1979년(오히라), 2024년(이시바 221 · 노다 160), 2026년 다카이치 354표
