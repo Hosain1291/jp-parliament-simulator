@@ -52,6 +52,16 @@ window.I18N = {
     sysPill: a => a.L ? a.D + ' districts · ' + a.L + ' proportional' : a.sysName + ' ' + a.D,
     govMaj: 'Government majority', govMin: 'Government short of majority', noGov: 'Non-party cabinet',
     answered: (x, y) => 'Answered ' + x + ' / ' + y,
+    card: {
+      btn: 'Save result card as image', hint: 'Puts your hemicycle, PM vote and party seats on one image in the current theme',
+      making: 'Creating image…', saved: 'Saved', declined: 'Save cancelled', fail: 'Could not create the image',
+      mast: 'House of Representatives Simulator · Result', mastPaper: 'The Simulator Gazette · Extra Edition',
+      meta: (ans, tot, N, M) => 'Answered ' + ans + ' / ' + tot + ' · ' + N + ' seats · majority ' + M,
+      first: 'Largest party', status: 'Standing', two3: 'Two-thirds alone', soloMaj: 'Majority alone', noMaj: 'No party has a majority',
+      gov: 'Government', govMaj: 'majority', govMin: 'minority', pm: 'PM nomination', pmA: 'PM nomination (hypothetical)', pmNone: 'No one nominated',
+      dist: 'District', pr: 'PR', real: 'Actual', seats: n => n + ' seats',
+      file: n => 'jp-house-simulator_election-' + n + '_result-card.png'
+    },
     resultH: n => 'Your ' + n + ordinal(n) + ' House',
     vMine: 'Your result', vReal: 'Actual result', viewAria: 'Switch view',
     lgMaj: M => 'Dashed line: majority ' + M,

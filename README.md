@@ -34,6 +34,7 @@
    - 분야별 의석, 정당 스펙트럼 맵, 의결 정족수(과반·안정다수·절대안정다수·3분의 2)
    - 연립 정권 구성과 시대별 내각 부처 배분
    - 나와 가까운 정당, 질문별 표결
+   - **결과 카드 이미지 저장** — 반원 의석·총리 지명·정당별 의석을 지금 테마 디자인으로 한 장의 PNG로
 
 테마: 자동 · 라이트 · 다크 · 핑크(#7B1C4F) · 올드 페이퍼 · 윈도우 95
 언어: 한국어(`index.html`) · English(`en.html`) · 日本語(`ja.html`) — 오른쪽 위에서 전환
@@ -54,6 +55,7 @@ js/i18n-en.js, i18n-en-data-*.js 영어 화면 문구 / 정당·인물·총선 �
 js/i18n-ja.js, i18n-ja-data-*.js 일본어 화면 문구 / 총선 설명 번역
 js/i18n-apply.js                 번역을 데이터에 덮어씀
 js/engine.js                     계산 엔진 (의석 배분, 총리 지명, 연립, 지도 배치)
+js/card.js                       결과 카드 PNG 그리기·저장 (canvas, 외부 라이브러리 없음)
 js/app.js                        화면 5단계 (세 언어 공용)
 tools/build_map.py               jp.json → js/data-map.js 변환
 tools/build_pages.py             index/en/ja.html 생성

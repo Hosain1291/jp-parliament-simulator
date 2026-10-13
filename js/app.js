@@ -6,6 +6,7 @@
 const E = window.JPEngine, { lr, sum, clamp, maj, two3, pos } = E;
 const I = window.I18N, T = I.ui, LANG = I.lang;
 
+const ICON_CAM = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>';
 const FIELD_COL = { pol: '#5b6fa8', con: '#9a4a4a', dip: '#3f7fa8', eco: '#3e8a6e', wel: '#b0753a', soc: '#9a5fa0', reg: '#7a8a3a' };
 const FK = Object.keys(FIELD_COL), fld = k => ({ k, n: T.fields[k][0], d: T.fields[k][1], c: FIELD_COL[k] });
 
@@ -292,7 +293,8 @@ function viewResult(keep) {
   const appoint = a.pmMode === 'appoint';
   app.innerHTML = '<section class="stack">' +
     '<div class="rhead"><div class="pills"><span class="pill strong">' + a.y + '</span><span class="pill">' + esc(T.sysPill(a)) + '</span><span class="pill">' + (!govF.length ? T.noGov : govSeats >= Mj ? T.govMaj : T.govMin) + '</span><span class="pill">' + T.answered(answered, asked.length) + '</span></div>' +
-    '<h2>' + esc(T.resultH(a.n)) + '</h2><p class="lead" id="lead"></p></div>' +
+    '<h2>' + esc(T.resultH(a.n)) + '</h2><p class="lead" id="lead"></p>' +
+    '<div class="cardsave"><button type="button" class="cta" id="cardgo">' + ICON_CAM + esc(T.card.btn) + '</button><span class="hint" id="cardmsg">' + esc(T.card.hint) + '</span></div></div>' +
     '<div class="box"><div style="display:flex;justify-content:center;margin-bottom:6px"><div class="seg" role="group" aria-label="' + T.viewAria + '"><button type="button" data-v="mine" aria-pressed="true">' + T.vMine + '</button><button type="button" data-v="real" aria-pressed="false">' + T.vReal + '</button></div></div>' +
     '<div class="hemi" id="rh">' + hemiSvg(a.N) + '</div>' + legend(T.lgMaj(Mj)) +
     '<div class="tw"><table class="tbl"><thead><tr><th>' + T.th[0] + '</th><th>' + T.th[1] + '</th>' + (a.L ? '<th>' + T.th[2] + '</th>' : '') + '<th>' + T.th[3] + '</th><th>' + T.th[4] + '</th><th>' + T.th[5] + '</th></tr></thead><tbody id="tb"></tbody></table></div></div>' +
@@ -317,6 +319,31 @@ function viewResult(keep) {
   $('#tb').innerHTML = order.filter(f => mine[f] || real[f]).map(f => { const p = a.P[f], d = mine[f] - real[f];
     return '<tr><td><span>' + mark(p) + esc(p.n) + '</span></td><td>' + R.dist[f] + '</td>' + (a.L ? '<td>' + R.list[f] + '</td>' : '') + '<td><b>' + mine[f] + '</b></td><td>' + real[f] + '</td><td class="' + (d > 0 ? 'up' : d < 0 ? 'down' : '') + '">' + (d > 0 ? '+' : '') + d + '</td></tr>'; }).join('');
   $('#lead').innerHTML = T.lead({ name: esc(a.P[L].n), seats: mine[L], L: a.L, d: R.dist[L], l: R.list[L], two3: mine[L] >= two3(a.N), maj: mine[L] >= Mj, short: Mj - mine[L], gov: esc(gN), govN: govF.length });
+
+  // 결과 카드 (PNG) — 그리기는 js/card.js
+  $('#cardgo').addEventListener('click', () => {
+    const C = T.card, pm = E.pmVote(a, mine, S.plan, S.runoff), w = pm.win >= 0 ? a.P[pm.win] : null;
+    const Lay = layout(a.N), K = 290, seq = [];
+    leanOrder().forEach(f => { const c = a.P[f].c; for (let k = 0; k < R.dist[f]; k++) seq.push({ c, ring: false }); for (let k = 0; k < R.list[f]; k++) seq.push({ c, ring: true }); });
+    const seats = Lay.seats.map((s, i) => ({ x: 300 + K * s.r * Math.cos(s.t), y: 302 - K * s.r * Math.sin(s.t), c: seq[i] ? seq[i].c : null, ring: !!(seq[i] && seq[i].ring) }));
+    const top = a.P[L], dt = new Date(), pad = n => String(n).padStart(2, '0');
+    const tiles = [
+      { label: C.first, value: top.n, sub: C.seats(mine[L]), c: top.c },
+      { label: C.status, value: mine[L] >= two3(a.N) ? C.two3 : mine[L] >= Mj ? C.soloMaj : C.noMaj },
+      { label: appoint ? C.pmA : C.pm, value: w ? w.pmc[0] : C.pmNone, sub: w ? (LANG === 'ja' ? w.n : w.pmc[1]) : '', c: w ? w.c : '' }
+    ];
+    if (govF.length) tiles.push({ label: C.gov, value: C.seats(govSeats), sub: (govSeats >= Mj ? C.govMaj : C.govMin) + ' · ' + gN });
+    const rows = order.filter(f => mine[f] || real[f]).map(f => { const p = a.P[f], d = mine[f] - real[f];
+      return { n: p.n, c: p.c, m: mine[f], sub: (a.L ? C.dist + ' ' + R.dist[f] + ' · ' + C.pr + ' ' + R.list[f] + ' · ' : '') + C.real + ' ' + real[f] + (d ? ' (' + (d > 0 ? '+' : '−') + Math.abs(d) + ')' : '') }; });
+    const legend = [{ k: 'smd', t: T.lgSmd }].concat(a.L ? [{ k: 'pr', t: T.lgPr }] : [], [{ k: 'maj', t: T.lgMaj(Mj) }]);
+    const skin = document.documentElement.dataset.skin;
+    JPCard.save({
+      mast: skin === 'paper' ? C.mastPaper : C.mast, date: dt.getFullYear() + '.' + pad(dt.getMonth() + 1) + '.' + pad(dt.getDate()),
+      eyebrow: a.y + ' · ' + T.sysPill(a), title: T.resultH(a.n), meta: C.meta(answered, asked.length, a.N, Mj),
+      seats, seatR: K * Lay.rad, N: a.N, hemiLabel: T.mineLbl, legend, tiles, rows,
+      site: document.title, url: 'hosain1291.github.io/jp-parliament-simulator'
+    }, C.file(a.n), $('#cardgo'), $('#cardmsg'), C);
+  });
 
   // 총리 지명선거
   const sub = p => LANG === 'ja' ? '' : p.pmc[1];

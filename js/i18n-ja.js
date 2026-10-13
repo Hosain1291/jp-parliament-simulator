@@ -52,6 +52,16 @@ window.I18N = {
     sysPill: a => a.L ? '小選挙区 ' + a.D + ' · 比例 ' + a.L : a.sysName + ' ' + a.D,
     govMaj: '与党過半数', govMin: '与党過半数割れ', noGov: '政党内閣ではない',
     answered: (x, y) => '回答 ' + x + ' / ' + y,
+    card: {
+      btn: '結果カードを画像で保存', hint: '半円の議席図、首相指名、政党別の議席を今のテーマで1枚の画像にまとめます',
+      making: '画像を作成中…', saved: '保存しました', declined: '保存をキャンセルしました', fail: '画像を作成できませんでした',
+      mast: '衆議院シミュレーター 結果', mastPaper: '衆議院シミュレーター新報・号外',
+      meta: (ans, tot, N, M) => '回答 ' + ans + ' / ' + tot + ' ・ 定数 ' + N + ' ・ 過半数 ' + M,
+      first: '第1党', status: '議席の状況', two3: '単独で3分の2', soloMaj: '単独過半数', noMaj: '過半数の政党なし',
+      gov: '与党', govMaj: '与党過半数', govMin: '与党過半数割れ', pm: '首相指名', pmA: '首相指名（仮想）', pmNone: '指名決まらず',
+      dist: '選挙区', pr: '比例', real: '実際', seats: n => n + '議席',
+      file: n => '衆議院シミュレーター_第' + n + '回_結果カード.png'
+    },
     resultH: n => 'あなたの第' + n + '回衆議院',
     vMine: 'あなたの結果', vReal: '実際の結果', viewAria: '表示切り替え',
     lgMaj: M => '点線：過半数 ' + M,

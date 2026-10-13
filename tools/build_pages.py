@@ -42,7 +42,7 @@ def page(lang):
     for k, label, href in LANGS:
         cur = ' aria-current="page"' if k == lang else ''
         nav.append(f'<a href="{href}" hreflang="{k}" lang="{k}"{cur}>{label}</a>')
-    scripts = [f'js/{n}.js' for n in DATA + c['i18n'] + ['i18n-apply', 'engine', 'app']]
+    scripts = [f'js/{n}.js' for n in DATA + c['i18n'] + ['i18n-apply', 'engine', 'card', 'app']]
     alts = '\n'.join(f'<link rel="alternate" hreflang="{k}" href="{href}">' for k, _, href in LANGS)
     return f'''<!doctype html>
 <html lang="{lang}">

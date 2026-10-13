@@ -53,6 +53,16 @@ window.I18N = {
     sysPill: a => a.L ? '소선거구 ' + a.D + ' · 비례 ' + a.L : a.sysName + ' ' + a.D,
     govMaj: '여당 과반', govMin: '여당 과반 미달', noGov: '정당 내각 아님',
     answered: (x, y) => '답변 ' + x + ' / ' + y,
+    card: {
+      btn: '결과 카드 이미지 저장', hint: '반원 의석, 총리 지명, 정당별 의석을 지금 테마로 한 장의 그림에 담습니다',
+      making: '이미지 만드는 중…', saved: '저장했습니다', declined: '저장을 취소했습니다', fail: '이미지를 만들지 못했습니다',
+      mast: '중의원 시뮬레이터 결과', mastPaper: '중의원 시뮬레이터 신보 · 호외',
+      meta: (ans, tot, N, M) => '답변 ' + ans + ' / ' + tot + ' · 정수 ' + N + '석 · 과반 ' + M + '석',
+      first: '제1당', status: '의석 상황', two3: '단독 3분의 2', soloMaj: '단독 과반', noMaj: '과반 정당 없음',
+      gov: '여당', govMaj: '여대야소', govMin: '여소야대', pm: '총리 지명', pmA: '총리 지명(가상)', pmNone: '지명 결정 안 됨',
+      dist: '지역', pr: '비례', real: '실제', seats: n => n + '석',
+      file: n => '중의원시뮬레이터_제' + n + '회_결과카드.png'
+    },
     resultH: n => '나의 제' + n + '회 중의원',
     vMine: '나의 결과', vReal: '실제 결과', viewAria: '보기 전환',
     lgMaj: M => '점선: 과반 ' + M + '석',

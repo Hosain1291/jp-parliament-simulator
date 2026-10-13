@@ -364,3 +364,9 @@ html:root[data-skin="win95"] .qhead .eyebrow,html:root[data-skin="win95"] .qmeta
 html:root[data-skin="win95"] .lang{background:#c0c0c0;border:2px solid;border-color:#fff #808080 #808080 #fff;border-radius:0;padding:2px}
 html:root[data-skin="win95"] .lang a{border-radius:0;color:#000;font-weight:400}
 html:root[data-skin="win95"] .lang a[aria-current="page"]{background:#000080;color:#fff}
+
+/* 결과 카드 저장 */
+.cardsave{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:14px}
+.cardsave .cta{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;font-size:14px}
+.cardsave .cta:disabled{opacity:.6;cursor:progress}
+.cardsave .hint{min-width:0;flex:1 1 220px}
